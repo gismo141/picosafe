@@ -11,8 +11,10 @@ Picosafe is an encrypted USB-device running debian-linux on an arm processor. It
 At the time of writing the project needs to be placed under `/opt/picosafe` (This is a bug and will be fixed later).
 
 Before you can use this project you need to copy the `eldk-5.2.1`-folder to `/opt` using the command:
+
 `mv /opt/picosafe/toolchain/opt/eldk-5.2.1/ /opt/`
 Afterwards you need to install the programs under `tools` using:
+
 	make
 	make install
 This installs the cross-compiler toolchain and also some aes-related programs that are needed in the subscripts.
