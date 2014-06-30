@@ -1,0 +1,4 @@
+# Aliases extracted from modules themselves.
+alias platform:lpc313x-wdt wdt_lpc313x
+alias char-major-10-130 wdt_lpc313x
+alias netdev-tunl0 ipip

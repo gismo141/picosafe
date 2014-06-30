@@ -1,0 +1,20 @@
+Aptitude 0.6.3: log report
+Thu, Jan  1 1970 01:35:07 +0000
+
+IMPORTANT: this log only lists intended actions; actions which fail due to
+dpkg problems may not be completed.
+
+Will install 0 packages, and remove 7 packages.
+16.7 MB of disk space will be freed
+===============================================================================
+[REMOVE, NOT USED] groff-base
+[REMOVE, DEPENDENCIES] libapache2-mod-php5
+[REMOVE, DEPENDENCIES] php5
+[HOLD] tzdata
+[REMOVE] apache2-mpm-prefork
+[REMOVE] apache2-utils
+[REMOVE] apache2.2-bin
+[REMOVE] apache2.2-common
+===============================================================================
+
+Log complete.

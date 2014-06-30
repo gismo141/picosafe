@@ -1,0 +1,4 @@
+df89eb9b5e4aa60d53ead3bdfbc680ae  usr/bin/php5-cgi
+1d59d1b49df21121d4114c8f3c2992f7  usr/lib/cgi-bin/php5
+dc6f120d79be3531b0b4eef07ec1cf0c  usr/share/lintian/overrides/php5-cgi
+77080b47826755272c34572f9bf532f6  usr/share/man/man1/php5-cgi.1.gz

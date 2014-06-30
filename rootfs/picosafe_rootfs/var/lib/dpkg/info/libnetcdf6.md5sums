@@ -1,0 +1,9 @@
+ca5a2ba24c40d06e8e6084e1fdc9fb0e  usr/lib/libcf.so.0.0.0
+9ab01fadd3f0ec0dd70f9cb2897db5f5  usr/lib/libnetcdf.so.6.0.0
+adf788e25d7f41fcd4211f68f9bbcc07  usr/lib/libnetcdf_c++.so.5.0.0
+01b50085dacc9491c557a4ae7bb05ac9  usr/lib/libnetcdff.so.5.0.0
+cc16614d836e0cbf570de4a99380b365  usr/lib/netcdf.pc
+1f07f979fe37b80d54530b3183896be7  usr/share/doc/libnetcdf6/README
+adf69860ae0c6f38d62d24ca53493e89  usr/share/doc/libnetcdf6/changelog.Debian.gz
+1a03902ea938da9b6092f041f0a5ecc6  usr/share/doc/libnetcdf6/changelog.gz
+b72e5c84b3edb5f5542e1d17da575998  usr/share/doc/libnetcdf6/copyright

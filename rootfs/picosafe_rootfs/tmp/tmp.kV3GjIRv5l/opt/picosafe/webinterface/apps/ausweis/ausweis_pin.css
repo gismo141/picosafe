@@ -1,0 +1,21 @@
+#numpad {
+	width: 200px;
+	margin: 0px auto;
+	margin-top: 10px;
+	display: none;
+}
+
+#numpad input[type="button"] {
+	width: 80px;	
+}
+
+#numpad td {
+}
+
+
+#numpad_display {
+	width: 99%;
+	padding: 0px;
+	margin: 0px;
+	font-size: 30px;
+}

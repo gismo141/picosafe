@@ -1,0 +1,64 @@
+#!/usr/bin/lua
+
+require "posix"
+
+SHUTDOWN_CMD = "/sbin/halt"
+DEVICE = "/dev/lpc313x_adc"
+TIMEOUTCONF = "/opt/picosafe/settings/timeout"
+
+TIMEOUT = 20
+
+-- init
+adc = io.open(DEVICE, "w")
+adc:write("0\n")
+adc:close()
+
+--os.execute("echo 0 > /dev/lpc313x_adc")
+timeoutconf = io.open(TIMEOUTCONF, "r")
+timeout = tonumber(timeoutconf:read("*line"))
+if timeout <= 0 then
+  timeout = 20
+end
+timeoutconf:close()
+
+-- event loop
+while 1 do
+  -- determine state
+  adc = io.open(DEVICE, "r")
+  value = tonumber(adc:read("*line"))
+  adc:close()
+  if value < 100 then
+    print "battery"
+    state = "battery"
+  else
+    print "power"
+    state = "power"
+  end
+
+  -- check if we want to shutdown
+  if state == "battery" then
+    if timeout <= 10 and timeout > 0 then
+      os.execute("echo heartbeat > /sys/class/leds/picosafe\:\:blue/trigger")
+      timeout = timeout - 1
+    elseif timeout <= 0 then
+      os.execute("echo timer > /sys/class/leds/picosafe\:\:blue/trigger")
+      os.execute(SHUTDOWN_CMD)
+      os.exit()
+    else
+      timeout = timeout - 1
+      os.execute("echo none > /sys/class/leds/picosafe\:\:blue/trigger")
+      os.execute("echo 100 > /sys/class/leds/picosafe\:\:blue/brightness")
+    end
+  else
+    os.execute("echo none > /sys/class/leds/picosafe\:\:blue/trigger")
+    os.execute("echo 100 > /sys/class/leds/picosafe\:\:blue/brightness")
+		timeoutconf = io.open(TIMEOUTCONF, "r")
+    timeout = tonumber(timeoutconf:read("*line"))
+		if timeout <= 0 then
+      timeout = 20
+    end
+    timeoutconf:close()
+  end
+
+  posix.sleep(1)
+end

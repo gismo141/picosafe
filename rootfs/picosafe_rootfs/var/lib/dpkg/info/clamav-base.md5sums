@@ -1,0 +1,12 @@
+5e40a5daa82b6f5e04853abfe49c4394  usr/share/bug/clamav-base/script
+225c6804287419b07630c5005b8c22fd  usr/share/doc/clamav-base/AUTHORS
+30493b1d0b6ef5daeb64242e7ca26e19  usr/share/doc/clamav-base/BUGS
+58249d4f3e7bc4b1764044adfc35bd04  usr/share/doc/clamav-base/FAQ
+37ca786c98845356fbdfb30a1eae8450  usr/share/doc/clamav-base/NEWS.Debian.gz
+c79e973dc5b5142542e9720fe0972d12  usr/share/doc/clamav-base/README.Debian.gz
+512fa359dbac3efed18b1b231c47dbce  usr/share/doc/clamav-base/README.gz
+0051b9b4ee2df59a2b4a653dec56490f  usr/share/doc/clamav-base/changelog.Debian.gz
+ed547b63c77b35ed5a09dcac96b0aa31  usr/share/doc/clamav-base/changelog.gz
+df0edb625693c9c9b90a6b3144b5387d  usr/share/doc/clamav-base/copyright
+323ea8ba6e9c7b26a4dc1e039b9b862b  usr/share/doc/clamav-base/examples/clamd.conf
+2c32d80663bd20ff293bf0feb9eb69ae  usr/share/man/man5/clamd.conf.5.gz

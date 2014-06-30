@@ -1,0 +1,6 @@
+537d28aa0cb464d571bc41ef09197b1d  usr/lib/libxerces-c.so.28.0
+f75e4712765311b3d3d7b5b6ff94926c  usr/lib/libxerces-depdom.so.28.0
+2f5c8ee8bf2a8251928882f897e63fed  usr/share/doc/libxerces-c28/README.Debian
+a90b1c807c12446d7901d0362ff26dd7  usr/share/doc/libxerces-c28/changelog.Debian.gz
+bbdffb39dd904c9f8980ed0b7ca91bfe  usr/share/doc/libxerces-c28/copyright
+d970ec9822d419126f0583ca14ec6886  usr/share/lintian/overrides/libxerces-c28

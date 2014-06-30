@@ -1,0 +1,11 @@
+TARGETS = bootlogs killprocs single portmap rsyslog sudo udhcpd lighttpd ssh dbus cron stop-bootlogd rmnologin rc.local
+INTERACTIVE =
+single: killprocs bootlogs
+udhcpd: rsyslog
+lighttpd: rsyslog
+ssh: rsyslog
+dbus: rsyslog
+cron: rsyslog
+stop-bootlogd: portmap udhcpd rsyslog lighttpd bootlogs ssh sudo dbus cron
+rmnologin: sudo portmap udhcpd rsyslog lighttpd bootlogs ssh dbus cron
+rc.local: rsyslog portmap udhcpd lighttpd bootlogs ssh sudo dbus cron

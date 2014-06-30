@@ -1,0 +1,16 @@
+13b08b6e6800135a41e1dd0f34135abd  usr/bin/dbus-cleanup-sockets
+94325c1fd9ce6d18fbe2086f2bee15f2  usr/bin/dbus-daemon
+a2ccadd4fd7b8bfce14ac2ba9310d5dc  usr/bin/dbus-monitor
+c85b0a7a9693d0ab04431aebcc1fd67a  usr/bin/dbus-send
+b5f9f786c06425bd993f1d8bd034aebc  usr/bin/dbus-uuidgen
+e4f75efac93a735a3841f90685840c6e  usr/lib/dbus-1.0/dbus-daemon-launch-helper
+af846a16b829191de81a9a28ae14125e  usr/share/doc/dbus/AUTHORS
+becc0c106959b3b9773d5e72d51c7aa9  usr/share/doc/dbus/README.gz
+804fbeaa7ca98e1f5cc1bcdc5861d51f  usr/share/doc/dbus/changelog.Debian.gz
+a46dbfafef4a76ece7bf07172be7c116  usr/share/doc/dbus/changelog.gz
+9fe76ee5bf690cc6d8aa539bf9621a75  usr/share/doc/dbus/copyright
+fb136a6bd56f32708a27f379764b56b9  usr/share/man/man1/dbus-cleanup-sockets.1.gz
+0f50ec43e3b84d2eb30dfee7a6bad977  usr/share/man/man1/dbus-daemon.1.gz
+79df55751ebfd4d2091b7b4349999542  usr/share/man/man1/dbus-monitor.1.gz
+84b8dbe2f37caec6263fd382c1dcd983  usr/share/man/man1/dbus-send.1.gz
+068a67fff65fcfc51bc1b85c72db3c49  usr/share/man/man1/dbus-uuidgen.1.gz

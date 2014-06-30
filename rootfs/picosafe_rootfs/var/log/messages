@@ -1,0 +1,480 @@
+Jan  1 00:04:31 gnublin kernel: imklog 4.6.4, log source = /proc/kmsg started.
+Jan  1 00:04:31 gnublin rsyslogd: [origin software="rsyslogd" swVersion="4.6.4" x-pid="3583" x-info="http://www.rsyslog.com"] (re)start
+Jan  1 00:04:31 gnublin kernel: Linux version 2.6.33-gnublin-qemu-1.2 (celemine1gig@msi-h61i-e35) (gcc version 4.6.1 (Sourcery CodeBench Lite 2011.09-70) ) #22 Sat Apr 28 23:09:17 CEST 2012
+Jan  1 00:04:31 gnublin kernel: CPU: ARM926EJ-S [41069265] revision 5 (ARMv5TEJ), cr=00093177
+Jan  1 00:04:31 gnublin kernel: CPU: VIVT data cache, VIVT instruction cache
+Jan  1 00:04:31 gnublin kernel: Machine: ARM-Versatile PB
+Jan  1 00:04:31 gnublin kernel: Memory policy: ECC disabled, Data cache writeback
+Jan  1 00:04:31 gnublin kernel: Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 65024
+Jan  1 00:04:31 gnublin kernel: Kernel command line: root=/dev/sda rootfstype=ext3 mem=256M devtmpfs.mount=0 rw ip=dhcp
+Jan  1 00:04:31 gnublin kernel: PID hash table entries: 1024 (order: 0, 4096 bytes)
+Jan  1 00:04:31 gnublin kernel: Dentry cache hash table entries: 32768 (order: 5, 131072 bytes)
+Jan  1 00:04:31 gnublin kernel: Inode-cache hash table entries: 16384 (order: 4, 65536 bytes)
+Jan  1 00:04:31 gnublin kernel: Memory: 256MB = 256MB total
+Jan  1 00:04:31 gnublin kernel: Memory: 256000KB available (3180K code, 248K data, 96K init, 0K highmem)
+Jan  1 00:04:31 gnublin kernel: Hierarchical RCU implementation.
+Jan  1 00:04:31 gnublin kernel: RCU-based detection of stalled CPUs is enabled.
+Jan  1 00:04:31 gnublin kernel: NR_IRQS:192
+Jan  1 00:04:31 gnublin kernel: VIC @f1140000: id 0x00041190, vendor 0x41
+Jan  1 00:04:31 gnublin kernel: Console: colour dummy device 80x30
+Jan  1 00:04:31 gnublin kernel: console [tty0] enabled
+Jan  1 00:04:31 gnublin kernel: Calibrating delay loop... 361.26 BogoMIPS (lpj=1806336)
+Jan  1 00:04:31 gnublin kernel: Mount-cache hash table entries: 512
+Jan  1 00:04:31 gnublin kernel: CPU: Testing write buffer coherency: ok
+Jan  1 00:04:31 gnublin kernel: devtmpfs: initialized
+Jan  1 00:04:31 gnublin kernel: NET: Registered protocol family 16
+Jan  1 00:04:31 gnublin kernel: Serial: AMBA PL011 UART driver
+Jan  1 00:04:31 gnublin kernel: dev:f1: ttyAMA0 at MMIO 0x101f1000 (irq = 12) is a AMBA/PL011
+Jan  1 00:04:31 gnublin kernel: dev:f2: ttyAMA1 at MMIO 0x101f2000 (irq = 13) is a AMBA/PL011
+Jan  1 00:04:31 gnublin kernel: dev:f3: ttyAMA2 at MMIO 0x101f3000 (irq = 14) is a AMBA/PL011
+Jan  1 00:04:31 gnublin kernel: fpga:09: ttyAMA3 at MMIO 0x10009000 (irq = 38) is a AMBA/PL011
+Jan  1 00:04:31 gnublin kernel: PCI core found (slot 11)
+Jan  1 00:04:31 gnublin kernel: PCI: bus0: Fast back to back transfers disabled
+Jan  1 00:04:31 gnublin kernel: PCI map irq: slot 0, pin 1, devslot 12, irq: 27
+Jan  1 00:04:31 gnublin kernel: pci 0000:00:0c.0: BAR 2: assigned [mem 0x50000000-0x50001fff]
+Jan  1 00:04:31 gnublin kernel: pci 0000:00:0c.0: BAR 2: set to [mem 0x50000000-0x50001fff] (PCI address [0x50000000-0x50001fff]
+Jan  1 00:04:31 gnublin kernel: pci 0000:00:0c.0: BAR 1: assigned [mem 0x50002000-0x500023ff]
+Jan  1 00:04:31 gnublin kernel: pci 0000:00:0c.0: BAR 1: set to [mem 0x50002000-0x500023ff] (PCI address [0x50002000-0x500023ff]
+Jan  1 00:04:31 gnublin kernel: pci 0000:00:0c.0: BAR 0: assigned [io  0x44000000-0x440000ff]
+Jan  1 00:04:31 gnublin kernel: pci 0000:00:0c.0: BAR 0: set to [io  0x44000000-0x440000ff] (PCI address [0x44000000-0x440000ff]
+Jan  1 00:04:31 gnublin kernel: bio: create slab <bio-0> at 0
+Jan  1 00:04:31 gnublin kernel: vgaarb: loaded
+Jan  1 00:04:31 gnublin kernel: SCSI subsystem initialized
+Jan  1 00:04:31 gnublin kernel: Switching to clocksource timer3
+Jan  1 00:04:31 gnublin kernel: NET: Registered protocol family 2
+Jan  1 00:04:31 gnublin kernel: IP route cache hash table entries: 2048 (order: 1, 8192 bytes)
+Jan  1 00:04:31 gnublin kernel: TCP established hash table entries: 8192 (order: 4, 65536 bytes)
+Jan  1 00:04:31 gnublin kernel: TCP bind hash table entries: 8192 (order: 3, 32768 bytes)
+Jan  1 00:04:31 gnublin kernel: TCP: Hash tables configured (established 8192 bind 8192)
+Jan  1 00:04:31 gnublin kernel: TCP reno registered
+Jan  1 00:04:31 gnublin kernel: UDP hash table entries: 256 (order: 0, 4096 bytes)
+Jan  1 00:04:31 gnublin kernel: UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+Jan  1 00:04:31 gnublin kernel: NET: Registered protocol family 1
+Jan  1 00:04:31 gnublin kernel: RPC: Registered udp transport module.
+Jan  1 00:04:31 gnublin kernel: RPC: Registered tcp transport module.
+Jan  1 00:04:31 gnublin kernel: RPC: Registered tcp NFSv4.1 backchannel transport module.
+Jan  1 00:04:31 gnublin kernel: NetWinder Floating Point Emulator V0.97 (double precision)
+Jan  1 00:04:31 gnublin kernel: Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+Jan  1 00:04:31 gnublin kernel: JFFS2 version 2.2. (NAND) © 2001-2006 Red Hat, Inc.
+Jan  1 00:04:31 gnublin kernel: ROMFS MTD (C) 2007 Red Hat, Inc.
+Jan  1 00:04:31 gnublin kernel: msgmni has been set to 500
+Jan  1 00:04:31 gnublin kernel: Block layer SCSI generic (bsg) driver version 0.4 loaded (major 254)
+Jan  1 00:04:31 gnublin kernel: io scheduler noop registered
+Jan  1 00:04:31 gnublin kernel: io scheduler deadline registered
+Jan  1 00:04:31 gnublin kernel: io scheduler cfq registered (default)
+Jan  1 00:04:31 gnublin kernel: CLCD: Versatile hardware, VGA display
+Jan  1 00:04:31 gnublin kernel: Console: switching to colour frame buffer device 80x30
+Jan  1 00:04:31 gnublin kernel: Serial: 8250/16550 driver, 1 ports, IRQ sharing enabled
+Jan  1 00:04:31 gnublin kernel: brd: module loaded
+Jan  1 00:04:31 gnublin kernel: PCI: enabling device 0000:00:0c.0 (0100 -> 0103)
+Jan  1 00:04:31 gnublin kernel: sym0: <895a> rev 0x0 at pci 0000:00:0c.0 irq 27
+Jan  1 00:04:31 gnublin kernel: sym0: No NVRAM, ID 7, Fast-40, LVD, parity checking
+Jan  1 00:04:31 gnublin kernel: sym0: SCSI BUS has been reset.
+Jan  1 00:04:31 gnublin kernel: scsi0 : sym-2.2.3
+Jan  1 00:04:31 gnublin kernel: sym0: unknown interrupt(s) ignored, ISTAT=0x5 DSTAT=0x80 SIST=0x0
+Jan  1 00:04:31 gnublin kernel: scsi 0:0:0:0: Direct-Access     QEMU     QEMU HARDDISK    1.0. PQ: 0 ANSI: 5
+Jan  1 00:04:31 gnublin kernel: scsi target0:0:0: tagged command queuing enabled, command queue depth 16.
+Jan  1 00:04:31 gnublin kernel: scsi target0:0:0: Beginning Domain Validation
+Jan  1 00:04:31 gnublin kernel: scsi target0:0:0: Domain Validation skipping write tests
+Jan  1 00:04:31 gnublin kernel: scsi target0:0:0: Ending Domain Validation
+Jan  1 00:04:31 gnublin kernel: scsi 0:0:2:0: CD-ROM            QEMU     QEMU CD-ROM      1.0. PQ: 0 ANSI: 5
+Jan  1 00:04:31 gnublin kernel: scsi target0:0:2: tagged command queuing enabled, command queue depth 16.
+Jan  1 00:04:31 gnublin kernel: scsi target0:0:2: Beginning Domain Validation
+Jan  1 00:04:31 gnublin kernel: scsi target0:0:2: Domain Validation skipping write tests
+Jan  1 00:04:31 gnublin kernel: scsi target0:0:2: Ending Domain Validation
+Jan  1 00:04:31 gnublin kernel: sd 0:0:0:0: [sda] 8388608 512-byte logical blocks: (4.29 GB/4.00 GiB)
+Jan  1 00:04:31 gnublin kernel: sd 0:0:0:0: [sda] Write Protect is off
+Jan  1 00:04:31 gnublin kernel: sd 0:0:0:0: [sda] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+Jan  1 00:04:31 gnublin kernel: sda:
+Jan  1 00:04:31 gnublin kernel: sd 0:0:0:0: Attached scsi generic sg0 type 0
+Jan  1 00:04:31 gnublin kernel: scsi 0:0:2:0: Attached scsi generic sg1 type 5
+Jan  1 00:04:31 gnublin kernel: tun: Universal TUN/TAP device driver, 1.6
+Jan  1 00:04:31 gnublin kernel: tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+Jan  1 00:04:31 gnublin kernel: smc91x.c: v1.1, sep 22 2004 by Nicolas Pitre <nico@fluxnic.net>
+Jan  1 00:04:31 gnublin kernel: unknown partition table
+Jan  1 00:04:31 gnublin kernel: sd 0:0:0:0: [sda] Attached SCSI disk
+Jan  1 00:04:31 gnublin kernel: eth0: SMC91C11xFD (rev 1) at d0800000 IRQ 25 [nowait]
+Jan  1 00:04:31 gnublin kernel: eth0: Ethernet addr: 52:54:00:12:34:56
+Jan  1 00:04:31 gnublin kernel: mice: PS/2 mouse device common for all mice
+Jan  1 00:04:31 gnublin kernel: TCP cubic registered
+Jan  1 00:04:31 gnublin kernel: NET: Registered protocol family 17
+Jan  1 00:04:31 gnublin kernel: VFP support v0.3: implementor 41 architecture 1 part 10 variant 9 rev 0
+Jan  1 00:04:31 gnublin kernel: input: AT Raw Set 2 keyboard as /devices/fpga:06/serio0/input/input0
+Jan  1 00:04:31 gnublin kernel: input: ImExPS/2 Generic Explorer Mouse as /devices/fpga:07/serio1/input/input1
+Jan  1 00:04:31 gnublin kernel: eth0: link up
+Jan  1 00:04:31 gnublin kernel: Sending DHCP requests ., OK
+Jan  1 00:04:31 gnublin kernel: IP-Config: Got DHCP answer from 10.0.2.2, my address is 10.0.2.15
+Jan  1 00:04:31 gnublin kernel: IP-Config: Complete:
+Jan  1 00:04:31 gnublin kernel:     device=eth0, addr=10.0.2.15, mask=255.255.255.0, gw=10.0.2.2,
+Jan  1 00:04:31 gnublin kernel:     host=10.0.2.15, domain=, nis-domain=(none),
+Jan  1 00:04:31 gnublin kernel:     bootserver=10.0.2.2, rootserver=10.0.2.2, rootpath=
+Jan  1 00:04:31 gnublin kernel: kjournald starting.  Commit interval 5 seconds
+Jan  1 00:04:31 gnublin kernel: EXT3-fs (sda): using internal journal
+Jan  1 00:04:31 gnublin kernel: EXT3-fs (sda): mounted filesystem with writeback data mode
+Jan  1 00:04:31 gnublin kernel: VFS: Mounted root (ext3 filesystem) on device 8:0.
+Jan  1 00:04:31 gnublin kernel: Freeing init memory: 96K
+Jan  1 00:04:31 gnublin kernel: EXT3-fs (sda): using internal journal
+Jan  1 00:04:31 gnublin kernel: udev[3473]: starting version 164
+Jan  1 00:08:59 gnublin rsyslogd: [origin software="rsyslogd" swVersion="4.6.4" x-pid="3583" x-info="http://www.rsyslog.com"] rsyslogd was HUPed, type 'lightweight'.
+Jan  1 00:09:00 gnublin shutdown[7117]: shutting down for system reboot
+Jan  1 00:09:04 gnublin kernel: Kernel logging (proc) stopped.
+Jan  1 00:09:04 gnublin rsyslogd: [origin software="rsyslogd" swVersion="4.6.4" x-pid="3583" x-info="http://www.rsyslog.com"] exiting on signal 15.
+Jan  1 00:02:16 gnublin kernel: imklog 4.6.4, log source = /proc/kmsg started.
+Jan  1 00:02:16 gnublin rsyslogd: [origin software="rsyslogd" swVersion="4.6.4" x-pid="1012" x-info="http://www.rsyslog.com"] (re)start
+Jan  1 00:02:16 gnublin kernel: Booting Linux on physical CPU 0
+Jan  1 00:02:16 gnublin kernel: Initializing cgroup subsys cpu
+Jan  1 00:02:16 gnublin kernel: Linux version 3.3.0 (root@michael-desktop) (gcc version 4.6.4 20120303 (prerelease) (GCC) ) #17 Wed Jan 2 15:21:49 CET 2013
+Jan  1 00:02:16 gnublin kernel: CPU: ARM926EJ-S [41069265] revision 5 (ARMv5TEJ), cr=00053177
+Jan  1 00:02:16 gnublin kernel: CPU: VIVT data cache, VIVT instruction cache
+Jan  1 00:02:16 gnublin kernel: Machine: NXP EA313X
+Jan  1 00:02:16 gnublin kernel: Memory policy: ECC disabled, Data cache writeback
+Jan  1 00:02:16 gnublin kernel: Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 8128
+Jan  1 00:02:16 gnublin kernel: Kernel command line: console=ttyS0,115200n8 root=/dev/mmcblk0p1 rw rootwait
+Jan  1 00:02:16 gnublin kernel: PID hash table entries: 128 (order: -3, 512 bytes)
+Jan  1 00:02:16 gnublin kernel: Dentry cache hash table entries: 4096 (order: 2, 16384 bytes)
+Jan  1 00:02:16 gnublin kernel: Inode-cache hash table entries: 2048 (order: 1, 8192 bytes)
+Jan  1 00:02:16 gnublin kernel: Memory: 32MB = 32MB total
+Jan  1 00:02:16 gnublin kernel: Memory: 23512k/23512k available, 9256k reserved, 0K highmem
+Jan  1 00:02:16 gnublin kernel: Virtual kernel memory layout:
+Jan  1 00:02:16 gnublin kernel:    vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+Jan  1 00:02:16 gnublin kernel:    fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+Jan  1 00:02:16 gnublin kernel:    vmalloc : 0xc2800000 - 0xff000000   ( 968 MB)
+Jan  1 00:02:16 gnublin kernel:    lowmem  : 0xc0000000 - 0xc2000000   (  32 MB)
+Jan  1 00:02:16 gnublin kernel:    modules : 0xbf000000 - 0xc0000000   (  16 MB)
+Jan  1 00:02:16 gnublin kernel:      .text : 0xc0008000 - 0xc02acc4c   (2708 kB)
+Jan  1 00:02:16 gnublin kernel:      .init : 0xc02ad000 - 0xc0881000   (5968 kB)
+Jan  1 00:02:16 gnublin kernel:      .data : 0xc0882000 - 0xc08a1640   ( 126 kB)
+Jan  1 00:02:16 gnublin kernel:       .bss : 0xc08a1664 - 0xc08b06fc   (  61 kB)
+Jan  1 00:02:16 gnublin kernel: NR_IRQS:41
+Jan  1 00:02:16 gnublin kernel: irq=30 Event=0x67 bank:3 bit:7 type:3
+Jan  1 00:02:16 gnublin kernel: irq=31 Event=0x7a bank:3 bit:26 type:2
+Jan  1 00:02:16 gnublin kernel: irq=32 Event=0x77 bank:3 bit:23 type:2
+Jan  1 00:02:16 gnublin kernel: irq=33 Event=0x7b bank:3 bit:27 type:0
+Jan  1 00:02:16 gnublin kernel: irq=34 Event=0x3d bank:1 bit:29 type:2
+Jan  1 00:02:16 gnublin kernel: irq=35 Event=0x5d bank:2 bit:29 type:0
+Jan  1 00:02:16 gnublin kernel: irq=36 Event=0x3f bank:1 bit:31 type:0
+Jan  1 00:02:16 gnublin kernel: irq=37 Event=0x18 bank:0 bit:24 type:1
+Jan  1 00:02:16 gnublin kernel: irq=38 Event=0x17 bank:0 bit:23 type:0
+Jan  1 00:02:16 gnublin kernel: irq=39 Event=0x55 bank:2 bit:21 type:0
+Jan  1 00:02:16 gnublin kernel: irq=40 Event=0x33 bank:1 bit:19 type:1
+Jan  1 00:02:16 gnublin kernel: Console: colour dummy device 80x30
+Jan  1 00:02:16 gnublin kernel: console [ttyS0] enabled
+Jan  1 00:02:16 gnublin kernel: Calibrating delay loop... 134.14 BogoMIPS (lpj=268288)
+Jan  1 00:02:16 gnublin kernel: pid_max: default: 32768 minimum: 301
+Jan  1 00:02:16 gnublin kernel: Mount-cache hash table entries: 512
+Jan  1 00:02:16 gnublin kernel: Initializing cgroup subsys blkio
+Jan  1 00:02:16 gnublin kernel: CPU: Testing write buffer coherency: ok
+Jan  1 00:02:16 gnublin kernel: Setting up static identity map for 0x301ef468 - 0x301ef4a4
+Jan  1 00:02:16 gnublin kernel: NET: Registered protocol family 16
+Jan  1 00:02:16 gnublin kernel: cgu_init pll set at 270000000
+Jan  1 00:02:16 gnublin kernel: gpiochip_add: registered GPIOs 0 to 20 on device: GPIO
+Jan  1 00:02:16 gnublin kernel: gpiochip_add: registered GPIOs 21 to 52 on device: EBI_MCI
+Jan  1 00:02:16 gnublin kernel: gpiochip_add: registered GPIOs 53 to 62 on device: EBI_I2STX_0
+Jan  1 00:02:16 gnublin kernel: gpiochip_add: registered GPIOs 63 to 63 on device: CGU
+Jan  1 00:02:16 gnublin kernel: gpiochip_add: registered GPIOs 64 to 66 on device: I2SRX_0
+Jan  1 00:02:16 gnublin kernel: gpiochip_add: registered GPIOs 67 to 69 on device: I2SRX_1
+Jan  1 00:02:16 gnublin kernel: gpiochip_add: registered GPIOs 70 to 73 on device: I2STX_1
+Jan  1 00:02:16 gnublin kernel: gpiochip_add: registered GPIOs 74 to 89 on device: EBI
+Jan  1 00:02:16 gnublin kernel: gpiochip_add: registered GPIOs 90 to 91 on device: I2C1
+Jan  1 00:02:16 gnublin kernel: gpiochip_add: registered GPIOs 92 to 96 on device: SPI
+Jan  1 00:02:16 gnublin kernel: gpiochip_add: registered GPIOs 97 to 100 on device: NAND_CTRL
+Jan  1 00:02:16 gnublin kernel: gpiochip_add: registered GPIOs 101 to 101 on device: PWM
+Jan  1 00:02:16 gnublin kernel: gpiochip_add: registered GPIOs 102 to 103 on device: UART
+Jan  1 00:02:16 gnublin kernel: Registering USB gadget 0x00000d20 0x0e400104 (3)
+Jan  1 00:02:16 gnublin kernel: bio: create slab <bio-0> at 0
+Jan  1 00:02:16 gnublin kernel: SCSI subsystem initialized
+Jan  1 00:02:16 gnublin kernel: usbcore: registered new interface driver usbfs
+Jan  1 00:02:16 gnublin kernel: usbcore: registered new interface driver hub
+Jan  1 00:02:16 gnublin kernel: usbcore: registered new device driver usb
+Jan  1 00:02:16 gnublin kernel: NET: Registered protocol family 2
+Jan  1 00:02:16 gnublin kernel: IP route cache hash table entries: 1024 (order: 0, 4096 bytes)
+Jan  1 00:02:16 gnublin kernel: TCP established hash table entries: 1024 (order: 1, 8192 bytes)
+Jan  1 00:02:16 gnublin kernel: TCP bind hash table entries: 1024 (order: 0, 4096 bytes)
+Jan  1 00:02:16 gnublin kernel: TCP: Hash tables configured (established 1024 bind 1024)
+Jan  1 00:02:16 gnublin kernel: TCP reno registered
+Jan  1 00:02:16 gnublin kernel: UDP hash table entries: 256 (order: 0, 4096 bytes)
+Jan  1 00:02:16 gnublin kernel: UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+Jan  1 00:02:16 gnublin kernel: NET: Registered protocol family 1
+Jan  1 00:02:16 gnublin kernel: NetWinder Floating Point Emulator V0.97 (double precision)
+Jan  1 00:02:16 gnublin kernel: msgmni has been set to 45
+Jan  1 00:02:16 gnublin kernel: alg: No test for stdrng (krng)
+Jan  1 00:02:16 gnublin kernel: io scheduler noop registered
+Jan  1 00:02:16 gnublin kernel: io scheduler deadline registered (default)
+Jan  1 00:02:16 gnublin kernel: Serial: 8250/16550 driver, 1 ports, IRQ sharing disabled
+Jan  1 00:02:16 gnublin kernel: serial8250: ttyS0 at MMIO 0x15001000 (irq = 10) is a NXP16750
+Jan  1 00:02:16 gnublin kernel: serial8250.0: ttyS0 at MMIO 0x15001000 (irq = 10) is a NXP16750
+Jan  1 00:02:16 gnublin kernel: brd: module loaded
+Jan  1 00:02:16 gnublin kernel: loop: module loaded
+Jan  1 00:02:16 gnublin kernel: [lpc313x adc] driver loaded with major 254
+Jan  1 00:02:16 gnublin kernel: [lpc313x adc] >> $ mknod /dev/lpc313x_adc c 254 0
+Jan  1 00:02:16 gnublin kernel: ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Jan  1 00:02:16 gnublin kernel: Freescale High-Speed USB SOC Device Controller driver (Apr 20, 2007)
+Jan  1 00:02:16 gnublin kernel: device-mapper: ioctl: 4.22.0-ioctl (2011-10-19) initialised: dm-devel@redhat.com
+Jan  1 00:02:16 gnublin kernel: lpc313x_mmc lpc313x_mmc.0: LPC313x MMC controller at irq 26
+Jan  1 00:02:16 gnublin kernel: usbcore: registered new interface driver usbhid
+Jan  1 00:02:16 gnublin kernel: usbhid: USB HID core driver
+Jan  1 00:02:16 gnublin kernel: TCP cubic registered
+Jan  1 00:02:16 gnublin kernel: NET: Registered protocol family 17
+Jan  1 00:02:16 gnublin kernel: Freeing init memory: 5968K
+Jan  1 00:02:16 gnublin kernel: mmc0: new SD card at address b368
+Jan  1 00:02:16 gnublin kernel: mmcblk0: mmc0:b368 NCard 1.83 GiB 
+Jan  1 00:02:16 gnublin kernel: mmcblk0: p1 p2 p3
+Jan  1 00:02:16 gnublin kernel: g_multi gadget: using random self ethernet address
+Jan  1 00:02:16 gnublin kernel: g_multi gadget: using random host ethernet address
+Jan  1 00:02:16 gnublin kernel: usb0: MAC 9a:22:35:6a:4b:f9
+Jan  1 00:02:16 gnublin kernel: usb0: HOST MAC fa:15:96:a7:a5:1e
+Jan  1 00:02:16 gnublin kernel: g_multi gadget: Mass Storage Function, version: 2009/09/11
+Jan  1 00:02:16 gnublin kernel: g_multi gadget: Number of LUNs=1
+Jan  1 00:02:16 gnublin kernel: lun0: LUN: removable file: (no medium)
+Jan  1 00:02:16 gnublin kernel: g_multi gadget: Multifunction Composite Gadget
+Jan  1 00:02:16 gnublin kernel: g_multi gadget: g_multi ready
+Jan  1 00:02:16 gnublin kernel: fsl-usb2-udc: bind to driver g_multi
+Jan  1 00:02:16 gnublin kernel: g_multi gadget: high-speed config #1: Multifunction with RNDIS
+Jan  1 00:02:16 gnublin kernel: kjournald starting.  Commit interval 5 seconds
+Jan  1 00:02:16 gnublin kernel: EXT3-fs (dm-0): using internal journal
+Jan  1 00:02:16 gnublin kernel: EXT3-fs (dm-0): mounted filesystem with writeback data mode
+Jan  1 00:02:16 gnublin kernel: EXT3-fs (dm-0): using internal journal
+Jan  1 00:02:59 gnublin kernel: sshd (1146): /proc/1146/oom_adj is deprecated, please use /proc/1146/oom_score_adj instead.
+Jan  1 00:04:23 gnublin shutdown[1209]: shutting down for system reboot
+Jan  1 00:04:52 gnublin kernel: Kernel logging (proc) stopped.
+Jan  1 00:04:52 gnublin rsyslogd: [origin software="rsyslogd" swVersion="4.6.4" x-pid="1012" x-info="http://www.rsyslog.com"] exiting on signal 15.
+Jan  1 00:05:33 gnublin kernel: imklog 4.6.4, log source = /proc/kmsg started.
+Jan  1 00:05:33 gnublin rsyslogd: [origin software="rsyslogd" swVersion="4.6.4" x-pid="1871" x-info="http://www.rsyslog.com"] (re)start
+Jan  1 00:05:33 gnublin kernel: Booting Linux on physical CPU 0
+Jan  1 00:05:33 gnublin kernel: Initializing cgroup subsys cpu
+Jan  1 00:05:33 gnublin kernel: Linux version 3.3.0 (root@michael-desktop) (gcc version 4.6.4 20120303 (prerelease) (GCC) ) #17 Wed Jan 2 15:21:49 CET 2013
+Jan  1 00:05:33 gnublin kernel: CPU: ARM926EJ-S [41069265] revision 5 (ARMv5TEJ), cr=00053177
+Jan  1 00:05:33 gnublin kernel: CPU: VIVT data cache, VIVT instruction cache
+Jan  1 00:05:33 gnublin kernel: Machine: NXP EA313X
+Jan  1 00:05:33 gnublin kernel: Memory policy: ECC disabled, Data cache writeback
+Jan  1 00:05:33 gnublin kernel: Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 8128
+Jan  1 00:05:33 gnublin kernel: Kernel command line: console=ttyS0,115200n8 root=/dev/mmcblk0p1 rw rootwait
+Jan  1 00:05:33 gnublin kernel: PID hash table entries: 128 (order: -3, 512 bytes)
+Jan  1 00:05:33 gnublin kernel: Dentry cache hash table entries: 4096 (order: 2, 16384 bytes)
+Jan  1 00:05:33 gnublin kernel: Inode-cache hash table entries: 2048 (order: 1, 8192 bytes)
+Jan  1 00:05:33 gnublin kernel: Memory: 32MB = 32MB total
+Jan  1 00:05:33 gnublin kernel: Memory: 23512k/23512k available, 9256k reserved, 0K highmem
+Jan  1 00:05:33 gnublin kernel: Virtual kernel memory layout:
+Jan  1 00:05:33 gnublin kernel:    vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+Jan  1 00:05:33 gnublin kernel:    fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+Jan  1 00:05:33 gnublin kernel:    vmalloc : 0xc2800000 - 0xff000000   ( 968 MB)
+Jan  1 00:05:33 gnublin kernel:    lowmem  : 0xc0000000 - 0xc2000000   (  32 MB)
+Jan  1 00:05:33 gnublin kernel:    modules : 0xbf000000 - 0xc0000000   (  16 MB)
+Jan  1 00:05:33 gnublin kernel:      .text : 0xc0008000 - 0xc02acc4c   (2708 kB)
+Jan  1 00:05:33 gnublin kernel:      .init : 0xc02ad000 - 0xc0881000   (5968 kB)
+Jan  1 00:05:33 gnublin kernel:      .data : 0xc0882000 - 0xc08a1640   ( 126 kB)
+Jan  1 00:05:33 gnublin kernel:       .bss : 0xc08a1664 - 0xc08b06fc   (  61 kB)
+Jan  1 00:05:33 gnublin kernel: NR_IRQS:41
+Jan  1 00:05:33 gnublin kernel: irq=30 Event=0x67 bank:3 bit:7 type:3
+Jan  1 00:05:33 gnublin kernel: irq=31 Event=0x7a bank:3 bit:26 type:2
+Jan  1 00:05:33 gnublin kernel: irq=32 Event=0x77 bank:3 bit:23 type:2
+Jan  1 00:05:33 gnublin kernel: irq=33 Event=0x7b bank:3 bit:27 type:0
+Jan  1 00:05:33 gnublin kernel: irq=34 Event=0x3d bank:1 bit:29 type:2
+Jan  1 00:05:33 gnublin kernel: irq=35 Event=0x5d bank:2 bit:29 type:0
+Jan  1 00:05:33 gnublin kernel: irq=36 Event=0x3f bank:1 bit:31 type:0
+Jan  1 00:05:33 gnublin kernel: irq=37 Event=0x18 bank:0 bit:24 type:1
+Jan  1 00:05:33 gnublin kernel: irq=38 Event=0x17 bank:0 bit:23 type:0
+Jan  1 00:05:33 gnublin kernel: irq=39 Event=0x55 bank:2 bit:21 type:0
+Jan  1 00:05:33 gnublin kernel: irq=40 Event=0x33 bank:1 bit:19 type:1
+Jan  1 00:05:33 gnublin kernel: Console: colour dummy device 80x30
+Jan  1 00:05:33 gnublin kernel: console [ttyS0] enabled
+Jan  1 00:05:33 gnublin kernel: Calibrating delay loop... 134.14 BogoMIPS (lpj=268288)
+Jan  1 00:05:33 gnublin kernel: pid_max: default: 32768 minimum: 301
+Jan  1 00:05:33 gnublin kernel: Mount-cache hash table entries: 512
+Jan  1 00:05:33 gnublin kernel: Initializing cgroup subsys blkio
+Jan  1 00:05:33 gnublin kernel: CPU: Testing write buffer coherency: ok
+Jan  1 00:05:33 gnublin kernel: Setting up static identity map for 0x301ef468 - 0x301ef4a4
+Jan  1 00:05:33 gnublin kernel: NET: Registered protocol family 16
+Jan  1 00:05:33 gnublin kernel: cgu_init pll set at 270000000
+Jan  1 00:05:33 gnublin kernel: gpiochip_add: registered GPIOs 0 to 20 on device: GPIO
+Jan  1 00:05:33 gnublin kernel: gpiochip_add: registered GPIOs 21 to 52 on device: EBI_MCI
+Jan  1 00:05:33 gnublin kernel: gpiochip_add: registered GPIOs 53 to 62 on device: EBI_I2STX_0
+Jan  1 00:05:33 gnublin kernel: gpiochip_add: registered GPIOs 63 to 63 on device: CGU
+Jan  1 00:05:33 gnublin kernel: gpiochip_add: registered GPIOs 64 to 66 on device: I2SRX_0
+Jan  1 00:05:33 gnublin kernel: gpiochip_add: registered GPIOs 67 to 69 on device: I2SRX_1
+Jan  1 00:05:33 gnublin kernel: gpiochip_add: registered GPIOs 70 to 73 on device: I2STX_1
+Jan  1 00:05:33 gnublin kernel: gpiochip_add: registered GPIOs 74 to 89 on device: EBI
+Jan  1 00:05:33 gnublin kernel: gpiochip_add: registered GPIOs 90 to 91 on device: I2C1
+Jan  1 00:05:33 gnublin kernel: gpiochip_add: registered GPIOs 92 to 96 on device: SPI
+Jan  1 00:05:33 gnublin kernel: gpiochip_add: registered GPIOs 97 to 100 on device: NAND_CTRL
+Jan  1 00:05:33 gnublin kernel: gpiochip_add: registered GPIOs 101 to 101 on device: PWM
+Jan  1 00:05:33 gnublin kernel: gpiochip_add: registered GPIOs 102 to 103 on device: UART
+Jan  1 00:05:33 gnublin kernel: Registering USB gadget 0x00000d20 0x0e400104 (3)
+Jan  1 00:05:33 gnublin kernel: bio: create slab <bio-0> at 0
+Jan  1 00:05:33 gnublin kernel: SCSI subsystem initialized
+Jan  1 00:05:33 gnublin kernel: usbcore: registered new interface driver usbfs
+Jan  1 00:05:33 gnublin kernel: usbcore: registered new interface driver hub
+Jan  1 00:05:33 gnublin kernel: usbcore: registered new device driver usb
+Jan  1 00:05:33 gnublin kernel: NET: Registered protocol family 2
+Jan  1 00:05:33 gnublin kernel: IP route cache hash table entries: 1024 (order: 0, 4096 bytes)
+Jan  1 00:05:33 gnublin kernel: TCP established hash table entries: 1024 (order: 1, 8192 bytes)
+Jan  1 00:05:33 gnublin kernel: TCP bind hash table entries: 1024 (order: 0, 4096 bytes)
+Jan  1 00:05:33 gnublin kernel: TCP: Hash tables configured (established 1024 bind 1024)
+Jan  1 00:05:33 gnublin kernel: TCP reno registered
+Jan  1 00:05:33 gnublin kernel: UDP hash table entries: 256 (order: 0, 4096 bytes)
+Jan  1 00:05:33 gnublin kernel: UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+Jan  1 00:05:33 gnublin kernel: NET: Registered protocol family 1
+Jan  1 00:05:33 gnublin kernel: NetWinder Floating Point Emulator V0.97 (double precision)
+Jan  1 00:05:33 gnublin kernel: msgmni has been set to 45
+Jan  1 00:05:33 gnublin kernel: alg: No test for stdrng (krng)
+Jan  1 00:05:33 gnublin kernel: io scheduler noop registered
+Jan  1 00:05:33 gnublin kernel: io scheduler deadline registered (default)
+Jan  1 00:05:33 gnublin kernel: Serial: 8250/16550 driver, 1 ports, IRQ sharing disabled
+Jan  1 00:05:33 gnublin kernel: serial8250: ttyS0 at MMIO 0x15001000 (irq = 10) is a NXP16750
+Jan  1 00:05:33 gnublin kernel: serial8250.0: ttyS0 at MMIO 0x15001000 (irq = 10) is a NXP16750
+Jan  1 00:05:33 gnublin kernel: brd: module loaded
+Jan  1 00:05:33 gnublin kernel: loop: module loaded
+Jan  1 00:05:33 gnublin kernel: [lpc313x adc] driver loaded with major 254
+Jan  1 00:05:33 gnublin kernel: [lpc313x adc] >> $ mknod /dev/lpc313x_adc c 254 0
+Jan  1 00:05:33 gnublin kernel: ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Jan  1 00:05:33 gnublin kernel: Freescale High-Speed USB SOC Device Controller driver (Apr 20, 2007)
+Jan  1 00:05:33 gnublin kernel: device-mapper: ioctl: 4.22.0-ioctl (2011-10-19) initialised: dm-devel@redhat.com
+Jan  1 00:05:33 gnublin kernel: lpc313x_mmc lpc313x_mmc.0: LPC313x MMC controller at irq 26
+Jan  1 00:05:33 gnublin kernel: usbcore: registered new interface driver usbhid
+Jan  1 00:05:33 gnublin kernel: usbhid: USB HID core driver
+Jan  1 00:05:33 gnublin kernel: TCP cubic registered
+Jan  1 00:05:33 gnublin kernel: NET: Registered protocol family 17
+Jan  1 00:05:33 gnublin kernel: Freeing init memory: 5968K
+Jan  1 00:05:33 gnublin kernel: mmc0: new SD card at address b368
+Jan  1 00:05:33 gnublin kernel: mmcblk0: mmc0:b368 NCard 1.83 GiB 
+Jan  1 00:05:33 gnublin kernel: mmcblk0: p1 p2 p3
+Jan  1 00:05:33 gnublin kernel: g_multi gadget: using random self ethernet address
+Jan  1 00:05:33 gnublin kernel: g_multi gadget: using random host ethernet address
+Jan  1 00:05:33 gnublin kernel: usb0: MAC e6:90:fa:a6:96:fd
+Jan  1 00:05:33 gnublin kernel: usb0: HOST MAC da:bf:9a:d5:b7:8d
+Jan  1 00:05:33 gnublin kernel: g_multi gadget: Mass Storage Function, version: 2009/09/11
+Jan  1 00:05:33 gnublin kernel: g_multi gadget: Number of LUNs=1
+Jan  1 00:05:33 gnublin kernel: lun0: LUN: removable file: (no medium)
+Jan  1 00:05:33 gnublin kernel: g_multi gadget: Multifunction Composite Gadget
+Jan  1 00:05:33 gnublin kernel: g_multi gadget: g_multi ready
+Jan  1 00:05:33 gnublin kernel: fsl-usb2-udc: bind to driver g_multi
+Jan  1 00:05:33 gnublin kernel: g_multi gadget: high-speed config #1: Multifunction with RNDIS
+Jan  1 00:05:33 gnublin kernel: kjournald starting.  Commit interval 5 seconds
+Jan  1 00:05:33 gnublin kernel: EXT3-fs (dm-0): using internal journal
+Jan  1 00:05:33 gnublin kernel: EXT3-fs (dm-0): mounted filesystem with writeback data mode
+Jan  1 00:05:33 gnublin kernel: EXT3-fs (dm-0): using internal journal
+Jan  1 00:05:43 gnublin kernel: sshd (1914): /proc/1914/oom_adj is deprecated, please use /proc/1914/oom_score_adj instead.
+Jan  1 00:05:45 gnublin kernel: Adding 64708k swap on /swapfile.  Priority:-1 extents:273 across:86044k SS
+Jan  1 01:53:12 gnublin shutdown[3096]: shutting down for system reboot
+Jan  1 01:53:55 gnublin shutdown[3104]: shutting down for system reboot
+Jan  1 01:54:03 gnublin kernel: Kernel logging (proc) stopped.
+Jan  1 01:54:03 gnublin rsyslogd: [origin software="rsyslogd" swVersion="4.6.4" x-pid="1871" x-info="http://www.rsyslog.com"] exiting on signal 15.
+Jan  1 00:01:11 gnublin kernel: imklog 4.6.4, log source = /proc/kmsg started.
+Jan  1 00:01:11 gnublin rsyslogd: [origin software="rsyslogd" swVersion="4.6.4" x-pid="678" x-info="http://www.rsyslog.com"] (re)start
+Jan  1 00:01:11 gnublin kernel: Booting Linux on physical CPU 0
+Jan  1 00:01:11 gnublin kernel: Initializing cgroup subsys cpu
+Jan  1 00:01:11 gnublin kernel: Linux version 3.3.0 (root@michael-desktop) (gcc version 4.6.4 20120303 (prerelease) (GCC) ) #17 Wed Jan 2 15:21:49 CET 2013
+Jan  1 00:01:11 gnublin kernel: CPU: ARM926EJ-S [41069265] revision 5 (ARMv5TEJ), cr=00053177
+Jan  1 00:01:11 gnublin kernel: CPU: VIVT data cache, VIVT instruction cache
+Jan  1 00:01:11 gnublin kernel: Machine: NXP EA313X
+Jan  1 00:01:11 gnublin kernel: Memory policy: ECC disabled, Data cache writeback
+Jan  1 00:01:11 gnublin kernel: Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 8128
+Jan  1 00:01:11 gnublin kernel: Kernel command line: console=ttyS0,115200n8 root=/dev/mmcblk0p1 rw rootwait
+Jan  1 00:01:11 gnublin kernel: PID hash table entries: 128 (order: -3, 512 bytes)
+Jan  1 00:01:11 gnublin kernel: Dentry cache hash table entries: 4096 (order: 2, 16384 bytes)
+Jan  1 00:01:11 gnublin kernel: Inode-cache hash table entries: 2048 (order: 1, 8192 bytes)
+Jan  1 00:01:11 gnublin kernel: Memory: 32MB = 32MB total
+Jan  1 00:01:11 gnublin kernel: Memory: 23512k/23512k available, 9256k reserved, 0K highmem
+Jan  1 00:01:11 gnublin kernel: Virtual kernel memory layout:
+Jan  1 00:01:11 gnublin kernel:    vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+Jan  1 00:01:11 gnublin kernel:    fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+Jan  1 00:01:11 gnublin kernel:    vmalloc : 0xc2800000 - 0xff000000   ( 968 MB)
+Jan  1 00:01:11 gnublin kernel:    lowmem  : 0xc0000000 - 0xc2000000   (  32 MB)
+Jan  1 00:01:11 gnublin kernel:    modules : 0xbf000000 - 0xc0000000   (  16 MB)
+Jan  1 00:01:11 gnublin kernel:      .text : 0xc0008000 - 0xc02acc4c   (2708 kB)
+Jan  1 00:01:11 gnublin kernel:      .init : 0xc02ad000 - 0xc0881000   (5968 kB)
+Jan  1 00:01:11 gnublin kernel:      .data : 0xc0882000 - 0xc08a1640   ( 126 kB)
+Jan  1 00:01:11 gnublin kernel:       .bss : 0xc08a1664 - 0xc08b06fc   (  61 kB)
+Jan  1 00:01:11 gnublin kernel: NR_IRQS:41
+Jan  1 00:01:11 gnublin kernel: irq=30 Event=0x67 bank:3 bit:7 type:3
+Jan  1 00:01:11 gnublin kernel: irq=31 Event=0x7a bank:3 bit:26 type:2
+Jan  1 00:01:11 gnublin kernel: irq=32 Event=0x77 bank:3 bit:23 type:2
+Jan  1 00:01:11 gnublin kernel: irq=33 Event=0x7b bank:3 bit:27 type:0
+Jan  1 00:01:11 gnublin kernel: irq=34 Event=0x3d bank:1 bit:29 type:2
+Jan  1 00:01:11 gnublin kernel: irq=35 Event=0x5d bank:2 bit:29 type:0
+Jan  1 00:01:11 gnublin kernel: irq=36 Event=0x3f bank:1 bit:31 type:0
+Jan  1 00:01:11 gnublin kernel: irq=37 Event=0x18 bank:0 bit:24 type:1
+Jan  1 00:01:11 gnublin kernel: irq=38 Event=0x17 bank:0 bit:23 type:0
+Jan  1 00:01:11 gnublin kernel: irq=39 Event=0x55 bank:2 bit:21 type:0
+Jan  1 00:01:11 gnublin kernel: irq=40 Event=0x33 bank:1 bit:19 type:1
+Jan  1 00:01:11 gnublin kernel: Console: colour dummy device 80x30
+Jan  1 00:01:11 gnublin kernel: console [ttyS0] enabled
+Jan  1 00:01:11 gnublin kernel: Calibrating delay loop... 134.14 BogoMIPS (lpj=268288)
+Jan  1 00:01:11 gnublin kernel: pid_max: default: 32768 minimum: 301
+Jan  1 00:01:11 gnublin kernel: Mount-cache hash table entries: 512
+Jan  1 00:01:11 gnublin kernel: Initializing cgroup subsys blkio
+Jan  1 00:01:11 gnublin kernel: CPU: Testing write buffer coherency: ok
+Jan  1 00:01:11 gnublin kernel: Setting up static identity map for 0x301ef468 - 0x301ef4a4
+Jan  1 00:01:11 gnublin kernel: NET: Registered protocol family 16
+Jan  1 00:01:11 gnublin kernel: cgu_init pll set at 270000000
+Jan  1 00:01:11 gnublin kernel: gpiochip_add: registered GPIOs 0 to 20 on device: GPIO
+Jan  1 00:01:11 gnublin kernel: gpiochip_add: registered GPIOs 21 to 52 on device: EBI_MCI
+Jan  1 00:01:11 gnublin kernel: gpiochip_add: registered GPIOs 53 to 62 on device: EBI_I2STX_0
+Jan  1 00:01:11 gnublin kernel: gpiochip_add: registered GPIOs 63 to 63 on device: CGU
+Jan  1 00:01:11 gnublin kernel: gpiochip_add: registered GPIOs 64 to 66 on device: I2SRX_0
+Jan  1 00:01:11 gnublin kernel: gpiochip_add: registered GPIOs 67 to 69 on device: I2SRX_1
+Jan  1 00:01:11 gnublin kernel: gpiochip_add: registered GPIOs 70 to 73 on device: I2STX_1
+Jan  1 00:01:11 gnublin kernel: gpiochip_add: registered GPIOs 74 to 89 on device: EBI
+Jan  1 00:01:11 gnublin kernel: gpiochip_add: registered GPIOs 90 to 91 on device: I2C1
+Jan  1 00:01:11 gnublin kernel: gpiochip_add: registered GPIOs 92 to 96 on device: SPI
+Jan  1 00:01:11 gnublin kernel: gpiochip_add: registered GPIOs 97 to 100 on device: NAND_CTRL
+Jan  1 00:01:11 gnublin kernel: gpiochip_add: registered GPIOs 101 to 101 on device: PWM
+Jan  1 00:01:11 gnublin kernel: gpiochip_add: registered GPIOs 102 to 103 on device: UART
+Jan  1 00:01:11 gnublin kernel: Registering USB gadget 0x00000d20 0x0e400104 (3)
+Jan  1 00:01:11 gnublin kernel: bio: create slab <bio-0> at 0
+Jan  1 00:01:11 gnublin kernel: SCSI subsystem initialized
+Jan  1 00:01:11 gnublin kernel: usbcore: registered new interface driver usbfs
+Jan  1 00:01:11 gnublin kernel: usbcore: registered new interface driver hub
+Jan  1 00:01:11 gnublin kernel: usbcore: registered new device driver usb
+Jan  1 00:01:11 gnublin kernel: NET: Registered protocol family 2
+Jan  1 00:01:11 gnublin kernel: IP route cache hash table entries: 1024 (order: 0, 4096 bytes)
+Jan  1 00:01:11 gnublin kernel: TCP established hash table entries: 1024 (order: 1, 8192 bytes)
+Jan  1 00:01:11 gnublin kernel: TCP bind hash table entries: 1024 (order: 0, 4096 bytes)
+Jan  1 00:01:11 gnublin kernel: TCP: Hash tables configured (established 1024 bind 1024)
+Jan  1 00:01:11 gnublin kernel: TCP reno registered
+Jan  1 00:01:11 gnublin kernel: UDP hash table entries: 256 (order: 0, 4096 bytes)
+Jan  1 00:01:11 gnublin kernel: UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+Jan  1 00:01:11 gnublin kernel: NET: Registered protocol family 1
+Jan  1 00:01:11 gnublin kernel: NetWinder Floating Point Emulator V0.97 (double precision)
+Jan  1 00:01:11 gnublin kernel: msgmni has been set to 45
+Jan  1 00:01:11 gnublin kernel: alg: No test for stdrng (krng)
+Jan  1 00:01:11 gnublin kernel: io scheduler noop registered
+Jan  1 00:01:11 gnublin kernel: io scheduler deadline registered (default)
+Jan  1 00:01:11 gnublin kernel: Serial: 8250/16550 driver, 1 ports, IRQ sharing disabled
+Jan  1 00:01:11 gnublin kernel: serial8250: ttyS0 at MMIO 0x15001000 (irq = 10) is a NXP16750
+Jan  1 00:01:11 gnublin kernel: serial8250.0: ttyS0 at MMIO 0x15001000 (irq = 10) is a NXP16750
+Jan  1 00:01:11 gnublin kernel: brd: module loaded
+Jan  1 00:01:11 gnublin kernel: loop: module loaded
+Jan  1 00:01:11 gnublin kernel: [lpc313x adc] driver loaded with major 254
+Jan  1 00:01:11 gnublin kernel: [lpc313x adc] >> $ mknod /dev/lpc313x_adc c 254 0
+Jan  1 00:01:11 gnublin kernel: ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Jan  1 00:01:11 gnublin kernel: Freescale High-Speed USB SOC Device Controller driver (Apr 20, 2007)
+Jan  1 00:01:11 gnublin kernel: device-mapper: ioctl: 4.22.0-ioctl (2011-10-19) initialised: dm-devel@redhat.com
+Jan  1 00:01:11 gnublin kernel: lpc313x_mmc lpc313x_mmc.0: LPC313x MMC controller at irq 26
+Jan  1 00:01:11 gnublin kernel: usbcore: registered new interface driver usbhid
+Jan  1 00:01:11 gnublin kernel: usbhid: USB HID core driver
+Jan  1 00:01:11 gnublin kernel: TCP cubic registered
+Jan  1 00:01:11 gnublin kernel: NET: Registered protocol family 17
+Jan  1 00:01:11 gnublin kernel: Freeing init memory: 5968K
+Jan  1 00:01:11 gnublin kernel: mmc0: new SD card at address b368
+Jan  1 00:01:11 gnublin kernel: mmcblk0: mmc0:b368 NCard 1.83 GiB 
+Jan  1 00:01:11 gnublin kernel: mmcblk0: p1 p2 p3
+Jan  1 00:01:11 gnublin kernel: g_multi gadget: using random self ethernet address
+Jan  1 00:01:11 gnublin kernel: g_multi gadget: using random host ethernet address
+Jan  1 00:01:11 gnublin kernel: usb0: MAC 4a:1f:40:ca:79:51
+Jan  1 00:01:11 gnublin kernel: usb0: HOST MAC 7e:97:6f:32:30:c4
+Jan  1 00:01:11 gnublin kernel: g_multi gadget: Mass Storage Function, version: 2009/09/11
+Jan  1 00:01:11 gnublin kernel: g_multi gadget: Number of LUNs=1
+Jan  1 00:01:11 gnublin kernel: lun0: LUN: removable file: (no medium)
+Jan  1 00:01:11 gnublin kernel: g_multi gadget: Multifunction Composite Gadget
+Jan  1 00:01:11 gnublin kernel: g_multi gadget: g_multi ready
+Jan  1 00:01:11 gnublin kernel: fsl-usb2-udc: bind to driver g_multi
+Jan  1 00:01:11 gnublin kernel: g_multi gadget: high-speed config #1: Multifunction with RNDIS
+Jan  1 00:01:11 gnublin kernel: kjournald starting.  Commit interval 5 seconds
+Jan  1 00:01:11 gnublin kernel: EXT3-fs (dm-0): using internal journal
+Jan  1 00:01:11 gnublin kernel: EXT3-fs (dm-0): mounted filesystem with writeback data mode
+Jan  1 00:01:11 gnublin kernel: EXT3-fs (dm-0): using internal journal
+Jan  1 00:01:25 gnublin kernel: sshd (731): /proc/731/oom_adj is deprecated, please use /proc/731/oom_score_adj instead.
+Jan  1 00:01:33 gnublin kernel: Adding 64708k swap on /swapfile.  Priority:-1 extents:273 across:86044k SS
+Jan  1 00:04:00 gnublin kernel: Kernel logging (proc) stopped.
+Jan  1 00:04:00 gnublin rsyslogd: [origin software="rsyslogd" swVersion="4.6.4" x-pid="678" x-info="http://www.rsyslog.com"] exiting on signal 15.

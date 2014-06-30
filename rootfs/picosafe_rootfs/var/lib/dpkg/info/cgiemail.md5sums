@@ -1,0 +1,14 @@
+116432a6b9808d5e508a0c1d4c8bd7bc  usr/lib/cgi-bin/cgiecho
+92c1a1c9752e5079de67766cb36a0e3c  usr/lib/cgi-bin/cgiemail
+c60df0181264f1b1bda3ec89165e4c98  usr/lib/cgi-bin/cgifile
+78bd2be2bf2fe573f29c4becbf23442e  usr/share/doc/cgiemail/README.Debian
+5a0ba5e933563283c762d0a919f7bdf5  usr/share/doc/cgiemail/README.gz
+e33a26f401266073d35a342153f182da  usr/share/doc/cgiemail/changelog.Debian.gz
+285ca1e68bc8a8c0c662e4bfcd03d8a1  usr/share/doc/cgiemail/changelog.gz
+235218bad7da139dbd0b89517cad00a2  usr/share/doc/cgiemail/copyright
+a4a040a1c16dbbb32922d75bfca66f70  usr/share/doc/cgiemail/examples/cgiemail.conf
+7415e0c4e345900d3ab4be7de207c6fe  usr/share/doc/cgiemail/examples/testce.html
+1321b4bb4d340a99ba58dbbac0974805  usr/share/doc/cgiemail/examples/testce.txt
+e48184b54fac16c0f2c43fb9e558ea18  usr/share/man/man1/cgiecho.1.gz
+e48184b54fac16c0f2c43fb9e558ea18  usr/share/man/man1/cgiemail.1.gz
+e48184b54fac16c0f2c43fb9e558ea18  usr/share/man/man1/cgifile.1.gz

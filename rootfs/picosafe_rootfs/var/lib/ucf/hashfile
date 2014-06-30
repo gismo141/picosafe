@@ -1,0 +1,8 @@
+3e94f238294cc61b047e7ae50115dffc  /etc/idmapd.conf
+94d16c8a97bbd7e5845ea67ef8dace3c  /etc/default/nfs-common
+c5d017723e8d7578931807b1462ecfc6  /etc/php5/apache2/php.ini
+c5d017723e8d7578931807b1462ecfc6  /etc/php5/cgi/php.ini
+8b40091ac547f56c7b038a58ba045fcb  /etc/clamav/clamd.conf
+800a6cf5832a236c68ddbf9f27410fe0  /etc/logrotate.d/clamav-freshclam
+4fd7d3651611ebbc4a201cca5f1cd25a  /etc/clamav/freshclam.conf
+9f9a60a7ee90d2a6e1a698cbeff89321  /etc/php5/cli/php.ini

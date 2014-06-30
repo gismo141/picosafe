@@ -1,0 +1,27 @@
+rcconf for Debian
+----------------------
+
+ rcconf is a front-end to the update-rc.d command, which configures  the 
+ System-V style init script links. Please refer to the manapge of update-rc.d
+ for more information on these links and what they do.
+
+ -- Atsushi KAMOSHIDA <kamop@debian.org>, Sat,  1 Jan 2000 01:50:16 +0900
+
+NOTE:
+
+Be aware that rcconf only deals with the symlinks in the rc?.d directories,
+and packages may have other ways of being disabled, like:
+
+- Some files in /etc/init.d may be marked as conffiles, and
+  someone may have changed the init script so it does not start;
+
+- Some init scripts read a variable in /etc/default/<package_name>
+  and use it to decide if it'll start or not (spamassassin/spamd and
+  fetchmail, for example).
+
+That means even though rcconf says package X is running, it may be not
+(because although the symlink is present, the package was configured not
+to start).
+
+-- Atsushi KAMOSHIDA <kamop@debian.org>, Sat, 09 Nov 2004 15:17:01 +0200
+

@@ -1,0 +1,27 @@
+[Thu Jan 01 00:08:20 1970] [notice] Apache/2.2.16 (Debian) configured -- resuming normal operations
+[Thu Jan 01 00:08:33 1970] [notice] Graceful restart requested, doing restart
+apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1 for ServerName
+[Thu Jan 01 00:08:34 1970] [notice] Apache/2.2.16 (Debian) configured -- resuming normal operations
+[Thu Jan 01 00:09:02 1970] [notice] caught SIGTERM, shutting down
+[Thu Jan 01 00:02:42 1970] [notice] Apache/2.2.16 (Debian) PHP/5.3.3-7+squeeze14 with Suhosin-Patch configured -- resuming normal operations
+[Thu Jan 01 00:04:40 1970] [warn] child process 1082 still did not exit, sending a SIGTERM
+[Thu Jan 01 00:04:40 1970] [warn] child process 1083 still did not exit, sending a SIGTERM
+[Thu Jan 01 00:04:40 1970] [warn] child process 1084 still did not exit, sending a SIGTERM
+[Thu Jan 01 00:04:40 1970] [warn] child process 1085 still did not exit, sending a SIGTERM
+[Thu Jan 01 00:04:40 1970] [warn] child process 1086 still did not exit, sending a SIGTERM
+[Thu Jan 01 00:04:42 1970] [warn] child process 1082 still did not exit, sending a SIGTERM
+[Thu Jan 01 00:04:42 1970] [warn] child process 1083 still did not exit, sending a SIGTERM
+[Thu Jan 01 00:04:42 1970] [warn] child process 1084 still did not exit, sending a SIGTERM
+[Thu Jan 01 00:04:42 1970] [warn] child process 1085 still did not exit, sending a SIGTERM
+[Thu Jan 01 00:04:42 1970] [warn] child process 1086 still did not exit, sending a SIGTERM
+[Thu Jan 01 00:04:44 1970] [warn] child process 1082 still did not exit, sending a SIGTERM
+[Thu Jan 01 00:04:45 1970] [warn] child process 1083 still did not exit, sending a SIGTERM
+[Thu Jan 01 00:04:45 1970] [warn] child process 1084 still did not exit, sending a SIGTERM
+[Thu Jan 01 00:04:45 1970] [warn] child process 1085 still did not exit, sending a SIGTERM
+[Thu Jan 01 00:04:45 1970] [warn] child process 1086 still did not exit, sending a SIGTERM
+[Thu Jan 01 00:04:46 1970] [error] child process 1082 still did not exit, sending a SIGKILL
+[Thu Jan 01 00:04:47 1970] [error] child process 1083 still did not exit, sending a SIGKILL
+[Thu Jan 01 00:04:47 1970] [error] child process 1084 still did not exit, sending a SIGKILL
+[Thu Jan 01 00:04:47 1970] [error] child process 1085 still did not exit, sending a SIGKILL
+[Thu Jan 01 00:04:47 1970] [error] child process 1086 still did not exit, sending a SIGKILL
+[Thu Jan 01 00:04:48 1970] [notice] caught SIGTERM, shutting down

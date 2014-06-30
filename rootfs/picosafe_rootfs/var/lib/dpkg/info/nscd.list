@@ -1,0 +1,5 @@
+/etc
+/etc/init.d
+/etc/init.d/nscd
+/etc/nscd.conf
+/var/cache/nscd

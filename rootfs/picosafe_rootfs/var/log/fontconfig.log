@@ -1,0 +1,8 @@
+/usr/share/fonts: skipping, existing cache is valid: 0 fonts, 1 dirs
+/usr/share/fonts/truetype: caching, new cache contents: 0 fonts, 1 dirs
+/usr/share/fonts/truetype/ttf-bitstream-vera: skipping, existing cache is valid: 10 fonts, 0 dirs
+/usr/X11R6/lib/X11/fonts: skipping, no such directory
+/usr/local/share/fonts: skipping, existing cache is valid: 0 fonts, 0 dirs
+/var/cache/fontconfig: cleaning cache directory
+/var/cache/fontconfig: invalid cache file: 6d41288fd70b0be22e8c3a91e032eec0-le32d8.cache-3
+fc-cache: succeeded

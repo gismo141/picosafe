@@ -1,0 +1,51 @@
+Jan  1 00:04:58 gnublin rpc.statd[3920]: Version 1.2.2 starting
+Jan  1 00:04:58 gnublin sm-notify[3921]: Version 1.2.2 starting
+Jan  1 00:04:58 gnublin rpc.statd[3920]: Initializing NSM state
+Jan  1 00:05:57 gnublin dbus-daemon: [system] Reloaded configuration
+Jan  1 00:06:00 gnublin dbus-daemon: [system] Reloaded configuration
+Jan  1 00:06:01 gnublin avahi-daemon[4183]: Found user 'avahi' (UID 103) and group 'avahi' (GID 104).
+Jan  1 00:06:01 gnublin avahi-daemon[4183]: Successfully dropped root privileges.
+Jan  1 00:06:01 gnublin avahi-daemon[4183]: avahi-daemon 0.6.27 starting up.
+Jan  1 00:06:01 gnublin avahi-daemon[4183]: Successfully called chroot().
+Jan  1 00:06:01 gnublin avahi-daemon[4183]: Successfully dropped remaining capabilities.
+Jan  1 00:06:01 gnublin avahi-daemon[4183]: No service file found in /etc/avahi/services.
+Jan  1 00:06:01 gnublin avahi-daemon[4183]: socket() failed: Address family not supported by protocol
+Jan  1 00:06:01 gnublin avahi-daemon[4183]: Failed to create IPv6 socket, proceeding in IPv4 only mode
+Jan  1 00:06:01 gnublin avahi-daemon[4183]: socket() failed: Address family not supported by protocol
+Jan  1 00:06:01 gnublin avahi-daemon[4183]: Joining mDNS multicast group on interface eth0.IPv4 with address 10.0.2.15.
+Jan  1 00:06:01 gnublin avahi-daemon[4183]: New relevant interface eth0.IPv4 for mDNS.
+Jan  1 00:06:01 gnublin avahi-daemon[4183]: Network interface enumeration completed.
+Jan  1 00:06:01 gnublin avahi-daemon[4183]: Registering new address record for 10.0.2.15 on eth0.IPv4.
+Jan  1 00:06:01 gnublin avahi-daemon[4183]: Registering HINFO record with values 'ARMV5TEJL'/'LINUX'.
+Jan  1 00:06:02 gnublin avahi-daemon[4183]: Server startup complete. Host name is gnublin.local. Local service cookie is 1755593964.
+Jan  1 00:07:54 gnublin dbus-daemon: [system] Reloaded configuration
+Jan  1 00:09:00 gnublin init: Switching to runlevel: 6
+Jan  1 00:09:01 gnublin avahi-daemon[4183]: Got SIGTERM, quitting.
+Jan  1 00:09:01 gnublin avahi-daemon[4183]: Leaving mDNS multicast group on interface eth0.IPv4 with address 10.0.2.15.
+Jan  1 00:09:01 gnublin avahi-daemon[4183]: avahi-daemon 0.6.27 exiting.
+Jan  1 00:09:04 gnublin rpc.statd[3920]: Caught signal 15, un-registering and exiting
+Jan  1 00:02:39 gnublin avahi-daemon[1066]: Found user 'avahi' (UID 103) and group 'avahi' (GID 104).
+Jan  1 00:02:39 gnublin avahi-daemon[1066]: Successfully dropped root privileges.
+Jan  1 00:02:39 gnublin avahi-daemon[1066]: avahi-daemon 0.6.27 starting up.
+Jan  1 00:02:39 gnublin avahi-daemon[1066]: Successfully called chroot().
+Jan  1 00:02:39 gnublin avahi-daemon[1066]: Successfully dropped remaining capabilities.
+Jan  1 00:02:39 gnublin avahi-daemon[1066]: No service file found in /etc/avahi/services.
+Jan  1 00:02:39 gnublin avahi-daemon[1066]: socket() failed: Address family not supported by protocol
+Jan  1 00:02:39 gnublin avahi-daemon[1066]: Failed to create IPv6 socket, proceeding in IPv4 only mode
+Jan  1 00:02:39 gnublin avahi-daemon[1066]: socket() failed: Address family not supported by protocol
+Jan  1 00:02:39 gnublin avahi-daemon[1066]: Joining mDNS multicast group on interface usb0.IPv4 with address 10.0.0.1.
+Jan  1 00:02:39 gnublin avahi-daemon[1066]: New relevant interface usb0.IPv4 for mDNS.
+Jan  1 00:02:39 gnublin avahi-daemon[1066]: Network interface enumeration completed.
+Jan  1 00:02:39 gnublin avahi-daemon[1066]: Registering new address record for 10.0.0.1 on usb0.IPv4.
+Jan  1 00:02:39 gnublin avahi-daemon[1066]: Registering HINFO record with values 'ARMV5TEJL'/'LINUX'.
+Jan  1 00:02:40 gnublin avahi-daemon[1066]: Server startup complete. Host name is gnublin.local. Local service cookie is 2383007694.
+Jan  1 00:04:29 gnublin init: Switching to runlevel: 6
+Jan  1 00:04:35 gnublin rpc.statd[905]: Caught signal 15, un-registering and exiting
+Jan  1 00:04:35 gnublin avahi-daemon[1066]: Disconnected from D-Bus, exiting.
+Jan  1 00:04:35 gnublin avahi-daemon[1066]: Got SIGTERM, quitting.
+Jan  1 00:04:35 gnublin avahi-daemon[1066]: write() failed: Broken pipe
+Jan  1 00:04:35 gnublin avahi-daemon[1066]: Leaving mDNS multicast group on interface usb0.IPv4 with address 10.0.0.1.
+Jan  1 00:04:35 gnublin avahi-daemon[1066]: avahi-daemon 0.6.27 exiting.
+Jan  1 00:04:35 gnublin avahi-daemon[1066]: write() failed: Broken pipe
+Jan  1 01:12:43 gnublin dbus-daemon: [system] Reloaded configuration
+Jan  1 01:53:57 gnublin init: Switching to runlevel: 6

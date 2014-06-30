@@ -1,0 +1,51 @@
+Upstream-Contact: Chris Evans <scarybeasts@gmail.com>
+Upstream-Homepage: http://vsftpd.beasts.org/
+Maintainer-Contact: Daniel Baumann <daniel@lists.debian-maintainers.org>
+Maintainer-Homepage: http://daniel.debian-maintainers.org/
+
+Files: *
+Copyright: (C) 2001-2010 Chris Evans <scarybeasts@gmail.com>
+License: GPL-2
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License
+ as published by the Free Software Foundation, version 2 of the License.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ can be found in /usr/share/common-licenses/GPL-2 file.
+ .
+ There is an additional exception from the author permitting linking
+ with OpenSSL:
+ .
+ As copyright holder, I give permission for vsftpd to be linked to the OpenSSL
+ libraries. This includes permission for vsftpd binaries to be distributed
+ linked against the OpenSSL libraries. All other obligations under the GPL v2
+ remain intact.
+
+Files: debian/*
+Copyright: (C) 2009-2010 Daniel Baumann <daniel@debian.org>
+License: GPL-2+
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License
+ as published by the Free Software Foundation; either version 2
+ of the License, or (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ can be found in /usr/share/common-licenses/GPL-2 file.

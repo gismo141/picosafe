@@ -1,0 +1,13 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/lib
+/usr/lib/gcc
+/usr/lib/gcc/arm-linux-gnueabi
+/usr/lib/gcc/arm-linux-gnueabi/4.4
+/usr/lib/gcc/arm-linux-gnueabi/4.4/cc1
+/usr/bin
+/usr/bin/cpp-4.4
+/usr/share/doc/cpp-4.4
+/usr/bin/arm-linux-gnueabi-cpp-4.4

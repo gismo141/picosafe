@@ -1,0 +1,8 @@
+a7b9f7ac8d4a4e93fd1f6bec10ef475b  usr/share/doc/mysql-common/NEWS.Debian.gz
+6f0eae96bd4c2b6ae749e48ac596cbab  usr/share/doc/mysql-common/changelog.Debian.gz
+9ca0eea4db8a4f9edc1103416eaec7d1  usr/share/doc/mysql-common/changelog.gz
+b51cc26bef9509f0e768708f4028f2a2  usr/share/doc/mysql-common/copyright
+e3f745eb70f7324238f4183d8e98dec8  usr/share/lintian/overrides/mysql-common
+ea6d050ac82ed69d01970f9b95ab9b9d  usr/share/mysql-common/internal-use-only/_etc_init.d_mysql
+64e209fe34f73fbf10c9479bf30947c4  usr/share/mysql-common/internal-use-only/_etc_logrotate.d_mysql-server
+4272e4d740c8ae651ac35bbf4d2ed6dc  usr/share/mysql-common/internal-use-only/_etc_mysql_debian-start

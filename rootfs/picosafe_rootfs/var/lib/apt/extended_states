@@ -1,0 +1,124 @@
+Package: libgdbm3
+Architecture: armel
+Auto-Installed: 1
+
+Package: libgpm2
+Architecture: armel
+Auto-Installed: 1
+
+Package: bsdmainutils
+Architecture: armel
+Auto-Installed: 1
+
+Package: libncursesw5
+Architecture: armel
+Auto-Installed: 1
+
+Package: libcwidget3
+Architecture: armel
+Auto-Installed: 1
+
+Package: libsigc++-2.0-0c2a
+Architecture: armel
+Auto-Installed: 1
+
+Package: libept1
+Architecture: armel
+Auto-Installed: 1
+
+Package: libxapian22
+Architecture: armel
+Auto-Installed: 1
+
+Package: libboost-iostreams1.42.0
+Architecture: armel
+Auto-Installed: 1
+
+Package: ttf-bitstream-vera
+Architecture: armel
+Auto-Installed: 1
+
+Package: busybox
+Architecture: armel
+Auto-Installed: 1
+
+Package: liblua5.1-lpeg2
+Architecture: armel
+Auto-Installed: 1
+
+Package: clamav-freshclam
+Architecture: armel
+Auto-Installed: 1
+
+Package: logrotate
+Architecture: armel
+Auto-Installed: 1
+
+Package: clamav-base
+Architecture: armel
+Auto-Installed: 1
+
+Package: libclamav6
+Architecture: armel
+Auto-Installed: 1
+
+Package: cron
+Architecture: armel
+Auto-Installed: 1
+
+Package: libtommath0
+Architecture: armel
+Auto-Installed: 1
+
+Package: libsqlite0
+Architecture: armel
+Auto-Installed: 1
+
+Package: php-pear
+Architecture: armel
+Auto-Installed: 1
+
+Package: php5-cli
+Architecture: armel
+Auto-Installed: 1
+
+Package: python-setuptools
+Architecture: armel
+Auto-Installed: 1
+
+Package: python-pkg-resources
+Architecture: armel
+Auto-Installed: 1
+
+Package: python-pycurl
+Architecture: armel
+Auto-Installed: 1
+
+Package: libdb4.6++
+Architecture: armel
+Auto-Installed: 1
+
+Package: libboost-program-options1.42.0
+Architecture: armel
+Auto-Installed: 1
+
+Package: libminiupnpc5
+Architecture: armel
+Auto-Installed: 1
+
+Package: libboost-thread1.42.0
+Architecture: armel
+Auto-Installed: 1
+
+Package: libcrypto++8
+Architecture: armel
+Auto-Installed: 1
+
+Package: libboost-filesystem1.42.0
+Architecture: armel
+Auto-Installed: 1
+
+Package: libboost-system1.42.0
+Architecture: armel
+Auto-Installed: 1
+

@@ -1,0 +1,1 @@
+window.location.href= 'http://192.168.0.186/index.php?module=ausweisapp&action=list';

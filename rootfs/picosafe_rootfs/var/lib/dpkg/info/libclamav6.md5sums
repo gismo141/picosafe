@@ -1,0 +1,11 @@
+d96c81e21fe3789b27628de73a59f92d  usr/lib/libclamav.so.6.1.15
+225c6804287419b07630c5005b8c22fd  usr/share/doc/libclamav6/AUTHORS
+30493b1d0b6ef5daeb64242e7ca26e19  usr/share/doc/libclamav6/BUGS
+58249d4f3e7bc4b1764044adfc35bd04  usr/share/doc/libclamav6/FAQ
+37ca786c98845356fbdfb30a1eae8450  usr/share/doc/libclamav6/NEWS.Debian.gz
+c79e973dc5b5142542e9720fe0972d12  usr/share/doc/libclamav6/README.Debian.gz
+512fa359dbac3efed18b1b231c47dbce  usr/share/doc/libclamav6/README.gz
+0051b9b4ee2df59a2b4a653dec56490f  usr/share/doc/libclamav6/changelog.Debian.gz
+ed547b63c77b35ed5a09dcac96b0aa31  usr/share/doc/libclamav6/changelog.gz
+df0edb625693c9c9b90a6b3144b5387d  usr/share/doc/libclamav6/copyright
+c792d46454887bcb01fbf7b89c7b2d58  usr/share/lintian/overrides/libclamav6

@@ -1,0 +1,26 @@
+Lua-cURL
+
+These are libcURL bindings for lua 5.0 and lua 5.1, the ones used in FreePOPs
+(see http://www.freepops.org). The newest version of the package can be found
+at:
+
+http://luaforge.net/projects/luacurl/
+
+Note that the source package is the one with the -freepops suffix (since two
+implementations exists). They should compile cleanly using curl from version
+7.9.5 to 7.11.2. It is tested against 7.15.4 and should compile with newer
+versions too, but no flags newer that 7.11.2 are bound. Only the libcURL easy
+interface is bound. See the first lines of the Makefile for some compilation
+flags. The following variables can be overridden:
+
+ LIBNAME=liblua-curl
+ LIBTOOL=libtool --silent --tag=CC
+ HEADER=/usr/include/curl/curl.h
+ PREFIX=/usr/local/
+ LUA=lua5.1 # use lua50 to compile for lua 5.0
+ LUADOC= luadoc
+
+This software is distributed under GPL or MIT license (the same as lua
+5.0 and lua 5.1) at your option. No warranties.
+
+The documentation in doc/curl.html contains some examples too.

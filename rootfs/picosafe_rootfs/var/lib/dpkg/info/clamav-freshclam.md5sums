@@ -1,0 +1,15 @@
+8c27d883bc4d1053b4c82672e1005f6b  etc/init.d/clamav-freshclam
+355dd654d396e29b503b5953fa2bb052  etc/logcheck/ignore.d.server/clamav-freshclam
+b3599cad6f7f2fea4ca5c220d72c49e6  etc/network/if-down.d/clamav-freshclam-ifupdown
+b3599cad6f7f2fea4ca5c220d72c49e6  etc/network/if-up.d/clamav-freshclam-ifupdown
+b3599cad6f7f2fea4ca5c220d72c49e6  etc/ppp/ip-down.d/clamav-freshclam-ifupdown
+b3599cad6f7f2fea4ca5c220d72c49e6  etc/ppp/ip-up.d/clamav-freshclam-ifupdown
+374e83ddf371fb3bc0ca39b111cd76e3  usr/bin/freshclam
+5e40a5daa82b6f5e04853abfe49c4394  usr/share/bug/clamav-freshclam/script
+0051b9b4ee2df59a2b4a653dec56490f  usr/share/doc/clamav-freshclam/changelog.Debian.gz
+ed547b63c77b35ed5a09dcac96b0aa31  usr/share/doc/clamav-freshclam/changelog.gz
+df0edb625693c9c9b90a6b3144b5387d  usr/share/doc/clamav-freshclam/copyright
+88397431ab0396b93fe2ea45cbe564ae  usr/share/doc/clamav-freshclam/examples/freshclam.conf
+f6d06f61c3160541917ba8a3fa27e3eb  usr/share/doc/clamav-freshclam/mirror-list.gz
+97f66595cdf70ccffbe7e5ec424f2e27  usr/share/man/man1/freshclam.1.gz
+0284d3a380767969ad6e6c35c7e53f7c  usr/share/man/man5/freshclam.conf.5.gz

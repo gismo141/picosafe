@@ -1,0 +1,85 @@
+Package: clamav
+Binary: clamav-base, clamav-docs, clamav-dbg, clamav, libclamav-dev, libclamav6, clamav-daemon, clamav-testfiles, clamav-freshclam, clamav-milter
+Version: 0.97.8+dfsg-1~squeeze1
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Uploaders: Stephen Gran <sgran@debian.org>, Michael Meskes <meskes@debian.org>, Michael Tautschnig <mt@debian.org>, Scott Kitterman <scott@kitterman.com>
+Build-Depends: debhelper (>= 6.0.7), po-debconf, zlib1g-dev, libbz2-dev, libmilter-dev, perl, bc, check, libtommath-dev, libltdl-dev, electric-fence, libncurses5-dev, python
+Architecture: any
+Standards-Version: 3.9.3
+Format: 1.0
+Files:
+ a0f0d8b5bb2310138b8f138bd36410c0 1627 clamav_0.97.8+dfsg-1~squeeze1.dsc
+ 7f55d72075d28d80e4421d7765f9251d 12923074 clamav_0.97.8+dfsg.orig.tar.gz
+ d6f162aa5d92753e6305d478456b8f92 296745 clamav_0.97.8+dfsg-1~squeeze1.diff.gz
+Vcs-Browser: http://git.debian.org/?p=pkg-clamav/clamav.git;a=summary
+Vcs-Git: git://git.debian.org/pkg-clamav/clamav.git
+Checksums-Sha1:
+ 04366f8adb04c76b84129335ea512424d8dd6b3b 1627 clamav_0.97.8+dfsg-1~squeeze1.dsc
+ 9178839d7dfd64c4a4607de8b6424802f0908abe 12923074 clamav_0.97.8+dfsg.orig.tar.gz
+ fa52c6dfa4c8625b37fbc13ca37702b050a143e5 296745 clamav_0.97.8+dfsg-1~squeeze1.diff.gz
+Checksums-Sha256:
+ 86a1773cbe8dde4b25b9b783da7ad266c94093cc4c437993096424b6ed113126 1627 clamav_0.97.8+dfsg-1~squeeze1.dsc
+ 60791ea25ba732c3f38196846a18f1946064f168ff140f7fe888e5fc7a92b1f3 12923074 clamav_0.97.8+dfsg.orig.tar.gz
+ 647ce1e65acc781fc44c17943de62bd7f97f5a7ec825b9560c576ea785bd6a99 296745 clamav_0.97.8+dfsg-1~squeeze1.diff.gz
+Homepage: http://www.clamav.net/
+Directory: pool/main/c/clamav
+Priority: source
+Section: utils
+
+Package: clive
+Binary: clive
+Version: 2.2.13-5+squeeze5
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Damyan Ivanov <dmn@debian.org>, Ryan Niebur <ryanryan52@gmail.com>, Ansgar Burchardt <ansgar@43-1.org>, Salvatore Bonaccorso <carnil@debian.org>
+Build-Depends: debhelper (>= 7)
+Build-Depends-Indep: perl, libclass-singleton-perl (>= 1.4), libgetopt-argvfile-perl (>= 1.11), libconfig-tiny-perl (>= 2.12), libwww-curl-perl (>= 4.05), libhtml-parser-perl (>= 2.37), libberkeleydb-perl (>= 0.34), liburi-perl (>= 1.37), libexpect-perl (>= 1.20), libterm-readkey-perl
+Architecture: all
+Standards-Version: 3.9.1
+Format: 3.0 (quilt)
+Files:
+ a8dbb808456c43ab46353e83c42d5c23 2311 clive_2.2.13-5+squeeze5.dsc
+ 6ad61cce56ad1f81527079d6422cc953 46240 clive_2.2.13.orig.tar.bz2
+ 742d88b22fbf135dcf08e3968b219feb 11041 clive_2.2.13-5+squeeze5.debian.tar.gz
+Vcs-Browser: http://git.debian.org/?p=pkg-perl/apps/clive.git
+Vcs-Git: git://git.debian.org/git/pkg-perl/apps/clive.git
+Checksums-Sha1:
+ 43eda9113bb87132c3ef95f5c7dfe121681a21a5 2311 clive_2.2.13-5+squeeze5.dsc
+ f85665e7d1b3f3fdf5ed303349b011389ad3572e 46240 clive_2.2.13.orig.tar.bz2
+ 678527fd35f0a2fc1a3ac58c540583122005a848 11041 clive_2.2.13-5+squeeze5.debian.tar.gz
+Checksums-Sha256:
+ 72a1a2cc9e6001f0cc61f440daad509de320520d607e1e8a91032bbfea36bb37 2311 clive_2.2.13-5+squeeze5.dsc
+ 908b2a43b695b2b5ba212426511dcd84004e6a2e8d316ff4373eab5624810491 46240 clive_2.2.13.orig.tar.bz2
+ ea901410f92b23b5880ac9edf6e7e572b9ecefccf31bb644c45fbbe72ddf023f 11041 clive_2.2.13-5+squeeze5.debian.tar.gz
+Homepage: http://clive.googlecode.com/
+Package-List: 
+ clive deb utils optional
+Directory: pool/main/c/clive
+Priority: source
+Section: utils
+
+Package: tzdata
+Binary: tzdata, tzdata-java
+Version: 2012g-0squeeze1
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Uploaders: Clint Adams <schizo@debian.org>, Aurelien Jarno <aurel32@debian.org>
+Build-Depends: debhelper (>= 5.0.0)
+Build-Depends-Indep: po-debconf, openjdk-6-jre-headless
+Architecture: all
+Standards-Version: 3.9.1
+Format: 3.0 (quilt)
+Files:
+ a472b44f281932bfe59a651a34504e22 1162 tzdata_2012g-0squeeze1.dsc
+ 111cd46b5c2e40b2b37ae707d48aaa50 213055 tzdata_2012g.orig.tar.gz
+ bc577bfe7b64be8d0c10ddbe862ccc60 250830 tzdata_2012g-0squeeze1.debian.tar.gz
+Checksums-Sha1:
+ 01eced1af14cab3e0c4108a9d9a7b5e3d371e5ec 1162 tzdata_2012g-0squeeze1.dsc
+ b3a089ef0b56314252eec217e86e6483dd641d51 213055 tzdata_2012g.orig.tar.gz
+ b6348db4da6cbb2bf5bace7e4d205002228590df 250830 tzdata_2012g-0squeeze1.debian.tar.gz
+Checksums-Sha256:
+ d1d3f3e67d1f5812180fe4c00634671bb4444df7af7174f38100c15148b2c225 1162 tzdata_2012g-0squeeze1.dsc
+ 9a82e74f798d69c18b48e0128c46b6ea10132d9495cbcc4105e7483150a85bac 213055 tzdata_2012g.orig.tar.gz
+ 32296a309637820c912f0005c61e6251073086cdf96177da333e59bf10202f4d 250830 tzdata_2012g-0squeeze1.debian.tar.gz
+Directory: pool/main/t/tzdata
+Priority: source
+Section: libs
+

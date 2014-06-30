@@ -1,0 +1,5 @@
+/etc/udev/hdparm.rules
+/etc/init.d/hdparm
+/etc/hdparm.conf
+/etc/default/hdparm
+/etc/apm/event.d/20hdparm

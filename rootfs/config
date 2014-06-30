@@ -1,0 +1,11 @@
+# Picosafe config
+
+# you may set variables in bash style
+# KEY=VALUE
+# where Key [A-z_]+/ and VALUE [0-9A-z_]+
+
+# open welcome image at startup
+WELCOME_IMG="y"
+
+# open public storage at startup
+STORAGE="y"

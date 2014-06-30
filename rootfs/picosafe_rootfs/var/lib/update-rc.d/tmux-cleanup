@@ -1,0 +1,1 @@
+update-rc.d tmux-cleanup start 70 S .

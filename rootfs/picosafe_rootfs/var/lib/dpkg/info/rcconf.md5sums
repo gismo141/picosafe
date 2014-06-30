@@ -1,0 +1,7 @@
+b3c3ac71ef028083061de6f2438fa31b  usr/sbin/rcconf
+4c352a9746c9f05f84e495ae443c8968  usr/sbin/update-rcconf-guide
+5f565bab0d80dcdab65b8b7bf537fd19  usr/share/doc/rcconf/README.Debian
+fc2664b87ecc7a0105dd75a980c3c868  usr/share/doc/rcconf/copyright
+ebb7a8ac5d9f3be2ffe1792e705441da  usr/share/doc/rcconf/changelog.gz
+109c769cd567ca6b16b4a37bb083f022  usr/share/man/man8/rcconf.8.gz
+26104e4732cdf30dd2a4518f5fafdca3  usr/share/man/man8/update-rcconf-guide.8.gz

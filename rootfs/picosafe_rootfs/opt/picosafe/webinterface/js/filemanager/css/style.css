@@ -1,0 +1,144 @@
+body {
+	font: 13px "Arial", sans-serif;
+}
+
+#filemanager-header {
+	position: relative;
+	padding: 10px 0px;
+}
+
+#filemanager-path {
+	display: inline-block;
+	max-width: 70%;
+	float: left;
+	font-size: 20px;
+}
+
+#filemanager-menu {
+	display: inline;
+	float: right;
+}
+
+#filemanager-path a.path {
+	text-decoration: none;
+	color: #0088C4;
+}
+
+#filemanager-path a.path:hover {
+	text-decoration: underline;
+}
+
+#filemanager-menu div.button {
+	display: inline-block;
+	padding: 6px;
+	height: 15px;
+	border: 1px solid #cccccc;
+	border-radius: 5px;
+	margin-left: 5px;
+}
+
+#filemanager-menu div.button:hover {
+	padding: 6px;
+	border: 1px solid #00A6ED;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#filemanager-table {
+	display: table;
+	width: 100%;
+}
+
+#filemanager-table-header {
+	display: table-row;
+	color: #0088C4;
+}
+
+#filemanager-table-header div {
+	display: table-cell;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	padding: 10px 5px;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+
+#filemanager-table .filemanager-table-row {
+	display: table-row;
+	color: #000;
+}
+
+#filemanager-table .filemanager-table-row a {
+	text-decoration: none;
+	color: #000;
+}
+
+#filemanager-table .filemanager-table-row a:hover {
+  text-decoration: underline;
+	color: #000;
+}
+
+#filemanager-table .filemanager-table-row div {
+	display: table-cell;
+	font-size: 16px;
+	padding: 10px 5px;
+	border-bottom: 1px solid #eee;
+}
+
+#filemanager-table .filemanager-table-row div.type {
+	padding-left: 45px;
+}
+
+#filemanager-table .filemanager-table-row div.file {
+	background: url(../images/filemanager_file.png) 0px 50% no-repeat;
+}
+
+#filemanager-table .filemanager-table-row div.dir {
+	background: url(../images/filemanager_dir.png) 0px 50% no-repeat;
+}
+
+#filemanager-table .filemanager-table-row:hover {
+	background-color: #F1F8FF;
+}
+
+#filemanager-table a.btn {
+	visibility: hidden;
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	margin-right: 10px;
+}
+
+#filemanager-table a.btn_share {
+	background: url(../images/filemanager_share.png) no-repeat;
+}
+
+#filemanager-table a.btn_delete {
+	background: url(../images/filemanager_delete.png) no-repeat;
+}
+
+#filemanager-table a.btn_rename {
+	background: url(../images/filemanager_rename.png) no-repeat;
+}
+
+#filemanager-upload-loading {
+	display: inline-block;
+	background: url(../images/spinner.gif) no-repeat;
+	height: 16px;
+	padding-left: 18px;
+}
+
+div#modal-upload-filescont {
+	display: inline;
+}
+
+span.modal-error {
+	display: block;
+	width: 100%;
+	padding: 5px 0px;
+	margin-bottom: 15px;
+	background: #FF9797;
+  border: solid 1px #FF0000;
+	text-align: left;
+	text-indent: 10px;}

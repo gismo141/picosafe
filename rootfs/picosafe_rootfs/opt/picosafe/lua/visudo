@@ -1,0 +1,9 @@
+picosafe ALL = NOPASSWD: /usr/sbin/picosafe_lun
+picosafe ALL = NOPASSWD: /sbin/mkfs.vfat
+picosafe ALL = NOPASSWD: /bin/echo
+picosafe ALL = NOPASSWD: /sbin/losetup
+picosafe ALL = NOPASSWD: /bin/mount
+picosafe ALL = NOPASSWD: /sbin/route
+picosafe ALL = NOPASSWD: /bin/umount
+picosafe ALL = NOPASSWD: /bin/chmod
+picosafe ALL = NOPASSWD: /usr/bin/pkill
