@@ -1,0 +1,15 @@
+Package: shared-mime-info-dev
+Version: 0.91-r3
+Description: shared-mime-info version 0.91-r3 - Development files
+ shared MIME database and spec  This package contains symbolic links,
+ header files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: LGPLv2+
+Architecture: armv5te
+OE: shared-mime-info
+Homepage: http://freedesktop.org/wiki/Software/shared-mime-info
+Depends: shared-mime-info (= 0.91-r3), pkgconfig
+Recommends: libc6-dev, libglib-2.0-dev, shared-mime-info-dev, pkgconfig-dev, libxml2-dev
+Source: file://parallelmake.patch http://freedesktop.org/~hadess/shared-mime-info-0.91.tar.xz

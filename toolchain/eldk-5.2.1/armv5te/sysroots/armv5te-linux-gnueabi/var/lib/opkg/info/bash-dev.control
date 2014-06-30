@@ -1,0 +1,16 @@
+Package: bash-dev
+Version: 4.2-r2
+Description: bash version 4.2-r2 - Development files
+ An sh-compatible command language interpreter.  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: GPLv3+
+Architecture: armv5te
+OE: bash
+Homepage: http://cnswww.cns.cwru.edu/~chet/bash/bashtop.html
+Depends: bash (= 4.2-r2)
+Recommends: bash-dev, libc6-dev, libgcc-s-dev, ncurses-libtinfo-dev, ncurses-dev
+Source: ftp://ftp.gnu.org/gnu/bash/bash-4.2.tar.gz;name=tarball ftp://ftp.gnu.org/gnu/bash/bash-4.2-patches/bash42-001;apply=yes;striplevel=0;name=patch001 ftp://ftp.gnu.org/gnu/bash/bash-4.2-patches/bash42-002;apply=yes;striplevel=0;name=patch002 ftp://ftp.gnu.org/gnu/bash/bash-4.2-patches/bash42-003;apply=yes;striplevel=0;name=patch003 ftp://ftp.gnu.org/gnu/bash/bash-4.2-patches/bash42-004;apply=yes;striplevel=0;name=patch004 ftp://ftp.gnu.org/gnu/bash/bash-4.2-patches/bash42-005;apply=yes;striplevel=0;name=patch005 ftp://ftp.gnu.org/gnu/bash/bash-4.2-patches/bash42-006;apply=yes;striplevel=0;name=patch006 ftp://ftp.gnu.org/gnu/bash/bash-4.2-patches/bash42-007;apply=yes;striplevel=0;name=patch007 ftp://ftp.gnu.org/gnu/bash/bash-4.2-patches/bash42-008;apply=yes;striplevel=0;name=patch008 ftp://ftp.gnu.org/gnu/bash/bash-4.2-patches/bash42-009;apply=yes;striplevel=0;name=patch009 ftp://ftp.gnu.org/gnu/bash/bash-4.2-patches/bash42-010;apply=yes;striplevel=0;name=patch010 file://execute_cmd.patch;striplevel=0

@@ -1,0 +1,15 @@
+Package: gconf-dev
+Version: 3.2.3-r8
+Description: gconf version 3.2.3-r8 - Development files
+ GNOME configuration system  This package contains symbolic links, header
+ files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: LGPLv2+
+Architecture: armv5te
+OE: gconf
+Homepage: unknown
+Depends: gconf (= 3.2.3-r8), libglib-2.0-dev, pkgconfig
+Recommends: libdbus-glib-1-dev, libglib-2.0-dev, libz-dev, dbus-lib-dev, pkgconfig-dev, gconf-dev, polkit-dev, gnome-common-dev, libc6-dev, libffi-dev, gtk+-dev, dbus-dev, dbus-x11-dev, libxml2-dev
+Source: http://ftp.gnome.org/pub/GNOME/sources/GConf/3.2/GConf-3.2.3.tar.bz2;name=archive file://nointro.patch file://backenddir.patch

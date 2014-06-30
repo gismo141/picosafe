@@ -1,0 +1,13 @@
+Package: binutils-cross-canadian-arm
+Version: 2.22-r2
+Description: A GNU collection of binary utilities
+ A GNU collection of cross-canadian binary utilities for arm target
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: GPLv3
+Architecture: i686-nativesdk
+OE: binutils-cross-canadian-arm
+Homepage: http://www.gnu.org/software/binutils/
+Depends: libz1 (>= 1.2.6), libc6 (>= 2.15)
+Source: ftp://ftp.gnu.org/gnu/binutils/binutils-2.22.tar.bz2 file://binutils-uclibc-100-uclibc-conf.patch file://binutils-uclibc-300-001_ld_makefile_patch.patch file://binutils-uclibc-300-006_better_file_error.patch file://binutils-uclibc-300-012_check_ldrunpath_length.patch file://binutils-uclibc-gas-needs-libm.patch file://binutils-x86_64_i386_biarch.patch file://libtool-2.4-update.patch file://binutils-2.19.1-ld-sysroot.patch file://libiberty_path_fix.patch file://binutils-poison.patch file://libtool-rpath-fix.patch file://clone-shadow.patch file://binutils-powerpc-e5500.patch file://binutils-armv5e.patch

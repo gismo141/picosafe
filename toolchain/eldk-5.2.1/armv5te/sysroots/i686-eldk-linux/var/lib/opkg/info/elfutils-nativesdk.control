@@ -1,0 +1,13 @@
+Package: elfutils-nativesdk
+Version: 0.148-r7
+Description: elfutils-nativesdk version 0.148-r7
+ A collection of utilities and DSOs to handle compiled objects.
+Section: base
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: (GPL-2+ & Elfutils-Exception)
+Architecture: i686-nativesdk
+OE: elfutils-nativesdk
+Homepage: https://fedorahosted.org/elfutils
+Depends: libz1 (>= 1.2.6), libc6 (>= 2.15)
+Source: https://fedorahosted.org/releases/e/l/elfutils/elfutils-0.148.tar.bz2 file://redhat-portability.diff file://redhat-robustify.diff file://hppa_backend.diff file://arm_backend.diff file://mips_backend.diff file://m68k_backend.diff file://do-autoreconf.diff file://testsuite-ignore-elflint.diff file://elf_additions.diff file://elfutils-fsize.patch file://remove-unused.patch file://mempcpy.patch file://fix_for_gcc-4.7.patch file://dso-link-change.patch file://i386_dis.h file://x86_64_dis.h

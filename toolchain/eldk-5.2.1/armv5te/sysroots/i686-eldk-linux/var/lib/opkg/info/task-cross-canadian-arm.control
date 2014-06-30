@@ -1,0 +1,13 @@
+Package: task-cross-canadian-arm
+Version: 1.0-r0
+Description: task-cross-canadian-arm version 1.0-r0
+ Host SDK package for cross canadian toolchain
+Section: base
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: MIT
+Architecture: i686-nativesdk
+OE: task-cross-canadian-arm
+Homepage: unknown
+Depends: gdb-cross-canadian-arm, gcc-cross-canadian-arm, meta-environment-arm, binutils-cross-canadian-arm
+Source: None

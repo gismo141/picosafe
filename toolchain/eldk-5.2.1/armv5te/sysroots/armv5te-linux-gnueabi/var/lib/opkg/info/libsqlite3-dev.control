@@ -1,0 +1,14 @@
+Package: libsqlite3-dev
+Version: 3.7.10-r2
+Description: sqlite3 version 3.7.10-r2
+ An Embeddable SQL Database Engine
+Section: libs
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: PD
+Architecture: armv5te
+OE: sqlite3
+Homepage: http://www.sqlite.org
+Depends: libsqlite3-0
+Recommends: libgcc-s-dev, libsqlite3-dev, libreadline-dev, ncurses-dev, libc6-dev
+Source: http://www.sqlite.org/sqlite-autoconf-3071000.tar.gz

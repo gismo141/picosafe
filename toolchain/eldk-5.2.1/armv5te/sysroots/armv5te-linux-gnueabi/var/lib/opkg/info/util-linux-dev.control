@@ -1,0 +1,19 @@
+Package: util-linux-dev
+Version: 2.21-r5
+Description: A suite of basic system administration utilities. - Development files
+ Util-linux includes a suite of basic system administration utilities
+ commonly found on most Linux systems.  Some of the more important
+ utilities include disk partitioning, kernel message management,
+ filesystem creation, and system login.  This package contains symbolic
+ links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: GPLv2+ & LGPLv2.1+ & BSD
+Architecture: armv5te
+OE: util-linux
+Homepage: unknown
+Depends: util-linux (= 2.21-r5), libblkid1, libuuid1, pkgconfig
+Recommends: libgcc-s-dev, util-linux-swaponoff-dev, ncurses-dev, libz-dev, util-linux-umount-dev, ncurses-libncursesw-dev, libc6-dev, libuuid-dev, libblkid-dev, util-linux-losetup-dev, ncurses-libtinfo-dev
+Source: http://kernel.org/pub/linux/utils/util-linux/v2.21/util-linux-2.21.tar.bz2 file://MCONFIG file://swapargs.h file://defines.h file://make_include file://util-linux-ng-replace-siginterrupt.patch file://util-linux-ng-2.16-mount_lock_path.patch file://uclibc-__progname-conflict.patch file://fix_NL_TIME_FIRST_WEEKDAY.patch

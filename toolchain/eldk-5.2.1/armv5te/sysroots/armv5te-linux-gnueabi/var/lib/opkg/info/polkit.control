@@ -1,0 +1,15 @@
+Package: polkit
+Version: 0.104-r5
+Description: PolicyKit Authorization Framework
+ The polkit package is an application-level toolkit for defining and
+ handling the policy that allows unprivileged processes to speak to
+ privileged processes.
+Section: base
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: LGPLv2+
+Architecture: armv5te
+OE: polkit
+Homepage: http://code.google.com/p/polkit/
+Depends: libgcc1 (>= 4.6.3+svnr184847), libffi5 (>= 3.0.10), libz1 (>= 1.2.6), libc6 (>= 2.13), libglib-2.0-0 (>= 2.30.3), libexpat1 (>= 2.0.1)
+Source: http://hal.freedesktop.org/releases/polkit-0.104.tar.gz file://introspection.patch file://0001-PolkitUnixSession-Set-error-if-we-cannot-find-a-sess.patch file://0002-PolkitUnixSession-Actually-return-TRUE-if-a-session-.patch

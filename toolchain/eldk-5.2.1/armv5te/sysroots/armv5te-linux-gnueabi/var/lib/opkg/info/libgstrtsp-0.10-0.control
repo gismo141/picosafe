@@ -1,0 +1,13 @@
+Package: libgstrtsp-0.10-0
+Version: 0.10.36-r3
+Description: gst-plugins-base version 0.10.36-r3
+ gstreamer gstrtsp-0.10 library
+Section: multimedia
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: GPLv2+ & LGPLv2+
+Architecture: armv5te
+OE: gst-plugins-base
+Homepage: http://gstreamer.freedesktop.org/
+Depends: gstreamer (>= 0.10.36), libffi5 (>= 3.0.10), libxml2 (>= 2.7.8), libz1 (>= 1.2.6), libc6 (>= 2.13), libglib-2.0-0 (>= 2.30.3)
+Source: http://gstreamer.freedesktop.org/src/gst-plugins-base/gst-plugins-base-0.10.36.tar.bz2 file://gst-plugins-base-tremor.patch file://configure.ac-fix-subparse-plugin.patch

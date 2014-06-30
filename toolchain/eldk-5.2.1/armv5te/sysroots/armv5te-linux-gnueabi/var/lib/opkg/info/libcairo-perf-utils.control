@@ -1,0 +1,13 @@
+Package: libcairo-perf-utils
+Version: 1.10.2-r5
+Description: The Cairo 2D vector graphics library
+ The Cairo library performance utilities
+Section: libs
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: MPL-1 & LGPLv2.1
+Architecture: armv5te
+OE: cairo
+Homepage: http://cairographics.org
+Depends: libgcc1 (>= 4.6.3+svnr184847), libz1 (>= 1.2.6), libc6 (>= 2.13)
+Source: http://cairographics.org/releases/cairo-1.10.2.tar.gz

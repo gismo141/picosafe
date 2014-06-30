@@ -1,0 +1,18 @@
+Package: libpixman-1-dev
+Version: 1:0.25.2-r1
+Description: Pixman: Pixel Manipulation library - Development files
+ Pixman provides a library for manipulating pixel regions -- a set of Y-X
+ banded rectangles, image compositing using the Porter/Duff model and
+ implicit mask generation for geometric primitives including trapezoids,
+ triangles, and rectangles.  This package contains symbolic links, header
+ files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: MIT & MIT-style & PD
+Architecture: armv5te
+OE: pixman
+Homepage: http://www.x.org
+Depends: libpixman-1-0 (= 1:0.25.2-r1), pkgconfig
+Recommends: libgcc-s-dev, libz-dev, pkgconfig-dev, libpng-dev, libc6-dev, libpixman-1-dev, util-macros-dev
+Source: http://xorg.freedesktop.org/releases/individual/lib/pixman-0.25.2.tar.bz2

@@ -1,0 +1,15 @@
+Package: zip-dev
+Version: 3.0-r1
+Description: zip version 3.0-r1 - Development files
+ Archiver for .zip files  This package contains symbolic links, header
+ files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: BSD-3-Clause
+Architecture: armv5te
+OE: zip
+Homepage: http://www.info-zip.org
+Depends: zip (= 3.0-r1)
+Recommends: zip-dev, libc6-dev
+Source: ftp://ftp.info-zip.org/pub/infozip/src/zip30.tgz

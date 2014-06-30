@@ -1,0 +1,17 @@
+Package: pkgconfig-dev
+Version: 0.25-r3
+Description: Helper tool used when compiling - Development files
+ pkg-config is a helper tool used when compiling applications and
+ libraries. It helps determined the correct compiler/link options.  It is
+ also language-agnostic.  This package contains symbolic links, header
+ files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: GPLv2+
+Architecture: armv5te
+OE: pkgconfig
+Homepage: http://pkg-config.freedesktop.org/wiki/
+Depends: pkgconfig (= 0.25-r3)
+Recommends: libc6-dev, libglib-2.0-dev, pkgconfig-dev, libpopt-dev
+Source: http://pkgconfig.freedesktop.org/releases/pkg-config-0.25.tar.gz file://autofoo.patch file://glibconfig-sysdefs.h file://disable-legacy.patch

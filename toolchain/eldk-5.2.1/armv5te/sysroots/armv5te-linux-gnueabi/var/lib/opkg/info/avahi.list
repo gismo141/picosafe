@@ -1,0 +1,7 @@
+/var/
+/etc/dhcp/dhclient-exit-hooks.d/
+/etc/dhcp/
+/etc/dhcp/dhclient-exit-hooks.d/avahi-autoipd
+/etc/dhcp/dhclient-enter-hooks.d/avahi-autoipd
+/etc/dhcp/dhclient-enter-hooks.d/
+/usr/share/applications/

@@ -1,0 +1,17 @@
+Package: m4-nativesdk
+Version: 1.4.16-r2
+Description: Traditional Unix macro processor
+ GNU m4 is an implementation of the traditional Unix macro processor.  It
+ is mostly SVR4 compatible although it has some extensions (for example,
+ handling more than 9 positional parameters to macros). GNU M4 also has
+ built-in functions for including files, running shell commands, doing
+ arithmetic, etc.
+Section: base
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: GPLv3
+Architecture: i686-nativesdk
+OE: m4-nativesdk
+Homepage: unknown
+Depends: libc6 (>= 2.15)
+Source: ftp://ftp.gnu.org/gnu/m4/m4-1.4.16.tar.gz file://ac_config_links.patch

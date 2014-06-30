@@ -1,0 +1,16 @@
+Package: shadow-securetty-dev
+Version: 4.1.4.3-r1
+Description: Provider of the machine specific securetty file - Development files
+ Provider of the machine specific securetty file  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: MIT
+Architecture: generic_armv5te
+OE: shadow-securetty
+Homepage: unknown
+Depends: shadow-securetty (= 4.1.4.3-r1)
+Recommends: shadow-securetty-dev
+Source: file://securetty

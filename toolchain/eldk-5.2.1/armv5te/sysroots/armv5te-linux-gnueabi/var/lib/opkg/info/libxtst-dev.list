@@ -1,0 +1,5 @@
+/usr/lib/libXtst.so
+/usr/include/X11/extensions/record.h
+/usr/include/X11/extensions/XTest.h
+/usr/lib/pkgconfig/xtst.pc
+/usr/lib/libXtst.la

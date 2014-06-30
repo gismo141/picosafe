@@ -1,0 +1,16 @@
+Package: xz-dev
+Version: 5.0.3-r1
+Description: xz version 5.0.3-r1 - Development files
+ utils for managing LZMA compressed files  This package contains symbolic
+ links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: GPLv2+ & GPLv3+ & LGPLv2.1+
+Architecture: armv5te
+OE: xz
+Homepage: http://tukaani.org/xz/
+Depends: xz (= 5.0.3-r1)
+Recommends: libc6-dev, liblzma-dev, libgcc-s-dev
+Source: http://tukaani.org/xz/xz-5.0.3.tar.gz

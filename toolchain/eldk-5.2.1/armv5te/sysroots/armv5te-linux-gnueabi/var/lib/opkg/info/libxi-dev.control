@@ -1,0 +1,19 @@
+Package: libxi-dev
+Version: 1:1.4.5-r0
+Description: XI: X Input extension library - Development files
+ libxi is an extension to the X11 protocol to support input devices other
+ than the core X keyboard and pointer.  It allows client programs to
+ select input from these devices independently from each other and
+ independently from the core devices.  This package contains symbolic
+ links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: MIT & MIT-style
+Architecture: armv5te
+OE: libxi
+Homepage: http://www.x.org
+Depends: inputproto-dev, libxi6 (= 1:1.4.5-r0), pkgconfig
+Recommends: libxext-dev, libxcb-dev, libxau-dev, pkgconfig-dev, libc6-dev, libxdmcp-dev, libxi-dev, inputproto-dev, libx11-dev, util-macros-dev
+Source: http://xorg.freedesktop.org/releases/individual/lib/libXi-1.4.5.tar.bz2

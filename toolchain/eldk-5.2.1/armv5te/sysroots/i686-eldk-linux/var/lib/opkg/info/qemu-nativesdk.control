@@ -1,0 +1,13 @@
+Package: qemu-nativesdk
+Version: 0.15.1-r6
+Description: qemu-nativesdk version 0.15.1-r6
+ open source processor emulator
+Section: base
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: GPLv2 & LGPLv2.1
+Architecture: i686-nativesdk
+OE: qemu-nativesdk
+Homepage: http://qemu.org
+Depends: libx11-6 (>= 1.4.4), libtinfo5 (>= 5.9), libz1 (>= 1.2.6), libsdl-1.2-0 (>= 1.2.15), libcurl5 (>= 7.24.0), libncurses5 (>= 5.9), libc6 (>= 2.15), libglib-2.0-0 (>= 2.30.3)
+Source: http://wiki.qemu.org/download/qemu-0.15.1.tar.gz file://powerpc_rom.bin file://no-strip.patch file://linker-flags.patch file://qemu-vmware-vga-depth.patch file://fix-configure-checks.patch file://fallback-to-safe-mmap_min_addr.patch file://larger_default_ram_size.patch file://arm-bgr.patch file://a4d1f142542935b90d2eb30f3aead4edcf455fe6.patch file://qemu-git-qemugl-host.patch file://fix-nogl.patch file://qemugl-allow-glxcontext-release.patch file://init-info.patch file://enable-i386-linux-user.patch file://qemugl-fix.patch file://opengl-sdl-fix.patch file://opengl-args-copy-fix.patch file://glflags.patch

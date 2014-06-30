@@ -1,0 +1,14 @@
+Package: libcheck0
+Version: 0.9.8-r0
+Description: libcheck version 0.9.8-r0
+ Check Test Framework
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: LGPLv2.1+
+Architecture: armv5te
+OE: libcheck
+Homepage: http://gitorious.org/opensuse/zypper
+Depends: libc6 (>= 2.13)
+Replaces: check (<= 0.9.5)
+Source: http://downloads.sourceforge.net/check/check-0.9.8.tar.gz

@@ -1,0 +1,13 @@
+Package: xz
+Version: 5.0.3-r1
+Description: xz version 5.0.3-r1
+ utils for managing LZMA compressed files
+Section: base
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: GPLv2+ & GPLv3+ & LGPLv2.1+
+Architecture: armv5te
+OE: xz
+Homepage: http://tukaani.org/xz/
+Depends: libgcc1 (>= 4.6.3+svnr184847), liblzma5 (>= 5.0.3), libc6 (>= 2.13)
+Source: http://tukaani.org/xz/xz-5.0.3.tar.gz

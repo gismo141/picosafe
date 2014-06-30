@@ -1,0 +1,17 @@
+Package: sysfsutils-dev
+Version: 2.1.0-r3
+Description: Tools for working with sysfs. - Development files
+ Tools for working with the sysfs virtual filesystem.  The tool 'systool'
+ can query devices by bus, class and topology.  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: GPLv2 & LGPLv2.1
+Architecture: armv5te
+OE: sysfsutils
+Homepage: http://linux-diag.sourceforge.net/Sysfsutils.html
+Depends: sysfsutils (= 2.1.0-r3)
+Recommends: libc6-dev, libsysfs-dev
+Source: http://downloads.sourceforge.net/linux-diag/sysfsutils-2.1.0.tar.gz file://sysfsutils-2.0.0-class-dup.patch

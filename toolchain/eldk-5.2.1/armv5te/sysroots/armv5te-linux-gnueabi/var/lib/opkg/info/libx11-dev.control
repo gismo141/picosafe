@@ -1,0 +1,19 @@
+Package: libx11-dev
+Version: 1:1.4.4-r1
+Description: Xlib: C Language X Interface library - Development files
+ This package provides a client interface to the X Window System,
+ otherwise known as 'Xlib'.  It provides a complete API for the basic
+ functions of the window system.  Support for XCMS is disabled in this
+ version.  This package contains symbolic links, header files, and related
+ items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: MIT & MIT-style & BSD
+Architecture: armv5te
+OE: libx11-trim
+Homepage: http://www.x.org
+Depends: libx11-6 (= 1:1.4.4-r1), libxcb-dev, libx11-xcb1, xproto-dev, pkgconfig, kbproto-dev
+Recommends: xtrans-dev, libxcb-dev, libxau-dev, xproto-dev, pkgconfig-dev, inputproto-dev, libc6-dev, libxdmcp-dev, xf86bigfontproto-dev, xextproto-dev, libx11-trim-xcb-dev, libx11-dev, kbproto-dev, util-macros-dev
+Provides: libx11-dev
+Source: http://xorg.freedesktop.org/releases/individual/lib/libX11-1.4.4.tar.bz2 file://x11_disable_makekeys.patch file://keysymdef_include.patch file://makekeys_crosscompile.patch

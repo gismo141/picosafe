@@ -1,0 +1,16 @@
+Package: libatk-1.0-dev
+Version: 2.2.0-r2
+Description: atk version 2.2.0-r2 - Development files
+ An accessibility toolkit for GNOME.  This package contains symbolic
+ links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: GPLv2+ & LGPLv2+
+Architecture: armv5te
+OE: atk
+Homepage: http://live.gnome.org/GAP/
+Depends: libatk-1.0-0 (= 2.2.0-r2), libglib-2.0-dev, pkgconfig
+Recommends: libatk-1.0-dev, libglib-2.0-dev, libffi-dev, pkgconfig-dev, libc6-dev
+Source: http://download.gnome.org/sources/atk/2.2/atk-2.2.0.tar.bz2

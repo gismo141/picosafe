@@ -1,0 +1,22 @@
+Package: libxcomposite-dev
+Version: 1:0.4.3-r0
+Description: Xcomposite: X Composite extension library - Development files
+ The composite extension provides three related mechanisms: per-hierarchy
+ storage, automatic shadow update, and external parent.  In per-hierarchy
+ storage, the rendering of an entire hierarchy of windows is redirected to
+ off-screen storage.  In automatic shadow update, when a hierarchy is
+ rendered off-screen, the X server provides an automatic mechanism for
+ presenting those contents within the parent window.  In external parent,
+ a mechanism for providing redirection of compositing transformations
+ through a client.  This package contains symbolic links, header files,
+ and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: MIT-style
+Architecture: armv5te
+OE: libxcomposite
+Homepage: http://www.x.org
+Depends: libxcomposite1 (= 1:0.4.3-r0), pkgconfig
+Recommends: util-macros-dev, libxext-dev, libxcb-dev, libxau-dev, pkgconfig-dev, compositeproto-dev, libc6-dev, libxdmcp-dev, libxfixes-dev, libx11-dev, libxcomposite-dev
+Source: http://xorg.freedesktop.org/releases/individual/lib/libXcomposite-0.4.3.tar.bz2 file://change-include-order.patch

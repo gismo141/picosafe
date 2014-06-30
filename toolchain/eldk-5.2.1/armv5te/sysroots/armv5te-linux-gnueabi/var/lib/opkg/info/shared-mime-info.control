@@ -1,0 +1,13 @@
+Package: shared-mime-info
+Version: 0.91-r3
+Description: shared-mime-info version 0.91-r3
+ shared MIME database and spec
+Section: base
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: LGPLv2+
+Architecture: armv5te
+OE: shared-mime-info
+Homepage: http://freedesktop.org/wiki/Software/shared-mime-info
+Depends: libglib-2.0-0 (>= 2.30.3), libxml2 (>= 2.7.8), libc6 (>= 2.13)
+Source: file://parallelmake.patch http://freedesktop.org/~hadess/shared-mime-info-0.91.tar.xz

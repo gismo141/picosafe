@@ -1,0 +1,14 @@
+Package: qt4-embedded
+Version: 4.8.2-r46.1
+Description: qt4-embedded version 4.8.2-r46.1
+ Qt is a versatile cross-platform application framework -- this is the
+ embedded version.
+Section: libs
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: LGPLv2.1 | GPLv3
+Architecture: armv5te
+OE: qt4-embedded
+Homepage: http://qt.nokia.com
+Recommends: qt4-embedded-fonts-ttf-dejavu, libqtscripttoolse4, libqtmultimediae4, qt4-embedded-qml-plugins, qt4-embedded-fonts-pfb, qt4-embedded-fonts-ttf-vera, qt4-embedded-linguist, libqthelpe4, qt4-embedded-common, libqtdeclarativee4, qt4-embedded-demos, libqt-embeddeduitools4, libqtteste4, libqtwebkite4, qt4-embedded-assistant, libqtxmle4, qt4-embedded-examples, libqt-embeddedassistantclient4, qt4-embedded-xmlpatterns, libqtdesignere4, libqtdbuse4, libqtguie4, qt4-embedded-dbus, libqt-embeddedmediaservices4, qt4-embedded-pixeltool, qt4-embedded-makeqpf, qt4-embedded-qt3to4, qt4-embedded-qmlviewer, libqt-embeddedopengl4, libqtdesignercomponentse4, libqtscripte4, libqt-embeddedpvrqwswsegl4, qt4-embedded-designer, libqt-embeddedopenvg4, libqtnetworke4, qt4-embedded-tools, libqtsvge4, qt4-embedded-conf, libqtcoree4, qt4-embedded-fonts-qpf, libqtclucenee4, libphonone4, libqt3supporte4, qt4-embedded-fonts-pfa, libqtsqle4, qt4-embedded-fonts, libqtxmlpatternse4, qt4-embedded-mkspecs
+Source: http://releases.qt-project.org/qt4/source/qt-everywhere-opensource-src-4.8.2.tar.gz file://0004-no-qmake.patch file://hack-out-pg2-4.7.0.patch file://0006-freetype-host-includes.patch file://0009-support-2bpp.patch file://0001-Added-Openembedded-crossarch-option.patch file://fix-translations.patch file://add_nostrip_for_debug_packages.diff file://qmake_cxx_eval.patch file://configure_oe_compiler.patch file://target_qmake.patch file://qmake_pri_fixes.patch file://pulseaudio-config.patch file://g++.conf file://linux.conf file://gcc47-fix2.patch file://disable-fuse-gold-flag.patch file://fix_conflicting_types.patch file://set-OUTPUT_DIR-if-empty.patch file://0001-fix-QWSMemorySurface-memlock-bug.patch file://qte.sh

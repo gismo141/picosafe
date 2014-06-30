@@ -1,0 +1,16 @@
+Package: consolekit-dev
+Version: 0.4.5-r9
+Description: consolekit version 0.4.5-r9 - Development files
+ ConsoleKit is a framework for defining and tracking users, login
+ sessions, and seats.  This package contains symbolic links, header files,
+ and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: GPLv2+
+Architecture: armv5te
+OE: consolekit
+Homepage: http://www.freedesktop.org/wiki/Software/ConsoleKit
+Depends: consolekit (= 0.4.5-r9), dbus-dev, pkgconfig
+Recommends: libdbus-glib-1-dev, libglib-2.0-dev, libz-dev, base-files-dev, dbus-lib-dev, pkgconfig-dev, consolekit-dev, gconf-dev, polkit-dev, gnome-common-dev, libc6-dev, hicolor-icon-theme-dev, dbus-dev, libx11-dev, shared-mime-info-dev
+Source: http://www.freedesktop.org/software/ConsoleKit/dist/ConsoleKit-0.4.5.tar.bz2

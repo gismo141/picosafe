@@ -1,0 +1,13 @@
+Package: qt4-tools-nativesdk
+Version: 4.8.2-r11.1
+Description: qt4-tools-nativesdk version 4.8.2-r11.1
+ SDK tools for Qt/[X11|Mac|Embedded] version 4.x
+Section: libs
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: LGPLv2.1 | GPLv3
+Architecture: i686-nativesdk
+OE: qt4-tools-nativesdk
+Homepage: http://qt.nokia.com
+Depends: libz1 (>= 1.2.6), libc6 (>= 2.15), libgcc-s1 (>= 4.6.3+svnr184847), libstdc++6 (>= 4.6.3+svnr184847)
+Source: http://get.qt.nokia.com/qt/source/qt-everywhere-opensource-src-4.8.2.tar.gz file://0004-no-qmake.patch file://configure-lflags.patch file://qt-config.patch file://configure-paths.patch file://qt-dbus-const.patch file://target_qmake.patch file://g++.conf file://linux.conf file://qmake_pri_fixes.patch

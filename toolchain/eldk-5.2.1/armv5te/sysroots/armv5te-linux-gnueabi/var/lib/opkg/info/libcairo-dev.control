@@ -1,0 +1,21 @@
+Package: libcairo-dev
+Version: 1.10.2-r5
+Description: The Cairo 2D vector graphics library - Development files
+ Cairo is a multi-platform library providing anti-aliased vector-based
+ rendering for multiple target backends. Paths consist of line segments
+ and cubic splines and can be rendered at any width with various join and
+ cap styles. All colors may be specified with optional translucence
+ (opacity/alpha) and combined using the extended Porter/Duff compositing
+ algebra as found in the X Render Extension.  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: MPL-1 & LGPLv2.1
+Architecture: armv5te
+OE: cairo
+Homepage: http://cairographics.org
+Depends: libcairo-script-interpreter2, libglib-2.0-dev, pkgconfig, libpng-dev, libcairo-perf-utils, libcairo2 (= 1.10.2-r5), libcairo-gobject2, libx11-dev
+Recommends: libcairo-dev, libgcc-s-dev, libz-dev, libxcb-dev, libffi-dev, libfreetype-dev, cairo-gobject-dev, libsm-dev, libxdmcp-dev, cairo-perf-utils-dev, libx11-dev, libfontconfig-dev, libxau-dev, pkgconfig-dev, libc6-dev, cairo-script-interpreter-dev, libglib-2.0-dev, libpng-dev, libxrender-dev, libexpat-dev, libpixman-1-dev, libpng12-dev
+Source: http://cairographics.org/releases/cairo-1.10.2.tar.gz

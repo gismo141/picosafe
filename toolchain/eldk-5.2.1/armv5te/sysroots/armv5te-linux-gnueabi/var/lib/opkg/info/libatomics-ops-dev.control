@@ -1,0 +1,16 @@
+Package: libatomics-ops-dev
+Version: 1.2-r9
+Description: A library for atomic integer operations - Development files
+ A library for atomic integer operations  This package contains symbolic
+ links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: GPLv2 & MIT
+Architecture: armv5te
+OE: libatomics-ops
+Homepage: http://www.hpl.hp.com/research/linux/atomic_ops/
+Depends: libatomics-ops (= 1.2-r9), pkgconfig
+Recommends: pkgconfig-dev, libatomics-ops-dev
+Source: http://www.hpl.hp.com/research/linux/atomic_ops/download/libatomic_ops-1.2.tar.gz file://fedora/libatomic_ops-1.2-ppclwzfix.patch file://gentoo/libatomic_ops-1.2-mips.patch file://doublefix.patch file://libatomics-ops_fix_for_x32.patch

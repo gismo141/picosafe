@@ -1,0 +1,13 @@
+Package: task-core-standalone-sdk-target
+Version: 1.0-r7
+Description: task-core-standalone-sdk-target version 1.0-r7
+ Target packages for the standalone SDK
+Section: base
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: MIT
+Architecture: armv5te
+OE: task-core-standalone-sdk-target
+Homepage: unknown
+Depends: libgcc1, locale-base-en-gb, locale-base-en-us, libc6-dev, eglibc-utils, libstdc++6, eglibc-gconv-ibm850, libstdc++-dev, libthread-db1, eglibc-gconv-cp1252, eglibc-localedata-i18n, libsegfault, libc6-dbg, libc6, eglibc-gconv-iso8859-1, libgcc-s-dev, eglibc-gconv-iso8859-15
+Source: None

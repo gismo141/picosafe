@@ -1,0 +1,2 @@
+#!/bin/sh
+update-alternatives --remove opkg /opt/eldk-5.2.1/armv5te/sysroots/i686-eldk-linux/usr/bin/opkg-cl

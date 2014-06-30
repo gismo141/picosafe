@@ -1,0 +1,24 @@
+Package: gettext-dev
+Version: 0.18.1.1-r11
+Description: Utilities and libraries for producing multi-lingual messages. - Development files
+ Gettext offers to programmers, translators, and even users, a well
+ integrated set of tools and documentation. Specifically, the GNU
+ `gettext' utilities are a set of tools that provides a framework to help
+ other GNU packages produce multi-lingual messages. These tools include a
+ set of conventions about how programs should be written to support
+ message catalogs, a directory and file naming organization for the
+ message catalogs themselves, a runtime library supporting the retrieval
+ of translated messages, and a few stand-alone programs to massage in
+ various ways the sets of translatable strings, or already translated
+ strings.  This package contains symbolic links, header files, and related
+ items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: GPLv3+ & LGPL-2.1+
+Architecture: armv5te
+OE: gettext
+Homepage: http://www.gnu.org/software/gettext/gettext.html
+Depends: gettext (= 0.18.1.1-r11), libgettextlib, libgettextsrc
+Recommends: libgettextlib-dev, libc6-dev, libgettextsrc-dev, ncurses-dev, libexpat-dev
+Source: ftp://ftp.gnu.org/gnu/gettext/gettext-0.18.1.1.tar.gz

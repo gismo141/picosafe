@@ -1,0 +1,13 @@
+Package: task-qte-toolchain-host-nativesdk
+Version: 1.0-r11
+Description: task-qte-toolchain-host-nativesdk version 1.0-r11
+ Host packages for Qt Embedded SDK
+Section: base
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: MIT
+Architecture: i686-nativesdk
+OE: task-qte-toolchain-host-nativesdk
+Homepage: unknown
+Depends: pseudo-nativesdk, u-boot-mkimage-nativesdk, qemu-nativesdk, opkg-nativesdk, autoconf-nativesdk, libtool-nativesdk, qemu-helper-nativesdk, unfs-server-nativesdk, qt4-tools-nativesdk, pkgconfig-nativesdk, automake-nativesdk
+Source: None

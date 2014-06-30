@@ -1,0 +1,521 @@
+Package: libxdmcp6
+Version: 1:1.1.1-r0
+Depends: libc6 (>= 2.15)
+Provides:
+Status: install ok installed
+Architecture: i686-nativesdk
+Installed-Time: 1340219113
+Auto-Installed: yes
+
+Package: libc6
+Version: 2.15-r6+svnr17386
+Provides: glibc-nativesdk, rtld(GNU_HASH)
+Status: install ok installed
+Architecture: i686-nativesdk
+Installed-Time: 1340219113
+Auto-Installed: yes
+
+Package: m4-nativesdk
+Version: 1.4.16-r2
+Depends: libc6 (>= 2.15)
+Provides:
+Status: install ok installed
+Architecture: i686-nativesdk
+Installed-Time: 1340219114
+Auto-Installed: yes
+
+Package: python-nativesdk-math
+Version: 2.7.2-r2.14
+Depends: libpython2.7-1.0 (>= 2.7.2), python-nativesdk-core, libc6 (>= 2.15)
+Provides:
+Status: install ok installed
+Architecture: i686-nativesdk
+Installed-Time: 1340219118
+Auto-Installed: yes
+
+Package: libssl1.0.0
+Version: 1.0.0h-r15.1
+Depends: libcrypto1.0.0 (>= 1.0.0h), libc6 (>= 2.15)
+Provides:
+Status: install ok installed
+Architecture: i686-nativesdk
+Installed-Time: 1340219118
+Auto-Installed: yes
+
+Package: python-nativesdk-codecs
+Version: 2.7.2-r2.14
+Depends: libpython2.7-1.0 (>= 2.7.2), python-nativesdk-core, python-nativesdk-lang, libc6 (>= 2.15)
+Provides:
+Status: install ok installed
+Architecture: i686-nativesdk
+Installed-Time: 1340219118
+Auto-Installed: yes
+
+Package: unfs-server-nativesdk
+Version: 2.1+2.2beta47-r1
+Depends: pseudo-nativesdk, libc6 (>= 2.15)
+Provides:
+Status: install ok installed
+Architecture: i686-nativesdk
+Installed-Time: 1340219115
+Auto-Installed: yes
+
+Package: libffi5
+Version: 3.0.10-r0
+Depends: libc6 (>= 2.15)
+Provides:
+Status: install ok installed
+Architecture: i686-nativesdk
+Installed-Time: 1340219114
+Auto-Installed: yes
+
+Package: python-nativesdk-netclient
+Version: 2.7.2-r2.14
+Depends: python-nativesdk-io, python-nativesdk-datetime, python-nativesdk-mime, python-nativesdk-core, python-nativesdk-lang, python-nativesdk-crypt, python-nativesdk-logging
+Provides:
+Status: install ok installed
+Architecture: i686-nativesdk
+Installed-Time: 1340219118
+Auto-Installed: yes
+
+Package: libopkg1
+Version: 1:0.1.8+svnr633-r9.0
+Depends: libc6 (>= 2.15)
+Provides:
+Status: install ok installed
+Architecture: i686-nativesdk
+Installed-Time: 1340219114
+Auto-Installed: yes
+
+Package: elfutils-nativesdk
+Version: 0.148-r7
+Depends: libz1 (>= 1.2.6), libc6 (>= 2.15)
+Provides:
+Status: install ok installed
+Architecture: i686-nativesdk
+Installed-Time: 1340219119
+Auto-Installed: yes
+
+Package: pseudo-nativesdk
+Version: 1.3-r10
+Depends: libc6 (>= 2.15)
+Provides:
+Status: install ok installed
+Architecture: i686-nativesdk
+Installed-Time: 1340219113
+Auto-Installed: yes
+
+Package: libmpc2
+Version: 0.8.2-r0
+Depends: libgmp10 (>= 5.0.4), libmpfr4 (>= 3.1.0), libc6 (>= 2.15)
+Provides:
+Status: install ok installed
+Architecture: i686-nativesdk
+Installed-Time: 1340219120
+Auto-Installed: yes
+
+Package: libstdc++6
+Version: 4.6.3+svnr184847-r25
+Depends: libgcc-s1 (>= 4.6.3+svnr184847), libc6 (>= 2.15)
+Provides:
+Status: install ok installed
+Architecture: i686-nativesdk
+Installed-Time: 1340219115
+Auto-Installed: yes
+
+Package: gnu-config-nativesdk
+Version: 20111111-r1
+Provides:
+Status: install ok installed
+Architecture: i686-nativesdk
+Installed-Time: 1340219114
+Auto-Installed: yes
+
+Package: libcrypto1.0.0
+Version: 1.0.0h-r15.1
+Depends: libc6 (>= 2.15)
+Provides:
+Status: install ok installed
+Architecture: i686-nativesdk
+Installed-Time: 1340219118
+Auto-Installed: yes
+
+Package: libtinfo5
+Version: 5.9-r8.1
+Depends: libc6 (>= 2.15)
+Recommends: ncurses-nativesdk-terminfo-base
+Suggests: ncurses-nativesdk-terminfo
+Provides:
+Status: install ok installed
+Architecture: i686-nativesdk
+Installed-Time: 1340219113
+Auto-Installed: yes
+
+Package: task-qte-toolchain-host-nativesdk
+Version: 1.0-r11
+Depends: pseudo-nativesdk, u-boot-mkimage-nativesdk, qemu-nativesdk, opkg-nativesdk, autoconf-nativesdk, libtool-nativesdk, qemu-helper-nativesdk, unfs-server-nativesdk, qt4-tools-nativesdk, pkgconfig-nativesdk, automake-nativesdk
+Provides:
+Status: install user installed
+Architecture: i686-nativesdk
+Installed-Time: 1340219117
+
+Package: python-nativesdk-mime
+Version: 2.7.2-r2.14
+Depends: python-nativesdk-io, python-nativesdk-core
+Provides:
+Status: install ok installed
+Architecture: i686-nativesdk
+Installed-Time: 1340219118
+Auto-Installed: yes
+
+Package: u-boot-mkimage-nativesdk
+Version: 2012.04.01-r0
+Depends: libc6 (>= 2.15)
+Provides:
+Status: install ok installed
+Architecture: i686-nativesdk
+Installed-Time: 1340219113
+Auto-Installed: yes
+
+Package: libsdl-1.2-0
+Version: 1.2.15-r0
+Depends: libc6 (>= 2.15)
+Provides:
+Status: install ok installed
+Architecture: i686-nativesdk
+Installed-Time: 1340219113
+Auto-Installed: yes
+
+Package: qemu-helper-nativesdk
+Version: 1.0-r9
+Depends: qemu-nativesdk, libc6 (>= 2.15)
+Provides:
+Status: install ok installed
+Architecture: i686-nativesdk
+Installed-Time: 1340219115
+Auto-Installed: yes
+
+Package: libxcb1
+Version: 1.8.1-r0
+Depends: libxau6 (>= 1.0.7), libxdmcp6 (>= 1.1.1), libc6 (>= 2.15)
+Provides:
+Status: install ok installed
+Architecture: i686-nativesdk
+Installed-Time: 1340219113
+Auto-Installed: yes
+
+Package: libtool-nativesdk
+Version: 2.4.2-r2.0
+Provides:
+Status: install ok installed
+Architecture: i686-nativesdk
+Installed-Time: 1340219115
+Auto-Installed: yes
+
+Package: autoconf-nativesdk
+Version: 2.68-r7
+Depends: m4-nativesdk, gnu-config-nativesdk
+Provides:
+Status: install ok installed
+Architecture: i686-nativesdk
+Installed-Time: 1340219115
+Auto-Installed: yes
+
+Package: libgmp10
+Version: 5.0.4-r0
+Depends: libc6 (>= 2.15)
+Provides:
+Status: install ok installed
+Architecture: i686-nativesdk
+Installed-Time: 1340219120
+Auto-Installed: yes
+
+Package: python-nativesdk-readline
+Version: 2.7.2-r2.14
+Depends: python-nativesdk-core, libpython2.7-1.0 (>= 2.7.2), libreadline6 (>= 6.2), libc6 (>= 2.15)
+Provides:
+Status: install ok installed
+Architecture: i686-nativesdk
+Installed-Time: 1340219119
+Auto-Installed: yes
+
+Package: binutils-cross-canadian-arm
+Version: 2.22-r2
+Depends: libz1 (>= 1.2.6), libc6 (>= 2.15)
+Provides:
+Status: install ok installed
+Architecture: i686-nativesdk
+Installed-Time: 1340219122
+Auto-Installed: yes
+
+Package: libpython2.7-1.0
+Version: 2.7.2-r2.14
+Depends: libc6 (>= 2.15)
+Provides:
+Status: install ok installed
+Architecture: i686-nativesdk
+Installed-Time: 1340219117
+Auto-Installed: yes
+
+Package: python-nativesdk-datetime
+Version: 2.7.2-r2.14
+Depends: python-nativesdk-codecs, libpython2.7-1.0 (>= 2.7.2), libc6 (>= 2.15), python-nativesdk-core
+Provides:
+Status: install ok installed
+Architecture: i686-nativesdk
+Installed-Time: 1340219118
+Auto-Installed: yes
+
+Package: python-nativesdk-logging
+Version: 2.7.2-r2.14
+Depends: python-nativesdk-io, python-nativesdk-lang, python-nativesdk-stringold, python-nativesdk-pickle, python-nativesdk-core
+Provides:
+Status: install ok installed
+Architecture: i686-nativesdk
+Installed-Time: 1340219118
+Auto-Installed: yes
+
+Package: task-cross-canadian-arm
+Version: 1.0-r0
+Depends: gdb-cross-canadian-arm, gcc-cross-canadian-arm, meta-environment-arm, binutils-cross-canadian-arm
+Provides:
+Status: install user installed
+Architecture: i686-nativesdk
+Installed-Time: 1340219122
+
+Package: libreadline6
+Version: 6.2-r2
+Depends: libtinfo5 (>= 5.9), libc6 (>= 2.15)
+Provides:
+Status: install ok installed
+Architecture: i686-nativesdk
+Installed-Time: 1340219119
+Auto-Installed: yes
+
+Package: python-nativesdk-io
+Version: 2.7.2-r2.14
+Depends: libssl1.0.0 (>= 1.0.0h), libpython2.7-1.0 (>= 2.7.2), python-nativesdk-math, libc6 (>= 2.15), libcrypto1.0.0 (>= 1.0.0h), python-nativesdk-core
+Provides:
+Status: install ok installed
+Architecture: i686-nativesdk
+Installed-Time: 1340219118
+Auto-Installed: yes
+
+Package: gcc-cross-canadian-arm
+Version: 4.6.3+svnr184847-r25
+Depends: elfutils-nativesdk, libmpfr4, libmpc2
+Provides:
+Status: install ok installed
+Architecture: i686-nativesdk
+Installed-Time: 1340219121
+Auto-Installed: yes
+
+Package: libncurses5
+Version: 5.9-r8.1
+Depends: libtinfo5 (>= 5.9), libc6 (>= 2.15)
+Provides:
+Status: install ok installed
+Architecture: i686-nativesdk
+Installed-Time: 1340219113
+Auto-Installed: yes
+
+Package: gdb-cross-canadian-arm
+Version: 7.4-r8.5
+Depends: libpython2.7-1.0 (>= 2.7.2), python-nativesdk-re, libtinfo5 (>= 5.9), python-nativesdk-core, libz1 (>= 1.2.6), python-nativesdk-netclient, libreadline6 (>= 6.2), libncurses5 (>= 5.9), libc6 (>= 2.15), python-nativesdk-codecs, python-nativesdk-lang, libexpat1 (>= 2.0.1)
+Provides:
+Status: install ok installed
+Architecture: i686-nativesdk
+Installed-Time: 1340219119
+Auto-Installed: yes
+
+Package: pkgconfig-nativesdk
+Version: 0.25-r3
+Depends: libc6 (>= 2.15)
+Provides:
+Status: install ok installed
+Architecture: i686-nativesdk
+Installed-Time: 1340219117
+Auto-Installed: yes
+
+Package: qemu-nativesdk
+Version: 0.15.1-r6
+Depends: libx11-6 (>= 1.4.4), libtinfo5 (>= 5.9), libz1 (>= 1.2.6), libsdl-1.2-0 (>= 1.2.15), libcurl5 (>= 7.24.0), libncurses5 (>= 5.9), libc6 (>= 2.15), libglib-2.0-0 (>= 2.30.3)
+Provides:
+Status: install ok installed
+Architecture: i686-nativesdk
+Installed-Time: 1340219114
+Auto-Installed: yes
+
+Package: python-nativesdk-crypt
+Version: 2.7.2-r2.14
+Depends: libssl1.0.0 (>= 1.0.0h), libcrypto1.0.0 (>= 1.0.0h), libpython2.7-1.0 (>= 2.7.2), python-nativesdk-core, libc6 (>= 2.15)
+Recommends: openssl
+Provides:
+Status: install ok installed
+Architecture: i686-nativesdk
+Installed-Time: 1340219118
+Auto-Installed: yes
+
+Package: libcurl5
+Version: 7.24.0-r0
+Depends: libz1 (>= 1.2.6), libc6 (>= 2.15)
+Recommends: curl-nativesdk-certs
+Provides:
+Status: install ok installed
+Architecture: i686-nativesdk
+Installed-Time: 1340219113
+Auto-Installed: yes
+
+Package: libz1
+Version: 1.2.6-r1
+Depends: libc6 (>= 2.15)
+Provides:
+Status: install ok installed
+Architecture: i686-nativesdk
+Installed-Time: 1340219113
+Auto-Installed: yes
+
+Package: python-nativesdk-lang
+Version: 2.7.2-r2.14
+Depends: libpython2.7-1.0 (>= 2.7.2), python-nativesdk-core, libc6 (>= 2.15)
+Provides:
+Status: install ok installed
+Architecture: i686-nativesdk
+Installed-Time: 1340219117
+Auto-Installed: yes
+
+Package: libglib-2.0-0
+Version: 1:2.30.3-r1
+Depends: libffi5 (>= 3.0.10), libz1 (>= 1.2.6), libc6 (>= 2.15)
+Provides:
+Status: install ok installed
+Architecture: i686-nativesdk
+Installed-Time: 1340219114
+Auto-Installed: yes
+
+Package: libx11-6
+Version: 1:1.4.4-r3
+Depends: libxau6 (>= 1.0.7), libxdmcp6 (>= 1.1.1), libxcb1 (>= 1.8.1), libc6 (>= 2.15)
+Provides:
+Status: install ok installed
+Architecture: i686-nativesdk
+Installed-Time: 1340219113
+Auto-Installed: yes
+
+Package: libexpat1
+Version: 2.0.1-r1
+Depends: libc6 (>= 2.15)
+Provides:
+Status: install ok installed
+Architecture: i686-nativesdk
+Installed-Time: 1340219119
+Auto-Installed: yes
+
+Package: ncurses-nativesdk-terminfo-base
+Version: 5.9-r8.1
+Provides:
+Status: install ok installed
+Architecture: i686-nativesdk
+Installed-Time: 1340219114
+Auto-Installed: yes
+
+Package: libxau6
+Version: 1:1.0.7-r0
+Depends: libc6 (>= 2.15)
+Provides:
+Status: install ok installed
+Architecture: i686-nativesdk
+Installed-Time: 1340219113
+Auto-Installed: yes
+
+Package: python-nativesdk-stringold
+Version: 2.7.2-r2.14
+Depends: python-nativesdk-core, libpython2.7-1.0 (>= 2.7.2), python-nativesdk-re, libc6 (>= 2.15)
+Provides:
+Status: install ok installed
+Architecture: i686-nativesdk
+Installed-Time: 1340219118
+Auto-Installed: yes
+
+Package: python-nativesdk-re
+Version: 2.7.2-r2.14
+Depends: python-nativesdk-core
+Provides:
+Status: install ok installed
+Architecture: i686-nativesdk
+Installed-Time: 1340219117
+Auto-Installed: yes
+
+Package: automake-nativesdk
+Version: 1.11.2-r3
+Depends: autoconf-nativesdk
+Provides:
+Status: install ok installed
+Architecture: i686-nativesdk
+Installed-Time: 1340219117
+Auto-Installed: yes
+
+Package: qt4-tools-nativesdk
+Version: 4.8.2-r11.1
+Depends: libz1 (>= 1.2.6), libc6 (>= 2.15), libgcc-s1 (>= 4.6.3+svnr184847), libstdc++6 (>= 4.6.3+svnr184847)
+Provides:
+Status: install ok installed
+Architecture: i686-nativesdk
+Installed-Time: 1340219117
+Auto-Installed: yes
+
+Package: python-nativesdk-core
+Version: 2.7.2-r2.14
+Depends: libz1 (>= 1.2.6), libpython2.7-1.0 (>= 2.7.2), python-nativesdk-re, python-nativesdk-lang, libc6 (>= 2.15)
+Recommends: python-nativesdk-readline
+Provides: python-nativesdk
+Status: install ok installed
+Architecture: i686-nativesdk
+Installed-Time: 1340219117
+Auto-Installed: yes
+
+Package: libgcc-s1
+Version: 4.6.3+svnr184847-r25
+Depends: libc6 (>= 2.15)
+Provides:
+Status: install ok installed
+Architecture: i686-nativesdk
+Installed-Time: 1340219115
+Auto-Installed: yes
+
+Package: python-nativesdk-pickle
+Version: 2.7.2-r2.14
+Depends: python-nativesdk-io, libpython2.7-1.0 (>= 2.7.2), libc6 (>= 2.15), python-nativesdk-core, python-nativesdk-codecs, python-nativesdk-re
+Provides:
+Status: install ok installed
+Architecture: i686-nativesdk
+Installed-Time: 1340219118
+Auto-Installed: yes
+
+Package: libmpfr4
+Version: 3.1.0-r1
+Depends: libgmp10 (>= 5.0.4), libc6 (>= 2.15)
+Provides:
+Status: install ok installed
+Architecture: i686-nativesdk
+Installed-Time: 1340219120
+Auto-Installed: yes
+
+Package: opkg-nativesdk
+Version: 1:0.1.8+svnr633-r9.0
+Depends: libopkg1 (>= 0.1.8+svnr633), libc6 (>= 2.15)
+Provides:
+Replaces: opkg-nogpg
+Status: install ok installed
+Architecture: i686-nativesdk
+Installed-Time: 1340219114
+Auto-Installed: yes
+
+Package: meta-environment-arm
+Version: 1.0-r8
+Provides:
+Status: install ok installed
+Architecture: i686-nativesdk
+Installed-Time: 1340219121
+Auto-Installed: yes
+

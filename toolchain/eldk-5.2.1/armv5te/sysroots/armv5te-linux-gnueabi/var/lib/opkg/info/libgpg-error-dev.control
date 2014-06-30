@@ -1,0 +1,16 @@
+Package: libgpg-error-dev
+Version: 1.10-r1
+Description: libgpg-error version 1.10-r1 - Development files
+ a small library that defines common error values for all GnuPG components
+ This package contains symbolic links, header files, and related items
+ necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: GPLv2+ & LGPLv2.1+
+Architecture: armv5te
+OE: libgpg-error
+Homepage: http://www.gnupg.org/related_software/libgpg-error/
+Depends: libgpg-error0 (= 1.10-r1), pkgconfig, libc6 (>= 2.13)
+Recommends: libgpg-error-dev, libc6-dev, pkgconfig-dev
+Source: ftp://ftp.gnupg.org/gcrypt/libgpg-error/libgpg-error-1.10.tar.bz2 file://pkgconfig.patch

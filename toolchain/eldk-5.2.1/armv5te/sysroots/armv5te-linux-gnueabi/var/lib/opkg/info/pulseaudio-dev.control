@@ -1,0 +1,16 @@
+Package: pulseaudio-dev
+Version: 1.1-r8
+Description: pulseaudio version 1.1-r8 - Development files
+ Pulseaudio is a sound server for Linux and Unix-like operating systems.
+ This package contains symbolic links, header files, and related items
+ necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: GPLv2+ & LGPLv2.1
+Architecture: armv5te
+OE: pulseaudio
+Homepage: http://www.pulseaudio.org
+Depends: libpulse0, libpulse-simple0, libglib-2.0-dev, pulseaudio (= 1.1-r8), pkgconfig, libpulse-mainloop-glib0
+Recommends: libz-dev, libavahi-client-dev, alsa-lib-dev, pulseaudio-module-always-sink-dev, pulseaudio-module-stream-restore-dev, pulseaudio-module-null-sink-dev, libxdmcp-dev, libcap-dev, libx11-dev, libice-dev, pulseaudio-lib-bluetooth-ipc-dev, udev-dev, libxau-dev, pulseaudio-lib-raop-dev, libxtst-dev, libsndfile-dev, shadow-sysroot-dev, pulseaudio-lib-oss-util-dev, pulseaudio-lib-bluetooth-util-dev, consolekit-dev, liboil-dev, pulseaudio-module-native-protocol-unix-dev, pulseaudio-lib-avahi-wrap-dev, libatomics-ops-dev, libltdl-dev, bluez4-dev, libxcb-dev, libwrap-dev, libffi-dev, libuuid-dev, pulseaudio-lib-protocol-simple-dev, libudev-dev, pulseaudio-lib-protocol-cli-dev, pkgconfig-dev, libcrypto-dev, libasound-dev, libpulse-simple-dev, pulseaudio-dev, pulseaudio-module-alsa-source-dev, pulseaudio-module-augment-properties-dev, pulseaudio-lib-protocol-http-dev, pulseaudio-module-udev-detect-dev, pulseaudio-module-suspend-on-idle-dev, pulseaudio-module-rescue-streams-dev, pulseaudio-module-position-event-sounds-dev, libtool-dev, pulseaudio-module-filter-heuristics-dev, base-passwd-dev, speex-dev, libgdbm-dev, pulseaudio-lib-rtp-dev, pulseaudio-module-detect-dev, libpulse-dev, libsm-dev, pulseaudio-lib-cli-dev, pulseaudio-module-cork-music-on-phone-dev, pulseaudio-module-default-device-restore-dev, libavahi-common-dev, pulseaudio-module-alsa-card-dev, shadow-dev, avahi-dev, libjson-dev, pulseaudio-module-filter-apply-dev, gtk+-dev, libx11-trim-xcb-dev, pulseaudio-module-card-restore-dev, libgcc-s-dev, pulseaudio-module-intended-roles-dev, pulseaudio-lib-alsa-util-dev, libpulsecore-dev, pulseaudio-module-alsa-sink-dev, libssl-dev, pulseaudio-lib-protocol-native-dev, dbus-dev, libxext-dev, pulseaudio-lib-protocol-esound-dev, libpulsecommon-dev, gconf-dev, libc6-dev, pulseaudio-module-console-kit-dev, libxi-dev, libdbus-glib-1-dev, dbus-lib-dev, libglib-2.0-dev, libpulse-mainloop-glib-dev, pulseaudio-lib-bluetooth-sbc-dev, pulseaudio-module-device-restore-dev, libsamplerate0-dev
+Source: http://freedesktop.org/software/pulseaudio/releases/pulseaudio-1.1.tar.xz file://volatiles.04_pulse file://pulseaudo_fix_for_x32.patch

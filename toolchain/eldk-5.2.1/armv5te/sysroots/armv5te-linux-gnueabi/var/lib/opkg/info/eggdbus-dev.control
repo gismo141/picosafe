@@ -1,0 +1,17 @@
+Package: eggdbus-dev
+Version: 0.6-r3
+Description: An alternative to dbug-glib. - Development files
+ An alternative to dbus-glib. It is designed specifically to make it
+ comfortable to work with very large and potentially complex D-Bus
+ services like e.g. DeviceKit-disks  This package contains symbolic links,
+ header files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: LGPLv2+
+Architecture: armv5te
+OE: eggdbus
+Homepage: http://cgit.freedesktop.org/~david/eggdbus
+Depends: libglib-2.0-dev, eggdbus (= 0.6-r3)
+Recommends: libdbus-glib-1-dev, libz-dev, eggdbus-dev, dbus-lib-dev, libglib-2.0-dev, libffi-dev, libc6-dev, dbus-dev
+Source: http://cgit.freedesktop.org/~david/eggdbus/snapshot/eggdbus-0.6.tar.bz2 file://gtk-doc.patch;apply=yes file://marshal.patch;apply=yes

@@ -1,0 +1,4 @@
+#!/bin/sh
+opkg-cl configure
+rm -f //opt/eldk-5.2.1/armv5te/sysroots/i686-eldk-linux/etc/rcS.d/S98run-postinsts
+

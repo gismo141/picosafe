@@ -1,0 +1,15 @@
+Package: libsndfile-dev
+Version: 1.0.25-r0
+Description: libsndfile1 version 1.0.25-r0 - Development files
+ An audio format Conversion library  This package contains symbolic links,
+ header files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: LGPLv2.1
+Architecture: armv5te
+OE: libsndfile1
+Homepage: http://www.mega-nerd.com/libsndfile
+Depends: libsndfile1 (= 1.0.25-r0), pkgconfig
+Recommends: libsndfile-dev, libgcc-s-dev, pkgconfig-dev, libc6-dev, libsqlite3-dev, sqlite3-dev, libasound-dev
+Source: http://www.mega-nerd.com/libsndfile/files/libsndfile-1.0.25.tar.gz

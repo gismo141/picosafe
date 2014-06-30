@@ -1,0 +1,13 @@
+Package: libopkg1
+Version: 1:0.1.8+svnr633-r9.0
+Description: opkg-nativesdk version 0.1.8+svnr633-r9.0
+ Open Package Manager
+Section: base
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: GPLv2+
+Architecture: i686-nativesdk
+OE: opkg-nativesdk
+Homepage: http://code.google.com/p/opkg/
+Depends: libc6 (>= 2.15)
+Source: svn://opkg.googlecode.com/svn;module=trunk;proto=http file://add_vercmp.patch file://add_uname_support.patch file://fix_installorder.patch file://offline_postinstall.patch file://track_parents.patch

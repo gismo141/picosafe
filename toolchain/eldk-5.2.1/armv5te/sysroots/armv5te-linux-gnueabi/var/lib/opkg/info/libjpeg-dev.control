@@ -1,0 +1,17 @@
+Package: libjpeg-dev
+Version: 8c-r3
+Description: libjpeg is a library for handling the JPEG (JFIF) image format. - Development files
+ libjpeg contains a library for handling the JPEG (JFIF) image format, as
+ well as related programs for accessing the libjpeg functions.  This
+ package contains symbolic links, header files, and related items
+ necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: BSD-3-Clause
+Architecture: armv5te
+OE: jpeg
+Homepage: http://www.ijg.org/
+Depends: libjpeg8 (= 8c-r3)
+Recommends: libc6-dev, libjpeg-dev
+Source: http://www.ijg.org/files/jpegsrc.v8c.tar.gz file://debian-libjpeg7_7-1.diff file://fix_for_automake_1.11.2.patch

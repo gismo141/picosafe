@@ -1,0 +1,13 @@
+Package: qt-mobility-embedded
+Version: 1.2.0-r6
+Description: qt-mobility-embedded version 1.2.0-r6
+ Qt Mobility 1.2.0 - version for Qt/Embedded
+Section: libs
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: LGPLv2.1
+Architecture: armv5te
+OE: qt-mobility-embedded
+Homepage: http://qt.nokia.com
+Depends: libgcc1 (>= 4.6.3+svnr184847), libqtsvge4 (>= 4.8.2), libqtdeclarativee4 (>= 4.8.2), libstdc++6 (>= 4.6.3+svnr184847), libc6 (>= 2.13), libpulse0 (>= 1.1), libqtxmle4 (>= 4.8.2), gstreamer (>= 0.10.36), libgstvideo-0.10-0 (>= 0.10.36), libudev0 (>= 164), libqtnetworke4 (>= 4.8.2), libqtcoree4 (>= 4.8.2), libqtdbuse4 (>= 4.8.2), libqtscripte4 (>= 4.8.2), libqtguie4 (>= 4.8.2), libqtsqle4 (>= 4.8.2), libglib-2.0-0 (>= 2.30.3), libasound2 (>= 1.0.25), libblkid1 (>= 2.21), libgstapp-0.10-0 (>= 0.10.36)
+Source: http://get.qt.nokia.com/qt/add-ons/qt-mobility-opensource-src-1.2.0.tar.gz file://qt-mobility-configure.patch file://0001-gstvideoconnector-fixed-buffers-allocation.patch file://0002-Remove-unnecessary-rpaths-from-qml_device-example.patch file://qt-mobility-no-opengl.patch file://gcc-scope.patch file://0001-Fix-for-playing-theora-encoded-videos.patch file://0002-Support-playing-video-using-gst-omapfb-plugin.patch file://0001-Avoid-omapfb-plane-setting-errors-on-first-player-st.patch

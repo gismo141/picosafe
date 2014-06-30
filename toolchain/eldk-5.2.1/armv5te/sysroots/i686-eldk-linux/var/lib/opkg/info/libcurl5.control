@@ -1,0 +1,14 @@
+Package: libcurl5
+Version: 7.24.0-r0
+Description: curl-nativesdk version 7.24.0-r0
+ Command line tool and library for client-side URL transfers.
+Section: console/network
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: MIT
+Architecture: i686-nativesdk
+OE: curl-nativesdk
+Homepage: http://curl.haxx.se/
+Depends: libz1 (>= 1.2.6), libc6 (>= 2.15)
+Recommends: curl-nativesdk-certs
+Source: http://curl.haxx.se/download/curl-7.24.0.tar.bz2 file://noldlibpath.patch file://pkgconfig_fix.patch

@@ -1,0 +1,13 @@
+Package: attr
+Version: 2.4.46-r4
+Description: attr version 2.4.46-r4
+ utilities for manipulating filesystem extended attributes
+Section: libs
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: GPLv2+
+Architecture: armv5te
+OE: attr
+Homepage: http://savannah.nongnu.org/projects/attr/
+Depends: libattr1 (>= 2.4.46), libc6 (>= 2.13)
+Source: http://download.savannah.gnu.org/releases/attr/attr-2.4.46.src.tar.gz file://relative-libdir.patch;striplevel=0

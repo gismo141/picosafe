@@ -1,0 +1,13 @@
+Package: eglibc-localedata-translit-narrow
+Version: 2.13-r20
+Description: eglibc-locale version 2.13-r20
+ locale definition for translit-narrow
+Section: base
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: GPLv2 & LGPLv2.1
+Architecture: armv5te
+OE: eglibc-locale
+Homepage: unknown
+Provides: glibc-localedata-translit-narrow
+Source: None

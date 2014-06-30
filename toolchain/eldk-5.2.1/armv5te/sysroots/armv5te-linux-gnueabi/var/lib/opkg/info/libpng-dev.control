@@ -1,0 +1,16 @@
+Package: libpng-dev
+Version: 1.2.46-r4
+Description: PNG Library - Development files
+ PNG Library  This package contains symbolic links, header files, and
+ related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: Libpng
+Architecture: armv5te
+OE: libpng
+Homepage: http://www.libpng.org/
+Depends: libpng12-0, libpng3 (= 1.2.46-r4), pkgconfig
+Recommends: libc6-dev, pkgconfig-dev, libpng12-dev, libpng-dev, libz-dev
+Provides: libpng12-dev
+Source: http://downloads.sourceforge.net/project/libpng/libpng12/1.2.46/libpng-1.2.46.tar.bz2

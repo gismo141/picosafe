@@ -1,0 +1,18 @@
+Package: libxfixes-dev
+Version: 1:5.0-r0
+Description: XFixes: X Fixes extension library. - Development files
+ X applications have often needed to work around various shortcomings in
+ the core X window system.  This extension is designed to provide the
+ minimal server-side support necessary to eliminate problems caused by
+ these workarounds.  This package contains symbolic links, header files,
+ and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: MIT-style
+Architecture: armv5te
+OE: libxfixes
+Homepage: http://www.x.org
+Depends: libxfixes3 (= 1:5.0-r0), pkgconfig
+Recommends: libxcb-dev, libxau-dev, xproto-dev, pkgconfig-dev, libc6-dev, libxdmcp-dev, fixesproto-dev, xextproto-dev, libxfixes-dev, libx11-dev, util-macros-dev
+Source: http://xorg.freedesktop.org/releases/individual/lib/libXfixes-5.0.tar.bz2

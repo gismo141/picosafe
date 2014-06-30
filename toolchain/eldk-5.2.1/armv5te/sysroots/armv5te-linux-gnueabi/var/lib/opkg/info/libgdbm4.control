@@ -1,0 +1,13 @@
+Package: libgdbm4
+Version: 1.10-r3
+Description: gdbm version 1.10-r3
+ GNU dbm is a set of database routines that use extensible hashing.
+Section: libs
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: GPLv3
+Architecture: armv5te
+OE: gdbm
+Homepage: http://www.gnu.org/software/gdbm/
+Depends: libgcc1 (>= 4.6.3+svnr184847), libc6 (>= 2.13)
+Source: ftp://ftp.gnu.org/gnu/gdbm/gdbm-1.10.tar.gz

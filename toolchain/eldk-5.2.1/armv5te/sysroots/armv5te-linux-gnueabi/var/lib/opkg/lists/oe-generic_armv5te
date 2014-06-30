@@ -1,0 +1,2725 @@
+Package: base-files-dbg
+Version: 3.0.14-r71
+Recommends: base-files-dbg, base-files (= 3.0.14-r71)
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: b85cad993843179fdbdaee90831a54c0
+Size: 878
+Filename: base-files-dbg_3.0.14-r71_generic_armv5te.ipk
+Source: file://rotation file://nsswitch.conf file://motd file://inputrc file://host.conf file://profile file://shells file://fstab file://filesystems file://issue.net file://issue file://usbd file://share/dot.bashrc file://share/dot.profile file://licenses/GPL-2
+Description: Miscellaneous files for the base system. - Debugging files
+ The base-files package creates the basic system directory structure and
+
+
+
+Package: base-files-dev
+Version: 3.0.14-r71
+Depends: base-files (= 3.0.14-r71)
+Recommends: base-files-dev
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 5c66c1b1cf23d790f2338d8f6df4e616
+Size: 896
+Filename: base-files-dev_3.0.14-r71_generic_armv5te.ipk
+Source: file://rotation file://nsswitch.conf file://motd file://inputrc file://host.conf file://profile file://shells file://fstab file://filesystems file://issue.net file://issue file://usbd file://share/dot.bashrc file://share/dot.profile file://licenses/GPL-2
+Description: Miscellaneous files for the base system. - Development files
+ The base-files package creates the basic system directory structure and
+
+
+
+Package: base-files-doc
+Version: 3.0.14-r71
+Section: doc
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 79feda89590bcd0831d60672f2101a69
+Size: 934
+Filename: base-files-doc_3.0.14-r71_generic_armv5te.ipk
+Source: file://rotation file://nsswitch.conf file://motd file://inputrc file://host.conf file://profile file://shells file://fstab file://filesystems file://issue.net file://issue file://usbd file://share/dot.bashrc file://share/dot.profile file://licenses/GPL-2
+Description: Miscellaneous files for the base system. - Documentation files
+ The base-files package creates the basic system directory structure and
+
+
+
+Package: base-files
+Version: 3.0.14-r71
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 52512b795227f74f1f09cb2c2b2f5f5b
+Size: 4186
+Filename: base-files_3.0.14-r71_generic_armv5te.ipk
+Source: file://rotation file://nsswitch.conf file://motd file://inputrc file://host.conf file://profile file://shells file://fstab file://filesystems file://issue.net file://issue file://usbd file://share/dot.bashrc file://share/dot.profile file://licenses/GPL-2
+Description: Miscellaneous files for the base system.
+ The base-files package creates the basic system directory structure and
+
+
+
+Package: clutter-box2d-dbg
+Version: 0.12.1+git1+de5452e56b537a11fd7f9453d048ff4b4793b5a2-r1
+Recommends: libstdc++-dbg, libxau-dbg, libxi-dbg, pango-dbg, libfontconfig-dbg, libc6-dbg, libclutter-glx-1.0-dbg, libatk-1.0-dbg, libcairo-dbg, libglib-2.0-dbg, libgcc-s-dbg, libxrender-dbg, cairo-gobject-dbg, libxcomposite-dbg, clutter-box2d (= 0.12.1+git1+de5452e56b537a11fd7f9453d048ff4b4793b5a2-r1), libjson-glib-1.0-dbg, libffi-dbg, libexpat-dbg, libpng12-dbg, libdrm-dbg, libfreetype-dbg, libpixman-1-dbg, libxcb-dbg, clutter-box2d-dbg, libxfixes-dbg, libxext-dbg, libgl-dbg, libx11-dbg, libxdmcp-dbg, pkgconfig-dbg, cogl-dbg, libz-dbg, libxdamage-dbg, gdk-pixbuf-dbg
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 0bd481b16562793f54d777b200c015f6
+Size: 623834
+Filename: clutter-box2d-dbg_0.12.1+git1+de5452e56b537a11fd7f9453d048ff4b4793b5a2-r1_generic_armv5te.ipk
+Source: git://git.gnome.org/clutter-box2d.git
+Description: clutter-box2d version 0.12.1+git1+de5452e56b537a11fd7f9453d048ff4b4793b5a2-r1 - Debugging files
+ Clutter Box2D  This package contains ELF symbols and related sources for
+
+
+
+Package: clutter-box2d-dev
+Version: 0.12.1+git1+de5452e56b537a11fd7f9453d048ff4b4793b5a2-r1
+Depends: libclutter-glx-1.0-dev, clutter-box2d (= 0.12.1+git1+de5452e56b537a11fd7f9453d048ff4b4793b5a2-r1), pkgconfig
+Recommends: libcairo-dev, libgcc-s-dev, libz-dev, libxcb-dev, libffi-dev, cogl-dev, cairo-gobject-dev, libxfixes-dev, libdrm-dev, libfreetype-dev, libxcomposite-dev, gdk-pixbuf-dev, libxdamage-dev, libxdmcp-dev, libxau-dev, libx11-dev, libfontconfig-dev, libxext-dev, libatk-1.0-dev, pkgconfig-dev, libstdc++-dev, libc6-dev, pango-dev, clutter-box2d-dev, libxi-dev, libjson-glib-1.0-dev, libglib-2.0-dev, libxrender-dev, libexpat-dev, libclutter-glx-1.0-dev, libpixman-1-dev, libpng12-dev, libgl-dev
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 2fb079a9174d3d0cd5f3ae8ecfb9f511
+Size: 8684
+Filename: clutter-box2d-dev_0.12.1+git1+de5452e56b537a11fd7f9453d048ff4b4793b5a2-r1_generic_armv5te.ipk
+Source: git://git.gnome.org/clutter-box2d.git
+Description: clutter-box2d version 0.12.1+git1+de5452e56b537a11fd7f9453d048ff4b4793b5a2-r1 - Development files
+ Clutter Box2D  This package contains symbolic links, header files, and
+
+
+
+Package: clutter-box2d
+Version: 0.12.1+git1+de5452e56b537a11fd7f9453d048ff4b4793b5a2-r1
+Depends: libgcc1 (>= 4.6.3+svnr184847), libxcb1 (>= 1.8.1), libxrender1 (>= 0.9.7), libpixman-1-0 (>= 0.25.2), libxext6 (>= 1.3.1), libz1 (>= 1.2.6), libfreetype6 (>= 2.4.8), libpng12-0 (>= 1.2.46), libffi5 (>= 3.0.10), libxdamage1 (>= 1.1.3), libgl1 (>= 7.11), gdk-pixbuf (>= 2.24.1), libxi6 (>= 1.4.5), libcairo2 (>= 1.10.2), libstdc++6 (>= 4.6.3+svnr184847), libglib-2.0-0 (>= 2.30.3), libxau6 (>= 1.0.7), libx11-6 (>= 1.4.4), libxfixes3 (>= 5.0), libdrm2 (>= 2.4.31), libxcomposite1 (>= 0.4.3), libclutter-glx-1.0-0 (>= 1.8.4), libatk-1.0-0 (>= 2.2.0), libc6 (>= 2.13), pango (>= 1.28.4), cogl (>= 1.8.2), libcairo-gobject2 (>= 1.10.2), libexpat1 (>= 2.0.1), libjson-glib-1.0-0 (>= 0.14.2), libxdmcp6 (>= 1.1.1), libfontconfig1 (>= 2.8.0)
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 32ce7cf9d1eb9d1e5bff96c853dc92c1
+Size: 126588
+Filename: clutter-box2d_0.12.1+git1+de5452e56b537a11fd7f9453d048ff4b4793b5a2-r1_generic_armv5te.ipk
+Source: git://git.gnome.org/clutter-box2d.git
+Description: clutter-box2d version 0.12.1+git1+de5452e56b537a11fd7f9453d048ff4b4793b5a2-r1
+ Clutter Box2D
+
+
+
+Package: formfactor-dbg
+Version: 0.0-r20
+Recommends: formfactor (= 0.0-r20), formfactor-dbg
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 5a0fc681fb1efc89a110fdb6d86e0a8a
+Size: 728
+Filename: formfactor-dbg_0.0-r20_generic_armv5te.ipk
+Source: file://config file://machconfig
+Description: formfactor version 0.0-r20 - Debugging files
+ Device formfactor information  This package contains ELF symbols and
+
+
+
+Package: formfactor-dev
+Version: 0.0-r20
+Depends: formfactor (= 0.0-r20)
+Recommends: formfactor-dev
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 98bd4842f81cd7a0c30911930e34e207
+Size: 744
+Filename: formfactor-dev_0.0-r20_generic_armv5te.ipk
+Source: file://config file://machconfig
+Description: formfactor version 0.0-r20 - Development files
+ Device formfactor information  This package contains symbolic links,
+
+
+
+Package: formfactor
+Version: 0.0-r20
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 705d3be6712f5db2f7d46246fb9b90ec
+Size: 1044
+Filename: formfactor_0.0-r20_generic_armv5te.ipk
+Source: file://config file://machconfig
+Description: formfactor version 0.0-r20
+ Device formfactor information
+
+
+
+Package: kernel-3.3.3
+Version: 3.3.3-r3
+Depends: kernel-image-3.3.3
+Section: kernel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 5b961660eef94fc98d5c96be60280f28
+Size: 786
+Filename: kernel-3.3.3_3.3.3-r3_generic_armv5te.ipk
+Source: http://kernel.org/pub/linux/kernel/v3.x/linux-3.3.3.tar.bz2 file://defconfig
+Description: linux version 3.3.3-r3
+ Linux Kernel
+
+OE: linux
+HomePage: unknown
+License: GPLv2
+Priority: optional
+
+
+Package: kernel-dev
+Version: 3.3.3-r3
+Recommends: kernel-module-scsi-wait-scan-dev, kernel-base-dev, kernel-module-g-file-storage-dev, kernel-module-gadgetfs-dev, kernel-module-g-zero-dev, kernel-3.3.3-dev, kernel-module-at91-udc-dev, kernel-image-dev, kernel-module-g-serial-dev, update-modules-dev, kernel-module-at91-mci-dev, kernel-dev
+Section: kernel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 528aad994505b6fef6dd083a710d5e31
+Size: 255272
+Filename: kernel-dev_3.3.3-r3_generic_armv5te.ipk
+Source: http://kernel.org/pub/linux/kernel/v3.x/linux-3.3.3.tar.bz2 file://defconfig
+Description: linux version 3.3.3-r3
+ Linux Kernel
+
+OE: linux
+HomePage: unknown
+License: GPLv2
+Priority: optional
+
+
+Package: kernel-image-3.3.3
+Version: 3.3.3-r3
+Section: kernel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 852845d7348d1b7c9798716c23fb0aa7
+Size: 1641926
+Filename: kernel-image-3.3.3_3.3.3-r3_generic_armv5te.ipk
+Source: http://kernel.org/pub/linux/kernel/v3.x/linux-3.3.3.tar.bz2 file://defconfig
+Description: linux version 3.3.3-r3
+ Linux Kernel
+
+OE: linux
+HomePage: unknown
+License: GPLv2
+Priority: optional
+
+
+Package: kernel-module-at91-mci
+Version: 3.3.3-r3
+Depends: update-modules, kernel-3.3.3
+Section: kernel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 2c6dea924e0828af62ef5b069e6747d6
+Size: 6384
+Filename: kernel-module-at91-mci_3.3.3-r3_generic_armv5te.ipk
+Source: http://kernel.org/pub/linux/kernel/v3.x/linux-3.3.3.tar.bz2 file://defconfig
+Description: linux version 3.3.3-r3
+ at91-mci kernel module; AT91 Multimedia Card Interface driver
+
+OE: linux
+HomePage: unknown
+License: GPLv2
+Priority: optional
+
+
+Package: kernel-module-at91-udc
+Version: 3.3.3-r3
+Depends: update-modules, kernel-3.3.3
+Section: kernel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 13301ec1a1cdc557edd8e1b620bd22b5
+Size: 8400
+Filename: kernel-module-at91-udc_3.3.3-r3_generic_armv5te.ipk
+Source: http://kernel.org/pub/linux/kernel/v3.x/linux-3.3.3.tar.bz2 file://defconfig
+Description: linux version 3.3.3-r3
+ at91-udc kernel module; AT91 udc driver
+
+OE: linux
+HomePage: unknown
+License: GPLv2
+Priority: optional
+
+
+Package: kernel-module-g-file-storage
+Version: 3.3.3-r3
+Depends: update-modules, kernel-3.3.3
+Section: kernel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: e14efe1ec808cf6def0f6d1523ff89b9
+Size: 17208
+Filename: kernel-module-g-file-storage_3.3.3-r3_generic_armv5te.ipk
+Source: http://kernel.org/pub/linux/kernel/v3.x/linux-3.3.3.tar.bz2 file://defconfig
+Description: linux version 3.3.3-r3
+ g-file-storage kernel module; File-backed Storage Gadget
+
+OE: linux
+HomePage: unknown
+License: GPLv2
+Priority: optional
+
+
+Package: kernel-module-g-serial
+Version: 3.3.3-r3
+Depends: update-modules, kernel-3.3.3
+Section: kernel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: e91c4de1acdab2b3dbd80dc868894d48
+Size: 18148
+Filename: kernel-module-g-serial_3.3.3-r3_generic_armv5te.ipk
+Source: http://kernel.org/pub/linux/kernel/v3.x/linux-3.3.3.tar.bz2 file://defconfig
+Description: linux version 3.3.3-r3
+ g-serial kernel module; Gadget Serial v2.4
+
+OE: linux
+HomePage: unknown
+License: GPLv2
+Priority: optional
+
+
+Package: kernel-module-g-zero
+Version: 3.3.3-r3
+Depends: update-modules, kernel-3.3.3
+Section: kernel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 4eb952b9000ccbf1f564be8497db1345
+Size: 13470
+Filename: kernel-module-g-zero_3.3.3-r3_generic_armv5te.ipk
+Source: http://kernel.org/pub/linux/kernel/v3.x/linux-3.3.3.tar.bz2 file://defconfig
+Description: linux version 3.3.3-r3
+ g-zero kernel module
+
+OE: linux
+HomePage: unknown
+License: GPLv2
+Priority: optional
+
+
+Package: kernel-module-gadgetfs
+Version: 3.3.3-r3
+Depends: update-modules, kernel-3.3.3
+Section: kernel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 732d4f174fcaeaebe0e8e8d3e534771a
+Size: 10450
+Filename: kernel-module-gadgetfs_3.3.3-r3_generic_armv5te.ipk
+Source: http://kernel.org/pub/linux/kernel/v3.x/linux-3.3.3.tar.bz2 file://defconfig
+Description: linux version 3.3.3-r3
+ gadgetfs kernel module; USB Gadget filesystem
+
+OE: linux
+HomePage: unknown
+License: GPLv2
+Priority: optional
+
+
+Package: kernel-module-scsi-wait-scan
+Version: 3.3.3-r3
+Depends: update-modules, kernel-3.3.3
+Section: kernel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: a2b7e97912c47aacb0a4d5f63f683195
+Size: 2014
+Filename: kernel-module-scsi-wait-scan_3.3.3-r3_generic_armv5te.ipk
+Source: http://kernel.org/pub/linux/kernel/v3.x/linux-3.3.3.tar.bz2 file://defconfig
+Description: linux version 3.3.3-r3
+ scsi-wait-scan kernel module; SCSI wait for scans
+
+OE: linux
+HomePage: unknown
+License: GPLv2
+Priority: optional
+
+
+Package: kernel-modules
+Version: 3.3.3-r3
+Depends: kernel, kernel-module-at91-udc, kernel-module-g-zero, kernel-module-at91-mci, kernel-module-g-file-storage, kernel-module-gadgetfs, kernel-module-g-serial, kernel-module-scsi-wait-scan
+Section: kernel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: eacdcb92a2797d6a6bcf01f5e4c3ec16
+Size: 746
+Filename: kernel-modules_3.3.3-r3_generic_armv5te.ipk
+Source: http://kernel.org/pub/linux/kernel/v3.x/linux-3.3.3.tar.bz2 file://defconfig
+Description: linux version 3.3.3-r3
+ Kernel modules meta package
+
+OE: linux
+HomePage: unknown
+License: GPLv2
+Priority: optional
+
+
+Package: kernel-vmlinux
+Version: 3.3.3-r3
+Section: kernel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: d2723d01edf61ac544344ee68a0cdccc
+Size: 2023776
+Filename: kernel-vmlinux_3.3.3-r3_generic_armv5te.ipk
+Source: http://kernel.org/pub/linux/kernel/v3.x/linux-3.3.3.tar.bz2 file://defconfig
+Description: linux version 3.3.3-r3
+ Linux Kernel
+
+OE: linux
+HomePage: unknown
+License: GPLv2
+Priority: optional
+
+
+Package: kernel
+Version: 3.3.3-r3
+Depends: kernel-3.3.3
+Section: kernel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 12259df2d059aec1cbf5a2dd5a9d7c12
+Size: 670
+Filename: kernel_3.3.3-r3_generic_armv5te.ipk
+Source: http://kernel.org/pub/linux/kernel/v3.x/linux-3.3.3.tar.bz2 file://defconfig
+Description: linux version 3.3.3-r3
+ Linux Kernel
+
+OE: linux
+HomePage: unknown
+License: GPLv2
+Priority: optional
+
+
+Package: libzypp-dbg
+Version: 0.0-git1+15b6c52260bbc52b3d8e585e271b67e10cc7c433-r20
+Recommends: gzip-dbg, libcurl-dbg, libzypp-dbg, libgcc-s-dbg, libstdc++-dbg, sat-solver-dbg, gnupg-dbg, libzypp (= 0.0-git1+15b6c52260bbc52b3d8e585e271b67e10cc7c433-r20), libz-dbg, libcrypto-dbg, rpm-libs-dbg, libc6-dbg, libexpat-dbg, libudev-dbg, libxml2-dbg
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 1fa4b5ff852ffd4961a7a69932aa204a
+Size: 18877712
+Filename: libzypp-dbg_0.0-git1+15b6c52260bbc52b3d8e585e271b67e10cc7c433-r20_generic_armv5te.ipk
+Source: git://github.com/openSUSE/libzypp.git;protocol=git file://no-doc.patch file://rpm5.patch file://rpm5-no-rpmdbinit.patch file://config-release.patch file://libzypp-oearch.patch file://libzypp-compatargs.patch file://fix_for_compile_wth_gcc-4.6.0.patch file://hardcode-lib-fix.patch file://close.patch file://arm-workaround-global-constructor.patch
+Description: libzypp version 0.0-git1+15b6c52260bbc52b3d8e585e271b67e10cc7c433-r20 - Debugging files
+ The ZYpp Linux Software management framework  This package contains ELF
+
+ symbols and related sources for debugging purposes.
+
+OE: libzypp
+HomePage: http://en.opensuse.org/Portal:Libzypp
+License: GPLv2+
+Priority: optional
+
+
+Package: libzypp-dev
+Version: 0.0-git1+15b6c52260bbc52b3d8e585e271b67e10cc7c433-r20
+Depends: libzypp (= 0.0-git1+15b6c52260bbc52b3d8e585e271b67e10cc7c433-r20)
+Recommends: libc6-dev, openssl-dev, libgcc-s-dev, gzip-dev, libcurl-dev, libzypp-dev, sat-solver-dev, boost-dev, libz-dev, curl-dev, libproxy-dev, libstdc++-dev, libcrypto-dev, udev-dev, rpm-libs-dev, libexpat-dev, gnupg-dev, rpm-dev, libudev-dev, libxml2-dev
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 8279f97d5e0985d157623be943d8f73e
+Size: 314220
+Filename: libzypp-dev_0.0-git1+15b6c52260bbc52b3d8e585e271b67e10cc7c433-r20_generic_armv5te.ipk
+Source: git://github.com/openSUSE/libzypp.git;protocol=git file://no-doc.patch file://rpm5.patch file://rpm5-no-rpmdbinit.patch file://config-release.patch file://libzypp-oearch.patch file://libzypp-compatargs.patch file://fix_for_compile_wth_gcc-4.6.0.patch file://hardcode-lib-fix.patch file://close.patch file://arm-workaround-global-constructor.patch
+Description: libzypp version 0.0-git1+15b6c52260bbc52b3d8e585e271b67e10cc7c433-r20 - Development files
+ The ZYpp Linux Software management framework  This package contains
+
+ symbolic links, header files, and related items necessary for software
+
+ development.
+
+OE: libzypp
+HomePage: http://en.opensuse.org/Portal:Libzypp
+License: GPLv2+
+Priority: optional
+
+
+Package: libzypp-pkgmgt
+Version: 0.0-git1+15b6c52260bbc52b3d8e585e271b67e10cc7c433-r20
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 85de94a75e48efebd10de0b0d416943f
+Size: 5442
+Filename: libzypp-pkgmgt_0.0-git1+15b6c52260bbc52b3d8e585e271b67e10cc7c433-r20_generic_armv5te.ipk
+Source: git://github.com/openSUSE/libzypp.git;protocol=git file://no-doc.patch file://rpm5.patch file://rpm5-no-rpmdbinit.patch file://config-release.patch file://libzypp-oearch.patch file://libzypp-compatargs.patch file://fix_for_compile_wth_gcc-4.6.0.patch file://hardcode-lib-fix.patch file://close.patch file://arm-workaround-global-constructor.patch
+Description: libzypp version 0.0-git1+15b6c52260bbc52b3d8e585e271b67e10cc7c433-r20
+ The ZYpp Linux Software management framework
+
+OE: libzypp
+HomePage: http://en.opensuse.org/Portal:Libzypp
+License: GPLv2+
+Priority: optional
+
+
+Package: libzypp
+Version: 0.0-git1+15b6c52260bbc52b3d8e585e271b67e10cc7c433-r20
+Depends: libgcc1 (>= 4.6.3+svnr184847), libz1 (>= 1.2.6), rpm-libs (>= 5.4.0), libxml2 (>= 2.7.8), libc6 (>= 2.13), libudev0 (>= 164), sat-solver, libcurl5 (>= 7.24.0), libcrypto1.0.0 (>= 1.0.0h), gnupg, libstdc++6 (>= 4.6.3+svnr184847), gzip, libexpat1 (>= 2.0.1)
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 9760f3ebc64b523ca824c6e65a825640
+Size: 1670008
+Filename: libzypp_0.0-git1+15b6c52260bbc52b3d8e585e271b67e10cc7c433-r20_generic_armv5te.ipk
+Source: git://github.com/openSUSE/libzypp.git;protocol=git file://no-doc.patch file://rpm5.patch file://rpm5-no-rpmdbinit.patch file://config-release.patch file://libzypp-oearch.patch file://libzypp-compatargs.patch file://fix_for_compile_wth_gcc-4.6.0.patch file://hardcode-lib-fix.patch file://close.patch file://arm-workaround-global-constructor.patch
+Description: libzypp version 0.0-git1+15b6c52260bbc52b3d8e585e271b67e10cc7c433-r20
+ The ZYpp Linux Software management framework
+
+OE: libzypp
+HomePage: http://en.opensuse.org/Portal:Libzypp
+License: GPLv2+
+Priority: optional
+
+
+Package: matchbox-session-sato-dbg
+Version: 0.1-r29
+Recommends: matchbox-panel-2-dbg, matchbox-desktop-sato-dbg, gtk-sato-engine-dbg, matchbox-theme-sato-dbg, initscripts-dbg, matchbox-session-sato (= 0.1-r29), gtk-theme-sato-dbg, formfactor-dbg, matchbox-session-dbg, matchbox-session-sato-dbg
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: c37cdbe81e8172d4c200348d70c07734
+Size: 812
+Filename: matchbox-session-sato-dbg_0.1-r29_generic_armv5te.ipk
+Source: file://session
+Description: matchbox-session-sato version 0.1-r29 - Debugging files
+ Custom MB session files for poky  This package contains ELF symbols and
+
+ related sources for debugging purposes.
+
+OE: matchbox-session-sato
+HomePage: http://www.matchbox-project.org/
+License: GPLv2.0+
+Priority: optional
+
+
+Package: matchbox-session-sato-dev
+Version: 0.1-r29
+Depends: matchbox-session-sato (= 0.1-r29)
+Recommends: gtk-sato-engine-dev, matchbox-theme-sato-dev, matchbox-session-dev, gtk-theme-sato-dev, matchbox-desktop-sato-dev, formfactor-dev, matchbox-session-sato-dev, matchbox-panel-2-dev, initscripts-dev
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 787777d35c630a3703e45aa722a046c4
+Size: 834
+Filename: matchbox-session-sato-dev_0.1-r29_generic_armv5te.ipk
+Source: file://session
+Description: matchbox-session-sato version 0.1-r29 - Development files
+ Custom MB session files for poky  This package contains symbolic links,
+
+ header files, and related items necessary for software development.
+
+OE: matchbox-session-sato
+HomePage: http://www.matchbox-project.org/
+License: GPLv2.0+
+Priority: optional
+
+
+Package: matchbox-session-sato
+Version: 0.1-r29
+Depends: matchbox-desktop-sato, formfactor, gtk-sato-engine, matchbox-theme-sato, gtk-theme-sato, matchbox-session, initscripts, matchbox-panel-2
+Section: x11
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 1dd453a29300f3632b157ffa59cd232c
+Size: 1370
+Filename: matchbox-session-sato_0.1-r29_generic_armv5te.ipk
+Source: file://session
+Description: matchbox-session-sato version 0.1-r29
+ Custom MB session files for poky
+
+OE: matchbox-session-sato
+HomePage: http://www.matchbox-project.org/
+License: GPLv2.0+
+Priority: optional
+
+
+Package: opkg-config-base-dbg
+Version: 1.0-r1
+Recommends: opkg-config-base (= 1.0-r1), opkg-config-base-dbg
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: ccff7eb8c72b5cdf3031e38f7e23bf67
+Size: 724
+Filename: opkg-config-base-dbg_1.0-r1_generic_armv5te.ipk
+Source: None
+Description: opkg-config-base version 1.0-r1 - Debugging files
+ Base configuration files for opkg  This package contains ELF symbols and
+
+ related sources for debugging purposes.
+
+OE: opkg-config-base
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: opkg-config-base-dev
+Version: 1.0-r1
+Depends: opkg-config-base (= 1.0-r1)
+Recommends: opkg-config-base-dev
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 093c5ec302a03794d73d56725754f37e
+Size: 742
+Filename: opkg-config-base-dev_1.0-r1_generic_armv5te.ipk
+Source: None
+Description: opkg-config-base version 1.0-r1 - Development files
+ Base configuration files for opkg  This package contains symbolic links,
+
+ header files, and related items necessary for software development.
+
+OE: opkg-config-base
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: opkg-config-base
+Version: 1.0-r1
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 0dc509685601bfe3b365a12370b7e399
+Size: 822
+Filename: opkg-config-base_1.0-r1_generic_armv5te.ipk
+Source: None
+Description: opkg-config-base version 1.0-r1
+ Base configuration files for opkg
+
+OE: opkg-config-base
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: pointercal-dbg
+Version: 0.0-r11
+Recommends: pointercal-dbg, pointercal (= 0.0-r11)
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: dc720526e16412631fdc949e127a4ffb
+Size: 738
+Filename: pointercal-dbg_0.0-r11_generic_armv5te.ipk
+Source: file://pointercal file://COPYING
+Description: pointercal version 0.0-r11 - Debugging files
+ Touchscreen calibration data  This package contains ELF symbols and
+
+ related sources for debugging purposes.
+
+OE: pointercal
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: pointercal-dev
+Version: 0.0-r11
+Depends: pointercal (= 0.0-r11)
+Recommends: pointercal-dev
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: b0d4ba374d8e4e55da67dd8728c27069
+Size: 756
+Filename: pointercal-dev_0.0-r11_generic_armv5te.ipk
+Source: file://pointercal file://COPYING
+Description: pointercal version 0.0-r11 - Development files
+ Touchscreen calibration data  This package contains symbolic links,
+
+ header files, and related items necessary for software development.
+
+OE: pointercal
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: pointercal
+Version: 0.0-r11
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 9494e7790dc9f8abaef34dc71e906f59
+Size: 648
+Filename: pointercal_0.0-r11_generic_armv5te.ipk
+Source: file://pointercal file://COPYING
+Description: pointercal version 0.0-r11
+ Touchscreen calibration data
+
+OE: pointercal
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: sat-solver-dbg
+Version: 0.0-git1+0a7378d5f482f477a01cf1690d76871ab8bdcc32-r13
+Recommends: libexpat-dbg, sat-solver-dbg, sat-solver (= 0.0-git1+0a7378d5f482f477a01cf1690d76871ab8bdcc32-r13), pkgconfig-dbg, db-dbg, libz-dbg, rpm-libs-dbg, libc6-dbg
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 65a22ce3c1cfd17c3225a5df9a05546a
+Size: 1592856
+Filename: sat-solver-dbg_0.0-git1+0a7378d5f482f477a01cf1690d76871ab8bdcc32-r13_generic_armv5te.ipk
+Source: git://github.com/openSUSE/sat-solver.git;protocol=git file://sat-solver_rpm5.patch file://sat-solver_obsolete.patch file://cmake.patch file://db5.patch file://sat-solver_core.patch file://fix_gcc-4.6.0_compile_issue.patch file://0001-sat_xfopen.c-Forward-port-to-zlib-1.2.6-gzFile.patch
+Description: sat-solver version 0.0-git1+0a7378d5f482f477a01cf1690d76871ab8bdcc32-r13 - Debugging files
+ Sat Solver  This package contains ELF symbols and related sources for
+
+ debugging purposes.
+
+OE: sat-solver
+HomePage: http://http://en.opensuse.org/openSUSE:Libzypp_satsolver
+License: BSD
+Priority: optional
+
+
+Package: sat-solver-dev
+Version: 0.0-git1+0a7378d5f482f477a01cf1690d76871ab8bdcc32-r13
+Depends: pkgconfig, sat-solver (= 0.0-git1+0a7378d5f482f477a01cf1690d76871ab8bdcc32-r13)
+Recommends: libz-dev, sat-solver-dev, pkgconfig-dev, rpm-libs-dev, libc6-dev, db-dev, libcheck-dev, libexpat-dev, rpm-dev
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: f3c64b57102b63f4fe7754882196f108
+Size: 28608
+Filename: sat-solver-dev_0.0-git1+0a7378d5f482f477a01cf1690d76871ab8bdcc32-r13_generic_armv5te.ipk
+Source: git://github.com/openSUSE/sat-solver.git;protocol=git file://sat-solver_rpm5.patch file://sat-solver_obsolete.patch file://cmake.patch file://db5.patch file://sat-solver_core.patch file://fix_gcc-4.6.0_compile_issue.patch file://0001-sat_xfopen.c-Forward-port-to-zlib-1.2.6-gzFile.patch
+Description: sat-solver version 0.0-git1+0a7378d5f482f477a01cf1690d76871ab8bdcc32-r13 - Development files
+ Sat Solver  This package contains symbolic links, header files, and
+
+ related items necessary for software development.
+
+OE: sat-solver
+HomePage: http://http://en.opensuse.org/openSUSE:Libzypp_satsolver
+License: BSD
+Priority: optional
+
+
+Package: sat-solver-staticdev
+Version: 0.0-git1+0a7378d5f482f477a01cf1690d76871ab8bdcc32-r13
+Depends: sat-solver-dev (= 0.0-git1+0a7378d5f482f477a01cf1690d76871ab8bdcc32-r13)
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 9a070d0920d673d8b7dd6e9352375466
+Size: 583242
+Filename: sat-solver-staticdev_0.0-git1+0a7378d5f482f477a01cf1690d76871ab8bdcc32-r13_generic_armv5te.ipk
+Source: git://github.com/openSUSE/sat-solver.git;protocol=git file://sat-solver_rpm5.patch file://sat-solver_obsolete.patch file://cmake.patch file://db5.patch file://sat-solver_core.patch file://fix_gcc-4.6.0_compile_issue.patch file://0001-sat_xfopen.c-Forward-port-to-zlib-1.2.6-gzFile.patch
+Description: sat-solver version 0.0-git1+0a7378d5f482f477a01cf1690d76871ab8bdcc32-r13 - Development files (Static Libraries)
+ Sat Solver  This package contains static libraries for software
+
+ development.
+
+OE: sat-solver
+HomePage: http://http://en.opensuse.org/openSUSE:Libzypp_satsolver
+License: BSD
+Priority: optional
+
+
+Package: sat-solver
+Version: 0.0-git1+0a7378d5f482f477a01cf1690d76871ab8bdcc32-r13
+Depends: rpm-libs, libz1 (>= 1.2.6), db (>= 5.1.19), libexpat1 (>= 2.0.1), libc6 (>= 2.13)
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 5e7c46b9bd975b2a31d1ddd0b1d3fd89
+Size: 1148388
+Filename: sat-solver_0.0-git1+0a7378d5f482f477a01cf1690d76871ab8bdcc32-r13_generic_armv5te.ipk
+Source: git://github.com/openSUSE/sat-solver.git;protocol=git file://sat-solver_rpm5.patch file://sat-solver_obsolete.patch file://cmake.patch file://db5.patch file://sat-solver_core.patch file://fix_gcc-4.6.0_compile_issue.patch file://0001-sat_xfopen.c-Forward-port-to-zlib-1.2.6-gzFile.patch
+Description: sat-solver version 0.0-git1+0a7378d5f482f477a01cf1690d76871ab8bdcc32-r13
+ Sat Solver
+
+OE: sat-solver
+HomePage: http://http://en.opensuse.org/openSUSE:Libzypp_satsolver
+License: BSD
+Priority: optional
+
+
+Package: shadow-securetty-dbg
+Version: 4.1.4.3-r1
+Recommends: shadow-securetty (= 4.1.4.3-r1), shadow-securetty-dbg
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 6f373ce7b7b2df1539d7c49800797546
+Size: 732
+Filename: shadow-securetty-dbg_4.1.4.3-r1_generic_armv5te.ipk
+Source: file://securetty
+Description: Provider of the machine specific securetty file - Debugging files
+ Provider of the machine specific securetty file  This package contains
+
+ ELF symbols and related sources for debugging purposes.
+
+OE: shadow-securetty
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: shadow-securetty-dev
+Version: 4.1.4.3-r1
+Depends: shadow-securetty (= 4.1.4.3-r1)
+Recommends: shadow-securetty-dev
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: f600c728c2283522e479c3b30422b1e5
+Size: 752
+Filename: shadow-securetty-dev_4.1.4.3-r1_generic_armv5te.ipk
+Source: file://securetty
+Description: Provider of the machine specific securetty file - Development files
+ Provider of the machine specific securetty file  This package contains
+
+ symbolic links, header files, and related items necessary for software
+
+ development.
+
+OE: shadow-securetty
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: shadow-securetty
+Version: 4.1.4.3-r1
+Section: base utils
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 50c92729fcb016ba41f7c26bd99af757
+Size: 1392
+Filename: shadow-securetty_4.1.4.3-r1_generic_armv5te.ipk
+Source: file://securetty
+Description: Provider of the machine specific securetty file
+ Provider of the machine specific securetty file
+
+OE: shadow-securetty
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: sysvinit-inittab-dbg
+Version: 2.88dsf-r6
+Recommends: sysvinit-inittab (= 2.88dsf-r6), sysvinit-inittab-dbg
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 551b1706729a58c1ac4e5d9397b5215b
+Size: 722
+Filename: sysvinit-inittab-dbg_2.88dsf-r6_generic_armv5te.ipk
+Source: file://inittab
+Description: sysvinit-inittab version 2.88dsf-r6 - Debugging files
+ Inittab for sysvinit  This package contains ELF symbols and related
+
+ sources for debugging purposes.
+
+OE: sysvinit-inittab
+HomePage: unknown
+License: GPLv2
+Priority: optional
+
+
+Package: sysvinit-inittab-dev
+Version: 2.88dsf-r6
+Depends: sysvinit-inittab (= 2.88dsf-r6)
+Recommends: sysvinit-inittab-dev
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 6d451220f4c1f13aaae20358613cd0e7
+Size: 740
+Filename: sysvinit-inittab-dev_2.88dsf-r6_generic_armv5te.ipk
+Source: file://inittab
+Description: sysvinit-inittab version 2.88dsf-r6 - Development files
+ Inittab for sysvinit  This package contains symbolic links, header files,
+
+ and related items necessary for software development.
+
+OE: sysvinit-inittab
+HomePage: unknown
+License: GPLv2
+Priority: optional
+
+
+Package: sysvinit-inittab
+Version: 2.88dsf-r6
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 7d2c90dfc7ece8ffab077fb507d995aa
+Size: 1278
+Filename: sysvinit-inittab_2.88dsf-r6_generic_armv5te.ipk
+Source: file://inittab
+Description: sysvinit-inittab version 2.88dsf-r6
+ Inittab for sysvinit
+
+OE: sysvinit-inittab
+HomePage: unknown
+License: GPLv2
+Priority: optional
+
+
+Package: task-base-3g-dbg
+Version: 1.0-r73
+Recommends: ofono-dbg
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 2c2b3859e1e39696f4e1542625b5a45a
+Size: 674
+Filename: task-base-3g-dbg_1.0-r73_generic_armv5te.ipk
+Source: None
+Description: task-base version 1.0-r73
+ Merge machine and distro options to create a basic machine task/package
+
+OE: task-base
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: task-base-3g-dev
+Version: 1.0-r73
+Recommends: ofono-dev
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 0aeb092d96043113269d475388caa8e5
+Size: 672
+Filename: task-base-3g-dev_1.0-r73_generic_armv5te.ipk
+Source: None
+Description: task-base version 1.0-r73
+ Merge machine and distro options to create a basic machine task/package
+
+OE: task-base
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: task-base-3g
+Version: 1.0-r73
+Depends: ofono
+Recommends: kernel-module-cdc-acm, kernel-module-cdc-wdm
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: c01ebb76a433e4d074548345d0b4a322
+Size: 694
+Filename: task-base-3g_1.0-r73_generic_armv5te.ipk
+Source: None
+Description: task-base version 1.0-r73
+ Merge machine and distro options to create a basic machine task/package
+
+OE: task-base
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: task-base-bluetooth-dbg
+Version: 1.0-r73
+Recommends: bluez4-dbg
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 549d3a0b64e64549e57ab3e376b6f4e1
+Size: 680
+Filename: task-base-bluetooth-dbg_1.0-r73_generic_armv5te.ipk
+Source: None
+Description: task-base version 1.0-r73
+ Merge machine and distro options to create a basic machine task/package
+
+OE: task-base
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: task-base-bluetooth-dev
+Version: 1.0-r73
+Recommends: bluez4-dev
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 1899645328fcf97696d7360ea61846bd
+Size: 680
+Filename: task-base-bluetooth-dev_1.0-r73_generic_armv5te.ipk
+Source: None
+Description: task-base version 1.0-r73
+ Merge machine and distro options to create a basic machine task/package
+
+OE: task-base
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: task-base-bluetooth
+Version: 1.0-r73
+Depends: bluez4
+Recommends: kernel-module-bnep, kernel-module-bluetooth, kernel-module-rfcomm, kernel-module-sco, kernel-module-hci-uart, kernel-module-hci-vhci, kernel-module-hidp, kernel-module-l2cap
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: e9aa003ab84b6d7628e34d14233e5a4d
+Size: 730
+Filename: task-base-bluetooth_1.0-r73_generic_armv5te.ipk
+Source: None
+Description: task-base version 1.0-r73
+ Merge machine and distro options to create a basic machine task/package
+
+OE: task-base
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: task-base-dbg
+Version: 1.0-r73
+Recommends: task-machine-base-dbg, task-base (= 1.0-r73), task-distro-base-dbg, task-base-ipv6-dbg, task-base-nfs-dbg, task-base-zeroconf-dbg, sysfsutils-dbg, module-init-tools-dbg
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: ec4c0b041d362c17ec095a2d8b57ddab
+Size: 790
+Filename: task-base-dbg_1.0-r73_generic_armv5te.ipk
+Source: None
+Description: task-base version 1.0-r73 - Debugging files
+ Merge machine and distro options to create a basic machine task/package
+
+ This package contains ELF symbols and related sources for debugging
+
+ purposes.
+
+OE: task-base
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: task-base-dev
+Version: 1.0-r73
+Depends: task-base (= 1.0-r73)
+Recommends: task-machine-base-dev, task-base-ipv6-dev, sysfsutils-dev, module-init-tools-dev, task-base-zeroconf-dev, task-distro-base-dev, task-base-nfs-dev
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 6b415e41b689a14b4488356cf423a71d
+Size: 808
+Filename: task-base-dev_1.0-r73_generic_armv5te.ipk
+Source: None
+Description: task-base version 1.0-r73 - Development files
+ Merge machine and distro options to create a basic machine task/package
+
+ This package contains symbolic links, header files, and related items
+
+ necessary for software development.
+
+OE: task-base
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: task-base-extended-dbg
+Version: 1.0-r73
+Recommends: task-base-dbg
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 56f1e87ae16c3c0758566d417379036d
+Size: 674
+Filename: task-base-extended-dbg_1.0-r73_generic_armv5te.ipk
+Source: None
+Description: task-base version 1.0-r73
+ Merge machine and distro options to create a basic machine task/package
+
+OE: task-base
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: task-base-extended-dev
+Version: 1.0-r73
+Recommends: task-base-dev
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 3c53da466609da3e1b9063022b5dfe77
+Size: 674
+Filename: task-base-extended-dev_1.0-r73_generic_armv5te.ipk
+Source: None
+Description: task-base version 1.0-r73
+ Merge machine and distro options to create a basic machine task/package
+
+OE: task-base
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: task-base-extended
+Version: 1.0-r73
+Depends: task-base
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 073b998c6fbf10acf81a7d24c8aff7c6
+Size: 662
+Filename: task-base-extended_1.0-r73_generic_armv5te.ipk
+Source: None
+Description: task-base version 1.0-r73
+ Merge machine and distro options to create a basic machine task/package
+
+OE: task-base
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: task-base-ipv6-dbg
+Version: 1.0-r73
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 7fa8d0b864481f24ef826e0295166555
+Size: 658
+Filename: task-base-ipv6-dbg_1.0-r73_generic_armv5te.ipk
+Source: None
+Description: task-base version 1.0-r73
+ Merge machine and distro options to create a basic machine task/package
+
+OE: task-base
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: task-base-ipv6-dev
+Version: 1.0-r73
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: fc23a45f6bf29a00ff5d57a92411e613
+Size: 658
+Filename: task-base-ipv6-dev_1.0-r73_generic_armv5te.ipk
+Source: None
+Description: task-base version 1.0-r73
+ Merge machine and distro options to create a basic machine task/package
+
+OE: task-base
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: task-base-ipv6
+Version: 1.0-r73
+Recommends: kernel-module-ipv6
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 24fc9c998abb2e3fea89af9e363403e0
+Size: 674
+Filename: task-base-ipv6_1.0-r73_generic_armv5te.ipk
+Source: None
+Description: task-base version 1.0-r73
+ Merge machine and distro options to create a basic machine task/package
+
+OE: task-base
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: task-base-nfs-dbg
+Version: 1.0-r73
+Recommends: portmap-dbg
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 132892ca72b56375c4332d977a92cc29
+Size: 672
+Filename: task-base-nfs-dbg_1.0-r73_generic_armv5te.ipk
+Source: None
+Description: task-base version 1.0-r73
+ Merge machine and distro options to create a basic machine task/package
+
+OE: task-base
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: task-base-nfs-dev
+Version: 1.0-r73
+Recommends: portmap-dev
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 0b9c98ce9f494dfd2a8199a0a7dd4929
+Size: 670
+Filename: task-base-nfs-dev_1.0-r73_generic_armv5te.ipk
+Source: None
+Description: task-base version 1.0-r73
+ Merge machine and distro options to create a basic machine task/package
+
+OE: task-base
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: task-base-nfs
+Version: 1.0-r73
+Depends: portmap
+Recommends: kernel-module-nfs
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 0c781515d699779450320481d1d6d14d
+Size: 688
+Filename: task-base-nfs_1.0-r73_generic_armv5te.ipk
+Source: None
+Description: task-base version 1.0-r73
+ Merge machine and distro options to create a basic machine task/package
+
+OE: task-base
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: task-base-wifi-dbg
+Version: 1.0-r73
+Recommends: wireless-tools-dbg, wpa-supplicant-dbg
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 711fb6a640d147be3fb7df8676791bb7
+Size: 698
+Filename: task-base-wifi-dbg_1.0-r73_generic_armv5te.ipk
+Source: None
+Description: task-base version 1.0-r73
+ Merge machine and distro options to create a basic machine task/package
+
+OE: task-base
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: task-base-wifi-dev
+Version: 1.0-r73
+Recommends: wpa-supplicant-dev, wireless-tools-dev
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 9c2d87523bd28d2397bb9d1c31709dd8
+Size: 698
+Filename: task-base-wifi-dev_1.0-r73_generic_armv5te.ipk
+Source: None
+Description: task-base version 1.0-r73
+ Merge machine and distro options to create a basic machine task/package
+
+OE: task-base
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: task-base-wifi
+Version: 1.0-r73
+Depends: wireless-tools, wpa-supplicant
+Recommends: kernel-module-crypto_algapi, kernel-module-ieee80211-crypt, kernel-module-ieee80211-crypt-tkip, kernel-module-cryptomgr, kernel-module-ecb, kernel-module-michael-mic, kernel-module-ieee80211-crypt-wep, kernel-module-aes, kernel-module-ieee80211-crypt-ccmp, kernel-module-arc4, kernel-module-aes-generic
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 811fb20d0879738d91f1a66afa635f9e
+Size: 772
+Filename: task-base-wifi_1.0-r73_generic_armv5te.ipk
+Source: None
+Description: task-base version 1.0-r73
+ Merge machine and distro options to create a basic machine task/package
+
+OE: task-base
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: task-base-zeroconf-dbg
+Version: 1.0-r73
+Recommends: avahi-daemon-dbg
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 6b5335f91f4d2b2978ed74d6f41b425f
+Size: 680
+Filename: task-base-zeroconf-dbg_1.0-r73_generic_armv5te.ipk
+Source: None
+Description: task-base version 1.0-r73
+ Merge machine and distro options to create a basic machine task/package
+
+OE: task-base
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: task-base-zeroconf-dev
+Version: 1.0-r73
+Recommends: avahi-daemon-dev
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 3d7b32522423daf3ff8e7dff1098cebb
+Size: 680
+Filename: task-base-zeroconf-dev_1.0-r73_generic_armv5te.ipk
+Source: None
+Description: task-base version 1.0-r73
+ Merge machine and distro options to create a basic machine task/package
+
+OE: task-base
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: task-base-zeroconf
+Version: 1.0-r73
+Depends: avahi-daemon
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 6e89dd2de1e0074d152281cc2ee619fb
+Size: 676
+Filename: task-base-zeroconf_1.0-r73_generic_armv5te.ipk
+Source: None
+Description: task-base version 1.0-r73
+ Merge machine and distro options to create a basic machine task/package
+
+OE: task-base
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: task-base
+Version: 1.0-r73
+Depends: task-base-zeroconf, task-distro-base, module-init-tools, task-machine-base, sysfsutils, task-base-nfs, task-base-ipv6
+Recommends: kernel-module-rtc-sysfs, kernel-module-rtc-proc, kernel-module-nls-utf8, kernel-module-rtc-dev, kernel-module-input, kernel-module-unix, kernel-module-uinput
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: f9c2d2edf8c759ea36052dc7d70a0343
+Size: 762
+Filename: task-base_1.0-r73_generic_armv5te.ipk
+Source: None
+Description: task-base version 1.0-r73
+ Merge machine and distro options to create a basic machine task/package
+
+OE: task-base
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: task-core-apps-console-dbg
+Version: 1.0-r35
+Recommends: psplash-dbg, portmap-dbg, avahi-daemon-dbg, dbus-dbg
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 2fd6ac44d7d9b10f8d0f013697c07d3f
+Size: 692
+Filename: task-core-apps-console-dbg_1.0-r35_generic_armv5te.ipk
+Source: None
+Description: task-core-console version 1.0-r35
+ Tasks for core console applications
+
+OE: task-core-console
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: task-core-apps-console-dev
+Version: 1.0-r35
+Recommends: portmap-dev, psplash-dev, dbus-dev, avahi-daemon-dev
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: a74b3cad853e76dc2f466e69d95f055e
+Size: 690
+Filename: task-core-apps-console-dev_1.0-r35_generic_armv5te.ipk
+Source: None
+Description: task-core-console version 1.0-r35
+ Tasks for core console applications
+
+OE: task-core-console
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: task-core-apps-console
+Version: 1.0-r35
+Depends: avahi-daemon, dbus-1, psplash, portmap
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 262d08857715387786ae50f3588459bb
+Size: 682
+Filename: task-core-apps-console_1.0-r35_generic_armv5te.ipk
+Source: None
+Description: task-core-console version 1.0-r35
+ Tasks for core console applications
+
+OE: task-core-console
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: task-core-apps-x11-core-dbg
+Version: 1.0-r35
+Recommends: matchbox-terminal-dbg, pcmanfm-dbg, sato-screenshot-dbg, leafpad-dbg
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 130c7c1bdab5e0e767c4225e00e9d821
+Size: 698
+Filename: task-core-apps-x11-core-dbg_1.0-r35_generic_armv5te.ipk
+Source: None
+Description: task-core-x11 version 1.0-r35
+ Tasks for core X11 applications
+
+OE: task-core-x11
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: task-core-apps-x11-core-dev
+Version: 1.0-r35
+Recommends: matchbox-terminal-dev, sato-screenshot-dev, pcmanfm-dev, leafpad-dev
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 676b69e2269c754469a360771454ee03
+Size: 702
+Filename: task-core-apps-x11-core-dev_1.0-r35_generic_armv5te.ipk
+Source: None
+Description: task-core-x11 version 1.0-r35
+ Tasks for core X11 applications
+
+OE: task-core-x11
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: task-core-apps-x11-core
+Version: 1.0-r35
+Depends: leafpad, pcmanfm, matchbox-terminal, sato-screenshot
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: d84ee0814c30dde83372ad150d4753f8
+Size: 692
+Filename: task-core-apps-x11-core_1.0-r35_generic_armv5te.ipk
+Source: None
+Description: task-core-x11 version 1.0-r35
+ Tasks for core X11 applications
+
+OE: task-core-x11
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: task-core-apps-x11-games-dbg
+Version: 1.0-r35
+Recommends: oh-puzzles-dbg
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: f6266c40830434b55ef3a32ab89630dc
+Size: 670
+Filename: task-core-apps-x11-games-dbg_1.0-r35_generic_armv5te.ipk
+Source: None
+Description: task-core-x11 version 1.0-r35
+ Tasks for core X11 applications
+
+OE: task-core-x11
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: task-core-apps-x11-games-dev
+Version: 1.0-r35
+Recommends: oh-puzzles-dev
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: afe4eb8b10443164feb7090de1dbb69e
+Size: 668
+Filename: task-core-apps-x11-games-dev_1.0-r35_generic_armv5te.ipk
+Source: None
+Description: task-core-x11 version 1.0-r35
+ Tasks for core X11 applications
+
+OE: task-core-x11
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: task-core-apps-x11-games
+Version: 1.0-r35
+Depends: oh-puzzles
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: a71d6363a5069f9b775eaf486864a5f2
+Size: 662
+Filename: task-core-apps-x11-games_1.0-r35_generic_armv5te.ipk
+Source: None
+Description: task-core-x11 version 1.0-r35
+ Tasks for core X11 applications
+
+OE: task-core-x11
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: task-core-apps-x11-pimlico-dbg
+Version: 1.0-r27
+Recommends: contacts-dbg, task-core-apps-x11-pimlico (= 1.0-r27), task-core-apps-x11-pimlico-dbg, tasks-dbg, eds-dbus-dbg, dates-dbg, gaku-dbg
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 04dbe775701119c1d81c6bff93bf551f
+Size: 760
+Filename: task-core-apps-x11-pimlico-dbg_1.0-r27_generic_armv5te.ipk
+Source: None
+Description: task-core-apps-x11-pimlico version 1.0-r27 - Debugging files
+ X11 Pimlico Appications List  This package contains ELF symbols and
+
+ related sources for debugging purposes.
+
+OE: task-core-apps-x11-pimlico
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: task-core-apps-x11-pimlico-dev
+Version: 1.0-r27
+Depends: task-core-apps-x11-pimlico (= 1.0-r27)
+Recommends: contacts-dev, eds-dbus-dev, gaku-dev, tasks-dev, task-core-apps-x11-pimlico-dev, dates-dev
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: c94c0876e39239aadb9ad6a57c74b27a
+Size: 780
+Filename: task-core-apps-x11-pimlico-dev_1.0-r27_generic_armv5te.ipk
+Source: None
+Description: task-core-apps-x11-pimlico version 1.0-r27 - Development files
+ X11 Pimlico Appications List  This package contains symbolic links,
+
+ header files, and related items necessary for software development.
+
+OE: task-core-apps-x11-pimlico
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: task-core-apps-x11-pimlico
+Version: 1.0-r27
+Depends: dates, tasks, gaku, eds-dbus, contacts
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: c234852159b68e6562977d09d7e76fa6
+Size: 674
+Filename: task-core-apps-x11-pimlico_1.0-r27_generic_armv5te.ipk
+Source: None
+Description: task-core-apps-x11-pimlico version 1.0-r27
+ X11 Pimlico Appications List
+
+OE: task-core-apps-x11-pimlico
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: task-core-boot-dbg
+Version: 1.0-r9
+Recommends: task-core-boot (= 1.0-r9), udev-dbg, base-passwd-dbg, task-core-boot-dbg, initscripts-dbg, sysvinit-dbg, update-alternatives-cworth-dbg, modutils-initscripts-dbg, busybox-dbg, tinylogin-dbg, netbase-dbg, base-files-dbg
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: d04415003bf32bafdb1e14e066f995e3
+Size: 824
+Filename: task-core-boot-dbg_1.0-r9_generic_armv5te.ipk
+Source: None
+Description: task-core-boot version 1.0-r9 - Debugging files
+ Task for OpenedHand Poky - minimal bootable image  This package contains
+
+ ELF symbols and related sources for debugging purposes.
+
+OE: task-core-boot
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: task-core-boot-dev
+Version: 1.0-r9
+Depends: task-core-boot (= 1.0-r9)
+Recommends: base-passwd-dev, update-alternatives-cworth-dev, task-core-boot-dev, udev-dev, base-files-dev, sysvinit-dev, netbase-dev, modutils-initscripts-dev, busybox-dev, tinylogin-dev, initscripts-dev
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 960a9509a590ebc21daddb5fd2a66bc6
+Size: 838
+Filename: task-core-boot-dev_1.0-r9_generic_armv5te.ipk
+Source: None
+Description: task-core-boot version 1.0-r9 - Development files
+ Task for OpenedHand Poky - minimal bootable image  This package contains
+
+ symbolic links, header files, and related items necessary for software
+
+ development.
+
+OE: task-core-boot
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: task-core-boot
+Version: 1.0-r9
+Depends: tinylogin, busybox, modutils-initscripts, initscripts, update-alternatives-cworth, udev, sysvinit, netbase, base-files, base-passwd
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 41458bf95af23e73e2885110ff89c6c2
+Size: 738
+Filename: task-core-boot_1.0-r9_generic_armv5te.ipk
+Source: None
+Description: task-core-boot version 1.0-r9
+ Task for OpenedHand Poky - minimal bootable image
+
+OE: task-core-boot
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: task-core-tools-debug-dbg
+Version: 1.0-r0
+Recommends: tcf-agent-dbg, task-core-tools-debug-dbg, gdb-dbg, gdbserver-dbg, task-core-tools-debug (= 1.0-r0), rsync-dbg, strace-dbg
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: f43723749b0b1ee519689a5e4ed46707
+Size: 754
+Filename: task-core-tools-debug-dbg_1.0-r0_generic_armv5te.ipk
+Source: None
+Description: task-core-tools-debug version 1.0-r0 - Debugging files
+ Debug tools tasks for OE-Core  This package contains ELF symbols and
+
+ related sources for debugging purposes.
+
+OE: task-core-tools-debug
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: task-core-tools-debug-dev
+Version: 1.0-r0
+Depends: task-core-tools-debug (= 1.0-r0)
+Recommends: tcf-agent-dev, task-core-tools-debug-dev, gdb-dev, rsync-dev, strace-dev, gdbserver-dev
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 670706ec82e1f2167df8279eee92662e
+Size: 774
+Filename: task-core-tools-debug-dev_1.0-r0_generic_armv5te.ipk
+Source: None
+Description: task-core-tools-debug version 1.0-r0 - Development files
+ Debug tools tasks for OE-Core  This package contains symbolic links,
+
+ header files, and related items necessary for software development.
+
+OE: task-core-tools-debug
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: task-core-tools-debug
+Version: 1.0-r0
+Depends: strace, gdbserver, gdb, rsync, tcf-agent
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: c58fb02ecd506ee94522270d869d2362
+Size: 674
+Filename: task-core-tools-debug_1.0-r0_generic_armv5te.ipk
+Source: None
+Description: task-core-tools-debug version 1.0-r0
+ Debug tools tasks for OE-Core
+
+OE: task-core-tools-debug
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: task-core-tools-profile-dbg
+Version: 1.0-r0
+Recommends: powertop-dbg, lttng-ust-dbg, lttng-control-dbg, task-core-tools-profile (= 1.0-r0), systemtap-dbg, lttng-viewer-dbg, oprofileui-server-dbg, latencytop-dbg, oprofile-dbg, task-core-tools-profile-dbg
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 39bb5f4fbca36e30337e270079619bab
+Size: 784
+Filename: task-core-tools-profile-dbg_1.0-r0_generic_armv5te.ipk
+Source: None
+Description: task-core-tools-profile version 1.0-r0 - Debugging files
+ Profile tools tasks for OE-Core  This package contains ELF symbols and
+
+ related sources for debugging purposes.
+
+OE: task-core-tools-profile
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: task-core-tools-profile-dev
+Version: 1.0-r0
+Depends: task-core-tools-profile (= 1.0-r0)
+Recommends: lttng-viewer-dev, lttng-ust-dev, systemtap-dev, task-core-tools-profile-dev, oprofileui-server-dev, oprofile-dev, powertop-dev, latencytop-dev, lttng-control-dev
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 0f69b50d0309113630629151dd5c34da
+Size: 806
+Filename: task-core-tools-profile-dev_1.0-r0_generic_armv5te.ipk
+Source: None
+Description: task-core-tools-profile version 1.0-r0 - Development files
+ Profile tools tasks for OE-Core  This package contains symbolic links,
+
+ header files, and related items necessary for software development.
+
+OE: task-core-tools-profile
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: task-core-tools-profile
+Version: 1.0-r0
+Depends: systemtap, lttng-viewer, latencytop, powertop, oprofileui-server, lttng-ust, lttng-control, oprofile
+Recommends: kernel-module-oprofile, trace-cmd, blktrace, perf, sysprof
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 46f3b61b72ed64c86061897bd6519374
+Size: 740
+Filename: task-core-tools-profile_1.0-r0_generic_armv5te.ipk
+Source: None
+Description: task-core-tools-profile version 1.0-r0
+ Profile tools tasks for OE-Core
+
+OE: task-core-tools-profile
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: task-core-tools-testapps-dbg
+Version: 1.0-r0
+Recommends: alsa-utils-aplay-dbg, ltp-dbg, blktool-dbg, xvideo-tests-dbg, tslib-calibrate-dbg, lrzsz-dbg, xprop-dbg, x11perf-dbg, owl-video-dbg, gst-meta-audio-dbg, task-core-tools-testapps (= 1.0-r0), task-core-tools-testapps-dbg, mesa-demos-dbg, gst-meta-video-dbg, kexec-dbg, fstests-dbg, alsa-utils-amixer-dbg, xwininfo-dbg, xrestop-dbg, clutter-box2d-dbg, tslib-tests-dbg
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 007dda429596b3924b9279c35fa6a72e
+Size: 862
+Filename: task-core-tools-testapps-dbg_1.0-r0_generic_armv5te.ipk
+Source: None
+Description: task-core-tools-testapps version 1.0-r0 - Debugging files
+ Test apps task for OE-Core  This package contains ELF symbols and related
+
+ sources for debugging purposes.
+
+OE: task-core-tools-testapps
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: task-core-tools-testapps-dev
+Version: 1.0-r0
+Depends: task-core-tools-testapps (= 1.0-r0)
+Recommends: tslib-tests-dev, kexec-dev, task-core-tools-testapps-dev, mesa-demos-dev, gst-meta-audio-dev, blktool-dev, x11perf-dev, lrzsz-dev, tslib-calibrate-dev, xrestop-dev, xwininfo-dev, ltp-dev, gst-meta-video-dev, xprop-dev, alsa-utils-aplay-dev, clutter-box2d-dev, alsa-utils-amixer-dev, xvideo-tests-dev, fstests-dev, owl-video-dev
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: db174125ac0443d440866260a563632c
+Size: 874
+Filename: task-core-tools-testapps-dev_1.0-r0_generic_armv5te.ipk
+Source: None
+Description: task-core-tools-testapps version 1.0-r0 - Development files
+ Test apps task for OE-Core  This package contains symbolic links, header
+
+ files, and related items necessary for software development.
+
+OE: task-core-tools-testapps
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: task-core-tools-testapps
+Version: 1.0-r0
+Depends: ltp, blktool, tslib-calibrate, owl-video, x11perf, xrestop, kexec, lrzsz, alsa-utils-amixer, gst-meta-video, fstests, xprop, tslib-tests, mesa-demos, xwininfo, gst-meta-audio, clutter-box2d, xvideo-tests, alsa-utils-aplay
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 212d7353db9c25d7da968ca5039e03ce
+Size: 774
+Filename: task-core-tools-testapps_1.0-r0_generic_armv5te.ipk
+Source: None
+Description: task-core-tools-testapps version 1.0-r0
+ Test apps task for OE-Core
+
+OE: task-core-tools-testapps
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: task-core-x11-base-dbg
+Version: 1.0-r35
+Recommends: matchbox-panel-2-dbg, xhost-dbg, xserver-nodm-init-dbg, matchbox-wm-dbg, matchbox-keyboard-im-dbg, xserver-kdrive-fbdev-dbg, xrandr-dbg, matchbox-keyboard-dbg, liberation-fonts-dbg, xset-dbg, xauth-dbg, x11-common-dbg, pointercal-dbg, matchbox-keyboard-applet-dbg, dbus-dbg, matchbox-desktop-dbg, matchbox-session-dbg
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 14202eb85baac0831bb2b3fb8c6c887e
+Size: 784
+Filename: task-core-x11-base-dbg_1.0-r35_generic_armv5te.ipk
+Source: None
+Description: task-core-x11 version 1.0-r35
+ Tasks for core X11 applications
+
+OE: task-core-x11
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: task-core-x11-base-dev
+Version: 1.0-r35
+Recommends: matchbox-panel-2-dev, xset-dev, xrandr-dev, matchbox-keyboard-dev, liberation-fonts-dev, matchbox-wm-dev, xserver-kdrive-fbdev-dev, x11-common-dev, matchbox-keyboard-im-dev, xhost-dev, xauth-dev, xserver-nodm-init-dev, matchbox-session-dev, matchbox-desktop-dev, dbus-dev, pointercal-dev, matchbox-keyboard-applet-dev
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 0373256a984120cd630c973746793c3a
+Size: 782
+Filename: task-core-x11-base-dev_1.0-r35_generic_armv5te.ipk
+Source: None
+Description: task-core-x11 version 1.0-r35
+ Tasks for core X11 applications
+
+OE: task-core-x11
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: task-core-x11-base
+Version: 1.0-r35
+Depends: matchbox-keyboard-applet, dbus-1, pointercal, matchbox-wm, matchbox-desktop, matchbox-session, xhost, xset, matchbox-keyboard, liberation-fonts, matchbox-keyboard-im, matchbox-panel-2, xauth, x11-common, xserver-nodm-init, xserver-kdrive-fbdev, xrandr
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: d5ccc0239352f9584122f8f2ac1238b6
+Size: 774
+Filename: task-core-x11-base_1.0-r35_generic_armv5te.ipk
+Source: None
+Description: task-core-x11 version 1.0-r35
+ Tasks for core X11 applications
+
+OE: task-core-x11
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: task-core-x11-sato-dbg
+Version: 1.0-r31
+Recommends: task-core-x11-sato-dbg, gtk-sato-engine-dbg, x11vnc-dbg, connman-gnome-dbg, matchbox-session-sato-dbg, xcursor-transparent-theme-dbg, matchbox-desktop-dbg, settings-daemon-dbg, matchbox-stroke-dbg, matchbox-keyboard-dbg, sato-icon-theme-dbg, gthumb-dbg, task-core-x11-sato (= 1.0-r31), libsdl-1.2-dbg, matchbox-config-gtk-dbg
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: e77e92bbba0851f92c854bd4adb7347a
+Size: 846
+Filename: task-core-x11-sato-dbg_1.0-r31_generic_armv5te.ipk
+Source: None
+Description: task-core-x11-sato version 1.0-r31 - Debugging files
+ Sato Tasks for Poky  This package contains ELF symbols and related
+
+ sources for debugging purposes.
+
+OE: task-core-x11-sato
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: task-core-x11-sato-dev
+Version: 1.0-r31
+Depends: task-core-x11-sato (= 1.0-r31)
+Recommends: gtk-sato-engine-dev, gthumb-dev, task-core-x11-sato-dev, connman-gnome-dev, matchbox-config-gtk-dev, matchbox-stroke-dev, matchbox-keyboard-dev, xcursor-transparent-theme-dev, settings-daemon-dev, libsdl-1.2-dev, matchbox-session-sato-dev, matchbox-desktop-dev, sato-icon-theme-dev, x11vnc-dev
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: e86cd9f3ee9b8d63c2a30e8df28436ea
+Size: 870
+Filename: task-core-x11-sato-dev_1.0-r31_generic_armv5te.ipk
+Source: None
+Description: task-core-x11-sato version 1.0-r31 - Development files
+ Sato Tasks for Poky  This package contains symbolic links, header files,
+
+ and related items necessary for software development.
+
+OE: task-core-x11-sato
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: task-core-x11-sato
+Version: 1.0-r31
+Depends: sato-icon-theme, xcursor-transparent-theme, matchbox-stroke, matchbox-desktop, gtk-sato-engine, matchbox-config-gtk, settings-daemon, matchbox-session-sato, libsdl-1.2-0, matchbox-keyboard, gthumb, x11vnc, connman-gnome
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: a406be3f999a8f117929747d5f6a1918
+Size: 764
+Filename: task-core-x11-sato_1.0-r31_generic_armv5te.ipk
+Source: None
+Description: task-core-x11-sato version 1.0-r31
+ Sato Tasks for Poky
+
+OE: task-core-x11-sato
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: task-distro-base-dbg
+Version: 1.0-r73
+Recommends: task-core-boot-dbg
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 6214b068e9d8a7af041c2d218c75948b
+Size: 678
+Filename: task-distro-base-dbg_1.0-r73_generic_armv5te.ipk
+Source: None
+Description: task-base version 1.0-r73
+ Merge machine and distro options to create a basic machine task/package
+
+OE: task-base
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: task-distro-base-dev
+Version: 1.0-r73
+Recommends: task-core-boot-dev
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 148ae2ab72b0cb72bc2440e6696ab784
+Size: 678
+Filename: task-distro-base-dev_1.0-r73_generic_armv5te.ipk
+Source: None
+Description: task-base version 1.0-r73
+ Merge machine and distro options to create a basic machine task/package
+
+OE: task-base
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: task-distro-base
+Version: 1.0-r73
+Depends: task-core-boot
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 65778c7846661d6b9c04f238362a149e
+Size: 668
+Filename: task-distro-base_1.0-r73_generic_armv5te.ipk
+Source: None
+Description: task-base version 1.0-r73
+ Merge machine and distro options to create a basic machine task/package
+
+OE: task-base
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: task-machine-base-dbg
+Version: 1.0-r73
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 7d7169b738ebbfda3642cb66248ca92b
+Size: 660
+Filename: task-machine-base-dbg_1.0-r73_generic_armv5te.ipk
+Source: None
+Description: task-base version 1.0-r73
+ Merge machine and distro options to create a basic machine task/package
+
+OE: task-base
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: task-machine-base-dev
+Version: 1.0-r73
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: d880a7933cf9f7b2fb076942e6200dd0
+Size: 658
+Filename: task-machine-base-dev_1.0-r73_generic_armv5te.ipk
+Source: None
+Description: task-base version 1.0-r73
+ Merge machine and distro options to create a basic machine task/package
+
+OE: task-base
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: task-machine-base
+Version: 1.0-r73
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: e997fe2bb6d8cebc9cfbdd4c83935596
+Size: 654
+Filename: task-machine-base_1.0-r73_generic_armv5te.ipk
+Source: None
+Description: task-base version 1.0-r73
+ Merge machine and distro options to create a basic machine task/package
+
+OE: task-base
+HomePage: unknown
+License: MIT
+Priority: optional
+
+
+Package: xserver-nodm-init-dbg
+Version: 1.0-r29
+Recommends: shadow-dbg, base-passwd-dbg, sudo-dbg, update-rc.d-dbg, xserver-nodm-init-dbg, xserver-nodm-init (= 1.0-r29)
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 88f49e4ccd34b680b50b41604795f819
+Size: 786
+Filename: xserver-nodm-init-dbg_1.0-r29_generic_armv5te.ipk
+Source: file://xserver-nodm file://Xusername file://gplv2-license.patch
+Description: xserver-nodm-init version 1.0-r29 - Debugging files
+ Simple Xserver Init Script (no dm)  This package contains ELF symbols and
+
+ related sources for debugging purposes.
+
+OE: xserver-nodm-init
+HomePage: unknown
+License: GPLv2
+Priority: optional
+
+
+Package: xserver-nodm-init-dev
+Version: 1.0-r29
+Depends: xserver-nodm-init (= 1.0-r29)
+Recommends: xserver-nodm-init-dev, base-passwd-dev, shadow-dev, sudo-dev, shadow-sysroot-dev, update-rc.d-dev
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: efe06f545d1f9b654d268bf2826043a7
+Size: 812
+Filename: xserver-nodm-init-dev_1.0-r29_generic_armv5te.ipk
+Source: file://xserver-nodm file://Xusername file://gplv2-license.patch
+Description: xserver-nodm-init version 1.0-r29 - Development files
+ Simple Xserver Init Script (no dm)  This package contains symbolic links,
+
+ header files, and related items necessary for software development.
+
+OE: xserver-nodm-init
+HomePage: unknown
+License: GPLv2
+Priority: optional
+
+
+Package: xserver-nodm-init
+Version: 1.0-r29
+Depends: update-rc.d, shadow, sudo, base-passwd
+Section: x11
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: a7107438fd9868e13d6282b8bf528321
+Size: 2536
+Filename: xserver-nodm-init_1.0-r29_generic_armv5te.ipk
+Source: file://xserver-nodm file://Xusername file://gplv2-license.patch
+Description: xserver-nodm-init version 1.0-r29
+ Simple Xserver Init Script (no dm)
+
+OE: xserver-nodm-init
+HomePage: unknown
+License: GPLv2
+Priority: optional
+
+
+Package: zypper-dbg
+Version: 1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2
+Recommends: libreadline-dbg, libzypp-dbg, libgcc-s-dbg, libstdc++-dbg, zypper (= 1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2), zypper-dbg, libaugeas-dbg, rpm-libs-dbg, libc6-dbg
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: a94cbf2a4d6c9d9bc3b1a3250882a2cf
+Size: 5592012
+Filename: zypper-dbg_1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2_generic_armv5te.ipk
+Source: git://github.com/openSUSE/zypper.git;protocol=git file://cmake.patch file://cmake_libxml2.patch file://dso_linking_change_build_fix.patch file://rpm5-flag.patch file://gcc-scope.patch
+Description: zypper version 1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2 - Debugging files
+ The ZYpp Linux Software management framework  This package contains ELF
+
+ symbols and related sources for debugging purposes.
+
+OE: zypper
+HomePage: http://gitorious.org/opensuse/zypper
+License: GPLv2+
+Priority: optional
+
+
+Package: zypper-dev
+Version: 1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2
+Depends: zypper (= 1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2)
+Recommends: libgcc-s-dev, libzypp-dev, zypper-dev, libstdc++-dev, libc6-dev, rpm-libs-dev, libreadline-dev, libaugeas-dev, augeas-dev
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 470e8467dee8da49e7131f5f9f71044b
+Size: 1750
+Filename: zypper-dev_1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2_generic_armv5te.ipk
+Source: git://github.com/openSUSE/zypper.git;protocol=git file://cmake.patch file://cmake_libxml2.patch file://dso_linking_change_build_fix.patch file://rpm5-flag.patch file://gcc-scope.patch
+Description: zypper version 1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2 - Development files
+ The ZYpp Linux Software management framework  This package contains
+
+ symbolic links, header files, and related items necessary for software
+
+ development.
+
+OE: zypper
+HomePage: http://gitorious.org/opensuse/zypper
+License: GPLv2+
+Priority: optional
+
+
+Package: zypper-doc
+Version: 1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2
+Section: doc
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 86de753a3f5a9e2b7175a139dea30bc3
+Size: 22936
+Filename: zypper-doc_1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2_generic_armv5te.ipk
+Source: git://github.com/openSUSE/zypper.git;protocol=git file://cmake.patch file://cmake_libxml2.patch file://dso_linking_change_build_fix.patch file://rpm5-flag.patch file://gcc-scope.patch
+Description: zypper version 1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2 - Documentation files
+ The ZYpp Linux Software management framework  This package contains
+
+ documentation.
+
+OE: zypper
+HomePage: http://gitorious.org/opensuse/zypper
+License: GPLv2+
+Priority: optional
+
+
+Package: zypper-locale-cs
+Version: 1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2
+Depends: virtual-locale-cs, zypper
+Provides: zypper-locale, cs-translation
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 089a74064184fd0bb68d07a63acd0bc4
+Size: 36976
+Filename: zypper-locale-cs_1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2_generic_armv5te.ipk
+Source: git://github.com/openSUSE/zypper.git;protocol=git file://cmake.patch file://cmake_libxml2.patch file://dso_linking_change_build_fix.patch file://rpm5-flag.patch file://gcc-scope.patch
+Description: zypper version 1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2 - cs translations
+ The ZYpp Linux Software management framework  This package contains
+
+ language translation files for the cs locale.
+
+OE: zypper
+HomePage: http://gitorious.org/opensuse/zypper
+License: GPLv2+
+Priority: optional
+
+
+Package: zypper-locale-da
+Version: 1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2
+Depends: zypper, virtual-locale-da
+Provides: zypper-locale, da-translation
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 987218c1fd395bdf7f71f4dbe48a433b
+Size: 34978
+Filename: zypper-locale-da_1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2_generic_armv5te.ipk
+Source: git://github.com/openSUSE/zypper.git;protocol=git file://cmake.patch file://cmake_libxml2.patch file://dso_linking_change_build_fix.patch file://rpm5-flag.patch file://gcc-scope.patch
+Description: zypper version 1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2 - da translations
+ The ZYpp Linux Software management framework  This package contains
+
+ language translation files for the da locale.
+
+OE: zypper
+HomePage: http://gitorious.org/opensuse/zypper
+License: GPLv2+
+Priority: optional
+
+
+Package: zypper-locale-de
+Version: 1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2
+Depends: virtual-locale-de, zypper
+Provides: de-translation, zypper-locale
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 54a71d4546b9334cbd5c5cb855ad7f26
+Size: 29382
+Filename: zypper-locale-de_1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2_generic_armv5te.ipk
+Source: git://github.com/openSUSE/zypper.git;protocol=git file://cmake.patch file://cmake_libxml2.patch file://dso_linking_change_build_fix.patch file://rpm5-flag.patch file://gcc-scope.patch
+Description: zypper version 1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2 - de translations
+ The ZYpp Linux Software management framework  This package contains
+
+ language translation files for the de locale.
+
+OE: zypper
+HomePage: http://gitorious.org/opensuse/zypper
+License: GPLv2+
+Priority: optional
+
+
+Package: zypper-locale-en-gb
+Version: 1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2
+Depends: virtual-locale-en-gb, zypper
+Provides: en-gb-translation, zypper-locale
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: cda1b6e6d7fb8a73116d7293d74c0d6e
+Size: 4826
+Filename: zypper-locale-en-gb_1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2_generic_armv5te.ipk
+Source: git://github.com/openSUSE/zypper.git;protocol=git file://cmake.patch file://cmake_libxml2.patch file://dso_linking_change_build_fix.patch file://rpm5-flag.patch file://gcc-scope.patch
+Description: zypper version 1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2 - en_GB translations
+ The ZYpp Linux Software management framework  This package contains
+
+ language translation files for the en_GB locale.
+
+OE: zypper
+HomePage: http://gitorious.org/opensuse/zypper
+License: GPLv2+
+Priority: optional
+
+
+Package: zypper-locale-en-us
+Version: 1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2
+Depends: zypper, virtual-locale-en-us
+Provides: zypper-locale, en-us-translation
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 893617570104fc10e126345fad47f398
+Size: 2204
+Filename: zypper-locale-en-us_1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2_generic_armv5te.ipk
+Source: git://github.com/openSUSE/zypper.git;protocol=git file://cmake.patch file://cmake_libxml2.patch file://dso_linking_change_build_fix.patch file://rpm5-flag.patch file://gcc-scope.patch
+Description: zypper version 1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2 - en_US translations
+ The ZYpp Linux Software management framework  This package contains
+
+ language translation files for the en_US locale.
+
+OE: zypper
+HomePage: http://gitorious.org/opensuse/zypper
+License: GPLv2+
+Priority: optional
+
+
+Package: zypper-locale-es
+Version: 1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2
+Depends: virtual-locale-es, zypper
+Provides: es-translation, zypper-locale
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: a1235549144e4243dd4d473abe853517
+Size: 35980
+Filename: zypper-locale-es_1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2_generic_armv5te.ipk
+Source: git://github.com/openSUSE/zypper.git;protocol=git file://cmake.patch file://cmake_libxml2.patch file://dso_linking_change_build_fix.patch file://rpm5-flag.patch file://gcc-scope.patch
+Description: zypper version 1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2 - es translations
+ The ZYpp Linux Software management framework  This package contains
+
+ language translation files for the es locale.
+
+OE: zypper
+HomePage: http://gitorious.org/opensuse/zypper
+License: GPLv2+
+Priority: optional
+
+
+Package: zypper-locale-fi
+Version: 1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2
+Depends: zypper, virtual-locale-fi
+Provides: fi-translation, zypper-locale
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 35027578b9330e0cd0a05a861f606acc
+Size: 35282
+Filename: zypper-locale-fi_1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2_generic_armv5te.ipk
+Source: git://github.com/openSUSE/zypper.git;protocol=git file://cmake.patch file://cmake_libxml2.patch file://dso_linking_change_build_fix.patch file://rpm5-flag.patch file://gcc-scope.patch
+Description: zypper version 1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2 - fi translations
+ The ZYpp Linux Software management framework  This package contains
+
+ language translation files for the fi locale.
+
+OE: zypper
+HomePage: http://gitorious.org/opensuse/zypper
+License: GPLv2+
+Priority: optional
+
+
+Package: zypper-locale-fr
+Version: 1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2
+Depends: zypper, virtual-locale-fr
+Provides: zypper-locale, fr-translation
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: dbc6302cd8ea881c8d13aa2dd1623993
+Size: 36308
+Filename: zypper-locale-fr_1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2_generic_armv5te.ipk
+Source: git://github.com/openSUSE/zypper.git;protocol=git file://cmake.patch file://cmake_libxml2.patch file://dso_linking_change_build_fix.patch file://rpm5-flag.patch file://gcc-scope.patch
+Description: zypper version 1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2 - fr translations
+ The ZYpp Linux Software management framework  This package contains
+
+ language translation files for the fr locale.
+
+OE: zypper
+HomePage: http://gitorious.org/opensuse/zypper
+License: GPLv2+
+Priority: optional
+
+
+Package: zypper-locale-gl
+Version: 1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2
+Depends: virtual-locale-gl, zypper
+Provides: gl-translation, zypper-locale
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: d70b8b1074c3bba00b3db89bb148cade
+Size: 35718
+Filename: zypper-locale-gl_1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2_generic_armv5te.ipk
+Source: git://github.com/openSUSE/zypper.git;protocol=git file://cmake.patch file://cmake_libxml2.patch file://dso_linking_change_build_fix.patch file://rpm5-flag.patch file://gcc-scope.patch
+Description: zypper version 1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2 - gl translations
+ The ZYpp Linux Software management framework  This package contains
+
+ language translation files for the gl locale.
+
+OE: zypper
+HomePage: http://gitorious.org/opensuse/zypper
+License: GPLv2+
+Priority: optional
+
+
+Package: zypper-locale-hu
+Version: 1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2
+Depends: zypper, virtual-locale-hu
+Provides: zypper-locale, hu-translation
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: edd18e48edda8f2d76b8af32f46b83b8
+Size: 36210
+Filename: zypper-locale-hu_1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2_generic_armv5te.ipk
+Source: git://github.com/openSUSE/zypper.git;protocol=git file://cmake.patch file://cmake_libxml2.patch file://dso_linking_change_build_fix.patch file://rpm5-flag.patch file://gcc-scope.patch
+Description: zypper version 1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2 - hu translations
+ The ZYpp Linux Software management framework  This package contains
+
+ language translation files for the hu locale.
+
+OE: zypper
+HomePage: http://gitorious.org/opensuse/zypper
+License: GPLv2+
+Priority: optional
+
+
+Package: zypper-locale-it
+Version: 1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2
+Depends: virtual-locale-it, zypper
+Provides: zypper-locale, it-translation
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 8e05b82a376a98190a2ac0ab45b85418
+Size: 36306
+Filename: zypper-locale-it_1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2_generic_armv5te.ipk
+Source: git://github.com/openSUSE/zypper.git;protocol=git file://cmake.patch file://cmake_libxml2.patch file://dso_linking_change_build_fix.patch file://rpm5-flag.patch file://gcc-scope.patch
+Description: zypper version 1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2 - it translations
+ The ZYpp Linux Software management framework  This package contains
+
+ language translation files for the it locale.
+
+OE: zypper
+HomePage: http://gitorious.org/opensuse/zypper
+License: GPLv2+
+Priority: optional
+
+
+Package: zypper-locale-ja
+Version: 1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2
+Depends: virtual-locale-ja, zypper
+Provides: zypper-locale, ja-translation
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: d64fcca1a2cce57c641efcafdd8bc012
+Size: 36150
+Filename: zypper-locale-ja_1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2_generic_armv5te.ipk
+Source: git://github.com/openSUSE/zypper.git;protocol=git file://cmake.patch file://cmake_libxml2.patch file://dso_linking_change_build_fix.patch file://rpm5-flag.patch file://gcc-scope.patch
+Description: zypper version 1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2 - ja translations
+ The ZYpp Linux Software management framework  This package contains
+
+ language translation files for the ja locale.
+
+OE: zypper
+HomePage: http://gitorious.org/opensuse/zypper
+License: GPLv2+
+Priority: optional
+
+
+Package: zypper-locale-km
+Version: 1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2
+Depends: zypper, virtual-locale-km
+Provides: km-translation, zypper-locale
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: d4749dd397aefa5f4d66b6887f89e1f6
+Size: 40682
+Filename: zypper-locale-km_1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2_generic_armv5te.ipk
+Source: git://github.com/openSUSE/zypper.git;protocol=git file://cmake.patch file://cmake_libxml2.patch file://dso_linking_change_build_fix.patch file://rpm5-flag.patch file://gcc-scope.patch
+Description: zypper version 1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2 - km translations
+ The ZYpp Linux Software management framework  This package contains
+
+ language translation files for the km locale.
+
+OE: zypper
+HomePage: http://gitorious.org/opensuse/zypper
+License: GPLv2+
+Priority: optional
+
+
+Package: zypper-locale-ko
+Version: 1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2
+Depends: zypper, virtual-locale-ko
+Provides: ko-translation, zypper-locale
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 1a7262c1f8613cb93736a14513d2df25
+Size: 30826
+Filename: zypper-locale-ko_1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2_generic_armv5te.ipk
+Source: git://github.com/openSUSE/zypper.git;protocol=git file://cmake.patch file://cmake_libxml2.patch file://dso_linking_change_build_fix.patch file://rpm5-flag.patch file://gcc-scope.patch
+Description: zypper version 1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2 - ko translations
+ The ZYpp Linux Software management framework  This package contains
+
+ language translation files for the ko locale.
+
+OE: zypper
+HomePage: http://gitorious.org/opensuse/zypper
+License: GPLv2+
+Priority: optional
+
+
+Package: zypper-locale-lt
+Version: 1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2
+Depends: virtual-locale-lt, zypper
+Provides: zypper-locale, lt-translation
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: da6cf12e070ff3e6fb960ff7566b2d27
+Size: 27406
+Filename: zypper-locale-lt_1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2_generic_armv5te.ipk
+Source: git://github.com/openSUSE/zypper.git;protocol=git file://cmake.patch file://cmake_libxml2.patch file://dso_linking_change_build_fix.patch file://rpm5-flag.patch file://gcc-scope.patch
+Description: zypper version 1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2 - lt translations
+ The ZYpp Linux Software management framework  This package contains
+
+ language translation files for the lt locale.
+
+OE: zypper
+HomePage: http://gitorious.org/opensuse/zypper
+License: GPLv2+
+Priority: optional
+
+
+Package: zypper-locale-nb
+Version: 1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2
+Depends: zypper, virtual-locale-nb
+Provides: zypper-locale, nb-translation
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: f8315ee7d7eba7627f24cccd52f0723e
+Size: 34490
+Filename: zypper-locale-nb_1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2_generic_armv5te.ipk
+Source: git://github.com/openSUSE/zypper.git;protocol=git file://cmake.patch file://cmake_libxml2.patch file://dso_linking_change_build_fix.patch file://rpm5-flag.patch file://gcc-scope.patch
+Description: zypper version 1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2 - nb translations
+ The ZYpp Linux Software management framework  This package contains
+
+ language translation files for the nb locale.
+
+OE: zypper
+HomePage: http://gitorious.org/opensuse/zypper
+License: GPLv2+
+Priority: optional
+
+
+Package: zypper-locale-nl
+Version: 1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2
+Depends: virtual-locale-nl, zypper
+Provides: nl-translation, zypper-locale
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 4ba3af4b111ce160936bb2b2ffb7a570
+Size: 35798
+Filename: zypper-locale-nl_1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2_generic_armv5te.ipk
+Source: git://github.com/openSUSE/zypper.git;protocol=git file://cmake.patch file://cmake_libxml2.patch file://dso_linking_change_build_fix.patch file://rpm5-flag.patch file://gcc-scope.patch
+Description: zypper version 1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2 - nl translations
+ The ZYpp Linux Software management framework  This package contains
+
+ language translation files for the nl locale.
+
+OE: zypper
+HomePage: http://gitorious.org/opensuse/zypper
+License: GPLv2+
+Priority: optional
+
+
+Package: zypper-locale-pl
+Version: 1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2
+Depends: zypper, virtual-locale-pl
+Provides: pl-translation, zypper-locale
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 4c6111155690d76072da4d0b04ef7671
+Size: 36440
+Filename: zypper-locale-pl_1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2_generic_armv5te.ipk
+Source: git://github.com/openSUSE/zypper.git;protocol=git file://cmake.patch file://cmake_libxml2.patch file://dso_linking_change_build_fix.patch file://rpm5-flag.patch file://gcc-scope.patch
+Description: zypper version 1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2 - pl translations
+ The ZYpp Linux Software management framework  This package contains
+
+ language translation files for the pl locale.
+
+OE: zypper
+HomePage: http://gitorious.org/opensuse/zypper
+License: GPLv2+
+Priority: optional
+
+
+Package: zypper-locale-pt-br
+Version: 1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2
+Depends: virtual-locale-pt-br, zypper
+Provides: zypper-locale, pt-br-translation
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 7a4a22a06604c466aa1476227675daf8
+Size: 35376
+Filename: zypper-locale-pt-br_1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2_generic_armv5te.ipk
+Source: git://github.com/openSUSE/zypper.git;protocol=git file://cmake.patch file://cmake_libxml2.patch file://dso_linking_change_build_fix.patch file://rpm5-flag.patch file://gcc-scope.patch
+Description: zypper version 1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2 - pt_BR translations
+ The ZYpp Linux Software management framework  This package contains
+
+ language translation files for the pt_BR locale.
+
+OE: zypper
+HomePage: http://gitorious.org/opensuse/zypper
+License: GPLv2+
+Priority: optional
+
+
+Package: zypper-locale-ro
+Version: 1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2
+Depends: zypper, virtual-locale-ro
+Provides: ro-translation, zypper-locale
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: e8ad367b8f9645c1aafb83fee9b4dac4
+Size: 36312
+Filename: zypper-locale-ro_1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2_generic_armv5te.ipk
+Source: git://github.com/openSUSE/zypper.git;protocol=git file://cmake.patch file://cmake_libxml2.patch file://dso_linking_change_build_fix.patch file://rpm5-flag.patch file://gcc-scope.patch
+Description: zypper version 1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2 - ro translations
+ The ZYpp Linux Software management framework  This package contains
+
+ language translation files for the ro locale.
+
+OE: zypper
+HomePage: http://gitorious.org/opensuse/zypper
+License: GPLv2+
+Priority: optional
+
+
+Package: zypper-locale-ru
+Version: 1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2
+Depends: zypper, virtual-locale-ru
+Provides: ru-translation, zypper-locale
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: e1dbe6fd47700a399266717307c1cc97
+Size: 39252
+Filename: zypper-locale-ru_1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2_generic_armv5te.ipk
+Source: git://github.com/openSUSE/zypper.git;protocol=git file://cmake.patch file://cmake_libxml2.patch file://dso_linking_change_build_fix.patch file://rpm5-flag.patch file://gcc-scope.patch
+Description: zypper version 1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2 - ru translations
+ The ZYpp Linux Software management framework  This package contains
+
+ language translation files for the ru locale.
+
+OE: zypper
+HomePage: http://gitorious.org/opensuse/zypper
+License: GPLv2+
+Priority: optional
+
+
+Package: zypper-locale-sk
+Version: 1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2
+Depends: virtual-locale-sk, zypper
+Provides: zypper-locale, sk-translation
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 1bba2ef2d2f58982f1ca688bdc06887e
+Size: 34108
+Filename: zypper-locale-sk_1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2_generic_armv5te.ipk
+Source: git://github.com/openSUSE/zypper.git;protocol=git file://cmake.patch file://cmake_libxml2.patch file://dso_linking_change_build_fix.patch file://rpm5-flag.patch file://gcc-scope.patch
+Description: zypper version 1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2 - sk translations
+ The ZYpp Linux Software management framework  This package contains
+
+ language translation files for the sk locale.
+
+OE: zypper
+HomePage: http://gitorious.org/opensuse/zypper
+License: GPLv2+
+Priority: optional
+
+
+Package: zypper-locale-uk
+Version: 1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2
+Depends: virtual-locale-uk, zypper
+Provides: uk-translation, zypper-locale
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 068f6506f8d8df569edcb4cf8bc6eb85
+Size: 35260
+Filename: zypper-locale-uk_1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2_generic_armv5te.ipk
+Source: git://github.com/openSUSE/zypper.git;protocol=git file://cmake.patch file://cmake_libxml2.patch file://dso_linking_change_build_fix.patch file://rpm5-flag.patch file://gcc-scope.patch
+Description: zypper version 1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2 - uk translations
+ The ZYpp Linux Software management framework  This package contains
+
+ language translation files for the uk locale.
+
+OE: zypper
+HomePage: http://gitorious.org/opensuse/zypper
+License: GPLv2+
+Priority: optional
+
+
+Package: zypper-locale-zh-tw
+Version: 1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2
+Depends: virtual-locale-zh-tw, zypper
+Provides: zypper-locale, zh-tw-translation
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: c830a2f25cfc696dc003b6442dc46eeb
+Size: 27550
+Filename: zypper-locale-zh-tw_1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2_generic_armv5te.ipk
+Source: git://github.com/openSUSE/zypper.git;protocol=git file://cmake.patch file://cmake_libxml2.patch file://dso_linking_change_build_fix.patch file://rpm5-flag.patch file://gcc-scope.patch
+Description: zypper version 1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2 - zh_TW translations
+ The ZYpp Linux Software management framework  This package contains
+
+ language translation files for the zh_TW locale.
+
+OE: zypper
+HomePage: http://gitorious.org/opensuse/zypper
+License: GPLv2+
+Priority: optional
+
+
+Package: zypper
+Version: 1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2
+Depends: libgcc1 (>= 4.6.3+svnr184847), libaugeas0 (>= 0.10.0), rpm-libs, libstdc++6 (>= 4.6.3+svnr184847), libzypp (>= 0.0-git1+15b6c52260bbc52b3d8e585e271b67e10cc7c433), libreadline6 (>= 6.2), libc6 (>= 2.13)
+Recommends: procps, util-linux-uuidgen
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: bf4b80a4ed5619f344eeb2a8222a714f
+Size: 506728
+Filename: zypper_1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2_generic_armv5te.ipk
+Source: git://github.com/openSUSE/zypper.git;protocol=git file://cmake.patch file://cmake_libxml2.patch file://dso_linking_change_build_fix.patch file://rpm5-flag.patch file://gcc-scope.patch
+Description: zypper version 1.5.3-git1+2c5bb6ceb99ecd950ef993e43d77bf0569ea0582-r2
+ The ZYpp Linux Software management framework
+
+OE: zypper
+HomePage: http://gitorious.org/opensuse/zypper
+License: GPLv2+
+Priority: optional
+
+

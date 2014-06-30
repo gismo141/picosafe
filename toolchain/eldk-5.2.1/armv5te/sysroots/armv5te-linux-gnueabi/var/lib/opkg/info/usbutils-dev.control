@@ -1,0 +1,16 @@
+Package: usbutils-dev
+Version: 0.91-r3
+Description: Host side USB console utilities. - Development files
+ Contains the lsusb utility for inspecting the devices connected to the
+ USB bus.  This package contains symbolic links, header files, and related
+ items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: GPLv2+
+Architecture: armv5te
+OE: usbutils
+Homepage: http://www.linux-usb.org
+Depends: usbutils (= 0.91-r3)
+Recommends: libusb-dev, libz-dev, libc6-dev, usbutils-dev, bash-dev, usbutils-ids-dev, libusb-compat-dev
+Source: http://kernel.org/pub/linux/utils/usb/usbutils/usbutils-0.91.tar.gz

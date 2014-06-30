@@ -1,0 +1,16 @@
+Package: libgdbm-dev
+Version: 1.10-r3
+Description: gdbm version 1.10-r3 - Development files
+ GNU dbm is a set of database routines that use extensible hashing.  This
+ package contains symbolic links, header files, and related items
+ necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: GPLv3
+Architecture: armv5te
+OE: gdbm
+Homepage: http://www.gnu.org/software/gdbm/
+Depends: libgdbm4 (= 1.10-r3), libgdbm-compat4
+Recommends: gdbm-compat-dev, libc6-dev, libgcc-s-dev, libgdbm-dev
+Source: ftp://ftp.gnu.org/gnu/gdbm/gdbm-1.10.tar.gz

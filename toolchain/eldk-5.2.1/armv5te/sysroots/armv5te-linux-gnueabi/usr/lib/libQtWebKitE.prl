@@ -1,0 +1,6 @@
+QMAKE_PRL_BUILD_DIR = /opt/eldk/build/eldk-rel-v5.2-2012-06-20-33c5d31-armv5te/tmp/work/armv5te-linux-gnueabi/qt4-embedded-4.8.2-r46.1/qt-everywhere-opensource-src-4.8.2/src/3rdparty/webkit/Source/WebKit/qt/
+QMAKE_PRO_INPUT = QtWebKit.pro
+QMAKE_PRL_TARGET = libQtWebKitE.so.4.9.2
+QMAKE_PRL_DEFINES = QT_SHARED
+QMAKE_PRL_CONFIG = lex yacc uic resources qt release incremental link_prl gdb_dwarf_index rpath_libdirs def_files_disabled exceptions no_mocdepend release stl qt_no_framework silent release shared dll embedded largefile stl dylib create_prl link_prl depend_includepath QTDIR_build nostrip building-libs depend_includepath embedded standalone_package depend_includepath include_webinspector production production embedded no_debug_info link_pkgconfig embedded production qt_install_headers qt warn_on depend_includepath qmake_cache target_qt bsymbolic_functions create_pc create_libtool moc thread shared dll
+QMAKE_PRL_VERSION = 4.9.2

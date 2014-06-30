@@ -1,0 +1,16 @@
+Package: openssl-dev
+Version: 1.0.0h-r15.1
+Description: Secure Socket Layer - Development files
+ Secure Socket Layer (SSL) binary and related cryptographic tools.  This
+ package contains symbolic links, header files, and related items
+ necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: openssl
+Architecture: armv5te
+OE: openssl
+Homepage: http://www.openssl.org/
+Depends: libcrypto1.0.0, openssl (= 1.0.0h-r15.1), pkgconfig, libssl1.0.0
+Recommends: pkgconfig-dev, libgcc-s-dev, libssl-dev, openssl-dev, libcrypto-dev, ocf-linux-dev, libc6-dev
+Source: http://www.openssl.org/source/openssl-1.0.0h.tar.gz file://configure-targets.patch file://shared-libs.patch file://oe-ldflags.patch file://engines-install-in-libdir-ssl.patch file://openssl-fix-link.patch file://debian/version-script.patch file://debian/pic.patch file://debian/c_rehash-compat.patch file://debian/ca.patch file://debian/make-targets.patch file://debian/no-rpath.patch file://debian/man-dir.patch file://debian/man-section.patch file://debian/no-symbolic.patch file://debian/debian-targets.patch file://openssl_fix_for_x32.patch

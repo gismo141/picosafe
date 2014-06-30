@@ -1,0 +1,13 @@
+Package: gdk-pixbuf-loader-png
+Version: 2.24.1-r0
+Description: gdk-pixbuf version 2.24.1-r0
+ GDK pixbuf loader for png
+Section: libs
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: LGPLv2
+Architecture: armv5te
+OE: gdk-pixbuf
+Homepage: http://www.gtk.org/
+Depends: libpng12-0 (>= 1.2.46), libffi5 (>= 3.0.10), libz1 (>= 1.2.6), gdk-pixbuf (>= 2.24.1), libc6 (>= 2.13), libglib-2.0-0 (>= 2.30.3)
+Source: http://ftp.acc.umu.se/pub/GNOME/sources/gdk-pixbuf/2.24/gdk-pixbuf-2.24.1.tar.xz file://configure_nm.patch file://hardcoded_libtool.patch file://configure_fix.patch

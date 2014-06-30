@@ -1,0 +1,16 @@
+Package: renderproto-dev
+Version: 1:0.11.1-r0
+Description: XRender: X rendering Extension headers - Development files
+ This package provides the wire protocol for the X Rendering extension.
+ This is the basis the image composition within the X window system.  This
+ package contains symbolic links, header files, and related items
+ necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: MIT-style
+Architecture: armv5te
+OE: renderproto
+Homepage: http://www.x.org
+Recommends: renderproto-dev, util-macros-dev
+Source: http://xorg.freedesktop.org/releases/individual/proto/renderproto-0.11.1.tar.bz2

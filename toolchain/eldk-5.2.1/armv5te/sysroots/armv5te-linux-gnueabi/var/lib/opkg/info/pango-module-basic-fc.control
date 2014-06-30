@@ -1,0 +1,13 @@
+Package: pango-module-basic-fc
+Version: 1.28.4-r7
+Description: Framework for layout and rendering of internationalized text
+ Pango module basic-fc
+Section: libs
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: LGPLv2.0+
+Architecture: armv5te
+OE: pango
+Homepage: http://www.pango.org/
+Depends: libffi5 (>= 3.0.10), libc6 (>= 2.13), libfreetype6 (>= 2.4.8), libstdc++6 (>= 4.6.3+svnr184847), libglib-2.0-0 (>= 2.30.3), pango, libexpat1 (>= 2.0.1), libfontconfig1 (>= 2.8.0)
+Source: http://ftp.gnome.org/pub/GNOME/sources/pango/1.28/pango-1.28.4.tar.bz2;name=archive file://no-tests.patch file://noconst.patch

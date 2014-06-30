@@ -1,0 +1,13 @@
+Package: libatk-1.0-0
+Version: 2.2.0-r2
+Description: atk version 2.2.0-r2
+ An accessibility toolkit for GNOME.
+Section: x11/libs
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: GPLv2+ & LGPLv2+
+Architecture: armv5te
+OE: atk
+Homepage: http://live.gnome.org/GAP/
+Depends: libffi5 (>= 3.0.10), libglib-2.0-0 (>= 2.30.3), libc6 (>= 2.13)
+Source: http://download.gnome.org/sources/atk/2.2/atk-2.2.0.tar.bz2

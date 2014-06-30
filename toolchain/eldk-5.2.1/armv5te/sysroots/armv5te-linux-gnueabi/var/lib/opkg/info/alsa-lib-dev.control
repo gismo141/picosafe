@@ -1,0 +1,15 @@
+Package: alsa-lib-dev
+Version: 1.0.25-r1
+Description: alsa-lib version 1.0.25-r1 - Development files
+ Alsa sound library  This package contains symbolic links, header files,
+ and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: LGPLv2.1 & GPLv2+
+Architecture: armv5te
+OE: alsa-lib
+Homepage: http://www.alsa-project.org
+Depends: alsa-lib (= 1.0.25-r1), pkgconfig, libasound2
+Recommends: libc6-dev, libasound-dev
+Source: ftp://ftp.alsa-project.org/pub/lib/alsa-lib-1.0.25.tar.bz2 file://fix-tstamp-declaration.patch

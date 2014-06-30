@@ -1,0 +1,17 @@
+Package: autoconf-nativesdk
+Version: 2.68-r7
+Description: A GNU tool that procude shell scripts to automatically configure software.
+ Autoconf is an extensible package of M4 macros that produce shell scripts
+ to automatically configure software source code packages. Autoconf
+ creates a configuration script for a package from a template file that
+ lists the operating system features that the package can use, in the form
+ of M4 macro calls.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: GPLv2 & GPLv3
+Architecture: i686-nativesdk
+OE: autoconf-nativesdk
+Homepage: http://www.gnu.org/software/autoconf/
+Depends: m4-nativesdk, gnu-config-nativesdk
+Source: ftp://ftp.gnu.org/gnu/autoconf/autoconf-2.68.tar.bz2 file://program_prefix.patch file://autoreconf-include.patch file://autoreconf-exclude.patch file://autoreconf-foreign.patch file://autoreconf-gnuconfigize.patch file://autoheader-nonfatal-warnings.patch file://config_site.patch file://remove-usr-local-lib-from-m4.patch

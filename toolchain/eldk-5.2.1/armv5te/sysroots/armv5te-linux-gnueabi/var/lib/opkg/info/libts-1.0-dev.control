@@ -1,0 +1,18 @@
+Package: libts-1.0-dev
+Version: 1.0-r20
+Description: An abstraction layer for touchscreen panel events. - Development files
+ Tslib is an abstraction layer for touchscreen panel events, as well as a
+ filter stack for the manipulation of those events. Tslib is generally
+ used on embedded devices to provide a common user space interface to
+ touchscreen functionality.  This package contains symbolic links, header
+ files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: LGPLv2
+Architecture: armv5te
+OE: tslib
+Homepage: http://tslib.berlios.de/
+Depends: libts-1.0-0 (= 1.0-r20), pkgconfig
+Recommends: libc6-dev, tslib-conf-dev, libts-1.0-dev, pkgconfig-dev
+Source: http://download.berlios.de/tslib/tslib-1.0.tar.bz2 file://fix_version.patch file://0001-Link-plugins-against-libts.patch file://ts.conf file://tslib.sh file://set-open-mode-for-ts_calibrate_c.patch

@@ -1,0 +1,14 @@
+Package: libtool-nativesdk
+Version: 2.4.2-r2.0
+Description: Generic library support script
+ This is GNU libtool, a generic library support script. Libtool hides the
+ complexity of generating special library types (such as shared libraries)
+ behind a consistent interface.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: GPLv2 & LGPLv2.1
+Architecture: i686-nativesdk
+OE: libtool-nativesdk
+Homepage: http://www.gnu.org/software/libtool/libtool.html
+Source: ftp://ftp.gnu.org/gnu/libtool/libtool-2.4.2.tar.gz file://trailingslash.patch file://prefix-manpage-fix.patch file://rename-with-sysroot.patch file://use-sysroot-in-libpath.patch file://fix-final-rpath.patch file://avoid_absolute_paths_for_general_utils.patch file://fix-rpath.patch file://prefix.patch file://fixinstall.patch

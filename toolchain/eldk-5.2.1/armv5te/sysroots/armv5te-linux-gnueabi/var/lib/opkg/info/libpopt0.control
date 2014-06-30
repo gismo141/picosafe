@@ -1,0 +1,13 @@
+Package: libpopt0
+Version: 1.16-r0
+Description: popt version 1.16-r0
+ The popt library for parsing command line options.
+Section: libs
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: MIT
+Architecture: armv5te
+OE: popt
+Homepage: http://rpm5.org/
+Depends: libgcc1 (>= 4.6.3+svnr184847), libc6 (>= 2.13)
+Source: http://rpm5.org/files/popt/popt-1.16.tar.gz

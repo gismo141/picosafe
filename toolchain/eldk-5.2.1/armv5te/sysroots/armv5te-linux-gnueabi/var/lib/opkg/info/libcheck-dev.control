@@ -1,0 +1,15 @@
+Package: libcheck-dev
+Version: 0.9.8-r0
+Description: libcheck version 0.9.8-r0 - Development files
+ Check Test Framework  This package contains symbolic links, header files,
+ and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: LGPLv2.1+
+Architecture: armv5te
+OE: libcheck
+Homepage: http://gitorious.org/opensuse/zypper
+Depends: libcheck0 (= 0.9.8-r0), pkgconfig
+Recommends: libc6-dev, pkgconfig-dev, libcheck-dev
+Source: http://downloads.sourceforge.net/check/check-0.9.8.tar.gz

@@ -1,0 +1,13 @@
+Package: libpng12-0
+Version: 1.2.46-r4
+Description: PNG Library
+ PNG Library
+Section: libs
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: Libpng
+Architecture: armv5te
+OE: libpng
+Homepage: http://www.libpng.org/
+Depends: libz1 (>= 1.2.6), libc6 (>= 2.13)
+Source: http://downloads.sourceforge.net/project/libpng/libpng12/1.2.46/libpng-1.2.46.tar.bz2

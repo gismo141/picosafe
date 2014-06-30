@@ -1,0 +1,4097 @@
+Package: shadow-securetty
+Version: 4.1.4.3-r1
+Provides:
+Status: install ok installed
+Architecture: generic_armv5te
+Installed-Time: 1340219062
+Auto-Installed: yes
+
+Package: gdk-pixbuf-dev
+Version: 2.24.1-r0
+Depends: libglib-2.0-0 (>= 2.30.3), gdk-pixbuf (>= 2.24.1), libglib-2.0-dev, pkgconfig, libc6 (>= 2.13)
+Recommends: libglib-2.0-dev, libjpeg-dev, gdk-pixbuf-dev, pkgconfig-dev, libffi-dev, libc6-dev, libpng-dev, libz-dev, libpng12-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219071
+Auto-Installed: yes
+
+Package: libqt3supporte-dev
+Version: 4.8.2-r46.1
+Depends: libqtcoree-dev, libqt3supporte4, libqtsqle-dev, libqtnetworke-dev, libqtguie-dev
+Recommends: libqtcoree-dev, gstreamer-dev, libjpeg-dev, libz-dev, libqtsqle-dev, libgcc-s-dev, libfreetype-dev, openssl-dev, libts-1.0-dev, libtiff-dev, sqlite3-dev, libqtguie-dev, dbus-dev, libqtxmle-dev, gst-plugins-base-dev, libqtnetworke-dev, directfb-dev, libstdc++-dev, libc6-dev, pulseaudio-dev, libglib-2.0-dev, libpng-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219106
+Auto-Installed: yes
+
+Package: libqt3supporte4
+Version: 4.8.2-r46.1
+Depends: libgcc1 (>= 4.6.3+svnr184847), libqtcoree4 (>= 4.8.2), libqtxmle4 (>= 4.8.2), libc6 (>= 2.13), libqtguie4 (>= 4.8.2), libstdc++6 (>= 4.6.3+svnr184847), libqtsqle4 (>= 4.8.2), libqtnetworke4 (>= 4.8.2)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219103
+Auto-Installed: yes
+
+Package: qt4-embedded-linguist
+Version: 4.8.2-r46.1
+Depends: libgcc1 (>= 4.6.3+svnr184847), libstdc++6 (>= 4.6.3+svnr184847), libqtcoree4 (>= 4.8.2), libqtxmle4 (>= 4.8.2), libz1 (>= 1.2.6), libqtguie4 (>= 4.8.2), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219089
+Auto-Installed: yes
+
+Package: directfb-dev
+Version: 1.4.15-r2
+Depends: pkgconfig, directfb (= 1.4.15-r2)
+Recommends: libsysfs-dev, libgcc-s-dev, libjpeg-dev, libz-dev, sysfsutils-dev, pkgconfig-dev, libts-1.0-dev, libpng-dev, libc6-dev, libstdc++-dev, directfb-dev, libfreetype-dev, libpng12-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219066
+Auto-Installed: yes
+
+Package: libxv-dev
+Version: 1.0.7-r0
+Depends: videoproto-dev, xproto-dev, pkgconfig, libxv1 (= 1.0.7-r0)
+Recommends: libxext-dev, libc6-dev, libxcb-dev, libxau-dev, xproto-dev, pkgconfig-dev, videoproto-dev, libxdmcp-dev, libxv-dev, libx11-dev, util-macros-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219060
+Auto-Installed: yes
+
+Package: qt-mobility-embedded
+Version: 1.2.0-r6
+Depends: libgcc1 (>= 4.6.3+svnr184847), libqtsvge4 (>= 4.8.2), libqtdeclarativee4 (>= 4.8.2), libstdc++6 (>= 4.6.3+svnr184847), libc6 (>= 2.13), libpulse0 (>= 1.1), libqtxmle4 (>= 4.8.2), gstreamer (>= 0.10.36), libgstvideo-0.10-0 (>= 0.10.36), libudev0 (>= 164), libqtnetworke4 (>= 4.8.2), libqtcoree4 (>= 4.8.2), libqtdbuse4 (>= 4.8.2), libqtscripte4 (>= 4.8.2), libqtguie4 (>= 4.8.2), libqtsqle4 (>= 4.8.2), libglib-2.0-0 (>= 2.30.3), libasound2 (>= 1.0.25), libblkid1 (>= 2.21), libgstapp-0.10-0 (>= 0.10.36)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219085
+Auto-Installed: yes
+
+Package: qt4-embedded-plugin-sqldriver-sqlite
+Version: 4.8.2-r46.1
+Depends: libqtcoree4 (>= 4.8.2), libgcc1 (>= 4.6.3+svnr184847), libc6 (>= 2.13), libqtsqle4 (>= 4.8.2), libstdc++6 (>= 4.6.3+svnr184847)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219091
+Auto-Installed: yes
+
+Package: libxcb-xprint0
+Version: 1.8.1-r0
+Depends: libxau6 (>= 1.0.7), libxcb1 (>= 1.8.1), libxdmcp6 (>= 1.1.1), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219060
+Auto-Installed: yes
+
+Package: libtheora
+Version: 1.1.1-r1
+Depends: libgcc1 (>= 4.6.3+svnr184847), libogg0 (>= 1.3.0), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219060
+Auto-Installed: yes
+
+Package: libwrap-dev
+Version: 7.6-r9
+Depends: libwrap0
+Recommends: libc6-dev, libwrap-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219073
+Auto-Installed: yes
+
+Package: libwrap0
+Version: 7.6-r9
+Depends: libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219067
+Auto-Installed: yes
+
+Package: bluez4-dev
+Version: 4.99-r1
+Depends: bluez4, bluez-hcidump
+Recommends: libdbus-glib-1-dev, libgcc-s-dev, libusb-dev, bluez4-dev, udev-dev, dbus-lib-dev, libglib-2.0-dev, libreadline-dev, libc6-dev, libasound-dev, libcheck-dev, alsa-lib-dev, bluez-hcidump-dev, libusb-compat-dev, libudev-dev, libusb-1.0-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219073
+Auto-Installed: yes
+
+Package: task-core-standalone-sdk-target
+Version: 1.0-r7
+Depends: libgcc1, locale-base-en-gb, locale-base-en-us, libc6-dev, eglibc-utils, libstdc++6, eglibc-gconv-ibm850, libstdc++-dev, libthread-db1, eglibc-gconv-cp1252, eglibc-localedata-i18n, libsegfault, libc6-dbg, libc6, eglibc-gconv-iso8859-1, libgcc-s-dev, eglibc-gconv-iso8859-15
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219083
+Auto-Installed: yes
+
+Package: directfb
+Version: 1.4.15-r2
+Depends: libgcc1 (>= 4.6.3+svnr184847), libts-1.0-0 (>= 1.0), libpng12-0 (>= 1.2.46), libc6 (>= 2.13), libz1 (>= 1.2.6), libsysfs2 (>= 2.1.0), libfreetype6 (>= 2.4.8), libstdc++6 (>= 4.6.3+svnr184847), libjpeg8 (>= 8c)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219065
+Auto-Installed: yes
+
+Package: avahi
+Version: 0.6.31-r2.0
+Depends: update-rc.d
+Recommends: libnss-mdns
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219062
+Auto-Installed: yes
+
+Package: libxdmcp6
+Version: 1:1.1.1-r0
+Depends: libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219060
+Auto-Installed: yes
+
+Package: libgstfft-0.10-0
+Version: 0.10.36-r3
+Depends: gstreamer (>= 0.10.36), libffi5 (>= 3.0.10), libxml2 (>= 2.7.8), libz1 (>= 1.2.6), libc6 (>= 2.13), libglib-2.0-0 (>= 2.30.3)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219059
+Auto-Installed: yes
+
+Package: libc6
+Version: 2.13-r26+svnr15508
+Provides: rtld(GNU_HASH), glibc
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219053
+Auto-Installed: yes
+
+Package: randrproto-dev
+Version: 1:1.3.2-r0
+Recommends: randrproto-dev, util-macros-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219073
+Auto-Installed: yes
+
+Package: gnome-common-dev
+Version: 2.28.0-r1
+Depends: pkgconfig, gnome-common (= 2.28.0-r1)
+Recommends: gnome-common-dev, pkgconfig-dev
+Provides:
+Status: install ok installed
+Architecture: all
+Installed-Time: 1340219071
+Auto-Installed: yes
+
+Package: util-linux-mkfs
+Version: 2.21-r5
+Depends: libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219064
+Auto-Installed: yes
+
+Package: libxrender-dev
+Version: 1:0.9.7-r0
+Depends: pkgconfig, libxrender1 (= 1:0.9.7-r0)
+Recommends: renderproto-dev, libxcb-dev, libxau-dev, xproto-dev, pkgconfig-dev, libc6-dev, libxrender-dev, libxdmcp-dev, xdmcp-dev, libx11-dev, util-macros-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219072
+Auto-Installed: yes
+
+Package: qt4-embedded-dev
+Version: 4.8.2-r46.1
+Depends: qt4-embedded (= 4.8.2-r46.1)
+Recommends: libqtxmle-dev, libqtcoree-dev, gstreamer-dev, libjpeg-dev, libz-dev, libqtsqle-dev, libqtmultimediae-dev, libqtteste-dev, libqthelpe-dev, libfreetype-dev, libqt-embeddedassistantclient4-dev, libphonone-dev, libqtxmlpatternse-dev, openssl-dev, libts-1.0-dev, libtiff-dev, sqlite3-dev, libqtguie-dev, dbus-dev, libqtwebkite-dev, gst-plugins-base-dev, libqtnetworke-dev, directfb-dev, libqtdbuse-dev, libqt-embeddeduitools4-dev, libqtscripte-dev, libqtclucenee-dev, pulseaudio-dev, libqt-embeddedpvrqwswsegl4-dev, libqtsvge-dev, libqtdesignere-dev, libqt-embeddedopenvg4-dev, libqtdeclarativee-dev, libqtscripttoolse-dev, libglib-2.0-dev, libpng-dev, libqt-embeddedmediaservices4-dev, libqt3supporte-dev, libqtdesignercomponentse-dev, libqt-embeddedopengl4-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219087
+Auto-Installed: yes
+
+Package: libqtsqle-dev
+Version: 4.8.2-r46.1
+Depends: libqtcoree-dev, libqtsqle4
+Recommends: libstdc++-dev, gst-plugins-base-dev, libgcc-s-dev, gstreamer-dev, libjpeg-dev, libz-dev, directfb-dev, openssl-dev, libts-1.0-dev, libpng-dev, libc6-dev, libtiff-dev, sqlite3-dev, libqtcoree-dev, libfreetype-dev, pulseaudio-dev, dbus-dev, libglib-2.0-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219074
+Auto-Installed: yes
+
+Package: libcom-err2
+Version: 1.42.1-r0
+Depends: libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219064
+Auto-Installed: yes
+
+Package: eglibc-localedata-translit-fraction
+Version: 2.13-r20
+Provides: glibc-localedata-translit-fraction
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219078
+Auto-Installed: yes
+
+Package: libatk-1.0-dev
+Version: 2.2.0-r2
+Depends: libatk-1.0-0 (= 2.2.0-r2), libglib-2.0-dev, pkgconfig
+Recommends: libatk-1.0-dev, libglib-2.0-dev, libffi-dev, pkgconfig-dev, libc6-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219071
+Auto-Installed: yes
+
+Package: libpci-dev
+Version: 3.1.9-r0
+Depends: libpci3
+Recommends: libc6-dev, libz-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219068
+Auto-Installed: yes
+
+Package: libgstrtp-0.10-0
+Version: 0.10.36-r3
+Depends: libgcc1 (>= 4.6.3+svnr184847), gstreamer (>= 0.10.36), libffi5 (>= 3.0.10), libxml2 (>= 2.7.8), libz1 (>= 1.2.6), libc6 (>= 2.13), libglib-2.0-0 (>= 2.30.3)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219059
+Auto-Installed: yes
+
+Package: alsa-lib
+Version: 1.0.25-r1
+Depends: libasound2 (>= 1.0.25), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219065
+Auto-Installed: yes
+
+Package: libqtsqle4
+Version: 4.8.2-r46.1
+Depends: libqtcoree4 (>= 4.8.2), libgcc1 (>= 4.6.3+svnr184847), libc6 (>= 2.13), libstdc++6 (>= 4.6.3+svnr184847)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219074
+Auto-Installed: yes
+
+Package: gconf
+Version: 3.2.3-r8
+Depends: libdbus-glib-1-2 (>= 0.98), libffi5 (>= 3.0.10), libxml2 (>= 2.7.8), libdbus-1-3 (>= 1.4.16), libz1 (>= 1.2.6), polkit (>= 0.104), libgtk-2.0 (>= 2.24.8), libc6 (>= 2.13), libglib-2.0-0 (>= 2.30.3), dbus-x11
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219069
+Auto-Installed: yes
+
+Package: qt4-embedded-designer
+Version: 4.8.2-r46.1
+Depends: libgcc1 (>= 4.6.3+svnr184847), libqtcoree4 (>= 4.8.2), libqtxmle4 (>= 4.8.2), libstdc++6 (>= 4.6.3+svnr184847), libqtdesignere4 (>= 4.8.2), libqtdesignercomponentse4 (>= 4.8.2), libqtguie4 (>= 4.8.2), libc6 (>= 2.13), libqtnetworke4 (>= 4.8.2)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219103
+Auto-Installed: yes
+
+Package: libatk-1.0-0
+Version: 2.2.0-r2
+Depends: libffi5 (>= 3.0.10), libglib-2.0-0 (>= 2.30.3), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219069
+Auto-Installed: yes
+
+Package: util-linux-umount
+Version: 2.21-r5
+Depends: libgcc1 (>= 4.6.3+svnr184847), libblkid1 (>= 2.21), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219064
+Auto-Installed: yes
+
+Package: gst-plugins-base-dev
+Version: 0.10.36-r3
+Depends: libgstriff-0.10-0, gst-plugins-base (= 0.10.36-r3), gstreamer-dev, libgstaudio-0.10-0, libgstvideo-0.10-0, libglib-2.0-dev, pkgconfig, libgstfft-0.10-0, libgstnetbuffer-0.10-0, libgsttag-0.10-0, libgstrtp-0.10-0, libgstsdp-0.10-0, libgstcdda-0.10-0, libgstinterfaces-0.10-0, libgstrtsp-0.10-0, libgstapp-0.10-0, libgstpbutils-0.10-0
+Recommends: libtheora-dev, gstreamer-dev, liboil-dev, libxv-dev, libogg-dev, avahi-dev, alsa-lib-dev, libvorbisidec-dev, libfreetype-dev, libvorbis-dev, util-linux-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219059
+Auto-Installed: yes
+
+Package: tslib-conf
+Version: 1.0-r20
+Provides: libts-0.0-conf
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219065
+Auto-Installed: yes
+
+Package: libssl1.0.0
+Version: 1.0.0h-r15.1
+Depends: libcrypto1.0.0 (>= 1.0.0h), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219066
+Auto-Installed: yes
+
+Package: libqtxmlpatternse4
+Version: 4.8.2-r46.1
+Depends: libqtcoree4 (>= 4.8.2), libgcc1 (>= 4.6.3+svnr184847), libc6 (>= 2.13), libqtnetworke4 (>= 4.8.2), libstdc++6 (>= 4.6.3+svnr184847)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219084
+Auto-Installed: yes
+
+Package: libphonone-dev
+Version: 4.8.2-r46.1
+Depends: libqtguie-dev, libqtcoree-dev, libphonone4, libqtnetworke-dev, libqtdbuse-dev
+Recommends: libgcc-s-dev, gstreamer-dev, libpulse-dev, libz-dev, libqtcoree-dev, libfreetype-dev, libjpeg-dev, openssl-dev, libts-1.0-dev, libtiff-dev, sqlite3-dev, libqtguie-dev, dbus-dev, gst-plugins-base-dev, directfb-dev, libqtdbuse-dev, libstdc++-dev, libc6-dev, pulseaudio-dev, libglib-2.0-dev, libpng-dev, libpulse-mainloop-glib-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219078
+Auto-Installed: yes
+
+Package: libavahi-gobject0
+Version: 0.6.31-r2.0
+Depends: libffi5 (>= 3.0.10), libavahi-common3 (>= 0.6.31), libdbus-1-3 (>= 1.4.16), libavahi-client3 (>= 0.6.31), libc6 (>= 2.13), libglib-2.0-0 (>= 2.30.3), libavahi-glib1 (>= 0.6.31)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219061
+Auto-Installed: yes
+
+Package: libice6
+Version: 1:1.0.8-r0
+Depends: libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219064
+Auto-Installed: yes
+
+Package: libqtnetworke4
+Version: 4.8.2-r46.1
+Depends: libqtcoree4 (>= 4.8.2), libgcc1 (>= 4.6.3+svnr184847), libz1 (>= 1.2.6), libc6 (>= 2.13), libstdc++6 (>= 4.6.3+svnr184847)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219075
+Auto-Installed: yes
+
+Package: libsm-dev
+Version: 1:1.2.1-r0
+Depends: libsm6 (= 1:1.2.1-r0), pkgconfig
+Recommends: xtrans-dev, libice-dev, xproto-dev, pkgconfig-dev, libc6-dev, libuuid-dev, e2fsprogs-dev, libsm-dev, util-macros-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219064
+Auto-Installed: yes
+
+Package: libpulse-simple0
+Version: 1.1-r8
+Depends: libx11-6 (>= 1.4.4), libpulse0 (>= 1.1), libsndfile1 (>= 1.0.25), libxau6 (>= 1.0.7), libpulsecommon (>= 1.1), libxcb1 (>= 1.8.1), libcap2 (>= 2.22), libx11-xcb1 (>= 1.4.4), libdbus-1-3 (>= 1.4.16), libxtst6 (>= 1.2.1), libwrap0 (>= 7.6), libgdbm4 (>= 1.10), libice6 (>= 1.0.8), libxi6 (>= 1.4.5), libc6 (>= 2.13), libxext6 (>= 1.3.1), libsm6 (>= 1.2.1), libuuid1 (>= 2.21), libxdmcp6 (>= 1.1.1), libjson0 (>= 0.9)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219067
+Auto-Installed: yes
+
+Package: libgcrypt11
+Version: 1.5.0-r0
+Depends: libcap2 (>= 2.22), libgpg-error0 (>= 1.10), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219072
+Auto-Installed: yes
+
+Package: liblzma-dev
+Version: 5.0.3-r1
+Depends: liblzma5
+Recommends: libc6-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219066
+Auto-Installed: yes
+
+Package: eglibc-extra-nss
+Version: 2.13-r26+svnr15508
+Depends: libc6 (>= 2.13)
+Provides: glibc-extra-nss
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219055
+Auto-Installed: yes
+
+Package: libxcursor-dev
+Version: 1:1.1.13-r0
+Depends: xproto-dev, pkgconfig, libxcursor1 (= 1:1.1.13-r0)
+Recommends: libc6-dev, libxcb-dev, libxau-dev, xproto-dev, pkgconfig-dev, libxcursor-dev, libxrender-dev, libxdmcp-dev, libxfixes-dev, libx11-dev, util-macros-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219073
+Auto-Installed: yes
+
+Package: libxcb-res0
+Version: 1.8.1-r0
+Depends: libxau6 (>= 1.0.7), libxcb1 (>= 1.8.1), libxdmcp6 (>= 1.1.1), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219061
+Auto-Installed: yes
+
+Package: bash
+Version: 4.2-r2
+Depends: libgcc1 (>= 4.6.3+svnr184847), libtinfo5 (>= 5.9), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219056
+Auto-Installed: yes
+
+Package: libffi5
+Version: 3.0.10-r0
+Depends: libgcc1 (>= 4.6.3+svnr184847), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219053
+Auto-Installed: yes
+
+Package: eggdbus
+Version: 0.6-r3
+Depends: libdbus-glib-1-2 (>= 0.98), libffi5 (>= 3.0.10), libdbus-1-3 (>= 1.4.16), libz1 (>= 1.2.6), libc6 (>= 2.13), libglib-2.0-0 (>= 2.30.3)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219071
+Auto-Installed: yes
+
+Package: openssl
+Version: 1.0.0h-r15.1
+Depends: libssl1.0.0 (>= 1.0.0h), libcrypto1.0.0 (>= 1.0.0h), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219066
+Auto-Installed: yes
+
+Package: eglibc-localedata-iso14651-t1
+Version: 2.13-r20
+Depends: eglibc-localedata-iso14651-t1-common
+Provides: glibc-localedata-iso14651-t1
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219078
+Auto-Installed: yes
+
+Package: libxcb-xfixes0
+Version: 1.8.1-r0
+Depends: libxau6 (>= 1.0.7), libxcb1 (>= 1.8.1), libxdmcp6 (>= 1.1.1), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219061
+Auto-Installed: yes
+
+Package: dbus-1
+Version: 1.4.16-r3.0
+Depends: update-rc.d, libdbus-1-3 (>= 1.4.16), libc6 (>= 2.13), shadow, libexpat1 (>= 2.0.1), base-passwd
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Conffiles:
+ /etc/dbus-1/system.conf 45cf86d3867654720b61faa8100d69f7
+ /etc/dbus-1/session.conf 3ec4497bcff6f8e1445db64b23bda595
+Installed-Time: 1340219062
+Auto-Installed: yes
+
+Package: speex-dev
+Version: 1.2rc1-r1
+Depends: speex (= 1.2rc1-r1), pkgconfig
+Recommends: libc6-dev, libogg-dev, pkgconfig-dev, libgcc-s-dev, speex-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219074
+Auto-Installed: yes
+
+Package: libxv1
+Version: 1.0.7-r0
+Depends: libx11-6 (>= 1.4.4), libxcb1 (>= 1.8.1), libxext6 (>= 1.3.1), libc6 (>= 2.13), libxau6 (>= 1.0.7), libxdmcp6 (>= 1.1.1)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219060
+Auto-Installed: yes
+
+Package: libqtcoree-dev
+Version: 4.8.2-r46.1
+Depends: libqtcoree4
+Recommends: libstdc++-dev, gst-plugins-base-dev, libgcc-s-dev, gstreamer-dev, libjpeg-dev, libz-dev, directfb-dev, openssl-dev, libts-1.0-dev, libpng-dev, libc6-dev, libtiff-dev, sqlite3-dev, libfreetype-dev, pulseaudio-dev, dbus-dev, libglib-2.0-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219054
+Auto-Installed: yes
+
+Package: qt4-embedded-plugin-imageformat-jpeg
+Version: 4.8.2-r46.1
+Depends: libgcc1 (>= 4.6.3+svnr184847), libqtcoree4 (>= 4.8.2), libstdc++6 (>= 4.6.3+svnr184847), libqtguie4 (>= 4.8.2), libc6 (>= 2.13), libjpeg8 (>= 8c)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219099
+Auto-Installed: yes
+
+Package: libflac++6
+Version: 1.2.1-r2
+Depends: libgcc1 (>= 4.6.3+svnr184847), libogg0 (>= 1.3.0), libc6 (>= 2.13), libflac8 (>= 1.2.1), libstdc++6 (>= 4.6.3+svnr184847)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219074
+Auto-Installed: yes
+
+Package: libgstcdda-0.10-0
+Version: 0.10.36-r3
+Depends: libgcc1 (>= 4.6.3+svnr184847), gstreamer (>= 0.10.36), libffi5 (>= 3.0.10), libxml2 (>= 2.7.8), libz1 (>= 1.2.6), libgsttag-0.10-0 (>= 0.10.36), libc6 (>= 2.13), libglib-2.0-0 (>= 2.30.3)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219059
+Auto-Installed: yes
+
+Package: libticw5
+Version: 5.9-r8.1
+Depends: libtinfo5 (>= 5.9), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219057
+Auto-Installed: yes
+
+Package: libstdc++-dev
+Version: 4.6.3+svnr184847-r25
+Depends: libstdc++6
+Recommends: libc6-dev, libgcc-s-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219055
+Auto-Installed: yes
+
+Package: libxcb-randr0
+Version: 1.8.1-r0
+Depends: libxau6 (>= 1.0.7), libxcb1 (>= 1.8.1), libxdmcp6 (>= 1.1.1), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219061
+Auto-Installed: yes
+
+Package: libqtscripte4
+Version: 4.8.2-r46.1
+Depends: libqtcoree4 (>= 4.8.2), libgcc1 (>= 4.6.3+svnr184847), libc6 (>= 2.13), libstdc++6 (>= 4.6.3+svnr184847)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219084
+Auto-Installed: yes
+
+Package: acl
+Version: 2.2.51-r3
+Depends: libacl1 (>= 2.2.51), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219068
+Auto-Installed: yes
+
+Package: libjpeg8
+Version: 8c-r3
+Depends: libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219065
+Auto-Installed: yes
+
+Package: libcap-dev
+Version: 2.22-r3
+Depends: libcap2 (= 2.22-r3)
+Recommends: libc6-dev, attr-dev, libcap-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219063
+Auto-Installed: yes
+
+Package: libusb-1.0-0
+Version: 1.0.8-r4
+Depends: libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219067
+Auto-Installed: yes
+
+Package: libxft2
+Version: 1:2.3.0-r0
+Depends: libx11-6 (>= 1.4.4), libxcb1 (>= 1.8.1), libxrender1 (>= 0.9.7), libfreetype6 (>= 2.4.8), libc6 (>= 2.13), libxau6 (>= 1.0.7), libexpat1 (>= 2.0.1), libxdmcp6 (>= 1.1.1), libfontconfig1 (>= 2.8.0)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219069
+Auto-Installed: yes
+
+Package: libuuid1
+Version: 2.21-r5
+Depends: libgcc1 (>= 4.6.3+svnr184847), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219064
+Auto-Installed: yes
+
+Package: eglibc-gconv-iso8859-1
+Version: 2.13-r20
+Depends: eglibc-gconv, libc6 (>= 2.13)
+Provides: glibc-gconv-iso8859-1
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219071
+Auto-Installed: yes
+
+Package: base-files-dev
+Version: 3.0.14-r71
+Depends: base-files (= 3.0.14-r71)
+Recommends: base-files-dev
+Provides:
+Status: install ok installed
+Architecture: generic_armv5te
+Installed-Time: 1340219069
+Auto-Installed: yes
+
+Package: liboil-dev
+Version: 0.3.17-r5
+Depends: liboil (= 0.3.17-r5), pkgconfig
+Recommends: libc6-dev, libglib-2.0-dev, pkgconfig-dev, liboil-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219060
+Auto-Installed: yes
+
+Package: pulseaudio-dev
+Version: 1.1-r8
+Depends: libpulse0, libpulse-simple0, libglib-2.0-dev, pulseaudio (= 1.1-r8), pkgconfig, libpulse-mainloop-glib0
+Recommends: libz-dev, libavahi-client-dev, alsa-lib-dev, pulseaudio-module-always-sink-dev, pulseaudio-module-stream-restore-dev, pulseaudio-module-null-sink-dev, libxdmcp-dev, libcap-dev, libx11-dev, libice-dev, pulseaudio-lib-bluetooth-ipc-dev, udev-dev, libxau-dev, pulseaudio-lib-raop-dev, libxtst-dev, libsndfile-dev, shadow-sysroot-dev, pulseaudio-lib-oss-util-dev, pulseaudio-lib-bluetooth-util-dev, consolekit-dev, liboil-dev, pulseaudio-module-native-protocol-unix-dev, pulseaudio-lib-avahi-wrap-dev, libatomics-ops-dev, libltdl-dev, bluez4-dev, libxcb-dev, libwrap-dev, libffi-dev, libuuid-dev, pulseaudio-lib-protocol-simple-dev, libudev-dev, pulseaudio-lib-protocol-cli-dev, pkgconfig-dev, libcrypto-dev, libasound-dev, libpulse-simple-dev, pulseaudio-dev, pulseaudio-module-alsa-source-dev, pulseaudio-module-augment-properties-dev, pulseaudio-lib-protocol-http-dev, pulseaudio-module-udev-detect-dev, pulseaudio-module-suspend-on-idle-dev, pulseaudio-module-rescue-streams-dev, pulseaudio-module-position-event-sounds-dev, libtool-dev, pulseaudio-module-filter-heuristics-dev, base-passwd-dev, speex-dev, libgdbm-dev, pulseaudio-lib-rtp-dev, pulseaudio-module-detect-dev, libpulse-dev, libsm-dev, pulseaudio-lib-cli-dev, pulseaudio-module-cork-music-on-phone-dev, pulseaudio-module-default-device-restore-dev, libavahi-common-dev, pulseaudio-module-alsa-card-dev, shadow-dev, avahi-dev, libjson-dev, pulseaudio-module-filter-apply-dev, gtk+-dev, libx11-trim-xcb-dev, pulseaudio-module-card-restore-dev, libgcc-s-dev, pulseaudio-module-intended-roles-dev, pulseaudio-lib-alsa-util-dev, libpulsecore-dev, pulseaudio-module-alsa-sink-dev, libssl-dev, pulseaudio-lib-protocol-native-dev, dbus-dev, libxext-dev, pulseaudio-lib-protocol-esound-dev, libpulsecommon-dev, gconf-dev, libc6-dev, pulseaudio-module-console-kit-dev, libxi-dev, libdbus-glib-1-dev, dbus-lib-dev, libglib-2.0-dev, libpulse-mainloop-glib-dev, pulseaudio-lib-bluetooth-sbc-dev, pulseaudio-module-device-restore-dev, libsamplerate0-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219067
+Auto-Installed: yes
+
+Package: sysfsutils
+Version: 2.1.0-r3
+Depends: libsysfs2 (>= 2.1.0), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219066
+Auto-Installed: yes
+
+Package: libtiff-dev
+Version: 4.0.1-r1
+Depends: libtiff5 (= 4.0.1-r1)
+Recommends: libgcc-s-dev, libjpeg-dev, libz-dev, liblzma-dev, libc6-dev, xz-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219066
+Auto-Installed: yes
+
+Package: pango-module-basic-fc
+Version: 1.28.4-r7
+Depends: libffi5 (>= 3.0.10), libc6 (>= 2.13), libfreetype6 (>= 2.4.8), libstdc++6 (>= 4.6.3+svnr184847), libglib-2.0-0 (>= 2.30.3), pango, libexpat1 (>= 2.0.1), libfontconfig1 (>= 2.8.0)
+Provides:
+Status: install ok unpacked
+Architecture: armv5te
+Installed-Time: 1340219070
+Auto-Installed: yes
+
+Package: qt4-embedded-fonts-ttf-dejavu
+Version: 4.8.2-r46.1
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219088
+Auto-Installed: yes
+
+Package: xf86bigfontproto-dev
+Version: 1:1.2.0-r1
+Recommends: xf86bigfontproto-dev, util-macros-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219061
+Auto-Installed: yes
+
+Package: libxcb-shm0
+Version: 1.8.1-r0
+Depends: libxau6 (>= 1.0.7), libxcb1 (>= 1.8.1), libxdmcp6 (>= 1.1.1), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219060
+Auto-Installed: yes
+
+Package: base-files
+Version: 3.0.14-r71
+Provides:
+Status: install ok installed
+Architecture: generic_armv5te
+Conffiles:
+ /etc/fstab 26854391745ce33aae8bd93cb983190f
+ /etc/hostname 083332f32ebad4107f2d58862325ff08
+Installed-Time: 1340219068
+Auto-Installed: yes
+
+Package: liboil
+Version: 0.3.17-r5
+Depends: libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219060
+Auto-Installed: yes
+
+Package: pulseaudio
+Version: 1.1-r8
+Depends: bluez4 (>= 4.99), libcap2 (>= 2.22), libc6 (>= 2.13), libgdbm4 (>= 1.10)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219067
+Auto-Installed: yes
+
+Package: alsa-conf-base
+Version: 1.0.25-r1
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219064
+Auto-Installed: yes
+
+Package: util-macros-dev
+Version: 1:1.17-r0
+Recommends: util-macros-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219060
+Auto-Installed: yes
+
+Package: gtk+-dev
+Version: 2.24.8-r4
+Depends: libcairo-dev, gdk-pixbuf-dev, libatk-1.0-dev, libglib-2.0-dev, pkgconfig, libgtk-2.0 (= 2.24.8-r4), pango-dev
+Recommends: libcairo-dev, libgcc-s-dev, libjpeg-dev, libz-dev, libxcb-dev, libffi-dev, libfreetype-dev, libgcrypt-dev, libxcomposite-dev, libxfixes-dev, gdk-pixbuf-dev, libxdamage-dev, libxdmcp-dev, libxau-dev, libx11-dev, libfontconfig-dev, libxext-dev, libatk-1.0-dev, pkgconfig-dev, libstdc++-dev, libc6-dev, pango-dev, libxrandr-dev, libxcursor-dev, libglib-2.0-dev, libpng-dev, libxrender-dev, libexpat-dev, gtk+-dev, libpixman-1-dev, libpng12-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219072
+Auto-Installed: yes
+
+Package: libqtsvge-dev
+Version: 4.8.2-r46.1
+Depends: libqtsvge4, libqtcoree-dev, libqtguie-dev
+Recommends: libstdc++-dev, gst-plugins-base-dev, libgcc-s-dev, gstreamer-dev, libjpeg-dev, libz-dev, directfb-dev, openssl-dev, libts-1.0-dev, libpng-dev, libc6-dev, libtiff-dev, sqlite3-dev, libqtguie-dev, libqtcoree-dev, libfreetype-dev, pulseaudio-dev, dbus-dev, libglib-2.0-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219105
+Auto-Installed: yes
+
+Package: libxdmcp-dev
+Version: 1:1.1.1-r0
+Depends: xproto-dev, pkgconfig, libxdmcp6 (= 1:1.1.1-r0)
+Recommends: libc6-dev, xproto-dev, pkgconfig-dev, libxdmcp-dev, util-macros-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219061
+Auto-Installed: yes
+
+Package: fixesproto-dev
+Version: 1:5.0-r0
+Recommends: fixesproto-dev, util-macros-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219072
+Auto-Installed: yes
+
+Package: ocf-linux-dev
+Version: 20100325-r3.0
+Depends: ocf-linux (= 20100325-r3.0)
+Recommends: ocf-linux-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219066
+Auto-Installed: yes
+
+Package: update-rc.d-dev
+Version: 0.7-r4
+Depends: update-rc.d (= 0.7-r4)
+Recommends: update-rc.d-dev
+Provides:
+Status: install ok installed
+Architecture: all
+Installed-Time: 1340219063
+Auto-Installed: yes
+
+Package: pkgconfig-dev
+Version: 0.25-r3
+Depends: pkgconfig (= 0.25-r3)
+Recommends: libc6-dev, libglib-2.0-dev, pkgconfig-dev, libpopt-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219059
+Auto-Installed: yes
+
+Package: libqtsvge4
+Version: 4.8.2-r46.1
+Depends: libgcc1 (>= 4.6.3+svnr184847), libstdc++6 (>= 4.6.3+svnr184847), libqtcoree4 (>= 4.8.2), libz1 (>= 1.2.6), libqtguie4 (>= 4.8.2), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219084
+Auto-Installed: yes
+
+Package: libxcb-dpms0
+Version: 1.8.1-r0
+Depends: libxau6 (>= 1.0.7), libxcb1 (>= 1.8.1), libxdmcp6 (>= 1.1.1), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219061
+Auto-Installed: yes
+
+Package: libxml2-dev
+Version: 2.7.8-r7
+Depends: libxml2 (= 2.7.8-r7), pkgconfig
+Recommends: libc6-dev, libxml2-dev, pkgconfig-dev, libz-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219058
+Auto-Installed: yes
+
+Package: xcb-proto-dev
+Version: 1.7-r0
+Recommends: xcb-proto-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219061
+Auto-Installed: yes
+
+Package: libqtdesignercomponentse4
+Version: 4.8.2-r46.1
+Depends: libgcc1 (>= 4.6.3+svnr184847), libqtcoree4 (>= 4.8.2), libqtxmle4 (>= 4.8.2), libstdc++6 (>= 4.6.3+svnr184847), libqtdesignere4 (>= 4.8.2), libqtguie4 (>= 4.8.2), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219103
+Auto-Installed: yes
+
+Package: util-linux-sfdisk
+Version: 2.21-r5
+Depends: libgcc1 (>= 4.6.3+svnr184847), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219064
+Auto-Installed: yes
+
+Package: qt4-embedded-tools
+Version: 4.8.2-r46.1
+Depends: libgcc1 (>= 4.6.3+svnr184847), libstdc++6 (>= 4.6.3+svnr184847), libqtcoree4 (>= 4.8.2), libqtxmle4 (>= 4.8.2), libz1 (>= 1.2.6), libqt3supporte4 (>= 4.8.2), libqtguie4 (>= 4.8.2), libc6 (>= 2.13), libqtdeclarativee4 (>= 4.8.2)
+Provides: qmake2
+Replaces: qmake2
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219104
+Auto-Installed: yes
+
+Package: libxcb-dri2-0
+Version: 1.8.1-r0
+Depends: libxau6 (>= 1.0.7), libxcb1 (>= 1.8.1), libxdmcp6 (>= 1.1.1), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219061
+Auto-Installed: yes
+
+Package: openssl-dev
+Version: 1.0.0h-r15.1
+Depends: libcrypto1.0.0, openssl (= 1.0.0h-r15.1), pkgconfig, libssl1.0.0
+Recommends: pkgconfig-dev, libgcc-s-dev, libssl-dev, openssl-dev, libcrypto-dev, ocf-linux-dev, libc6-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219066
+Auto-Installed: yes
+
+Package: dosfstools
+Version: 2.11-r4
+Depends: libgcc1 (>= 4.6.3+svnr184847), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219074
+Auto-Installed: yes
+
+Package: libstdc++6
+Version: 4.6.3+svnr184847-r25
+Depends: libgcc1 (>= 4.6.3+svnr184847), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219054
+Auto-Installed: yes
+
+Package: libice-dev
+Version: 1:1.0.8-r0
+Depends: xproto-dev, libice6 (= 1:1.0.8-r0), pkgconfig
+Recommends: xtrans-dev, libice-dev, xproto-dev, pkgconfig-dev, libc6-dev, util-macros-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219064
+Auto-Installed: yes
+
+Package: qt4-embedded-demos
+Version: 4.8.2-r46.1
+Depends: libgcc1 (>= 4.6.3+svnr184847), libqtsvge4 (>= 4.8.2), libqthelpe4 (>= 4.8.2), libstdc++6 (>= 4.6.3+svnr184847), libqtwebkite4 (>= 4.8.2), libqtcoree4 (>= 4.8.2), libqtxmle4 (>= 4.8.2), libc6 (>= 2.13), libqtnetworke4 (>= 4.8.2), libqtguie4 (>= 4.8.2), libqtsqle4 (>= 4.8.2), libqtdeclarativee4 (>= 4.8.2), libphonone4 (>= 4.8.2)
+Recommends: qt4-embedded-plugin-sqldriver-sqlite, qt4-embedded-examples, qt4-embedded-qml-plugins, qt4-embedded-assistant, qt4-embedded-plugin-imageformat-jpeg, qt4-embedded-demos-doc, qt4-embedded-fonts
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219091
+Auto-Installed: yes
+
+Package: libxcb-xf86dri0
+Version: 1.8.1-r0
+Depends: libxau6 (>= 1.0.7), libxcb1 (>= 1.8.1), libxdmcp6 (>= 1.1.1), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219061
+Auto-Installed: yes
+
+Package: libxrender1
+Version: 1:0.9.7-r0
+Depends: libx11-6 (>= 1.4.4), libxau6 (>= 1.0.7), libxcb1 (>= 1.8.1), libxdmcp6 (>= 1.1.1), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219069
+Auto-Installed: yes
+
+Package: libogg-dev
+Version: 1.3.0-r0
+Depends: libogg0 (= 1.3.0-r0), pkgconfig
+Recommends: libc6-dev, libogg-dev, pkgconfig-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219060
+Auto-Installed: yes
+
+Package: libdbus-1-3
+Version: 1.4.16-r3.0
+Depends: libc6 (>= 2.13)
+Recommends: dbus-1
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219061
+Auto-Installed: yes
+
+Package: attr-dev
+Version: 2.4.46-r4
+Depends: attr (= 2.4.46-r4)
+Recommends: libattr-dev, ncurses-dev, libc6-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219063
+Auto-Installed: yes
+
+Package: usbutils-dev
+Version: 0.91-r3
+Depends: usbutils (= 0.91-r3)
+Recommends: libusb-dev, libz-dev, libc6-dev, usbutils-dev, bash-dev, usbutils-ids-dev, libusb-compat-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219068
+Auto-Installed: yes
+
+Package: pciutils
+Version: 3.1.9-r0
+Depends: pciutils-ids, libz1 (>= 1.2.6), libpci3 (>= 3.1.9), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219068
+Auto-Installed: yes
+
+Package: libgstapp-0.10-0
+Version: 0.10.36-r3
+Depends: libgcc1 (>= 4.6.3+svnr184847), gstreamer (>= 0.10.36), libffi5 (>= 3.0.10), libxml2 (>= 2.7.8), libz1 (>= 1.2.6), libc6 (>= 2.13), libglib-2.0-0 (>= 2.30.3)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219059
+Auto-Installed: yes
+
+Package: gdk-pixbuf
+Version: 2.24.1-r0
+Depends: libffi5 (>= 3.0.10), libglib-2.0-0 (>= 2.30.3), libz1 (>= 1.2.6), libpng12-0 (>= 1.2.46), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219069
+Auto-Installed: yes
+
+Package: libxcb-xevie0
+Version: 1.8.1-r0
+Depends: libxau6 (>= 1.0.7), libxcb1 (>= 1.8.1), libxdmcp6 (>= 1.1.1), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219061
+Auto-Installed: yes
+
+Package: libqtteste4
+Version: 4.8.2-r46.1
+Depends: libqtcoree4 (>= 4.8.2), libgcc1 (>= 4.6.3+svnr184847), libc6 (>= 2.13), libstdc++6 (>= 4.6.3+svnr184847)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219077
+Auto-Installed: yes
+
+Package: libtool
+Version: 2.4.2-r2.0
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219074
+Auto-Installed: yes
+
+Package: gdk-pixbuf-loader-xpm
+Version: 2.24.1-r0
+Depends: libpng12-0 (>= 1.2.46), libffi5 (>= 3.0.10), libz1 (>= 1.2.6), gdk-pixbuf (>= 2.24.1), libc6 (>= 2.13), libglib-2.0-0 (>= 2.30.3)
+Provides:
+Status: install ok unpacked
+Architecture: armv5te
+Installed-Time: 1340219071
+Auto-Installed: yes
+
+Package: libgtk-2.0
+Version: 2.24.8-r4
+Depends: libgcc1 (>= 4.6.3+svnr184847), libpng12-0 (>= 1.2.46), libxrender1 (>= 0.9.7), libpixman-1-0 (>= 0.25.2), libxext6 (>= 1.3.1), libz1 (>= 1.2.6), libfreetype6 (>= 2.4.8), libxrandr2 (>= 1.3.2), libxcb1 (>= 1.8.1), libffi5 (>= 3.0.10), libxdamage1 (>= 1.1.3), gdk-pixbuf (>= 2.24.1), libcairo2 (>= 1.10.2), libstdc++6 (>= 4.6.3+svnr184847), libglib-2.0-0 (>= 2.30.3), libxau6 (>= 1.0.7), libx11-6 (>= 1.4.4), libxfixes3 (>= 5.0), libxcomposite1 (>= 0.4.3), libatk-1.0-0 (>= 2.2.0), libc6 (>= 2.13), pango (>= 1.28.4), libxcursor1 (>= 1.1.13), libexpat1 (>= 2.0.1), libxdmcp6 (>= 1.1.1), libfontconfig1 (>= 2.8.0)
+Recommends: shared-mime-info, gdk-pixbuf-loader-png, gdk-pixbuf-loader-jpeg, liberation-fonts, gdk-pixbuf-loader-xpm, glibc-gconv-iso8859-1, gdk-pixbuf-loader-gif
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219069
+Auto-Installed: yes
+
+Package: attr
+Version: 2.4.46-r4
+Depends: libattr1 (>= 2.4.46), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219063
+Auto-Installed: yes
+
+Package: usbutils
+Version: 0.91-r3
+Depends: libz1 (>= 1.2.6), usbutils-ids, libusb-compat (>= 0.1.3), bash, libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219068
+Auto-Installed: yes
+
+Package: util-linux-mount
+Version: 2.21-r5
+Depends: libgcc1 (>= 4.6.3+svnr184847), libblkid1 (>= 2.21), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219064
+Auto-Installed: yes
+
+Package: qt4-embedded-examples
+Version: 4.8.2-r46.1
+Depends: libgcc1 (>= 4.6.3+svnr184847), libqtsvge4 (>= 4.8.2), libqtteste4 (>= 4.8.2), libqtdeclarativee4 (>= 4.8.2), libstdc++6 (>= 4.6.3+svnr184847), libqtwebkite4 (>= 4.8.2), libqtcoree4 (>= 4.8.2), libqtxmle4 (>= 4.8.2), libqtscripttoolse4 (>= 4.8.2), libc6 (>= 2.13), libqtmultimediae4 (>= 4.8.2), libqtnetworke4 (>= 4.8.2), libqtdbuse4 (>= 4.8.2), libqtscripte4 (>= 4.8.2), libqtguie4 (>= 4.8.2), libqthelpe4 (>= 4.8.2), libqtsqle4 (>= 4.8.2), libphonone4 (>= 4.8.2), libqtxmlpatternse4 (>= 4.8.2)
+Recommends: qt4-embedded-plugin-imageformat-jpeg, qt4-embedded-plugin-sqldriver-sqlite, qt4-embedded-qml-plugins
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219099
+Auto-Installed: yes
+
+Package: libxdamage1
+Version: 1:1.1.3-r1
+Depends: libx11-6 (>= 1.4.4), libxfixes3 (>= 5.0), libxcb1 (>= 1.8.1), libc6 (>= 2.13), libxau6 (>= 1.0.7), libxdmcp6 (>= 1.1.1)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219069
+Auto-Installed: yes
+
+Package: polkit-dev
+Version: 0.104-r5
+Depends: polkit (= 0.104-r5), pkgconfig
+Recommends: libdbus-glib-1-dev, libglib-2.0-dev, libgcc-s-dev, libz-dev, eggdbus-dev, pkgconfig-dev, libffi-dev, polkit-dev, libc6-dev, libexpat-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219071
+Auto-Installed: yes
+
+Package: libqtmultimediae4
+Version: 4.8.2-r46.1
+Depends: libgcc1 (>= 4.6.3+svnr184847), libqtcoree4 (>= 4.8.2), libstdc++6 (>= 4.6.3+svnr184847), libqtguie4 (>= 4.8.2), libc6 (>= 2.13), libasound2 (>= 1.0.25)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219075
+Auto-Installed: yes
+
+Package: libcrypto1.0.0
+Version: 1.0.0h-r15.1
+Depends: libgcc1 (>= 4.6.3+svnr184847), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219066
+Auto-Installed: yes
+
+Package: libjpeg-dev
+Version: 8c-r3
+Depends: libjpeg8 (= 8c-r3)
+Recommends: libc6-dev, libjpeg-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219065
+Auto-Installed: yes
+
+Package: libpthread-stubs-dev
+Version: 0.3-r0
+Recommends: libpthread-stubs-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219061
+Auto-Installed: yes
+
+Package: libtinfo5
+Version: 5.9-r8.1
+Depends: libc6 (>= 2.13)
+Recommends: ncurses-terminfo-base
+Suggests: ncurses-terminfo
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219056
+Auto-Installed: yes
+
+Package: libqtclucenee-dev
+Version: 4.8.2-r46.1
+Depends: libqtcoree-dev, libqtclucenee4
+Recommends: libstdc++-dev, gst-plugins-base-dev, libgcc-s-dev, gstreamer-dev, libjpeg-dev, libz-dev, directfb-dev, openssl-dev, libts-1.0-dev, libpng-dev, libc6-dev, libtiff-dev, sqlite3-dev, libqtcoree-dev, libfreetype-dev, pulseaudio-dev, dbus-dev, libglib-2.0-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219077
+Auto-Installed: yes
+
+Package: libxcomposite-dev
+Version: 1:0.4.3-r0
+Depends: libxcomposite1 (= 1:0.4.3-r0), pkgconfig
+Recommends: util-macros-dev, libxext-dev, libxcb-dev, libxau-dev, pkgconfig-dev, compositeproto-dev, libc6-dev, libxdmcp-dev, libxfixes-dev, libx11-dev, libxcomposite-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219072
+Auto-Installed: yes
+
+Package: alsa-lib-dev
+Version: 1.0.25-r1
+Depends: alsa-lib (= 1.0.25-r1), pkgconfig, libasound2
+Recommends: libc6-dev, libasound-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219065
+Auto-Installed: yes
+
+Package: polkit
+Version: 0.104-r5
+Depends: libgcc1 (>= 4.6.3+svnr184847), libffi5 (>= 3.0.10), libz1 (>= 1.2.6), libc6 (>= 2.13), libglib-2.0-0 (>= 2.30.3), libexpat1 (>= 2.0.1)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219068
+Auto-Installed: yes
+
+Package: gconf-dev
+Version: 3.2.3-r8
+Depends: gconf (= 3.2.3-r8), libglib-2.0-dev, pkgconfig
+Recommends: libdbus-glib-1-dev, libglib-2.0-dev, libz-dev, dbus-lib-dev, pkgconfig-dev, gconf-dev, polkit-dev, gnome-common-dev, libc6-dev, libffi-dev, gtk+-dev, dbus-dev, dbus-x11-dev, libxml2-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219069
+Auto-Installed: yes
+
+Package: libxfixes-dev
+Version: 1:5.0-r0
+Depends: libxfixes3 (= 1:5.0-r0), pkgconfig
+Recommends: libxcb-dev, libxau-dev, xproto-dev, pkgconfig-dev, libc6-dev, libxdmcp-dev, fixesproto-dev, xextproto-dev, libxfixes-dev, libx11-dev, util-macros-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219072
+Auto-Installed: yes
+
+Package: libqtdbuse-dev
+Version: 4.8.2-r46.1
+Depends: libqtcoree-dev, libqtdbuse4, libqtxmle-dev
+Recommends: libstdc++-dev, libqtxmle-dev, gst-plugins-base-dev, libgcc-s-dev, gstreamer-dev, libjpeg-dev, libz-dev, directfb-dev, openssl-dev, libts-1.0-dev, libpng-dev, libc6-dev, libtiff-dev, sqlite3-dev, libqtcoree-dev, libfreetype-dev, pulseaudio-dev, dbus-dev, libglib-2.0-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219077
+Auto-Installed: yes
+
+Package: qt4-embedded-fonts-qpf
+Version: 4.8.2-r46.1
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219102
+Auto-Installed: yes
+
+Package: util-linux-swaponoff
+Version: 2.21-r5
+Depends: libblkid1 (>= 2.21), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219064
+Auto-Installed: yes
+
+Package: libjson-dev
+Version: 0.9-r0
+Depends: libjson0 (= 0.9-r0)
+Recommends: libc6-dev, libjson-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219074
+Auto-Installed: yes
+
+Package: libjson0
+Version: 0.9-r0
+Depends: libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219067
+Auto-Installed: yes
+
+Package: libxcb-shape0
+Version: 1.8.1-r0
+Depends: libxau6 (>= 1.0.7), libxcb1 (>= 1.8.1), libxdmcp6 (>= 1.1.1), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219061
+Auto-Installed: yes
+
+Package: qt4-embedded-makeqpf
+Version: 4.8.2-r46.1
+Depends: libgcc1 (>= 4.6.3+svnr184847), libqtcoree4 (>= 4.8.2), libc6 (>= 2.13), libqtguie4 (>= 4.8.2), libstdc++6 (>= 4.6.3+svnr184847)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219103
+Auto-Installed: yes
+
+Package: eglibc-utils
+Version: 2.13-r26+svnr15508
+Depends: bash, libc6 (>= 2.13)
+Provides: glibc-utils
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219078
+Auto-Installed: yes
+
+Package: libcheck0
+Version: 0.9.8-r0
+Depends: libc6 (>= 2.13)
+Provides:
+Replaces: check (<= 0.9.5)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219073
+Auto-Installed: yes
+
+Package: libqtxmle4
+Version: 4.8.2-r46.1
+Depends: libqtcoree4 (>= 4.8.2), libgcc1 (>= 4.6.3+svnr184847), libc6 (>= 2.13), libstdc++6 (>= 4.6.3+svnr184847)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219077
+Auto-Installed: yes
+
+Package: dbus-x11
+Version: 1.4.16-r3.0
+Depends: libx11-6 (>= 1.4.4), dbus-1, libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219069
+Auto-Installed: yes
+
+Package: libgstsdp-0.10-0
+Version: 0.10.36-r3
+Depends: gstreamer (>= 0.10.36), libffi5 (>= 3.0.10), libxml2 (>= 2.7.8), libz1 (>= 1.2.6), libc6 (>= 2.13), libglib-2.0-0 (>= 2.30.3)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219059
+Auto-Installed: yes
+
+Package: libudev-dev
+Version: 164-r13
+Depends: libudev0
+Recommends: libusb-dev, libc6-dev, udev-dev, libglib-2.0-dev, pciutils-dev, usbutils-dev, acl-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219073
+Auto-Installed: yes
+
+Package: libgstvideo-0.10-0
+Version: 0.10.36-r3
+Depends: libgcc1 (>= 4.6.3+svnr184847), gstreamer (>= 0.10.36), libffi5 (>= 3.0.10), libxml2 (>= 2.7.8), libz1 (>= 1.2.6), libc6 (>= 2.13), libglib-2.0-0 (>= 2.30.3)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219059
+Auto-Installed: yes
+
+Package: consolekit-dev
+Version: 0.4.5-r9
+Depends: consolekit (= 0.4.5-r9), dbus-dev, pkgconfig
+Recommends: libdbus-glib-1-dev, libglib-2.0-dev, libz-dev, base-files-dev, dbus-lib-dev, pkgconfig-dev, consolekit-dev, gconf-dev, polkit-dev, gnome-common-dev, libc6-dev, hicolor-icon-theme-dev, dbus-dev, libx11-dev, shared-mime-info-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219068
+Auto-Installed: yes
+
+Package: libvorbis
+Version: 1.3.3-r0
+Depends: libogg0 (>= 1.3.0), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219065
+Auto-Installed: yes
+
+Package: pointercal
+Version: 0.0-r11
+Provides:
+Status: install ok installed
+Architecture: generic_armv5te
+Installed-Time: 1340219066
+Auto-Installed: yes
+
+Package: libvorbisidec1
+Version: 20120314-r0
+Depends: libgcc1 (>= 4.6.3+svnr184847), libogg0 (>= 1.3.0), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219065
+Auto-Installed: yes
+
+Package: libts-1.0-0
+Version: 1.0-r20
+Depends: tslib-conf, libc6 (>= 2.13)
+Recommends: pointercal
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219065
+Auto-Installed: yes
+
+Package: bash-dbg
+Version: 4.2-r2
+Recommends: bash-dbg, libc6-dbg, libgcc-s-dbg, ncurses-libtinfo-dbg, bash (= 4.2-r2)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219084
+Auto-Installed: yes
+
+Package: libxml2
+Version: 2.7.8-r7
+Depends: libz1 (>= 1.2.6), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219058
+Auto-Installed: yes
+
+Package: consolekit
+Version: 0.4.5-r9
+Depends: libx11-6 (>= 1.4.4), libdbus-glib-1-2 (>= 0.98), base-files, libdbus-1-3 (>= 1.4.16), libz1 (>= 1.2.6), polkit (>= 0.104), libc6 (>= 2.13), libglib-2.0-0 (>= 2.30.3)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219068
+Auto-Installed: yes
+
+Package: libcairo-perf-utils
+Version: 1.10.2-r5
+Depends: libgcc1 (>= 4.6.3+svnr184847), libz1 (>= 1.2.6), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219071
+Auto-Installed: yes
+
+Package: libphonone4
+Version: 4.8.2-r46.1
+Depends: libgcc1 (>= 4.6.3+svnr184847), libpulse0 (>= 1.1), libqtcoree4 (>= 4.8.2), libstdc++6 (>= 4.6.3+svnr184847), libpulse-mainloop-glib0 (>= 1.1), libqtguie4 (>= 4.8.2), libc6 (>= 2.13), libqtdbuse4 (>= 4.8.2)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219077
+Auto-Installed: yes
+
+Package: libqt-embeddeduitools4-dev
+Version: 4.8.2-r46.1
+Depends: libqtxmle-dev
+Recommends: gst-plugins-base-dev, gstreamer-dev, libjpeg-dev, libz-dev, directfb-dev, openssl-dev, libts-1.0-dev, libpng-dev, libtiff-dev, sqlite3-dev, libfreetype-dev, pulseaudio-dev, dbus-dev, libglib-2.0-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219105
+Auto-Installed: yes
+
+Package: libxi-dev
+Version: 1:1.4.5-r0
+Depends: inputproto-dev, libxi6 (= 1:1.4.5-r0), pkgconfig
+Recommends: libxext-dev, libxcb-dev, libxau-dev, pkgconfig-dev, libc6-dev, libxdmcp-dev, libxi-dev, inputproto-dev, libx11-dev, util-macros-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219068
+Auto-Installed: yes
+
+Package: libavahi-common3
+Version: 0.6.31-r2.0
+Depends: libgcc1 (>= 4.6.3+svnr184847), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219061
+Auto-Installed: yes
+
+Package: libblkid1
+Version: 2.21-r5
+Depends: libgcc1 (>= 4.6.3+svnr184847), libuuid1 (>= 2.21), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219064
+Auto-Installed: yes
+
+Package: locale-base-en-gb
+Version: 2.13-r20
+Depends: eglibc-binary-localedata-en-gb
+Provides: virtual-locale-en-gb, virtual-locale-en
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219078
+Auto-Installed: yes
+
+Package: eglibc-gconv
+Version: 2.13-r20
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219071
+Auto-Installed: yes
+
+Package: libxrandr-dev
+Version: 1:1.3.2-r0
+Depends: libxrandr2 (= 1:1.3.2-r0), pkgconfig
+Recommends: libxext-dev, libxcb-dev, libxau-dev, pkgconfig-dev, libc6-dev, libxdmcp-dev, libxrender-dev, randrproto-dev, libxrandr-dev, libx11-dev, util-macros-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219073
+Auto-Installed: yes
+
+Package: libxcb-screensaver0
+Version: 1.8.1-r0
+Depends: libxau6 (>= 1.0.7), libxcb1 (>= 1.8.1), libxdmcp6 (>= 1.1.1), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219060
+Auto-Installed: yes
+
+Package: libthread-db1
+Version: 2.13-r26+svnr15508
+Depends: libc6 (>= 2.13)
+Provides: glibc-thread-db
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219055
+Auto-Installed: yes
+
+Package: libdaemon-dev
+Version: 0.14-r0
+Depends: libdaemon0 (= 0.14-r0), pkgconfig
+Recommends: libc6-dev, libdaemon-dev, pkgconfig-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219063
+Auto-Installed: yes
+
+Package: libsqlite3-0
+Version: 3.7.10-r2
+Depends: libgcc1 (>= 4.6.3+svnr184847), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219068
+Auto-Installed: yes
+
+Package: libqtxmle-dev
+Version: 4.8.2-r46.1
+Depends: libqtxmle4, libqtcoree-dev
+Recommends: libstdc++-dev, gst-plugins-base-dev, libgcc-s-dev, gstreamer-dev, libjpeg-dev, libz-dev, directfb-dev, openssl-dev, libts-1.0-dev, libpng-dev, libc6-dev, libtiff-dev, sqlite3-dev, libqtcoree-dev, libfreetype-dev, pulseaudio-dev, dbus-dev, libglib-2.0-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219077
+Auto-Installed: yes
+
+Package: xz-dev
+Version: 5.0.3-r1
+Depends: xz (= 5.0.3-r1)
+Recommends: libc6-dev, liblzma-dev, libgcc-s-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219066
+Auto-Installed: yes
+
+Package: mtd-utils
+Version: 1.4.9-r1
+Depends: libgcc1 (>= 4.6.3+svnr184847), libz1 (>= 1.2.6), liblzo2-2 (>= 2.06), libuuid1 (>= 2.21), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219077
+Auto-Installed: yes
+
+Package: eglibc-binary-localedata-en-us
+Version: 2.13-r20
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219078
+Auto-Installed: yes
+
+Package: libxcb1
+Version: 1.8.1-r0
+Depends: libxau6 (>= 1.0.7), libxdmcp6 (>= 1.1.1), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219060
+Auto-Installed: yes
+
+Package: base-passwd-dev
+Version: 3.5.24-r0
+Depends: base-passwd (= 3.5.24-r0)
+Recommends: libc6-dev, base-passwd-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219063
+Auto-Installed: yes
+
+Package: linux-libc-headers-dev
+Version: 3.2-r1
+Recommends: linux-libc-headers-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219058
+Auto-Installed: yes
+
+Package: udev-utils
+Version: 164-r13
+Depends: libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219068
+Auto-Installed: yes
+
+Package: libxft-dev
+Version: 1:2.3.0-r0
+Depends: xproto-dev, libxft2 (= 1:2.3.0-r0), pkgconfig
+Recommends: libfontconfig-dev, libxcb-dev, libxau-dev, xproto-dev, pkgconfig-dev, libxft-dev, libc6-dev, libxrender-dev, libxdmcp-dev, libexpat-dev, libfreetype-dev, libx11-dev, util-macros-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219072
+Auto-Installed: yes
+
+Package: libgstrtsp-0.10-0
+Version: 0.10.36-r3
+Depends: gstreamer (>= 0.10.36), libffi5 (>= 3.0.10), libxml2 (>= 2.7.8), libz1 (>= 1.2.6), libc6 (>= 2.13), libglib-2.0-0 (>= 2.30.3)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219059
+Auto-Installed: yes
+
+Package: libxrandr2
+Version: 1:1.3.2-r0
+Depends: libx11-6 (>= 1.4.4), libxcb1 (>= 1.8.1), libxrender1 (>= 0.9.7), libxext6 (>= 1.3.1), libc6 (>= 2.13), libxau6 (>= 1.0.7), libxdmcp6 (>= 1.1.1)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219069
+Auto-Installed: yes
+
+Package: libgpg-error-dev
+Version: 1.10-r1
+Depends: libgpg-error0 (= 1.10-r1), pkgconfig, libc6 (>= 2.13)
+Recommends: libgpg-error-dev, libc6-dev, pkgconfig-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219072
+Auto-Installed: yes
+
+Package: libcairo-script-interpreter2
+Version: 1.10.2-r5
+Depends: libx11-6 (>= 1.4.4), libgcc1 (>= 4.6.3+svnr184847), libpng12-0 (>= 1.2.46), libxcb1 (>= 1.8.1), libxrender1 (>= 0.9.7), libpixman-1-0 (>= 0.25.2), libz1 (>= 1.2.6), libfreetype6 (>= 2.4.8), libcairo2 (>= 1.10.2), libc6 (>= 2.13), libxau6 (>= 1.0.7), libexpat1 (>= 2.0.1), libxdmcp6 (>= 1.1.1), libfontconfig1 (>= 2.8.0)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219071
+Auto-Installed: yes
+
+Package: libqtscripttoolse4
+Version: 4.8.2-r46.1
+Depends: libgcc1 (>= 4.6.3+svnr184847), libqtcoree4 (>= 4.8.2), libstdc++6 (>= 4.6.3+svnr184847), libqtscripte4 (>= 4.8.2), libqtguie4 (>= 4.8.2), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219088
+Auto-Installed: yes
+
+Package: damageproto-dev
+Version: 1:1.2.1-r0
+Recommends: damageproto-dev, util-macros-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219073
+Auto-Installed: yes
+
+Package: libxcb-xv0
+Version: 1.8.1-r0
+Depends: libxau6 (>= 1.0.7), libxcb1 (>= 1.8.1), libxdmcp6 (>= 1.1.1), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219060
+Auto-Installed: yes
+
+Package: recordproto-dev
+Version: 1:1.14.1-r0
+Recommends: recordproto-dev, util-macros-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219068
+Auto-Installed: yes
+
+Package: eglibc-localedata-translit-small
+Version: 2.13-r20
+Provides: glibc-localedata-translit-small
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219078
+Auto-Installed: yes
+
+Package: shared-mime-info
+Version: 0.91-r3
+Depends: libglib-2.0-0 (>= 2.30.3), libxml2 (>= 2.7.8), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219071
+Auto-Installed: yes
+
+Package: libtic5
+Version: 5.9-r8.1
+Depends: libtinfo5 (>= 5.9), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219057
+Auto-Installed: yes
+
+Package: kbproto-dev
+Version: 1:1.0.5-r0
+Recommends: kbproto-dev, util-macros-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219061
+Auto-Installed: yes
+
+Package: qt4-embedded
+Version: 4.8.2-r46.1
+Recommends: qt4-embedded-fonts-ttf-dejavu, libqtscripttoolse4, libqtmultimediae4, qt4-embedded-qml-plugins, qt4-embedded-fonts-pfb, qt4-embedded-fonts-ttf-vera, qt4-embedded-linguist, libqthelpe4, qt4-embedded-common, libqtdeclarativee4, qt4-embedded-demos, libqt-embeddeduitools4, libqtteste4, libqtwebkite4, qt4-embedded-assistant, libqtxmle4, qt4-embedded-examples, libqt-embeddedassistantclient4, qt4-embedded-xmlpatterns, libqtdesignere4, libqtdbuse4, libqtguie4, qt4-embedded-dbus, libqt-embeddedmediaservices4, qt4-embedded-pixeltool, qt4-embedded-makeqpf, qt4-embedded-qt3to4, qt4-embedded-qmlviewer, libqt-embeddedopengl4, libqtdesignercomponentse4, libqtscripte4, libqt-embeddedpvrqwswsegl4, qt4-embedded-designer, libqt-embeddedopenvg4, libqtnetworke4, qt4-embedded-tools, libqtsvge4, qt4-embedded-conf, libqtcoree4, qt4-embedded-fonts-qpf, libqtclucenee4, libphonone4, libqt3supporte4, qt4-embedded-fonts-pfa, libqtsqle4, qt4-embedded-fonts, libqtxmlpatternse4, qt4-embedded-mkspecs
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219086
+Auto-Installed: yes
+
+Package: compositeproto-dev
+Version: 1:0.4.2-r0
+Recommends: compositeproto-dev, util-macros-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219072
+Auto-Installed: yes
+
+Package: libvorbis-dev
+Version: 1.3.3-r0
+Depends: libvorbis (= 1.3.3-r0), libogg-dev, pkgconfig
+Recommends: libc6-dev, libogg-dev, pkgconfig-dev, libvorbis-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219065
+Auto-Installed: yes
+
+Package: libqthelpe4
+Version: 4.8.2-r46.1
+Depends: libgcc1 (>= 4.6.3+svnr184847), libqtguie4 (>= 4.8.2), libqtcoree4 (>= 4.8.2), libc6 (>= 2.13), libqtclucenee4 (>= 4.8.2), libstdc++6 (>= 4.6.3+svnr184847), libqtsqle4 (>= 4.8.2), libqtnetworke4 (>= 4.8.2)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219077
+Auto-Installed: yes
+
+Package: qt4-embedded-conf
+Version: 4.8.2-r46.1
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219104
+Auto-Installed: yes
+
+Package: hicolor-icon-theme
+Version: 0.12-r0
+Depends: hicolor-icon-theme
+Provides:
+Status: install ok unpacked
+Architecture: all
+Installed-Time: 1340219073
+Auto-Installed: yes
+
+Package: bash-dev
+Version: 4.2-r2
+Depends: bash (= 4.2-r2)
+Recommends: bash-dev, libc6-dev, libgcc-s-dev, ncurses-libtinfo-dev, ncurses-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219056
+Auto-Installed: yes
+
+Package: libpulse0
+Version: 1.1-r8
+Depends: libx11-6 (>= 1.4.4), libgcc1 (>= 4.6.3+svnr184847), libsndfile1 (>= 1.0.25), libxau6 (>= 1.0.7), libpulsecommon (>= 1.1), libxcb1 (>= 1.8.1), libcap2 (>= 2.22), libx11-xcb1 (>= 1.4.4), libdbus-1-3 (>= 1.4.16), libxtst6 (>= 1.2.1), libwrap0 (>= 7.6), libgdbm4 (>= 1.10), libice6 (>= 1.0.8), libxi6 (>= 1.4.5), libc6 (>= 2.13), libxext6 (>= 1.3.1), libsm6 (>= 1.2.1), libuuid1 (>= 2.21), libxdmcp6 (>= 1.1.1), libjson0 (>= 0.9)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219067
+Auto-Installed: yes
+
+Package: libqtscripttoolse-dev
+Version: 4.8.2-r46.1
+Depends: libqtscripttoolse4, libqtcoree-dev, libqtscripte-dev, libqtguie-dev
+Recommends: libstdc++-dev, gst-plugins-base-dev, libgcc-s-dev, sqlite3-dev, libjpeg-dev, libz-dev, directfb-dev, openssl-dev, libts-1.0-dev, libpng-dev, libc6-dev, libtiff-dev, libqtscripte-dev, libqtguie-dev, gstreamer-dev, libqtcoree-dev, libfreetype-dev, pulseaudio-dev, dbus-dev, libglib-2.0-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219105
+Auto-Installed: yes
+
+Package: pciutils-dev
+Version: 3.1.9-r0
+Depends: pciutils (= 3.1.9-r0)
+Recommends: libc6-dev, libpci-dev, pciutils-ids-dev, libz-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219068
+Auto-Installed: yes
+
+Package: libqtwebkite4
+Version: 4.8.2-r46.1
+Depends: libgcc1 (>= 4.6.3+svnr184847), libqtnetworke4 (>= 4.8.2), libgstpbutils-0.10-0 (>= 0.10.36), libgstvideo-0.10-0 (>= 0.10.36), gstreamer (>= 0.10.36), libstdc++6 (>= 4.6.3+svnr184847), libgstinterfaces-0.10-0 (>= 0.10.36), libqtcoree4 (>= 4.8.2), libqtguie4 (>= 4.8.2), libc6 (>= 2.13), libglib-2.0-0 (>= 2.30.3), libgstapp-0.10-0 (>= 0.10.36)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219089
+Auto-Installed: yes
+
+Package: libpanel5
+Version: 5.9-r8.1
+Depends: libtinfo5 (>= 5.9), libncurses5 (>= 5.9), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219057
+Auto-Installed: yes
+
+Package: libxcursor1
+Version: 1:1.1.13-r0
+Depends: libx11-6 (>= 1.4.4), libxfixes3 (>= 5.0), libxcb1 (>= 1.8.1), libxrender1 (>= 0.9.7), libc6 (>= 2.13), libxau6 (>= 1.0.7), libxdmcp6 (>= 1.1.1)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219069
+Auto-Installed: yes
+
+Package: libtool-dev
+Version: 2.4.2-r2.0
+Depends: libtool (= 2.4.2-r2.0)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219074
+Auto-Installed: yes
+
+Package: eglibc-localedata-translit-neutral
+Version: 2.13-r20
+Depends: eglibc-localedata-translit-circle, eglibc-localedata-translit-cjk-compat, eglibc-localedata-translit-small, eglibc-localedata-translit-compat, eglibc-localedata-translit-narrow, eglibc-localedata-translit-wide, eglibc-localedata-translit-font, eglibc-localedata-translit-fraction
+Provides: glibc-localedata-translit-neutral
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219078
+Auto-Installed: yes
+
+Package: libqtdbuse4
+Version: 4.8.2-r46.1
+Depends: libqtcoree4 (>= 4.8.2), libgcc1 (>= 4.6.3+svnr184847), libc6 (>= 2.13), libqtxmle4 (>= 4.8.2), libstdc++6 (>= 4.6.3+svnr184847)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219077
+Auto-Installed: yes
+
+Package: libncursesw5
+Version: 5.9-r8.1
+Depends: libtinfo5 (>= 5.9), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219056
+Auto-Installed: yes
+
+Package: libatomics-ops
+Version: 1.2-r9
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219073
+Auto-Installed: yes
+
+Package: libreadline-dev
+Version: 6.2-r2
+Depends: libreadline6 (= 6.2-r2)
+Recommends: libc6-dev, ncurses-dev, ncurses-libtinfo-dev, libreadline-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219068
+Auto-Installed: yes
+
+Package: libblkid-dev
+Version: 2.21-r5
+Recommends: libc6-dev, libgcc-s-dev, libuuid-dev, ncurses-dev, libz-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219064
+Auto-Installed: yes
+
+Package: eglibc-localedata-translit-compat
+Version: 2.13-r20
+Provides: glibc-localedata-translit-compat
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219078
+Auto-Installed: yes
+
+Package: e2fsprogs-badblocks
+Version: 1.42.1-r0
+Depends: libc6 (>= 2.13), e2fsprogs (>= 1.42.1), libcom-err2 (>= 1.42.1)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219064
+Auto-Installed: yes
+
+Package: libxcb-sync0
+Version: 1.8.1-r0
+Depends: libxau6 (>= 1.0.7), libxcb1 (>= 1.8.1), libxdmcp6 (>= 1.1.1), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219061
+Auto-Installed: yes
+
+Package: libpng3
+Version: 1.2.46-r4
+Depends: libz1 (>= 1.2.6), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219066
+Auto-Installed: yes
+
+Package: libfontconfig-dev
+Version: 2.8.0-r4
+Depends: pkgconfig, libfontconfig1 (= 2.8.0-r4)
+Recommends: libfontconfig-dev, libz-dev, pkgconfig-dev, libc6-dev, libexpat-dev, libfreetype-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219072
+Auto-Installed: yes
+
+Package: libsamplerate0
+Version: 0.1.8-r0
+Depends: libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219074
+Auto-Installed: yes
+
+Package: libxext6
+Version: 1:1.3.1-r0
+Depends: libx11-6 (>= 1.4.4), libxau6 (>= 1.0.7), libxcb1 (>= 1.8.1), libxdmcp6 (>= 1.1.1), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219060
+Auto-Installed: yes
+
+Package: libqtnetworke-dev
+Version: 4.8.2-r46.1
+Depends: libqtcoree-dev, libqtnetworke4
+Recommends: libstdc++-dev, gst-plugins-base-dev, libgcc-s-dev, gstreamer-dev, libjpeg-dev, libz-dev, directfb-dev, openssl-dev, libts-1.0-dev, libpng-dev, libc6-dev, libtiff-dev, sqlite3-dev, libqtcoree-dev, libfreetype-dev, pulseaudio-dev, dbus-dev, libglib-2.0-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219076
+Auto-Installed: yes
+
+Package: eglibc-gconv-iso8859-15
+Version: 2.13-r20
+Depends: eglibc-gconv, libc6 (>= 2.13)
+Provides: glibc-gconv-iso8859-15
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219083
+Auto-Installed: yes
+
+Package: libavahi-glib1
+Version: 0.6.31-r2.0
+Depends: libgcc1 (>= 4.6.3+svnr184847), libavahi-common3 (>= 0.6.31), libglib-2.0-0 (>= 2.30.3), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219061
+Auto-Installed: yes
+
+Package: qt4-embedded-xmlpatterns
+Version: 4.8.2-r46.1
+Depends: libqtcoree4 (>= 4.8.2), libgcc1 (>= 4.6.3+svnr184847), libc6 (>= 2.13), libqtxmlpatternse4 (>= 4.8.2), libstdc++6 (>= 4.6.3+svnr184847)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219102
+Auto-Installed: yes
+
+Package: eglibc-localedata-translit-narrow
+Version: 2.13-r20
+Provides: glibc-localedata-translit-narrow
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219078
+Auto-Installed: yes
+
+Package: libmenu5
+Version: 5.9-r8.1
+Depends: libtinfo5 (>= 5.9), libncurses5 (>= 5.9), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219057
+Auto-Installed: yes
+
+Package: libxcb-xinerama0
+Version: 1.8.1-r0
+Depends: libxau6 (>= 1.0.7), libxcb1 (>= 1.8.1), libxdmcp6 (>= 1.1.1), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219061
+Auto-Installed: yes
+
+Package: libpng-dev
+Version: 1.2.46-r4
+Depends: libpng12-0, libpng3 (= 1.2.46-r4), pkgconfig
+Recommends: libc6-dev, pkgconfig-dev, libpng12-dev, libpng-dev, libz-dev
+Provides: libpng12-dev
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219066
+Auto-Installed: yes
+
+Package: usbutils-ids
+Version: 0.91-r3
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219067
+Auto-Installed: yes
+
+Package: libc6-dbg
+Version: 2.13-r26+svnr15508
+Recommends: bash-dbg, libsegfault-dbg, eglibc-thread-db-dbg, eglibc-extra-nss-dbg, libc6 (= 2.13-r26+svnr15508), libc6-dbg, libcidn-dbg
+Provides: libc-dbg
+Replaces: libc-dbg
+Conflicts: libc-dbg
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219083
+Auto-Installed: yes
+
+Package: libsm6
+Version: 1:1.2.1-r0
+Depends: libice6 (>= 1.0.8), libuuid1 (>= 2.21), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219064
+Auto-Installed: yes
+
+Package: libxcb-render0
+Version: 1.8.1-r0
+Depends: libxau6 (>= 1.0.7), libxcb1 (>= 1.8.1), libxdmcp6 (>= 1.1.1), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219061
+Auto-Installed: yes
+
+Package: xz
+Version: 5.0.3-r1
+Depends: libgcc1 (>= 4.6.3+svnr184847), liblzma5 (>= 5.0.3), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219066
+Auto-Installed: yes
+
+Package: libqtwebkite-dev
+Version: 4.8.2-r46.1
+Depends: libqtcoree-dev, libqtnetworke-dev, libqtwebkite4, libqtguie-dev
+Recommends: libgcc-s-dev, gstreamer-dev, libjpeg-dev, libz-dev, libgstapp-0.10-dev, libqtcoree-dev, libfreetype-dev, openssl-dev, libts-1.0-dev, libtiff-dev, sqlite3-dev, libqtguie-dev, dbus-dev, libgstpbutils-0.10-dev, gst-plugins-base-dev, libqtnetworke-dev, directfb-dev, libgstinterfaces-0.10-dev, libstdc++-dev, libgstvideo-0.10-dev, libc6-dev, pulseaudio-dev, libglib-2.0-dev, libpng-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219105
+Auto-Installed: yes
+
+Package: libacl1
+Version: 2.2.51-r3
+Depends: libattr1 (>= 2.4.46), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219068
+Auto-Installed: yes
+
+Package: base-passwd
+Version: 3.5.24-r0
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219062
+Auto-Installed: yes
+
+Package: libsysfs-dev
+Version: 2.1.0-r3
+Depends: libsysfs2
+Recommends: libc6-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219066
+Auto-Installed: yes
+
+Package: eglibc-localedata-i18n
+Version: 2.13-r20
+Depends: eglibc-localedata-translit-neutral, eglibc-localedata-iso14651-t1
+Provides: glibc-localedata-i18n
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219078
+Auto-Installed: yes
+
+Package: libpixman-1-dev
+Version: 1:0.25.2-r1
+Depends: libpixman-1-0 (= 1:0.25.2-r1), pkgconfig
+Recommends: libgcc-s-dev, libz-dev, pkgconfig-dev, libpng-dev, libc6-dev, libpixman-1-dev, util-macros-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219072
+Auto-Installed: yes
+
+Package: libgstnetbuffer-0.10-0
+Version: 0.10.36-r3
+Depends: gstreamer (>= 0.10.36), libffi5 (>= 3.0.10), libxml2 (>= 2.7.8), libz1 (>= 1.2.6), libc6 (>= 2.13), libglib-2.0-0 (>= 2.30.3)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219059
+Auto-Installed: yes
+
+Package: libxcb-damage0
+Version: 1.8.1-r0
+Depends: libxau6 (>= 1.0.7), libxcb1 (>= 1.8.1), libxdmcp6 (>= 1.1.1), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219060
+Auto-Installed: yes
+
+Package: libxcb-record0
+Version: 1.8.1-r0
+Depends: libxau6 (>= 1.0.7), libxcb1 (>= 1.8.1), libxdmcp6 (>= 1.1.1), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219060
+Auto-Installed: yes
+
+Package: libreadline6
+Version: 6.2-r2
+Depends: libtinfo5 (>= 5.9), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219067
+Auto-Installed: yes
+
+Package: libgstpbutils-0.10-0
+Version: 0.10.36-r3
+Depends: libgcc1 (>= 4.6.3+svnr184847), gstreamer (>= 0.10.36), libffi5 (>= 3.0.10), libxml2 (>= 2.7.8), libz1 (>= 1.2.6), libc6 (>= 2.13), libglib-2.0-0 (>= 2.30.3)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219058
+Auto-Installed: yes
+
+Package: liberation-fonts
+Version: 1:1.04-r2
+Depends: fontconfig-utils
+Provides:
+Status: install ok unpacked
+Architecture: all
+Installed-Time: 1340219071
+Auto-Installed: yes
+
+Package: libform5
+Version: 5.9-r8.1
+Depends: libtinfo5 (>= 5.9), libncurses5 (>= 5.9), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219057
+Auto-Installed: yes
+
+Package: libxfixes3
+Version: 1:5.0-r0
+Depends: libx11-6 (>= 1.4.4), libxau6 (>= 1.0.7), libxcb1 (>= 1.8.1), libxdmcp6 (>= 1.1.1), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219069
+Auto-Installed: yes
+
+Package: libcairo-gobject2
+Version: 1.10.2-r5
+Depends: libx11-6 (>= 1.4.4), libgcc1 (>= 4.6.3+svnr184847), libpng12-0 (>= 1.2.46), libxcb1 (>= 1.8.1), libxrender1 (>= 0.9.7), libffi5 (>= 3.0.10), libz1 (>= 1.2.6), libfreetype6 (>= 2.4.8), libpixman-1-0 (>= 0.25.2), libcairo2 (>= 1.10.2), libc6 (>= 2.13), libglib-2.0-0 (>= 2.30.3), libxau6 (>= 1.0.7), libexpat1 (>= 2.0.1), libxdmcp6 (>= 1.1.1), libfontconfig1 (>= 2.8.0)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219071
+Auto-Installed: yes
+
+Package: libexpat-dev
+Version: 2.0.1-r1
+Depends: libexpat1 (= 2.0.1-r1)
+Recommends: libc6-dev, libgcc-s-dev, libexpat-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219063
+Auto-Installed: yes
+
+Package: shadow
+Version: 4.1.4.3-r8
+Depends: libgcc1 (>= 4.6.3+svnr184847), shadow-securetty, libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219062
+Auto-Installed: yes
+
+Package: e2fsprogs-e2fsck
+Version: 1.42.1-r0
+Depends: libgcc1 (>= 4.6.3+svnr184847), libcom-err2 (>= 1.42.1), libe2p2 (>= 1.42.1), e2fsprogs (>= 1.42.1), libc6 (>= 2.13), libblkid1 (>= 2.21), libuuid1 (>= 2.21)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219106
+Auto-Installed: yes
+
+Package: libsegfault
+Version: 2.13-r26+svnr15508
+Depends: libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219078
+Auto-Installed: yes
+
+Package: libgstinterfaces-0.10-0
+Version: 0.10.36-r3
+Depends: gstreamer (>= 0.10.36), libffi5 (>= 3.0.10), libxml2 (>= 2.7.8), libz1 (>= 1.2.6), libc6 (>= 2.13), libglib-2.0-0 (>= 2.30.3)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219058
+Auto-Installed: yes
+
+Package: libacl-dev
+Version: 2.2.51-r3
+Depends: libacl1
+Recommends: libattr-dev, attr-dev, libc6-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219068
+Auto-Installed: yes
+
+Package: gstreamer-dev
+Version: 0.10.36-r0
+Depends: libxml2-dev, libglib-2.0-dev, gstreamer (= 0.10.36-r0), pkgconfig
+Recommends: libglib-2.0-dev, libgcc-s-dev, gstreamer-dev, libz-dev, pkgconfig-dev, libffi-dev, libc6-dev, libxml2-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219059
+Auto-Installed: yes
+
+Package: flac
+Version: 1.2.1-r2
+Depends: libgcc1 (>= 4.6.3+svnr184847), libflac8 (>= 1.2.1), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219074
+Auto-Installed: yes
+
+Package: pkgconfig
+Version: 0.25-r3
+Depends: libglib-2.0-0 (>= 2.30.3), libpopt0 (>= 1.16), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219058
+Auto-Installed: yes
+
+Package: libdbus-glib-1-dev
+Version: 0.98-r0
+Depends: libdbus-glib-1-2 (= 0.98-r0), libdbus-1-3 (>= 1.4.16), libglib-2.0-dev, pkgconfig, libc6 (>= 2.13), libglib-2.0-0 (>= 2.30.3), libexpat1 (>= 2.0.1), dbus-dev
+Recommends: libdbus-glib-1-dev, libglib-2.0-dev, libz-dev, dbus-lib-dev, pkgconfig-dev, libffi-dev, libc6-dev, libexpat-dev, dbus-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219069
+Auto-Installed: yes
+
+Package: libgcc-s-dbg
+Version: 4.6.3+svnr184847-r25
+Recommends: libgcc1 (= 4.6.3+svnr184847-r25), libc6-dbg, libgcc-s-dbg
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219084
+Auto-Installed: yes
+
+Package: libxtst6
+Version: 1:1.2.1-r0
+Depends: libx11-6 (>= 1.4.4), libxcb1 (>= 1.8.1), libxext6 (>= 1.3.1), libxi6 (>= 1.4.5), libc6 (>= 2.13), libxau6 (>= 1.0.7), libxdmcp6 (>= 1.1.1)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219067
+Auto-Installed: yes
+
+Package: libqtscripte-dev
+Version: 4.8.2-r46.1
+Depends: libqtcoree-dev, libqtscripte4
+Recommends: libstdc++-dev, gst-plugins-base-dev, libgcc-s-dev, gstreamer-dev, libjpeg-dev, libz-dev, directfb-dev, openssl-dev, libts-1.0-dev, libpng-dev, libc6-dev, libtiff-dev, sqlite3-dev, libqtcoree-dev, libfreetype-dev, pulseaudio-dev, dbus-dev, libglib-2.0-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219105
+Auto-Installed: yes
+
+Package: libgettextsrc
+Version: 0.18.1.1-r11
+Depends: libgettextlib (>= 0.18.1.1), libncurses5 (>= 5.9), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219063
+Auto-Installed: yes
+
+Package: gettext
+Version: 0.18.1.1-r11
+Depends: libgettextsrc (>= 0.18.1.1), libgettextlib (>= 0.18.1.1), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219063
+Auto-Installed: yes
+
+Package: libffi-dev
+Version: 3.0.10-r0
+Depends: libffi5 (= 3.0.10-r0)
+Recommends: libc6-dev, libgcc-s-dev, libffi-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219059
+Auto-Installed: yes
+
+Package: qt4-embedded-qmlviewer
+Version: 4.8.2-r46.1
+Depends: libgcc1 (>= 4.6.3+svnr184847), libqtcoree4 (>= 4.8.2), libstdc++6 (>= 4.6.3+svnr184847), libqtguie4 (>= 4.8.2), libc6 (>= 2.13), libqtdeclarativee4 (>= 4.8.2), libqtnetworke4 (>= 4.8.2)
+Recommends: qt4-embedded-qml-plugins
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219103
+Auto-Installed: yes
+
+Package: libc6-dev
+Version: 2.13-r26+svnr15508
+Depends: libthread-db1, eglibc-extra-nss, libcidn1, libc6 (= 2.13-r26+svnr15508)
+Recommends: eglibc-thread-db-dev, libc6-dev, libsegfault-dev, bash-dev, eglibc-extra-nss-dev, linux-libc-headers-dev, libcidn-dev
+Provides: glibc-dev, libc-dev
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219056
+Auto-Installed: yes
+
+Package: pango-module-basic-x
+Version: 1.28.4-r7
+Depends: libx11-6 (>= 1.4.4), libxcb1 (>= 1.8.1), libffi5 (>= 3.0.10), libc6 (>= 2.13), libglib-2.0-0 (>= 2.30.3), pango, libxau6 (>= 1.0.7), libxdmcp6 (>= 1.1.1)
+Provides:
+Status: install ok unpacked
+Architecture: armv5te
+Installed-Time: 1340219070
+Auto-Installed: yes
+
+Package: libx11-dev
+Version: 1:1.4.4-r1
+Depends: libx11-6 (= 1:1.4.4-r1), libxcb-dev, libx11-xcb1, xproto-dev, pkgconfig, kbproto-dev
+Recommends: xtrans-dev, libxcb-dev, libxau-dev, xproto-dev, pkgconfig-dev, inputproto-dev, libc6-dev, libxdmcp-dev, xf86bigfontproto-dev, xextproto-dev, libx11-trim-xcb-dev, libx11-dev, kbproto-dev, util-macros-dev
+Provides: libx11-dev
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219061
+Auto-Installed: yes
+
+Package: libgdbm-dev
+Version: 1.10-r3
+Depends: libgdbm4 (= 1.10-r3), libgdbm-compat4
+Recommends: gdbm-compat-dev, libc6-dev, libgcc-s-dev, libgdbm-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219074
+Auto-Installed: yes
+
+Package: libpixman-1-0
+Version: 1:0.25.2-r1
+Depends: libgcc1 (>= 4.6.3+svnr184847), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219069
+Auto-Installed: yes
+
+Package: renderproto-dev
+Version: 1:0.11.1-r0
+Recommends: renderproto-dev, util-macros-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219072
+Auto-Installed: yes
+
+Package: libgdbm4
+Version: 1.10-r3
+Depends: libgcc1 (>= 4.6.3+svnr184847), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219067
+Auto-Installed: yes
+
+Package: libqtdesignere4
+Version: 4.8.2-r46.1
+Depends: libgcc1 (>= 4.6.3+svnr184847), libqtcoree4 (>= 4.8.2), libqtxmle4 (>= 4.8.2), libstdc++6 (>= 4.6.3+svnr184847), libqtscripte4 (>= 4.8.2), libqtguie4 (>= 4.8.2), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219103
+Auto-Installed: yes
+
+Package: e2fsprogs-dev
+Version: 1.42.1-r0
+Depends: libe2p2, libss2, e2fsprogs (= 1.42.1-r0), libcom-err2
+Recommends: e2fsprogs-badblocks-dev, libgcc-s-dev, util-linux-dev, libe2p-dev, e2fsprogs-blkid-dev, libc6-dev, libuuid-dev, libcomerr-dev, libblkid-dev, e2fsprogs-dev, libss-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219064
+Auto-Installed: yes
+
+Package: qt4-embedded-fonts
+Version: 4.8.2-r46.1
+Recommends: qt4-embedded-fonts-pfb, qt4-embedded-fonts-ttf-vera, qt4-embedded-fonts-pfa, qt4-embedded-fonts-ttf-dejavu, qt4-embedded-fonts-qpf
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219102
+Auto-Installed: yes
+
+Package: gdk-pixbuf-loader-jpeg
+Version: 2.24.1-r0
+Depends: libpng12-0 (>= 1.2.46), libffi5 (>= 3.0.10), libz1 (>= 1.2.6), gdk-pixbuf (>= 2.24.1), libc6 (>= 2.13), libglib-2.0-0 (>= 2.30.3), libjpeg8 (>= 8c)
+Provides:
+Status: install ok unpacked
+Architecture: armv5te
+Installed-Time: 1340219071
+Auto-Installed: yes
+
+Package: libxcb-xtest0
+Version: 1.8.1-r0
+Depends: libxau6 (>= 1.0.7), libxcb1 (>= 1.8.1), libxdmcp6 (>= 1.1.1), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219060
+Auto-Installed: yes
+
+Package: shared-mime-info-dev
+Version: 0.91-r3
+Depends: shared-mime-info (= 0.91-r3), pkgconfig
+Recommends: libc6-dev, libglib-2.0-dev, shared-mime-info-dev, pkgconfig-dev, libxml2-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219073
+Auto-Installed: yes
+
+Package: eglibc-localedata-translit-cjk-compat
+Version: 2.13-r20
+Provides: glibc-localedata-translit-cjk-compat
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219078
+Auto-Installed: yes
+
+Package: udev
+Version: 164-r13
+Depends: update-rc.d, libusb-compat (>= 0.1.3), libc6 (>= 2.13)
+Recommends: usbutils-ids, pciutils-ids, udev-extraconf, udev-utils
+Provides: hotplug
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219067
+Auto-Installed: yes
+
+Package: bluez4
+Version: 4.99-r1
+Depends: libusb-compat (>= 0.1.3), libdbus-1-3 (>= 1.4.16), libudev0 (>= 164), libreadline6 (>= 6.2), libusb-1.0-0 (>= 1.0.8), libc6 (>= 2.13), libglib-2.0-0 (>= 2.30.3)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219067
+Auto-Installed: yes
+
+Package: e2fsprogs
+Version: 1.42.1-r0
+Depends: libgcc1 (>= 4.6.3+svnr184847), libss2 (>= 1.42.1), libcom-err2 (>= 1.42.1), libe2p2 (>= 1.42.1), e2fsprogs-blkid, e2fsprogs-badblocks, libc6 (>= 2.13), libblkid1 (>= 2.21), libuuid1 (>= 2.21)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219064
+Auto-Installed: yes
+
+Package: libxcb-glx0
+Version: 1.8.1-r0
+Depends: libxau6 (>= 1.0.7), libxcb1 (>= 1.8.1), libxdmcp6 (>= 1.1.1), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219061
+Auto-Installed: yes
+
+Package: libxcb-dev
+Version: 1.8.1-r0
+Depends: libxcb-xtest0, libxcb1 (= 1.8.1-r0), libxcb-xv0, libxcb-shm0, libxcb-damage0, libxcb-xvmc0, libxcb-screensaver0, libxcb-xprint0, libxcb-record0, libxcb-xinerama0, libxcb-randr0, libxcb-xfixes0, pkgconfig, libxcb-xevie0, libxcb-res0, libxcb-shape0, libxcb-xf86dri0, libxcb-sync0, libxcb-composite0, libxcb-glx0, libxcb-dri2-0, libxcb-dpms0, libxcb-render0
+Recommends: libxcb-shape-dev, libxcb-dpms-dev, libxcb-dev, xproto-dev, libpthread-stubs-dev, libxcb-render-dev, libxcb-shm-dev, libxcb-damage-dev, libxcb-screensaver-dev, libxcb-composite-dev, libxdmcp-dev, libxcb-res-dev, libxcb-xvmc-dev, libxau-dev, pkgconfig-dev, libxcb-sync-dev, libxcb-xevie-dev, libxcb-dri2-dev, libxcb-randr-dev, libc6-dev, libxcb-xprint-dev, libxcb-xv-dev, libxcb-record-dev, libxcb-xtest-dev, libxcb-glx-dev, xcb-proto-dev, libxcb-xf86dri-dev, libxcb-xfixes-dev, libxcb-xinerama-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219061
+Auto-Installed: yes
+
+Package: liblzma5
+Version: 5.0.3-r1
+Depends: libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219066
+Auto-Installed: yes
+
+Package: libcheck-dev
+Version: 0.9.8-r0
+Depends: libcheck0 (= 0.9.8-r0), pkgconfig
+Recommends: libc6-dev, pkgconfig-dev, libcheck-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219073
+Auto-Installed: yes
+
+Package: libxcb-composite0
+Version: 1.8.1-r0
+Depends: libxau6 (>= 1.0.7), libxcb1 (>= 1.8.1), libxdmcp6 (>= 1.1.1), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219061
+Auto-Installed: yes
+
+Package: bluez-hcidump-dev
+Version: 2.3-r0
+Depends: bluez-hcidump (= 2.3-r0)
+Recommends: bluez-hcidump-dev, libc6-dev, libgcc-s-dev, bluez4-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219073
+Auto-Installed: yes
+
+Package: gdk-pixbuf-loader-png
+Version: 2.24.1-r0
+Depends: libpng12-0 (>= 1.2.46), libffi5 (>= 3.0.10), libz1 (>= 1.2.6), gdk-pixbuf (>= 2.24.1), libc6 (>= 2.13), libglib-2.0-0 (>= 2.30.3)
+Provides:
+Status: install ok unpacked
+Architecture: armv5te
+Installed-Time: 1340219071
+Auto-Installed: yes
+
+Package: libpulsecommon
+Version: 1.1-r8
+Depends: libx11-6 (>= 1.4.4), libgcc1 (>= 4.6.3+svnr184847), libsndfile1 (>= 1.0.25), libxau6 (>= 1.0.7), libxcb1 (>= 1.8.1), libcap2 (>= 2.22), libx11-xcb1 (>= 1.4.4), libdbus-1-3 (>= 1.4.16), libxtst6 (>= 1.2.1), libwrap0 (>= 7.6), libgdbm4 (>= 1.10), libice6 (>= 1.0.8), libxi6 (>= 1.4.5), libc6 (>= 2.13), libxext6 (>= 1.3.1), libsm6 (>= 1.2.1), libuuid1 (>= 2.21), libxdmcp6 (>= 1.1.1)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219067
+Auto-Installed: yes
+
+Package: avahi-daemon
+Version: 0.6.31-r2.0
+Depends: libavahi-core7 (>= 0.6.31), libdaemon0 (>= 0.14), libcap2 (>= 2.22), libavahi-common3 (>= 0.6.31), libdbus-1-3 (>= 1.4.16), sysvinit-pidof, libc6 (>= 2.13), shadow, libexpat1 (>= 2.0.1), base-passwd
+Recommends: libnss-mdns
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Conffiles:
+ /etc/avahi/avahi-daemon.conf aef4943065ce0314732e1e5322bbdbe3
+Installed-Time: 1340219063
+Auto-Installed: yes
+
+Package: libncurses5
+Version: 5.9-r8.1
+Depends: libtinfo5 (>= 5.9), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219057
+Auto-Installed: yes
+
+Package: libqtguie-dev
+Version: 4.8.2-r46.1
+Depends: libqtcoree-dev, libqtguie4
+Recommends: libstdc++-dev, gst-plugins-base-dev, libgcc-s-dev, libqtnetworke-dev, libjpeg-dev, libz-dev, directfb-dev, openssl-dev, libts-1.0-dev, libpng-dev, libc6-dev, libtiff-dev, sqlite3-dev, gstreamer-dev, libqtcoree-dev, libfreetype-dev, pulseaudio-dev, dbus-dev, libpng12-dev, libglib-2.0-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219076
+Auto-Installed: yes
+
+Package: libpanelw5
+Version: 5.9-r8.1
+Depends: libncursesw5 (>= 5.9), libtinfo5 (>= 5.9), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219056
+Auto-Installed: yes
+
+Package: libxcomposite1
+Version: 1:0.4.3-r0
+Depends: libx11-6 (>= 1.4.4), libxau6 (>= 1.0.7), libxcb1 (>= 1.8.1), libxdmcp6 (>= 1.1.1), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219069
+Auto-Installed: yes
+
+Package: libgdbm-compat4
+Version: 1.10-r3
+Depends: libgdbm4 (>= 1.10), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219074
+Auto-Installed: yes
+
+Package: videoproto-dev
+Version: 1:2.3.1-r0
+Recommends: videoproto-dev, util-macros-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219060
+Auto-Installed: yes
+
+Package: eglibc-gconv-cp1252
+Version: 2.13-r20
+Depends: eglibc-gconv, libc6 (>= 2.13)
+Provides: glibc-gconv-cp1252
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219078
+Auto-Installed: yes
+
+Package: ncurses-terminfo-base
+Version: 5.9-r8.1
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219056
+Auto-Installed: yes
+
+Package: util-linux-cfdisk
+Version: 2.21-r5
+Depends: libgcc1 (>= 4.6.3+svnr184847), libblkid1 (>= 2.21), libncursesw5 (>= 5.9), libtinfo5 (>= 5.9), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219064
+Auto-Installed: yes
+
+Package: qt4-embedded-pixeltool
+Version: 4.8.2-r46.1
+Depends: libgcc1 (>= 4.6.3+svnr184847), libqtcoree4 (>= 4.8.2), libc6 (>= 2.13), libqtguie4 (>= 4.8.2), libstdc++6 (>= 4.6.3+svnr184847)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219103
+Auto-Installed: yes
+
+Package: libglib-2.0-dev
+Version: 1:2.30.3-r1
+Depends: libglib-2.0-0 (= 1:2.30.3-r1), pkgconfig
+Recommends: libglib-2.0-dev, libgcc-s-dev, libz-dev, pkgconfig-dev, libffi-dev, libc6-dev, glib-2.0-utils-dev, zip-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219059
+Auto-Installed: yes
+
+Package: libattr1
+Version: 2.4.46-r4
+Depends: libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219063
+Auto-Installed: yes
+
+Package: sysvinit-pidof
+Version: 2.88dsf-r6
+Depends: libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219062
+Auto-Installed: yes
+
+Package: qt4-embedded-qt3to4
+Version: 4.8.2-r46.1
+Depends: libqtcoree4 (>= 4.8.2), libgcc1 (>= 4.6.3+svnr184847), libc6 (>= 2.13), libqtxmle4 (>= 4.8.2), libstdc++6 (>= 4.6.3+svnr184847)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219103
+Auto-Installed: yes
+
+Package: libsndfile1
+Version: 1.0.25-r0
+Depends: libgcc1 (>= 4.6.3+svnr184847), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219066
+Auto-Installed: yes
+
+Package: libxi6
+Version: 1:1.4.5-r0
+Depends: libx11-6 (>= 1.4.4), libxcb1 (>= 1.8.1), libxext6 (>= 1.3.1), libc6 (>= 2.13), libxau6 (>= 1.0.7), libxdmcp6 (>= 1.1.1)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219067
+Auto-Installed: yes
+
+Package: libss2
+Version: 1.42.1-r0
+Depends: libc6 (>= 2.13), libcom-err2 (>= 1.42.1)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219064
+Auto-Installed: yes
+
+Package: libgcc-s-dev
+Version: 4.6.3+svnr184847-r25
+Depends: libgcc1 (= 4.6.3+svnr184847-r25)
+Recommends: libc6-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219056
+Auto-Installed: yes
+
+Package: eglibc-localedata-translit-wide
+Version: 2.13-r20
+Provides: glibc-localedata-translit-wide
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219078
+Auto-Installed: yes
+
+Package: pango
+Version: 1.28.4-r7
+Depends: libx11-6 (>= 1.4.4), libgcc1 (>= 4.6.3+svnr184847), libxft2 (>= 2.3.0), libxcb1 (>= 1.8.1), libpng12-0 (>= 1.2.46), libxrender1 (>= 0.9.7), libffi5 (>= 3.0.10), libz1 (>= 1.2.6), libfreetype6 (>= 2.4.8), libpixman-1-0 (>= 0.25.2), libc6 (>= 2.13), libcairo2 (>= 1.10.2), libstdc++6 (>= 4.6.3+svnr184847), libglib-2.0-0 (>= 2.30.3), libxau6 (>= 1.0.7), libexpat1 (>= 2.0.1), libxdmcp6 (>= 1.1.1), libfontconfig1 (>= 2.8.0)
+Recommends: pango-module-basic-x, pango-module-basic-fc
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219069
+Auto-Installed: yes
+
+Package: libfontconfig1
+Version: 2.8.0-r4
+Depends: libexpat1 (>= 2.0.1), libfreetype6 (>= 2.4.8), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219069
+Auto-Installed: yes
+
+Package: update-rc.d
+Version: 0.7-r4
+Provides:
+Status: install ok installed
+Architecture: all
+Installed-Time: 1340219061
+Auto-Installed: yes
+
+Package: util-linux-fdisk
+Version: 2.21-r5
+Depends: libgcc1 (>= 4.6.3+svnr184847), libblkid1 (>= 2.21), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219064
+Auto-Installed: yes
+
+Package: eglibc-localedata-translit-circle
+Version: 2.13-r20
+Provides: glibc-localedata-translit-circle
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219078
+Auto-Installed: yes
+
+Package: libqtguie4
+Version: 4.8.2-r46.1
+Depends: libgcc1 (>= 4.6.3+svnr184847), libpng12-0 (>= 1.2.46), libc6 (>= 2.13), libqtcoree4 (>= 4.8.2), libz1 (>= 1.2.6), libfreetype6 (>= 2.4.8), libstdc++6 (>= 4.6.3+svnr184847), libglib-2.0-0 (>= 2.30.3), libqtnetworke4 (>= 4.8.2)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219075
+Auto-Installed: yes
+
+Package: libcap2
+Version: 2.22-r3
+Depends: libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219062
+Auto-Installed: yes
+
+Package: qt4-embedded-fonts-ttf-vera
+Version: 4.8.2-r46.1
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219089
+Auto-Installed: yes
+
+Package: libqtdesignere-dev
+Version: 4.8.2-r46.1
+Depends: libqtdesignere4, libqtxmle-dev
+Recommends: libstdc++-dev, libqtxmle-dev, gst-plugins-base-dev, libgcc-s-dev, sqlite3-dev, libjpeg-dev, libz-dev, directfb-dev, openssl-dev, libts-1.0-dev, libpng-dev, libc6-dev, libtiff-dev, libqtscripte-dev, libqtguie-dev, gstreamer-dev, libqtcoree-dev, libfreetype-dev, pulseaudio-dev, dbus-dev, libglib-2.0-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219105
+Auto-Installed: yes
+
+Package: libsamplerate0-dev
+Version: 0.1.8-r0
+Depends: libsamplerate0 (= 0.1.8-r0), pkgconfig
+Recommends: flac-dev, libc6-dev, pkgconfig-dev, libsamplerate0-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219074
+Auto-Installed: yes
+
+Package: libsysfs2
+Version: 2.1.0-r3
+Depends: libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219065
+Auto-Installed: yes
+
+Package: libsndfile-dev
+Version: 1.0.25-r0
+Depends: libsndfile1 (= 1.0.25-r0), pkgconfig
+Recommends: libsndfile-dev, libgcc-s-dev, pkgconfig-dev, libc6-dev, libsqlite3-dev, sqlite3-dev, libasound-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219068
+Auto-Installed: yes
+
+Package: gstreamer
+Version: 0.10.36-r0
+Depends: libgcc1 (>= 4.6.3+svnr184847), libffi5 (>= 3.0.10), libxml2 (>= 2.7.8), libz1 (>= 1.2.6), libc6 (>= 2.13), libglib-2.0-0 (>= 2.30.3)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219058
+Auto-Installed: yes
+
+Package: libqtteste-dev
+Version: 4.8.2-r46.1
+Depends: libqtteste4
+Recommends: libstdc++-dev, gst-plugins-base-dev, libgcc-s-dev, gstreamer-dev, libjpeg-dev, libz-dev, directfb-dev, openssl-dev, libts-1.0-dev, libpng-dev, libc6-dev, libtiff-dev, sqlite3-dev, libqtcoree-dev, libfreetype-dev, pulseaudio-dev, dbus-dev, libglib-2.0-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219077
+Auto-Installed: yes
+
+Package: libqtxmlpatternse-dev
+Version: 4.8.2-r46.1
+Depends: libqtcoree-dev, libqtxmlpatternse4, libqtnetworke-dev
+Recommends: libstdc++-dev, gst-plugins-base-dev, libgcc-s-dev, libqtnetworke-dev, libjpeg-dev, libz-dev, directfb-dev, openssl-dev, libts-1.0-dev, libpng-dev, libc6-dev, libtiff-dev, sqlite3-dev, gstreamer-dev, libqtcoree-dev, libfreetype-dev, pulseaudio-dev, dbus-dev, libglib-2.0-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219105
+Auto-Installed: yes
+
+Package: libcairo-dev
+Version: 1.10.2-r5
+Depends: libcairo-script-interpreter2, libglib-2.0-dev, pkgconfig, libpng-dev, libcairo-perf-utils, libcairo2 (= 1.10.2-r5), libcairo-gobject2, libx11-dev
+Recommends: libcairo-dev, libgcc-s-dev, libz-dev, libxcb-dev, libffi-dev, libfreetype-dev, cairo-gobject-dev, libsm-dev, libxdmcp-dev, cairo-perf-utils-dev, libx11-dev, libfontconfig-dev, libxau-dev, pkgconfig-dev, libc6-dev, cairo-script-interpreter-dev, libglib-2.0-dev, libpng-dev, libxrender-dev, libexpat-dev, libpixman-1-dev, libpng12-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219071
+Auto-Installed: yes
+
+Package: libxau-dev
+Version: 1:1.0.7-r0
+Depends: xproto-dev, libxau6 (= 1:1.0.7-r0), pkgconfig
+Recommends: libxau-dev, xproto-dev, pkgconfig-dev, util-macros-dev, libc6-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219061
+Auto-Installed: yes
+
+Package: qt4-embedded-mkspecs
+Version: 4.8.2-r46.1
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219105
+Auto-Installed: yes
+
+Package: avahi-dev
+Version: 0.6.31-r2.0
+Depends: libavahi-common3, libglib-2.0-dev, pkgconfig, libavahi-client3, libavahi-gobject0, libavahi-core7, avahi (= 0.6.31-r2.0), libavahi-glib1
+Recommends: libdaemon-dev, libglib-2.0-dev, update-rc.d-dev, libcap-dev, gettext-dev, libexpat-dev, dbus-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219062
+Auto-Installed: yes
+
+Package: qt4-embedded-demos-doc
+Version: 4.8.2-r46.1
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219102
+Auto-Installed: yes
+
+Package: pciutils-ids
+Version: 3.1.9-r0
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219067
+Auto-Installed: yes
+
+Package: acl-dev
+Version: 2.2.51-r3
+Depends: acl (= 2.2.51-r3)
+Recommends: libc6-dev, attr-dev, libacl-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219068
+Auto-Installed: yes
+
+Package: libgcrypt-dev
+Version: 1.5.0-r0
+Depends: pkgconfig, libgcrypt11 (= 1.5.0-r0), libc6 (>= 2.13)
+Recommends: libgpg-error-dev, libc6-dev, libgcrypt-dev, pkgconfig-dev, libcap-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219072
+Auto-Installed: yes
+
+Package: libz-dev
+Version: 1.2.6-r1
+Depends: libz1 (= 1.2.6-r1)
+Recommends: libc6-dev, libgcc-s-dev, libz-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219059
+Auto-Installed: yes
+
+Package: libusb-compat-dev
+Version: 1:0.1.3-r4
+Depends: libusb-compat (= 1:0.1.3-r4), pkgconfig
+Recommends: libc6-dev, libusb-compat-dev, libusb-1.0-dev, pkgconfig-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219068
+Auto-Installed: yes
+
+Package: libavahi-client3
+Version: 0.6.31-r2.0
+Depends: libavahi-common3 (>= 0.6.31), libdbus-1-3 (>= 1.4.16), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219061
+Auto-Installed: yes
+
+Package: udev-dev
+Version: 164-r13
+Depends: pkgconfig, udev (= 164-r13)
+Recommends: libusb-dev, libc6-dev, libglib-2.0-dev, update-rc.d-dev, pciutils-dev, usbutils-dev, acl-dev, libusb-compat-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219068
+Auto-Installed: yes
+
+Package: libz1
+Version: 1.2.6-r1
+Depends: libgcc1 (>= 4.6.3+svnr184847), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219053
+Auto-Installed: yes
+
+Package: libpopt-dev
+Version: 1.16-r0
+Depends: libpopt0 (= 1.16-r0)
+Recommends: libc6-dev, libgcc-s-dev, libpopt-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219060
+Auto-Installed: yes
+
+Package: libts-1.0-dev
+Version: 1.0-r20
+Depends: libts-1.0-0 (= 1.0-r20), pkgconfig
+Recommends: libc6-dev, tslib-conf-dev, libts-1.0-dev, pkgconfig-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219066
+Auto-Installed: yes
+
+Package: libcidn1
+Version: 2.13-r26+svnr15508
+Depends: libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219056
+Auto-Installed: yes
+
+Package: libusb-1.0-dev
+Version: 1.0.8-r4
+Depends: pkgconfig, libusb-1.0-0 (= 1.0.8-r4)
+Recommends: libc6-dev, pkgconfig-dev, libusb-1.0-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219068
+Auto-Installed: yes
+
+Package: util-linux-blkid
+Version: 2.21-r5
+Depends: libgcc1 (>= 4.6.3+svnr184847), libblkid1 (>= 2.21), libc6 (>= 2.13)
+Provides:
+Replaces: e2fsprogs-blkid
+Conflicts: e2fsprogs-blkid
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219064
+Auto-Installed: yes
+
+Package: libglib-2.0-0
+Version: 1:2.30.3-r1
+Depends: libffi5 (>= 3.0.10), libgcc1 (>= 4.6.3+svnr184847), libz1 (>= 1.2.6), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219053
+Auto-Installed: yes
+
+Package: libxcb-xvmc0
+Version: 1.8.1-r0
+Depends: libxau6 (>= 1.0.7), libxcb1 (>= 1.8.1), libxdmcp6 (>= 1.1.1), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219060
+Auto-Installed: yes
+
+Package: libqtdeclarativee-dev
+Version: 4.8.2-r46.1
+Depends: libqtdeclarativee4, libqtcoree-dev, libqtguie-dev
+Recommends: libgcc-s-dev, gstreamer-dev, libjpeg-dev, libz-dev, libqtsqle-dev, libqtcoree-dev, libfreetype-dev, libqtxmlpatternse-dev, openssl-dev, libts-1.0-dev, libtiff-dev, sqlite3-dev, libqtguie-dev, dbus-dev, gst-plugins-base-dev, libqtnetworke-dev, directfb-dev, libstdc++-dev, libc6-dev, libqtscripte-dev, pulseaudio-dev, libglib-2.0-dev, libpng-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219105
+Auto-Installed: yes
+
+Package: libx11-6
+Version: 1:1.4.4-r1
+Depends: libxau6 (>= 1.0.7), libxcb1 (>= 1.8.1), libxdmcp6 (>= 1.1.1), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219060
+Auto-Installed: yes
+
+Package: libtiff5
+Version: 4.0.1-r1
+Depends: libgcc1 (>= 4.6.3+svnr184847), liblzma5 (>= 5.0.3), libz1 (>= 1.2.6), libjpeg8 (>= 8c), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219066
+Auto-Installed: yes
+
+Package: libqthelpe-dev
+Version: 4.8.2-r46.1
+Depends: libqtsqle-dev, libqtxmle-dev, libqtnetworke-dev, libqthelpe4
+Recommends: libqtcoree-dev, gstreamer-dev, libjpeg-dev, libz-dev, libqtsqle-dev, libgcc-s-dev, libfreetype-dev, openssl-dev, libts-1.0-dev, libtiff-dev, sqlite3-dev, libqtguie-dev, dbus-dev, gst-plugins-base-dev, libqtnetworke-dev, directfb-dev, libstdc++-dev, libc6-dev, libqtclucenee-dev, pulseaudio-dev, libglib-2.0-dev, libpng-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219077
+Auto-Installed: yes
+
+Package: qt4-embedded-assistant
+Version: 4.8.2-r46.1
+Depends: libgcc1 (>= 4.6.3+svnr184847), libqthelpe4 (>= 4.8.2), libstdc++6 (>= 4.6.3+svnr184847), libqtwebkite4 (>= 4.8.2), libqtcoree4 (>= 4.8.2), libqtsqle4 (>= 4.8.2), libqtguie4 (>= 4.8.2), libc6 (>= 2.13), libqtnetworke4 (>= 4.8.2)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219099
+Auto-Installed: yes
+
+Package: libqtmultimediae-dev
+Version: 4.8.2-r46.1
+Depends: libqtcoree-dev, libqtmultimediae4, libqtguie-dev
+Recommends: libstdc++-dev, gst-plugins-base-dev, libgcc-s-dev, gstreamer-dev, libjpeg-dev, libz-dev, directfb-dev, openssl-dev, libts-1.0-dev, libpng-dev, libc6-dev, libasound-dev, libtiff-dev, sqlite3-dev, libqtguie-dev, libqtcoree-dev, libfreetype-dev, pulseaudio-dev, dbus-dev, libglib-2.0-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219076
+Auto-Installed: yes
+
+Package: dbus-dev
+Version: 1.4.16-r3.0
+Depends: dbus-1 (= 1.4.16-r3.0), libdbus-1-3, pkgconfig
+Recommends: base-passwd-dev, shadow-dev, shadow-sysroot-dev, dbus-lib-dev, pkgconfig-dev, update-rc.d-dev, libc6-dev, libexpat-dev, dbus-dev, libx11-dev, libsm-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219063
+Auto-Installed: yes
+
+Package: libattr-dev
+Version: 2.4.46-r4
+Depends: libattr1
+Recommends: libc6-dev, ncurses-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219063
+Auto-Installed: yes
+
+Package: libqtcoree4
+Version: 4.8.2-r46.1
+Depends: libz1 (>= 1.2.6), libgcc1 (>= 4.6.3+svnr184847), libglib-2.0-0 (>= 2.30.3), libc6 (>= 2.13), libstdc++6 (>= 4.6.3+svnr184847)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219054
+Auto-Installed: yes
+
+Package: ncurses-dev
+Version: 5.9-r8.1
+Depends: libtinfo5, ncurses (= 5.9-r8.1), libpanelw5, libform5, libtic5, libmenuw5, libformw5, libpanel5, libmenu5, libticw5
+Recommends: ncurses-libmenu-dev, ncurses-libpanel-dev, ncurses-libtinfo-dev, ncurses-dev, ncurses-libmenuw-dev, ncurses-libncursesw-dev, ncurses-libtic-dev, ncurses-libncurses-dev, ncurses-libform-dev, libc6-dev, ncurses-terminfo-base-dev, ncurses-libpanelw-dev, ncurses-libformw-dev, ncurses-libticw-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219057
+Auto-Installed: yes
+
+Package: e2fsprogs-tune2fs
+Version: 1.42.1-r0
+Depends: libcom-err2 (>= 1.42.1), libe2p2 (>= 1.42.1), e2fsprogs (>= 1.42.1), libc6 (>= 2.13), libblkid1 (>= 2.21), libuuid1 (>= 2.21)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219084
+Auto-Installed: yes
+
+Package: hicolor-icon-theme-dev
+Version: 0.12-r0
+Depends: hicolor-icon-theme (= 0.12-r0), pkgconfig
+Recommends: pkgconfig-dev, hicolor-icon-theme-dev
+Provides:
+Status: install ok installed
+Architecture: all
+Installed-Time: 1340219073
+Auto-Installed: yes
+
+Package: libgcc1
+Version: 4.6.3+svnr184847-r25
+Depends: libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219053
+Auto-Installed: yes
+
+Package: liblzo2-2
+Version: 2.06-r1
+Depends: libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219077
+Auto-Installed: yes
+
+Package: eglibc-localedata-translit-font
+Version: 2.13-r20
+Provides: glibc-localedata-translit-font
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219078
+Auto-Installed: yes
+
+Package: ncurses
+Version: 5.9-r8.1
+Depends: libtinfo5 (>= 5.9), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219056
+Auto-Installed: yes
+
+Package: gst-plugins-base
+Version: 0.10.36-r3
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219058
+Auto-Installed: yes
+
+Package: util-linux-dev
+Version: 2.21-r5
+Depends: util-linux (= 2.21-r5), libblkid1, libuuid1, pkgconfig
+Recommends: libgcc-s-dev, util-linux-swaponoff-dev, ncurses-dev, libz-dev, util-linux-umount-dev, ncurses-libncursesw-dev, libc6-dev, libuuid-dev, libblkid-dev, util-linux-losetup-dev, ncurses-libtinfo-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219064
+Auto-Installed: yes
+
+Package: xextproto-dev
+Version: 1:7.2.0-r0
+Recommends: xextproto-dev, util-macros-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219060
+Auto-Installed: yes
+
+Package: libexpat1
+Version: 2.0.1-r1
+Depends: libgcc1 (>= 4.6.3+svnr184847), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219062
+Auto-Installed: yes
+
+Package: fontconfig-utils
+Version: 2.8.0-r4
+Depends: libfontconfig1 (>= 2.8.0), libc6 (>= 2.13)
+Provides: libfontconfig-utils
+Replaces: libfontconfig-utils
+Conflicts: libfontconfig-utils
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219071
+Auto-Installed: yes
+
+Package: task-qte-toolchain-target
+Version: 1.0-r5
+Depends: libqtcoree-dev, dosfstools, libqtsqle-dev, libqtmultimediae-dev, libqtteste-dev, libqthelpe-dev, mtd-utils, libphonone-dev, libqtnetworke-dev, task-core-standalone-sdk-target, e2fsprogs-tune2fs, qt-mobility-embedded-dev, libqtxmle-dev, genext2fs, e2fsprogs-e2fsck, libqtwebkite-dev, libqtxmlpatternse-dev, libqtguie-dev, libqtdbuse-dev, libqt-embeddeduitools4-dev, libsqlite3-dev, libqtscripte-dev, libqtclucenee-dev, libqtsvge-dev, libqtdesignere-dev, libqtdeclarativee-dev, libqtscripttoolse-dev, e2fsprogs, libqt3supporte-dev, libexpat-dev, e2fsprogs-mke2fs, libqtdesignercomponentse-dev, qt4-embedded-mkspecs
+Provides:
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1340219106
+
+Package: eggdbus-dev
+Version: 0.6-r3
+Depends: libglib-2.0-dev, eggdbus (= 0.6-r3)
+Recommends: libdbus-glib-1-dev, libz-dev, eggdbus-dev, dbus-lib-dev, libglib-2.0-dev, libffi-dev, libc6-dev, dbus-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219071
+Auto-Installed: yes
+
+Package: libvorbisidec-dev
+Version: 20120314-r0
+Depends: libogg-dev, libvorbisidec1 (= 20120314-r0)
+Recommends: libvorbisidec-dev, libc6-dev, libogg-dev, libgcc-s-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219065
+Auto-Installed: yes
+
+Package: locale-base-en-us
+Version: 2.13-r20
+Depends: eglibc-binary-localedata-en-us
+Provides: virtual-locale-en-us, virtual-locale-en
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219078
+Auto-Installed: yes
+
+Package: inputproto-dev
+Version: 1:2.2-r0
+Recommends: inputproto-dev, util-macros-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219061
+Auto-Installed: yes
+
+Package: gettext-dev
+Version: 0.18.1.1-r11
+Depends: gettext (= 0.18.1.1-r11), libgettextlib, libgettextsrc
+Recommends: libgettextlib-dev, libc6-dev, libgettextsrc-dev, ncurses-dev, libexpat-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219063
+Auto-Installed: yes
+
+Package: libatomics-ops-dev
+Version: 1.2-r9
+Depends: libatomics-ops (= 1.2-r9), pkgconfig
+Recommends: pkgconfig-dev, libatomics-ops-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219073
+Auto-Installed: yes
+
+Package: libasound2
+Version: 1.0.25-r1
+Depends: libgcc1 (>= 4.6.3+svnr184847), alsa-conf-base, libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219064
+Auto-Installed: yes
+
+Package: util-linux-losetup
+Version: 2.21-r5
+Depends: libgcc1 (>= 4.6.3+svnr184847), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219064
+Auto-Installed: yes
+
+Package: libgstriff-0.10-0
+Version: 0.10.36-r3
+Depends: gstreamer (>= 0.10.36), libgstpbutils-0.10-0 (>= 0.10.36), libgstaudio-0.10-0 (>= 0.10.36), libffi5 (>= 3.0.10), libxml2 (>= 2.7.8), libz1 (>= 1.2.6), libgstinterfaces-0.10-0 (>= 0.10.36), libgsttag-0.10-0 (>= 0.10.36), libc6 (>= 2.13), libglib-2.0-0 (>= 2.30.3)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219058
+Auto-Installed: yes
+
+Package: util-linux-readprofile
+Version: 2.21-r5
+Depends: libgcc1 (>= 4.6.3+svnr184847), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219064
+Auto-Installed: yes
+
+Package: util-linux
+Version: 2.21-r5
+Depends: libgcc1 (>= 4.6.3+svnr184847), libz1 (>= 1.2.6), libncursesw5 (>= 5.9), libtinfo5 (>= 5.9), util-linux-swaponoff, libc6 (>= 2.13), util-linux-losetup, libblkid1 (>= 2.21), util-linux-umount, libuuid1 (>= 2.21)
+Recommends: util-linux-fdisk, util-linux-cfdisk, util-linux-mount, util-linux-sfdisk, util-linux-mkfs, util-linux-readprofile
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219064
+Auto-Installed: yes
+
+Package: libpng12-0
+Version: 1.2.46-r4
+Depends: libz1 (>= 1.2.6), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219065
+Auto-Installed: yes
+
+Package: qt-mobility-embedded-dev
+Version: 1.2.0-r6
+Depends: qt-mobility-embedded (= 1.2.0-r6)
+Recommends: libgcc-s-dev, gstreamer-dev, bluez4-dev, libqtsqle-dev, libqtcoree-dev, libudev-dev, qt4-embedded-dev, libpulse-dev, qt-mobility-embedded-dev, libqtxmle-dev, libqtguie-dev, libqtnetworke-dev, libqtdbuse-dev, libstdc++-dev, libgstvideo-0.10-dev, libc6-dev, libasound-dev, libqtscripte-dev, pulseaudio-dev, libqtsvge-dev, libqtdeclarativee-dev, libglib-2.0-dev, libgstapp-0.10-dev, libblkid-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219086
+Auto-Installed: yes
+
+Package: libgstaudio-0.10-0
+Version: 0.10.36-r3
+Depends: libgcc1 (>= 4.6.3+svnr184847), gstreamer (>= 0.10.36), libgstpbutils-0.10-0 (>= 0.10.36), libffi5 (>= 3.0.10), libxml2 (>= 2.7.8), libz1 (>= 1.2.6), libgstinterfaces-0.10-0 (>= 0.10.36), libc6 (>= 2.13), libglib-2.0-0 (>= 2.30.3)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219058
+Auto-Installed: yes
+
+Package: libqtdesignercomponentse-dev
+Version: 4.8.2-r46.1
+Depends: libqtcoree-dev, libqtdesignere-dev, libqtdesignercomponentse4, libqtxmle-dev, libqtscripte-dev, libqtguie-dev
+Recommends: libstdc++-dev, gst-plugins-base-dev, libgcc-s-dev, gstreamer-dev, libjpeg-dev, libz-dev, libglib-2.0-dev, directfb-dev, openssl-dev, libts-1.0-dev, libpng-dev, libc6-dev, libtiff-dev, sqlite3-dev, libqtguie-dev, libqtcoree-dev, libfreetype-dev, pulseaudio-dev, dbus-dev, libqtdesignere-dev, libqtxmle-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219106
+Auto-Installed: yes
+
+Package: libtheora-dev
+Version: 1.1.1-r1
+Depends: pkgconfig, libtheora (= 1.1.1-r1)
+Recommends: libtheora-dev, libogg-dev, pkgconfig-dev, libgcc-s-dev, libc6-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219060
+Auto-Installed: yes
+
+Package: libpci3
+Version: 3.1.9-r0
+Depends: libz1 (>= 1.2.6), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219068
+Auto-Installed: yes
+
+Package: libpulse-mainloop-glib0
+Version: 1.1-r8
+Depends: libgcc1 (>= 4.6.3+svnr184847), libxtst6 (>= 1.2.1), libjson0 (>= 0.9), libxcb1 (>= 1.8.1), libdbus-1-3 (>= 1.4.16), libice6 (>= 1.0.8), libsm6 (>= 1.2.1), libx11-xcb1 (>= 1.4.4), libwrap0 (>= 7.6), libgdbm4 (>= 1.10), libxi6 (>= 1.4.5), libglib-2.0-0 (>= 2.30.3), libxau6 (>= 1.0.7), libxext6 (>= 1.3.1), libx11-6 (>= 1.4.4), libsndfile1 (>= 1.0.25), libpulsecommon (>= 1.1), libcap2 (>= 2.22), libc6 (>= 2.13), libpulse0 (>= 1.1), libuuid1 (>= 2.21), libxdmcp6 (>= 1.1.1)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219067
+Auto-Installed: yes
+
+Package: libgsttag-0.10-0
+Version: 0.10.36-r3
+Depends: gstreamer (>= 0.10.36), libffi5 (>= 3.0.10), libxml2 (>= 2.7.8), libz1 (>= 1.2.6), libc6 (>= 2.13), libglib-2.0-0 (>= 2.30.3)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219058
+Auto-Installed: yes
+
+Package: libx11-xcb1
+Version: 1:1.4.4-r1
+Depends: libx11-6 (>= 1.4.4), libxau6 (>= 1.0.7), libxcb1 (>= 1.8.1), libxdmcp6 (>= 1.1.1), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219061
+Auto-Installed: yes
+
+Package: xtrans-dev
+Version: 1:1.2.6-r0
+Recommends: xtrans-dev, util-macros-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219061
+Auto-Installed: yes
+
+Package: libgettextlib
+Version: 0.18.1.1-r11
+Depends: libgcc1 (>= 4.6.3+svnr184847), libtinfo5 (>= 5.9), libncurses5 (>= 5.9), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219063
+Auto-Installed: yes
+
+Package: libqtclucenee4
+Version: 4.8.2-r46.1
+Depends: libqtcoree4 (>= 4.8.2), libgcc1 (>= 4.6.3+svnr184847), libc6 (>= 2.13), libstdc++6 (>= 4.6.3+svnr184847)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219077
+Auto-Installed: yes
+
+Package: libcairo2
+Version: 1.10.2-r5
+Depends: libx11-6 (>= 1.4.4), libgcc1 (>= 4.6.3+svnr184847), libpng12-0 (>= 1.2.46), libxcb1 (>= 1.8.1), libxrender1 (>= 0.9.7), libpixman-1-0 (>= 0.25.2), libz1 (>= 1.2.6), libfreetype6 (>= 2.4.8), libc6 (>= 2.13), libxau6 (>= 1.0.7), libexpat1 (>= 2.0.1), libxdmcp6 (>= 1.1.1), libfontconfig1 (>= 2.8.0)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219069
+Auto-Installed: yes
+
+Package: libmenuw5
+Version: 5.9-r8.1
+Depends: libncursesw5 (>= 5.9), libtinfo5 (>= 5.9), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219057
+Auto-Installed: yes
+
+Package: libuuid-dev
+Version: 2.21-r5
+Recommends: libc6-dev, libgcc-s-dev, ncurses-dev, libz-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219064
+Auto-Installed: yes
+
+Package: libudev0
+Version: 164-r13
+Depends: udev (= 164-r13), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219067
+Auto-Installed: yes
+
+Package: libxau6
+Version: 1:1.0.7-r0
+Depends: libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219060
+Auto-Installed: yes
+
+Package: libgpg-error0
+Version: 1.10-r1
+Depends: libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219072
+Auto-Installed: yes
+
+Package: libltdl7
+Version: 2.4.2-r2.0
+Depends: libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219073
+Auto-Installed: yes
+
+Package: libflac8
+Version: 1.2.1-r2
+Depends: libgcc1 (>= 4.6.3+svnr184847), libogg0 (>= 1.3.0), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219074
+Auto-Installed: yes
+
+Package: speex
+Version: 1.2rc1-r1
+Depends: libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219074
+Auto-Installed: yes
+
+Package: libfreetype-dev
+Version: 2.4.8-r0
+Depends: pkgconfig, libfreetype6 (= 2.4.8-r0)
+Recommends: libc6-dev, libfreetype-dev, pkgconfig-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219065
+Auto-Installed: yes
+
+Package: qt4-embedded-fonts-pfa
+Version: 4.8.2-r46.1
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219102
+Auto-Installed: yes
+
+Package: libxext-dev
+Version: 1:1.3.1-r0
+Depends: xextproto-dev, libxext6 (= 1:1.3.1-r0), pkgconfig
+Recommends: libxext-dev, libxcb-dev, libxau-dev, xproto-dev, pkgconfig-dev, libc6-dev, libxdmcp-dev, xextproto-dev, libx11-dev, util-macros-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219060
+Auto-Installed: yes
+
+Package: qt4-embedded-fonts-pfb
+Version: 4.8.2-r46.1
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219089
+Auto-Installed: yes
+
+Package: e2fsprogs-mke2fs
+Version: 1.42.1-r0
+Depends: libgcc1 (>= 4.6.3+svnr184847), libcom-err2 (>= 1.42.1), libe2p2 (>= 1.42.1), e2fsprogs (>= 1.42.1), libc6 (>= 2.13), libblkid1 (>= 2.21), libuuid1 (>= 2.21)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219106
+Auto-Installed: yes
+
+Package: libusb-compat
+Version: 1:0.1.3-r4
+Depends: libusb-1.0-0 (>= 1.0.8), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219067
+Auto-Installed: yes
+
+Package: sysfsutils-dev
+Version: 2.1.0-r3
+Depends: sysfsutils (= 2.1.0-r3)
+Recommends: libc6-dev, libsysfs-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219066
+Auto-Installed: yes
+
+Package: qt4-embedded-qml-plugins
+Version: 4.8.2-r46.1
+Depends: libgcc1 (>= 4.6.3+svnr184847), libqtwebkite4 (>= 4.8.2), libqtcoree4 (>= 4.8.2), libstdc++6 (>= 4.6.3+svnr184847), libqtguie4 (>= 4.8.2), libc6 (>= 2.13), libqtdeclarativee4 (>= 4.8.2), libqtnetworke4 (>= 4.8.2)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219089
+Auto-Installed: yes
+
+Package: libformw5
+Version: 5.9-r8.1
+Depends: libncursesw5 (>= 5.9), libtinfo5 (>= 5.9), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219057
+Auto-Installed: yes
+
+Package: libqtdeclarativee4
+Version: 4.8.2-r46.1
+Depends: libgcc1 (>= 4.6.3+svnr184847), libqtcoree4 (>= 4.8.2), libc6 (>= 2.13), libqtnetworke4 (>= 4.8.2), libqtscripte4 (>= 4.8.2), libqtguie4 (>= 4.8.2), libstdc++6 (>= 4.6.3+svnr184847), libqtsqle4 (>= 4.8.2), libqtxmlpatternse4 (>= 4.8.2)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219085
+Auto-Installed: yes
+
+Package: eglibc-localedata-iso14651-t1-common
+Version: 2.13-r20
+Provides: glibc-localedata-iso14651-t1-common
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219078
+Auto-Installed: yes
+
+Package: zip-dev
+Version: 3.0-r1
+Depends: zip (= 3.0-r1)
+Recommends: zip-dev, libc6-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219060
+Auto-Installed: yes
+
+Package: eglibc-binary-localedata-en-gb
+Version: 2.13-r20
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219078
+Auto-Installed: yes
+
+Package: libsqlite3-dev
+Version: 3.7.10-r2
+Depends: libsqlite3-0
+Recommends: libgcc-s-dev, libsqlite3-dev, libreadline-dev, ncurses-dev, libc6-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219068
+Auto-Installed: yes
+
+Package: libpopt0
+Version: 1.16-r0
+Depends: libgcc1 (>= 4.6.3+svnr184847), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219058
+Auto-Installed: yes
+
+Package: gnome-common
+Version: 2.28.0-r1
+Provides:
+Status: install ok installed
+Architecture: all
+Installed-Time: 1340219071
+Auto-Installed: yes
+
+Package: libdbus-glib-1-2
+Version: 0.98-r0
+Depends: libffi5 (>= 3.0.10), libglib-2.0-0 (>= 2.30.3), libdbus-1-3 (>= 1.4.16), libz1 (>= 1.2.6), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219068
+Auto-Installed: yes
+
+Package: libe2p2
+Version: 1.42.1-r0
+Depends: libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219064
+Auto-Installed: yes
+
+Package: shadow-dev
+Version: 4.1.4.3-r8
+Depends: shadow (= 4.1.4.3-r8)
+Recommends: libgcc-s-dev, shadow-dev, shadow-securetty-dev, libc6-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219063
+Auto-Installed: yes
+
+Package: eglibc-gconv-ibm850
+Version: 2.13-r20
+Depends: eglibc-gconv, libc6 (>= 2.13)
+Provides: glibc-gconv-ibm850
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219078
+Auto-Installed: yes
+
+Package: libltdl-dev
+Version: 2.4.2-r2.0
+Depends: libltdl7
+Recommends: libc6-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219073
+Auto-Installed: yes
+
+Package: zip
+Version: 3.0-r1
+Depends: libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219059
+Auto-Installed: yes
+
+Package: libxtst-dev
+Version: 1:1.2.1-r0
+Depends: libxtst6 (= 1:1.2.1-r0), pkgconfig, recordproto-dev
+Recommends: libxext-dev, libxcb-dev, libxau-dev, pkgconfig-dev, libxtst-dev, libc6-dev, libxdmcp-dev, recordproto-dev, libxi-dev, inputproto-dev, libx11-dev, util-macros-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219068
+Auto-Installed: yes
+
+Package: gdk-pixbuf-loader-gif
+Version: 2.24.1-r0
+Depends: libpng12-0 (>= 1.2.46), libffi5 (>= 3.0.10), libz1 (>= 1.2.6), gdk-pixbuf (>= 2.24.1), libc6 (>= 2.13), libglib-2.0-0 (>= 2.30.3)
+Provides:
+Status: install ok unpacked
+Architecture: armv5te
+Installed-Time: 1340219071
+Auto-Installed: yes
+
+Package: xproto-dev
+Version: 1:7.0.22-r1
+Recommends: xproto-dev, util-macros-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219060
+Auto-Installed: yes
+
+Package: bluez-hcidump
+Version: 2.3-r0
+Depends: libgcc1 (>= 4.6.3+svnr184847), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219073
+Auto-Installed: yes
+
+Package: libdaemon0
+Version: 0.14-r0
+Depends: libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219062
+Auto-Installed: yes
+
+Package: pango-dev
+Version: 1.28.4-r7
+Depends: libcairo-dev, libfontconfig-dev, libglib-2.0-dev, pkgconfig, libxft-dev, libfreetype-dev, pango (= 1.28.4-r7)
+Recommends: libcairo-dev, libfontconfig-dev, libgcc-s-dev, libz-dev, libxcb-dev, libxau-dev, pkgconfig-dev, libxft-dev, libstdc++-dev, libx11-dev, gnome-common-dev, libc6-dev, libxdmcp-dev, libxrender-dev, pango-dev, libffi-dev, libexpat-dev, libfreetype-dev, libpixman-1-dev, libpng12-dev, libglib-2.0-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219072
+Auto-Installed: yes
+
+Package: flac-dev
+Version: 1.2.1-r2
+Depends: libflac8, flac (= 1.2.1-r2), libflac++6
+Recommends: libgcc-s-dev, libflac-dev, libflac++-dev, flac-dev, libc6-dev, libogg-dev, libstdc++-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219074
+Auto-Installed: yes
+
+Package: libogg0
+Version: 1.3.0-r0
+Depends: libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219060
+Auto-Installed: yes
+
+Package: shadow-securetty-dev
+Version: 4.1.4.3-r1
+Depends: shadow-securetty (= 4.1.4.3-r1)
+Recommends: shadow-securetty-dev
+Provides:
+Status: install ok installed
+Architecture: generic_armv5te
+Installed-Time: 1340219063
+Auto-Installed: yes
+
+Package: libnss-mdns
+Version: 0.10-r4
+Depends: avahi-daemon, libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219063
+Auto-Installed: yes
+
+Package: qt4-embedded-dbus
+Version: 4.8.2-r46.1
+Depends: libgcc1 (>= 4.6.3+svnr184847), libqtcoree4 (>= 4.8.2), libqtxmle4 (>= 4.8.2), libstdc++6 (>= 4.6.3+svnr184847), libqtdbuse4 (>= 4.8.2), libqtguie4 (>= 4.8.2), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219103
+Auto-Installed: yes
+
+Package: udev-extraconf
+Version: 0.0-r2
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219067
+Auto-Installed: yes
+
+Package: libavahi-core7
+Version: 0.6.31-r2.0
+Depends: libgcc1 (>= 4.6.3+svnr184847), libavahi-common3 (>= 0.6.31), libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219061
+Auto-Installed: yes
+
+Package: libfreetype6
+Version: 2.4.8-r0
+Depends: libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219065
+Auto-Installed: yes
+
+Package: ocf-linux
+Version: 20100325-r3.0
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219066
+Auto-Installed: yes
+
+Package: genext2fs
+Version: 1.4.1-r2
+Depends: libc6 (>= 2.13)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219106
+Auto-Installed: yes
+
+Package: libxdamage-dev
+Version: 1:1.1.3-r1
+Depends: libxdamage1 (= 1:1.1.3-r1), pkgconfig
+Recommends: libxcb-dev, libxau-dev, pkgconfig-dev, libxdamage-dev, libc6-dev, damageproto-dev, libxdmcp-dev, libxfixes-dev, libx11-dev, util-macros-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1340219072
+Auto-Installed: yes
+

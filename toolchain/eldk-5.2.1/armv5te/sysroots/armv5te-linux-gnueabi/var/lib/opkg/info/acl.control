@@ -1,0 +1,13 @@
+Package: acl
+Version: 2.2.51-r3
+Description: acl version 2.2.51-r3
+ utilities for access control list
+Section: libs
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: GPLv2+
+Architecture: armv5te
+OE: acl
+Homepage: http://savannah.nongnu.org/projects/acl/
+Depends: libacl1 (>= 2.2.51), libc6 (>= 2.13)
+Source: http://download.savannah.gnu.org/releases/acl/acl-2.2.51.src.tar.gz file://relative-libdir.patch;striplevel=0

@@ -1,0 +1,17 @@
+Package: fixesproto-dev
+Version: 1:5.0-r0
+Description: XFixes: X Fixes extension headers - Development files
+ This package provides the wire protocol for the X Fixes extension.  This
+ extension is designed to provide server-side support for application work
+ arounds to shortcomings in the core X window system.  This package
+ contains symbolic links, header files, and related items necessary for
+ software development.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: MIT & MIT-style
+Architecture: armv5te
+OE: fixesproto
+Homepage: http://www.x.org
+Recommends: fixesproto-dev, util-macros-dev
+Source: http://xorg.freedesktop.org/releases/individual/proto/fixesproto-5.0.tar.bz2

@@ -1,0 +1,16 @@
+Package: hicolor-icon-theme-dev
+Version: 0.12-r0
+Description: hicolor-icon-theme version 0.12-r0 - Development files
+ default icon theme that all icon themes automatically inherit from.  This
+ package contains symbolic links, header files, and related items
+ necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: GPLv2
+Architecture: all
+OE: hicolor-icon-theme
+Homepage: http://icon-theme.freedesktop.org/wiki/HicolorTheme
+Depends: hicolor-icon-theme (= 0.12-r0), pkgconfig
+Recommends: pkgconfig-dev, hicolor-icon-theme-dev
+Source: http://icon-theme.freedesktop.org/releases/hicolor-icon-theme-0.12.tar.gz file://index.theme

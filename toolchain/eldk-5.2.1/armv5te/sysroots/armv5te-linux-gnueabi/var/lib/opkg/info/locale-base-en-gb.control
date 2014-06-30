@@ -1,0 +1,14 @@
+Package: locale-base-en-gb
+Version: 2.13-r20
+Description: eglibc-locale version 2.13-r20
+ eglibc-locale version 2.13-r20
+Section: base
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: GPLv2 & LGPLv2.1
+Architecture: armv5te
+OE: eglibc-locale
+Homepage: unknown
+Depends: eglibc-binary-localedata-en-gb
+Provides: virtual-locale-en-gb, virtual-locale-en
+Source: None

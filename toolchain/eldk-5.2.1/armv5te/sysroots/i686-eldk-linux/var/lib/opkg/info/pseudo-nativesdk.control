@@ -1,0 +1,13 @@
+Package: pseudo-nativesdk
+Version: 1.3-r10
+Description: pseudo-nativesdk version 1.3-r10
+ Pseudo gives fake root capabilities to a normal user
+Section: base
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: LGPL2.1
+Architecture: i686-nativesdk
+OE: pseudo-nativesdk
+Homepage: http://wiki.github.com/wrpseudo/pseudo/
+Depends: libc6 (>= 2.15)
+Source: http://www.yoctoproject.org/downloads/pseudo/pseudo-1.3.tar.bz2 file://symver.patch

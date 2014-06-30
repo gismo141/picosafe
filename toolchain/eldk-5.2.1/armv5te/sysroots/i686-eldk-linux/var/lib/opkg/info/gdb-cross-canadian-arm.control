@@ -1,0 +1,13 @@
+Package: gdb-cross-canadian-arm
+Version: 7.4-r8.5
+Description: gdb-cross-canadian-arm version 7.4-r8.5
+ cross-canadian gdb for arm target - GNU debugger
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: GPLv3+
+Architecture: i686-nativesdk
+OE: gdb-cross-canadian-arm
+Homepage: http://www.gnu.org/software/gdb/
+Depends: libpython2.7-1.0 (>= 2.7.2), python-nativesdk-re, libtinfo5 (>= 5.9), python-nativesdk-core, libz1 (>= 1.2.6), python-nativesdk-netclient, libreadline6 (>= 6.2), libncurses5 (>= 5.9), libc6 (>= 2.15), python-nativesdk-codecs, python-nativesdk-lang, libexpat1 (>= 2.0.1)
+Source: ftp://ftp.gnu.org/gnu/gdb/gdb-7.4.tar.gz file://no-werror.patch

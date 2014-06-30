@@ -1,0 +1,16 @@
+Package: qt-mobility-embedded-dev
+Version: 1.2.0-r6
+Description: qt-mobility-embedded version 1.2.0-r6 - Development files
+ Qt Mobility 1.2.0 - version for Qt/Embedded  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: LGPLv2.1
+Architecture: armv5te
+OE: qt-mobility-embedded
+Homepage: http://qt.nokia.com
+Depends: qt-mobility-embedded (= 1.2.0-r6)
+Recommends: libgcc-s-dev, gstreamer-dev, bluez4-dev, libqtsqle-dev, libqtcoree-dev, libudev-dev, qt4-embedded-dev, libpulse-dev, qt-mobility-embedded-dev, libqtxmle-dev, libqtguie-dev, libqtnetworke-dev, libqtdbuse-dev, libstdc++-dev, libgstvideo-0.10-dev, libc6-dev, libasound-dev, libqtscripte-dev, pulseaudio-dev, libqtsvge-dev, libqtdeclarativee-dev, libglib-2.0-dev, libgstapp-0.10-dev, libblkid-dev
+Source: http://get.qt.nokia.com/qt/add-ons/qt-mobility-opensource-src-1.2.0.tar.gz file://qt-mobility-configure.patch file://0001-gstvideoconnector-fixed-buffers-allocation.patch file://0002-Remove-unnecessary-rpaths-from-qml_device-example.patch file://qt-mobility-no-opengl.patch file://gcc-scope.patch file://0001-Fix-for-playing-theora-encoded-videos.patch file://0002-Support-playing-video-using-gst-omapfb-plugin.patch file://0001-Avoid-omapfb-plane-setting-errors-on-first-player-st.patch

@@ -1,0 +1,511 @@
+Package: encodings-dbg
+Version: 1:1.0.4-r2.1
+Recommends: encodings-dbg, pkgconfig-dbg, font-alias-dbg, font-util-dbg, encodings (= 1:1.0.4-r2.1)
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 55b79d00f05e80cc50f3dbf6c93867b7
+Size: 828
+Filename: encodings-dbg_1.0.4-r2.1_all.ipk
+Source: http://xorg.freedesktop.org/releases/individual/font/encodings-1.0.4.tar.bz2 file://nocompiler.patch
+Description: The Xorg font encoding files - Debugging files
+ The encodings that map to specific characters for a number of Xorg and
+
+
+
+Package: encodings-dev
+Version: 1:1.0.4-r2.1
+Depends: pkgconfig, encodings (= 1:1.0.4-r2.1)
+Recommends: font-alias-dev, encodings-dev, font-util-dev, pkgconfig-dev
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: ecd6988b54e13f93ceffc5b47b2b0837
+Size: 856
+Filename: encodings-dev_1.0.4-r2.1_all.ipk
+Source: http://xorg.freedesktop.org/releases/individual/font/encodings-1.0.4.tar.bz2 file://nocompiler.patch
+Description: The Xorg font encoding files - Development files
+ The encodings that map to specific characters for a number of Xorg and
+
+
+
+Package: encodings
+Version: 1:1.0.4-r2.1
+Depends: font-util, font-alias, encodings
+Section: x11/fonts
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 9d40ffcf64804529fee7c25970649359
+Size: 580704
+Filename: encodings_1.0.4-r2.1_all.ipk
+Source: http://xorg.freedesktop.org/releases/individual/font/encodings-1.0.4.tar.bz2 file://nocompiler.patch
+Description: The Xorg font encoding files
+ The encodings that map to specific characters for a number of Xorg and
+
+
+
+Package: font-alias-dbg
+Version: 1:1.0.3-r2.3
+Recommends: encodings-dbg, pkgconfig-dbg, font-alias-dbg, font-alias (= 1:1.0.3-r2.3), font-util-dbg
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: dfa507c923acf8ce6cb74e88e5cc8547
+Size: 790
+Filename: font-alias-dbg_1.0.3-r2.3_all.ipk
+Source: http://xorg.freedesktop.org/releases/individual/font/font-alias-1.0.3.tar.bz2 file://nocompiler.patch
+Description: font-alias version 1.0.3-r2.3 - Debugging files
+ X font aliases.  This package contains ELF symbols and related sources
+
+
+
+Package: font-alias-dev
+Version: 1:1.0.3-r2.3
+Depends: pkgconfig, font-alias (= 1:1.0.3-r2.3)
+Recommends: font-alias-dev, encodings-dev, font-util-dev, pkgconfig-dev
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 2372bf62c7ceae3dbd7dd18d16610c44
+Size: 812
+Filename: font-alias-dev_1.0.3-r2.3_all.ipk
+Source: http://xorg.freedesktop.org/releases/individual/font/font-alias-1.0.3.tar.bz2 file://nocompiler.patch
+Description: font-alias version 1.0.3-r2.3 - Development files
+ X font aliases.  This package contains symbolic links, header files, and
+
+
+
+Package: font-alias
+Version: 1:1.0.3-r2.3
+Depends: font-util, encodings
+Section: x11/fonts
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 0a80ff1557d1037c3ea59fa0f05ffe98
+Size: 3208
+Filename: font-alias_1.0.3-r2.3_all.ipk
+Source: http://xorg.freedesktop.org/releases/individual/font/font-alias-1.0.3.tar.bz2 file://nocompiler.patch
+Description: font-alias version 1.0.3-r2.3
+ X font aliases.
+
+
+
+Package: gnome-common-dbg
+Version: 2.28.0-r1
+Recommends: gnome-common-dbg, gnome-common (= 2.28.0-r1), pkgconfig-dbg
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 3bdc36182fdc3f8d1f75d45bdf36dc23
+Size: 794
+Filename: gnome-common-dbg_2.28.0-r1_all.ipk
+Source: http://ftp.gnome.org/pub/GNOME/sources/gnome-common/2.28/gnome-common-2.28.0.tar.bz2;name=archive file://omf.patch
+Description: gnome-common version 2.28.0-r1 - Debugging files
+ Common macros for building GNOME applications  This package contains ELF
+
+
+
+Package: gnome-common-dev
+Version: 2.28.0-r1
+Depends: pkgconfig, gnome-common (= 2.28.0-r1)
+Recommends: gnome-common-dev, pkgconfig-dev
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 8d1f01fdcd93364adc598945f9b09bb9
+Size: 818
+Filename: gnome-common-dev_2.28.0-r1_all.ipk
+Source: http://ftp.gnome.org/pub/GNOME/sources/gnome-common/2.28/gnome-common-2.28.0.tar.bz2;name=archive file://omf.patch
+Description: gnome-common version 2.28.0-r1 - Development files
+ Common macros for building GNOME applications  This package contains
+
+
+
+Package: gnome-common
+Version: 2.28.0-r1
+Section: x11/gnome
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 4c903a7b7811cba0eb35ece62b753a5d
+Size: 9494
+Filename: gnome-common_2.28.0-r1_all.ipk
+Source: http://ftp.gnome.org/pub/GNOME/sources/gnome-common/2.28/gnome-common-2.28.0.tar.bz2;name=archive file://omf.patch
+Description: gnome-common version 2.28.0-r1
+ Common macros for building GNOME applications
+
+
+
+Package: hicolor-icon-theme-dbg
+Version: 0.12-r0
+Recommends: hicolor-icon-theme-dbg, hicolor-icon-theme (= 0.12-r0), pkgconfig-dbg
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 1d2a670215e4f1576ef792b3f3e1135e
+Size: 798
+Filename: hicolor-icon-theme-dbg_0.12-r0_all.ipk
+Source: http://icon-theme.freedesktop.org/releases/hicolor-icon-theme-0.12.tar.gz file://index.theme
+Description: hicolor-icon-theme version 0.12-r0 - Debugging files
+ default icon theme that all icon themes automatically inherit from.  This
+
+
+
+Package: hicolor-icon-theme-dev
+Version: 0.12-r0
+Depends: hicolor-icon-theme (= 0.12-r0), pkgconfig
+Recommends: pkgconfig-dev, hicolor-icon-theme-dev
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: e7d3c06a86339ba80261960bff455ea3
+Size: 818
+Filename: hicolor-icon-theme-dev_0.12-r0_all.ipk
+Source: http://icon-theme.freedesktop.org/releases/hicolor-icon-theme-0.12.tar.gz file://index.theme
+Description: hicolor-icon-theme version 0.12-r0 - Development files
+ default icon theme that all icon themes automatically inherit from.  This
+
+
+
+Package: hicolor-icon-theme
+Version: 0.12-r0
+Depends: hicolor-icon-theme
+Section: unknown
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: be57ebeecb29fa1d1e807e7d41e4c4e6
+Size: 8390
+Filename: hicolor-icon-theme_0.12-r0_all.ipk
+Source: http://icon-theme.freedesktop.org/releases/hicolor-icon-theme-0.12.tar.gz file://index.theme
+Description: hicolor-icon-theme version 0.12-r0
+ default icon theme that all icon themes automatically inherit from.
+
+
+
+Package: liberation-fonts
+Version: 1:1.04-r2
+Depends: fontconfig-utils
+Section: x11/fonts
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: af52865e0ad573a9d6b82f485c6cb068
+Size: 1002736
+Filename: liberation-fonts_1.04-r2_all.ipk
+Source: https://fedorahosted.org/releases/l/i/liberation-fonts/liberation-fonts-1.04.tar.gz file://30-liberation-aliases.conf
+Description: Liberation(tm) Fonts
+ The Liberation(tm) Fonts is a font family originally created by
+
+
+
+Package: sato-icon-theme-dbg
+Version: 0.4.1-r2
+Recommends: sato-icon-theme (= 0.4.1-r2), sato-icon-theme-dbg, pkgconfig-dbg
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 9b96135e5e8f60f28e3a3a11752df8df
+Size: 778
+Filename: sato-icon-theme-dbg_0.4.1-r2_all.ipk
+Source: http://pokylinux.org/releases/sato/sato-icon-theme-0.4.1.tar.gz file://iconpath-option.patch
+Description: sato-icon-theme version 0.4.1-r2 - Debugging files
+ Sato Icon Theme  This package contains ELF symbols and related sources
+
+
+
+Package: sato-icon-theme-dev
+Version: 0.4.1-r2
+Depends: sato-icon-theme (= 0.4.1-r2), pkgconfig
+Recommends: pkgconfig-dev, sato-icon-theme-dev
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 8a93c1ceab1d849dc52b795a47fef7b1
+Size: 798
+Filename: sato-icon-theme-dev_0.4.1-r2_all.ipk
+Source: http://pokylinux.org/releases/sato/sato-icon-theme-0.4.1.tar.gz file://iconpath-option.patch
+Description: sato-icon-theme version 0.4.1-r2 - Development files
+ Sato Icon Theme  This package contains symbolic links, header files, and
+
+
+
+Package: sato-icon-theme
+Version: 0.4.1-r2
+Section: x11
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 7b5c3c43c5bad4d561e0167f7bbc00bc
+Size: 351972
+Filename: sato-icon-theme_0.4.1-r2_all.ipk
+Source: http://pokylinux.org/releases/sato/sato-icon-theme-0.4.1.tar.gz file://iconpath-option.patch
+Description: sato-icon-theme version 0.4.1-r2
+ Sato Icon Theme
+
+
+
+Package: update-alternatives-cworth
+Version: 1:0.1.8+svnr633-r9.0
+Provides: update-alternatives
+Conflicts: update-alternatives-dpkg
+Section: base
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 84f08c449ba39c1a56ec08308acf624d
+Size: 2602
+Filename: update-alternatives-cworth_0.1.8+svnr633-r9.0_all.ipk
+Source: svn://opkg.googlecode.com/svn;module=trunk;proto=http file://add_vercmp.patch file://add_uname_support.patch file://fix_installorder.patch file://offline_postinstall.patch file://track_parents.patch
+Description: opkg version 0.1.8+svnr633-r9.0
+ Update alternatives
+
+
+
+Package: update-modules-dbg
+Version: 1.0-r13
+Recommends: update-modules (= 1.0-r13), module-init-tools-depmod-dbg, update-modules-dbg
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: f53a95273442ef3ffc332d4a71305ad9
+Size: 758
+Filename: update-modules-dbg_1.0-r13_all.ipk
+Source: file://update-modules file://COPYING.GPL
+Description: update-modules version 1.0-r13 - Debugging files
+ script to manage module configuration files.  This package contains ELF
+
+
+
+Package: update-modules-dev
+Version: 1.0-r13
+Depends: update-modules (= 1.0-r13)
+Recommends: module-init-tools-depmod-dev, update-modules-dev
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: f931efeb56a125464b77a77d35f68440
+Size: 774
+Filename: update-modules-dev_1.0-r13_all.ipk
+Source: file://update-modules file://COPYING.GPL
+Description: update-modules version 1.0-r13 - Development files
+ script to manage module configuration files.  This package contains
+
+
+
+Package: update-modules
+Version: 1.0-r13
+Depends: module-init-tools-depmod
+Section: base
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: dcc8de075664a2c595370432c807a601
+Size: 2652
+Filename: update-modules_1.0-r13_all.ipk
+Source: file://update-modules file://COPYING.GPL
+Description: update-modules version 1.0-r13
+ script to manage module configuration files.
+
+
+
+Package: update-rc.d-dbg
+Version: 0.7-r4
+Recommends: update-rc.d (= 0.7-r4), update-rc.d-dbg
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: d9ad16ebc4b29be08dfe3f62d0416fa0
+Size: 810
+Filename: update-rc.d-dbg_0.7-r4_all.ipk
+Source: git://github.com/philb/update-rc.d.git;protocol=git file://add-verbose.patch;
+Description: manage symlinks in /etc/rcN.d. - Debugging files
+ update-rc.d is a utilities that allows the management of symlinks to the
+
+
+
+Package: update-rc.d-dev
+Version: 0.7-r4
+Depends: update-rc.d (= 0.7-r4)
+Recommends: update-rc.d-dev
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 70fbbd403cdda1ccafcc84f2b086cf63
+Size: 828
+Filename: update-rc.d-dev_0.7-r4_all.ipk
+Source: git://github.com/philb/update-rc.d.git;protocol=git file://add-verbose.patch;
+Description: manage symlinks in /etc/rcN.d. - Development files
+ update-rc.d is a utilities that allows the management of symlinks to the
+
+ initscripts in the /etc/rcN.d directory structure.  This package contains
+
+ symbolic links, header files, and related items necessary for software
+
+ development.
+
+OE: update-rc.d
+HomePage: unknown
+License: GPLv2+
+Priority: optional
+
+
+Package: update-rc.d
+Version: 0.7-r4
+Section: base
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 4fac3a604fe606824769e57a8a2f4d8e
+Size: 2630
+Filename: update-rc.d_0.7-r4_all.ipk
+Source: git://github.com/philb/update-rc.d.git;protocol=git file://add-verbose.patch;
+Description: manage symlinks in /etc/rcN.d.
+ update-rc.d is a utilities that allows the management of symlinks to the
+
+ initscripts in the /etc/rcN.d directory structure.
+
+OE: update-rc.d
+HomePage: unknown
+License: GPLv2+
+Priority: optional
+
+
+Package: x11-common-dbg
+Version: 0.1-r44
+Recommends: xtscal-dbg, xmodmap-dbg, xdpyinfo-dbg, xinit-dbg, formfactor-dbg, dbus-x11-dbg, x11-common-dbg, x11-common (= 0.1-r44)
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: f8507d878daf9030233856776618176f
+Size: 778
+Filename: x11-common-dbg_0.1-r44_all.ipk
+Source: file://etc file://gplv2-license.patch
+Description: x11-common version 0.1-r44 - Debugging files
+ Common X11 scripts and configuration files  This package contains ELF
+
+ symbols and related sources for debugging purposes.
+
+OE: x11-common
+HomePage: unknown
+License: GPLv2
+Priority: optional
+
+
+Package: x11-common-dev
+Version: 0.1-r44
+Depends: x11-common (= 0.1-r44)
+Recommends: xmodmap-dev, x11-common-dev, xinit-dev, xdpyinfo-dev, xtscal-dev, formfactor-dev, dbus-x11-dev
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: e5613ffbb6cbcb4d88fe07724e07bab3
+Size: 796
+Filename: x11-common-dev_0.1-r44_all.ipk
+Source: file://etc file://gplv2-license.patch
+Description: x11-common version 0.1-r44 - Development files
+ Common X11 scripts and configuration files  This package contains
+
+ symbolic links, header files, and related items necessary for software
+
+ development.
+
+OE: x11-common
+HomePage: unknown
+License: GPLv2
+Priority: optional
+
+
+Package: x11-common
+Version: 0.1-r44
+Depends: formfactor, xtscal, xdpyinfo, xmodmap, xinit, dbus-x11
+Section: x11
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 1aab17db3724735f31f978af805d806d
+Size: 3350
+Filename: x11-common_0.1-r44_all.ipk
+Source: file://etc file://gplv2-license.patch
+Description: x11-common version 0.1-r44
+ Common X11 scripts and configuration files
+
+OE: x11-common
+HomePage: unknown
+License: GPLv2
+Priority: optional
+
+
+Package: xcursor-transparent-theme-dbg
+Version: 0.1.1-r4
+Recommends: xcursor-transparent-theme (= 0.1.1-r4), xcursor-transparent-theme-dbg
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 4f853bfd7c808b27db744cf8f946be5d
+Size: 798
+Filename: xcursor-transparent-theme-dbg_0.1.1-r4_all.ipk
+Source: http://matchbox-project.org/sources/utils/xcursor-transparent-theme-0.1.1.tar.gz file://use-relative-symlinks.patch file://fix_watch_cursor.patch
+Description: xcursor-transparent-theme version 0.1.1-r4 - Debugging files
+ Transparent xcursor theme for handheld systems  This package contains ELF
+
+ symbols and related sources for debugging purposes.
+
+OE: xcursor-transparent-theme
+HomePage: http://www.matchbox-project.org/
+License: GPLv2
+Priority: optional
+
+
+Package: xcursor-transparent-theme-dev
+Version: 0.1.1-r4
+Depends: xcursor-transparent-theme (= 0.1.1-r4)
+Recommends: xcursor-transparent-theme-dev
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: da52ea21d914fc98fe9c8f0bc13ee587
+Size: 814
+Filename: xcursor-transparent-theme-dev_0.1.1-r4_all.ipk
+Source: http://matchbox-project.org/sources/utils/xcursor-transparent-theme-0.1.1.tar.gz file://use-relative-symlinks.patch file://fix_watch_cursor.patch
+Description: xcursor-transparent-theme version 0.1.1-r4 - Development files
+ Transparent xcursor theme for handheld systems  This package contains
+
+ symbolic links, header files, and related items necessary for software
+
+ development.
+
+OE: xcursor-transparent-theme
+HomePage: http://www.matchbox-project.org/
+License: GPLv2
+Priority: optional
+
+
+Package: xcursor-transparent-theme
+Version: 0.1.1-r4
+Section: x11/base
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: fea7eb567bac3c4c36dc91285557e165
+Size: 2350
+Filename: xcursor-transparent-theme_0.1.1-r4_all.ipk
+Source: http://matchbox-project.org/sources/utils/xcursor-transparent-theme-0.1.1.tar.gz file://use-relative-symlinks.patch file://fix_watch_cursor.patch
+Description: xcursor-transparent-theme version 0.1.1-r4
+ Transparent xcursor theme for handheld systems
+
+OE: xcursor-transparent-theme
+HomePage: http://www.matchbox-project.org/
+License: GPLv2
+Priority: optional
+
+
+Package: xorg-minimal-fonts
+Version: 1:1.0-r1
+Section: x11/fonts
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 6089a656d395b4793aebc301100f7ed8
+Size: 278960
+Filename: xorg-minimal-fonts_1.0-r1_all.ipk
+Source: file://misc
+Description: Xorg minimal fonts data
+ Minimal fonts required by X.org.
+
+OE: xorg-minimal-fonts
+HomePage: http://www.x.org
+License: PD
+Priority: optional
+
+

@@ -1,0 +1,17 @@
+Package: libxtst-dev
+Version: 1:1.2.1-r0
+Description: XTest: X Test extension library - Development files
+ This extension is a minimal set of client and server extensions required
+ to completely test the X11 server with no user intervention.  This
+ package contains symbolic links, header files, and related items
+ necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: MIT-style
+Architecture: armv5te
+OE: libxtst
+Homepage: http://www.x.org
+Depends: libxtst6 (= 1:1.2.1-r0), pkgconfig, recordproto-dev
+Recommends: libxext-dev, libxcb-dev, libxau-dev, pkgconfig-dev, libxtst-dev, libc6-dev, libxdmcp-dev, recordproto-dev, libxi-dev, inputproto-dev, libx11-dev, util-macros-dev
+Source: http://xorg.freedesktop.org/releases/individual/lib/libXtst-1.2.1.tar.bz2

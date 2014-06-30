@@ -1,0 +1,12 @@
+Package: meta-environment-arm
+Version: 1.0-r8
+Description: meta-environment-arm version 1.0-r8
+ Package of environment files for SDK
+Section: base
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: MIT
+Architecture: i686-nativesdk
+OE: meta-environment-arm
+Homepage: unknown
+Source: None

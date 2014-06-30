@@ -1,0 +1,13 @@
+Package: libsndfile1
+Version: 1.0.25-r0
+Description: libsndfile1 version 1.0.25-r0
+ An audio format Conversion library
+Section: libs/multimedia
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: LGPLv2.1
+Architecture: armv5te
+OE: libsndfile1
+Homepage: http://www.mega-nerd.com/libsndfile
+Depends: libgcc1 (>= 4.6.3+svnr184847), libc6 (>= 2.13)
+Source: http://www.mega-nerd.com/libsndfile/files/libsndfile-1.0.25.tar.gz

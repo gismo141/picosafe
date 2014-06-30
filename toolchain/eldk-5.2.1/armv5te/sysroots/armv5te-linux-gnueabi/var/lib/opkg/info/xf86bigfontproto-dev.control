@@ -1,0 +1,16 @@
+Package: xf86bigfontproto-dev
+Version: 1:1.2.0-r1
+Description: XFree86-BIGFONT: XFree86 Big Font extension headers - Development files
+ This package provides the wire protocol for the XFree86 Big Font
+ extension.  This extension makes larger font requests possible.  This
+ package contains symbolic links, header files, and related items
+ necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: MIT
+Architecture: armv5te
+OE: xf86bigfontproto
+Homepage: http://www.x.org
+Recommends: xf86bigfontproto-dev, util-macros-dev
+Source: http://xorg.freedesktop.org/releases/individual/proto/xf86bigfontproto-1.2.0.tar.bz2

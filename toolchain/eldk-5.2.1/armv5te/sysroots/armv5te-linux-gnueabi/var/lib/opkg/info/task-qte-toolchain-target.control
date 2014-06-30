@@ -1,0 +1,13 @@
+Package: task-qte-toolchain-target
+Version: 1.0-r5
+Description: task-qte-toolchain-target version 1.0-r5
+ Target packages for Qt Embedded SDK
+Section: base
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: MIT
+Architecture: armv5te
+OE: task-qte-toolchain-target
+Homepage: unknown
+Depends: libqtcoree-dev, dosfstools, libqtsqle-dev, libqtmultimediae-dev, libqtteste-dev, libqthelpe-dev, mtd-utils, libphonone-dev, libqtnetworke-dev, task-core-standalone-sdk-target, e2fsprogs-tune2fs, qt-mobility-embedded-dev, libqtxmle-dev, genext2fs, e2fsprogs-e2fsck, libqtwebkite-dev, libqtxmlpatternse-dev, libqtguie-dev, libqtdbuse-dev, libqt-embeddeduitools4-dev, libsqlite3-dev, libqtscripte-dev, libqtclucenee-dev, libqtsvge-dev, libqtdesignere-dev, libqtdeclarativee-dev, libqtscripttoolse-dev, e2fsprogs, libqt3supporte-dev, libexpat-dev, e2fsprogs-mke2fs, libqtdesignercomponentse-dev, qt4-embedded-mkspecs
+Source: None

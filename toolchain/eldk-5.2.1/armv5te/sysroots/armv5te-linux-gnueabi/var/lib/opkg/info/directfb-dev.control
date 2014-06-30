@@ -1,0 +1,19 @@
+Package: directfb-dev
+Version: 1.4.15-r2
+Description: Graphics abstraction library for the Linux Framebuffer Device - Development files
+ DirectFB is a thin library that provides developers with hardware
+ graphics acceleration, input device handling and abstraction, an
+ integrated windowing system with support for translucent windows and
+ multiple display layers on top of the Linux framebuffer device.  This
+ package contains symbolic links, header files, and related items
+ necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: LGPLv2.1
+Architecture: armv5te
+OE: directfb
+Homepage: http://directfb.org
+Depends: pkgconfig, directfb (= 1.4.15-r2)
+Recommends: libsysfs-dev, libgcc-s-dev, libjpeg-dev, libz-dev, sysfsutils-dev, pkgconfig-dev, libts-1.0-dev, libpng-dev, libc6-dev, libstdc++-dev, directfb-dev, libfreetype-dev, libpng12-dev
+Source: http://directfb.org/downloads/Core/DirectFB-1.4/DirectFB-1.4.15.tar.gz file://directfb-1.2.x-fix-pkgconfig-cflags.patch file://configurefix.patch

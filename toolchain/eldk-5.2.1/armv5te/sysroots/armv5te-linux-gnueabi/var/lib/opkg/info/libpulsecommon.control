@@ -1,0 +1,13 @@
+Package: libpulsecommon
+Version: 1.1-r8
+Description: pulseaudio version 1.1-r8
+ Pulseaudio is a sound server for Linux and Unix-like operating systems.
+Section: libs/multimedia
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: GPLv2+ & LGPLv2.1
+Architecture: armv5te
+OE: pulseaudio
+Homepage: http://www.pulseaudio.org
+Depends: libx11-6 (>= 1.4.4), libgcc1 (>= 4.6.3+svnr184847), libsndfile1 (>= 1.0.25), libxau6 (>= 1.0.7), libxcb1 (>= 1.8.1), libcap2 (>= 2.22), libx11-xcb1 (>= 1.4.4), libdbus-1-3 (>= 1.4.16), libxtst6 (>= 1.2.1), libwrap0 (>= 7.6), libgdbm4 (>= 1.10), libice6 (>= 1.0.8), libxi6 (>= 1.4.5), libc6 (>= 2.13), libxext6 (>= 1.3.1), libsm6 (>= 1.2.1), libuuid1 (>= 2.21), libxdmcp6 (>= 1.1.1)
+Source: http://freedesktop.org/software/pulseaudio/releases/pulseaudio-1.1.tar.xz file://volatiles.04_pulse file://pulseaudo_fix_for_x32.patch

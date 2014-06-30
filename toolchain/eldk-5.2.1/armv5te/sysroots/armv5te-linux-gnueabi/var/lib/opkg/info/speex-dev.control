@@ -1,0 +1,16 @@
+Package: speex-dev
+Version: 1.2rc1-r1
+Description: Speech Audio Codec - Development files
+ Speex is an Open Source/Free Software patent-free audio compression
+ format designed for speech.  This package contains symbolic links, header
+ files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: BSD
+Architecture: armv5te
+OE: speex
+Homepage: http://www.speex.org
+Depends: speex (= 1.2rc1-r1), pkgconfig
+Recommends: libc6-dev, libogg-dev, pkgconfig-dev, libgcc-s-dev, speex-dev
+Source: http://downloads.us.xiph.org/releases/speex/speex-1.2rc1.tar.gz

@@ -1,0 +1,5 @@
+/usr/lib/libXcursor.so
+/usr/lib/pkgconfig/xcursor.pc
+/usr/include/X11/Xcursor/
+/usr/lib/libXcursor.la
+/usr/include/X11/Xcursor/Xcursor.h

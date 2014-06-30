@@ -1,0 +1,19 @@
+Package: libxv-dev
+Version: 1.0.7-r0
+Description: Xv: X Video extension library - Development files
+ libXv provides an X Window System client interface to the X Video
+ extension to the X protocol. The X Video extension allows for accelerated
+ drawing of videos.  Hardware adaptors are exposed to clients, which may
+ draw in a number of colourspaces, including YUV.  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: MIT-style
+Architecture: armv5te
+OE: libxv
+Homepage: http://www.x.org
+Depends: videoproto-dev, xproto-dev, pkgconfig, libxv1 (= 1.0.7-r0)
+Recommends: libxext-dev, libc6-dev, libxcb-dev, libxau-dev, xproto-dev, pkgconfig-dev, videoproto-dev, libxdmcp-dev, libxv-dev, libx11-dev, util-macros-dev
+Source: http://xorg.freedesktop.org/releases/individual/lib/libXv-1.0.7.tar.bz2

@@ -1,0 +1,13 @@
+Package: pango-module-basic-x
+Version: 1.28.4-r7
+Description: Framework for layout and rendering of internationalized text
+ Pango module basic-x
+Section: libs
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: LGPLv2.0+
+Architecture: armv5te
+OE: pango
+Homepage: http://www.pango.org/
+Depends: libx11-6 (>= 1.4.4), libxcb1 (>= 1.8.1), libffi5 (>= 3.0.10), libc6 (>= 2.13), libglib-2.0-0 (>= 2.30.3), pango, libxau6 (>= 1.0.7), libxdmcp6 (>= 1.1.1)
+Source: http://ftp.gnome.org/pub/GNOME/sources/pango/1.28/pango-1.28.4.tar.bz2;name=archive file://no-tests.patch file://noconst.patch

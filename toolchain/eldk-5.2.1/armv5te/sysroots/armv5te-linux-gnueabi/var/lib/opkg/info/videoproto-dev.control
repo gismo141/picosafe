@@ -1,0 +1,16 @@
+Package: videoproto-dev
+Version: 1:2.3.1-r0
+Description: Xv: X Video extension headers - Development files
+ This package provides the wire protocol for the X Video extension.  This
+ extension alows for accerlated drawing of videos.  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: MIT & MIT-style
+Architecture: armv5te
+OE: videoproto
+Homepage: http://www.x.org
+Recommends: videoproto-dev, util-macros-dev
+Source: http://xorg.freedesktop.org/releases/individual/proto/videoproto-2.3.1.tar.bz2

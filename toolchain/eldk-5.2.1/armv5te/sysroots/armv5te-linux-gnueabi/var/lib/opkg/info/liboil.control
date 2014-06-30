@@ -1,0 +1,14 @@
+Package: liboil
+Version: 0.3.17-r5
+Description: liboil version 0.3.17-r5
+ Liboil is a library of simple functions that are optimized for various
+ CPUs.
+Section: base
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: BSD
+Architecture: armv5te
+OE: liboil
+Homepage: http://liboil.freedesktop.org/
+Depends: libc6 (>= 2.13)
+Source: http://liboil.freedesktop.org/download/liboil-0.3.17.tar.gz file://no-tests.patch file://fix-unaligned-whitelist.patch file://0001-Fix-enable-vfp-flag.patch file://liboil_fix_for_x32.patch

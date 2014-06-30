@@ -1,0 +1,15 @@
+Package: libtinfo5
+Version: 5.9-r8.1
+Description: The New Curses library
+ ncurses tinfo library
+Section: libs
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: MIT
+Architecture: i686-nativesdk
+OE: ncurses-nativesdk
+Homepage: http://www.gnu.org/software/ncurses/ncurses.html
+Depends: libc6 (>= 2.15)
+Suggests: ncurses-nativesdk-terminfo
+Recommends: ncurses-nativesdk-terminfo-base
+Source: ftp://ftp.gnu.org/gnu/ncurses/ncurses-5.9.tar.gz file://tic-hang.patch file://config.cache

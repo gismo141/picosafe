@@ -1,0 +1,13 @@
+Package: zip
+Version: 3.0-r1
+Description: zip version 3.0-r1
+ Archiver for .zip files
+Section: console/utils
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: BSD-3-Clause
+Architecture: armv5te
+OE: zip
+Homepage: http://www.info-zip.org
+Depends: libc6 (>= 2.13)
+Source: ftp://ftp.info-zip.org/pub/infozip/src/zip30.tgz

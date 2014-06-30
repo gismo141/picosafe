@@ -1,0 +1,6 @@
+/usr/lib/pkgconfig/ck-connector.pc
+/usr/lib/libck-connector.la
+/usr/include/ConsoleKit/ck-connector/
+/usr/lib/libck-connector.so
+/usr/include/ConsoleKit/ck-connector/ck-connector.h
+/usr/include/ConsoleKit/

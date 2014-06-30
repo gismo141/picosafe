@@ -1,0 +1,16 @@
+Package: recordproto-dev
+Version: 1:1.14.1-r0
+Description: XRecord: X Record extension headers - Development files
+ This package provides the wire protocol for the X Record extension.  This
+ extension is used to record and play back event sequences.  This package
+ contains symbolic links, header files, and related items necessary for
+ software development.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: MIT-style
+Architecture: armv5te
+OE: recordproto
+Homepage: http://www.x.org
+Recommends: recordproto-dev, util-macros-dev
+Source: http://xorg.freedesktop.org/releases/individual/proto/recordproto-1.14.1.tar.bz2

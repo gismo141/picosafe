@@ -1,0 +1,9 @@
+/usr/lib/libblkid.so
+/usr/include/libmount/
+/usr/include/libmount/libmount.h
+/usr/lib/libmount.la
+/usr/lib/pkgconfig/mount.pc
+/usr/lib/libuuid.la
+/usr/lib/libmount.so
+/usr/lib/libblkid.la
+/usr/lib/libuuid.so

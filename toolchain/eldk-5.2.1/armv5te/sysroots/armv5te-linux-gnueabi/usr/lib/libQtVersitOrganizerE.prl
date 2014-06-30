@@ -1,0 +1,5 @@
+QMAKE_PRL_BUILD_DIR = /opt/eldk/build/eldk-rel-v5.2-2012-06-20-33c5d31-armv5te/tmp/work/armv5te-linux-gnueabi/qt-mobility-embedded-1.2.0-r6/qt-mobility-opensource-src-1.2.0/src/versitorganizer/
+QMAKE_PRO_INPUT = versitorganizer.pro
+QMAKE_PRL_TARGET = libQtVersitOrganizerE.so.1.2.0
+QMAKE_PRL_CONFIG = lex yacc warn_on debug uic resources qt warn_on incremental link_prl gdb_dwarf_index rpath_libdirs def_files_disabled exceptions no_mocdepend stl qt_no_framework debug embedded middleware create_prl moc thread dll
+QMAKE_PRL_VERSION = 1.2.0

@@ -1,0 +1,18 @@
+Package: gtk+-dev
+Version: 2.24.8-r4
+Description: Multi-platform toolkit for creating GUIs - Development files
+ GTK+ is a multi-platform toolkit for creating graphical user interfaces.
+ Offering a complete set of widgets, GTK+ is suitable for projects ranging
+ from small one-off projects to complete application suites.  This package
+ contains symbolic links, header files, and related items necessary for
+ software development.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: LGPLv2 & LGPLv2+ & LGPLv2.1+
+Architecture: armv5te
+OE: gtk+
+Homepage: http://www.gtk.org
+Depends: libcairo-dev, gdk-pixbuf-dev, libatk-1.0-dev, libglib-2.0-dev, pkgconfig, libgtk-2.0 (= 2.24.8-r4), pango-dev
+Recommends: libcairo-dev, libgcc-s-dev, libjpeg-dev, libz-dev, libxcb-dev, libffi-dev, libfreetype-dev, libgcrypt-dev, libxcomposite-dev, libxfixes-dev, gdk-pixbuf-dev, libxdamage-dev, libxdmcp-dev, libxau-dev, libx11-dev, libfontconfig-dev, libxext-dev, libatk-1.0-dev, pkgconfig-dev, libstdc++-dev, libc6-dev, pango-dev, libxrandr-dev, libxcursor-dev, libglib-2.0-dev, libpng-dev, libxrender-dev, libexpat-dev, gtk+-dev, libpixman-1-dev, libpng12-dev
+Source: http://download.gnome.org/sources/gtk+/2.24/gtk+-2.24.8.tar.bz2 file://xsettings.patch file://run-iconcache.patch file://configure-nm.patch file://hardcoded_libtool.patch file://cellrenderer-cairo.patch;striplevel=0 file://toggle-font.diff;striplevel=0 file://0001-bgo-584832-Duplicate-the-exec-string-returned-by-gtk.patch file://doc-fixes.patch

@@ -1,0 +1,17 @@
+Package: damageproto-dev
+Version: 1:1.2.1-r0
+Description: Xdamage: X Damage extension headers - Development files
+ This package provides the wire protocol for the DAMAGE extension.  The
+ DAMAGE extension allows applications to receive information about changes
+ made to pixel contents of windows and pixmaps.  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: MIT-style
+Architecture: armv5te
+OE: damageproto
+Homepage: http://www.x.org
+Recommends: damageproto-dev, util-macros-dev
+Source: http://xorg.freedesktop.org/releases/individual/proto/damageproto-1.2.1.tar.bz2

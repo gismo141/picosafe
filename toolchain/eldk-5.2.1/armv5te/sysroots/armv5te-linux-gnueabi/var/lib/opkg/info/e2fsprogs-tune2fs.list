@@ -1,0 +1,3 @@
+/sbin/tune2fs
+/sbin/e2label
+/sbin/findfs

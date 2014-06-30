@@ -1,0 +1,6 @@
+QMAKE_PRL_BUILD_DIR = /opt/eldk/build/eldk-rel-v5.2-2012-06-20-33c5d31-armv5te/tmp/work/armv5te-linux-gnueabi/qt4-embedded-4.8.2-r46.1/qt-everywhere-opensource-src-4.8.2/examples/tools/plugandpaintplugins/basictools/
+QMAKE_PRO_INPUT = basictools.pro
+QMAKE_PRL_TARGET = libpnp_basictools.a
+QMAKE_PRL_CONFIG = lex yacc warn_on uic resources qt warn_on release incremental link_prl gdb_dwarf_index rpath_libdirs def_files_disabled exceptions no_mocdepend release stl qt_no_framework silent release embedded largefile stl dylib create_prl link_prl depend_includepath fix_output_dirs QTDIR_build nostrip plugin static staticlib static moc thread dll
+QMAKE_PRL_VERSION = 1.0.0
+QMAKE_PRL_LIBS = -L/opt/eldk/build/eldk-rel-v5.2-2012-06-20-33c5d31-armv5te/tmp/sysroots/generic-armv5te/usr/lib -L/opt/eldk/build/eldk-rel-v5.2-2012-06-20-33c5d31-armv5te/tmp/work/armv5te-linux-gnueabi/qt4-embedded-4.8.2-r46.1/qt-everywhere-opensource-src-4.8.2/lib  -L/opt/eldk/build/eldk-rel-v5.2-2012-06-20-33c5d31-armv5te/tmp/sysroots/generic-armv5te/usr/lib -lQtGuiE -L/opt/eldk/build/eldk-rel-v5.2-2012-06-20-33c5d31-armv5te/tmp/work/armv5te-linux-gnueabi/qt4-embedded-4.8.2-r46.1/qt-everywhere-opensource-src-4.8.2/lib -lQtNetworkE -lQtCoreE -lpthread  

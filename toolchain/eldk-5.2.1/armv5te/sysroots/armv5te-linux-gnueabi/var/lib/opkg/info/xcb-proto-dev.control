@@ -1,0 +1,17 @@
+Package: xcb-proto-dev
+Version: 1.7-r0
+Description: XCB: The X protocol C binding headers - Development files
+ Function prototypes for the X protocol C-language Binding (XCB).  XCB is
+ a replacement for Xlib featuring a small footprint, latency hiding,
+ direct access to the protocol, improved threading support, and
+ extensibility.  This package contains symbolic links, header files, and
+ related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: MIT
+Architecture: armv5te
+OE: xcb-proto
+Homepage: http://xcb.freedesktop.org
+Recommends: xcb-proto-dev
+Source: http://xcb.freedesktop.org/dist/xcb-proto-1.7.tar.bz2

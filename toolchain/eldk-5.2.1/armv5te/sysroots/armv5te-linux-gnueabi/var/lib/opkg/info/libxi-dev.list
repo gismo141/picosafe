@@ -1,0 +1,5 @@
+/usr/lib/libXi.so
+/usr/include/X11/extensions/XInput.h
+/usr/include/X11/extensions/XInput2.h
+/usr/lib/pkgconfig/xi.pc
+/usr/lib/libXi.la

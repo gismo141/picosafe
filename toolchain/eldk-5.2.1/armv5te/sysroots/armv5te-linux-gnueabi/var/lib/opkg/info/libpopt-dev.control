@@ -1,0 +1,16 @@
+Package: libpopt-dev
+Version: 1.16-r0
+Description: popt version 1.16-r0 - Development files
+ The popt library for parsing command line options.  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: MIT
+Architecture: armv5te
+OE: popt
+Homepage: http://rpm5.org/
+Depends: libpopt0 (= 1.16-r0)
+Recommends: libc6-dev, libgcc-s-dev, libpopt-dev
+Source: http://rpm5.org/files/popt/popt-1.16.tar.gz

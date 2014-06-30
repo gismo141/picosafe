@@ -1,0 +1,16 @@
+Package: libx11-xcb1
+Version: 1:1.4.4-r1
+Description: Xlib: C Language X Interface library
+ This package provides a client interface to the X Window System,
+ otherwise known as 'Xlib'.  It provides a complete API for the basic
+ functions of the window system.  Support for XCMS is disabled in this
+ version.
+Section: x11/libs
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: MIT & MIT-style & BSD
+Architecture: armv5te
+OE: libx11-trim
+Homepage: http://www.x.org
+Depends: libx11-6 (>= 1.4.4), libxau6 (>= 1.0.7), libxcb1 (>= 1.8.1), libxdmcp6 (>= 1.1.1), libc6 (>= 2.13)
+Source: http://xorg.freedesktop.org/releases/individual/lib/libX11-1.4.4.tar.bz2 file://x11_disable_makekeys.patch file://keysymdef_include.patch file://makekeys_crosscompile.patch

@@ -1,0 +1,12 @@
+Package: gnome-common
+Version: 2.28.0-r1
+Description: gnome-common version 2.28.0-r1
+ Common macros for building GNOME applications
+Section: x11/gnome
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: GPLv3
+Architecture: all
+OE: gnome-common
+Homepage: http://www.gnome.org/
+Source: http://ftp.gnome.org/pub/GNOME/sources/gnome-common/2.28/gnome-common-2.28.0.tar.bz2;name=archive file://omf.patch
