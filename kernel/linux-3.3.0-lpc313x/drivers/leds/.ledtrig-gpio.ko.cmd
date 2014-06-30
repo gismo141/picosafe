@@ -1,0 +1,1 @@
+cmd_drivers/leds/ledtrig-gpio.ko := arm-linux-gnueabi-ld -EL -r  -T /opt/picosafe/kernel/linux-3.3.0-lpc313x/scripts/module-common.lds --build-id  -o drivers/leds/ledtrig-gpio.ko drivers/leds/ledtrig-gpio.o drivers/leds/ledtrig-gpio.mod.o

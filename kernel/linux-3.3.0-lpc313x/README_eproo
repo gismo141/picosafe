@@ -1,0 +1,23 @@
+Manuell:
+
+1) Initramfs erzeugen
+./genintramfs # in initramfs
+
+2) Kernel konfigurieren
+make menuconfig
+
+3) Kernel kompilieren
+make zImage
+
+4) Initramfs neu erzeugen (falls Module anders konfiguriert wurden) und nochmal Kernel bauen
+
+5) Kernel auf SD-Karte kopieren
+sudo cp arch/arm/boot/zImage /media/picosafe/zImage
+
+6) Kernel verschluesseln
+sudo picosafe_aes -k ../../keys/key4_picosafe.key -o /media/picosafe/zImage.crypt /media/picosafe/zImage
+
+Automatisch:
+Im Ordner ../ ist ein Skript build.sh, das Kernel und Initramfs automatisch
+erzeugt und den Kernel auch verschluesselt, wenn die Datei zum Schluessel
+uebergeben wird.
