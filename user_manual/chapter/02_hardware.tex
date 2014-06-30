@@ -1,0 +1,53 @@
+\chapter{Hardware}
+
+\section{Introduction}
+
+The picosafe hardware is small, has a low power consumption, but provides
+enough performance for many applications.
+
+\section{Features}
+
+\begin{itemize}
+\item LPC3143:
+  \begin{itemize}
+  \item 270 MHz, 32bit  ARM926EJ-S
+  \item 16 kB D-cache and 16 kB I-cache
+  \item memory management unit
+  \item 192 kB embedded SRAM
+  \item AES decryption unit
+  \item secure one-time programmable memory for AES key
+  \item 128 bit unique id
+  \item random number generator
+  \item High-speed USB 2.0 (OTG, Host, Device) with on-chip PHY
+  \item DMA controler
+  \end{itemize}
+\item 32 MB SDRAM
+\item SD-card
+\item two LEDs (green and red)
+\end{itemize}
+
+\section{LPC3143}
+
+The LPC3143 provides a 32-bit ARM926EJ-S with 270 MHz, 192 kB internal SRAM and
+USB 2.0 (OTG, host, device).
+
+The security features include a random number generator, an AES decryption
+engine and a secure one-time programable (OTP) memory for AES key storage. The
+processor also supports running encrypted code after reset. This option is
+turned on by default and there is no possibility to run any code after reset
+without knowledgte of the correct AES key stored in the OTP area of the
+processor. For security reasons JTAG is completely disabled.
+
+After reset the AES key may be read from the internal SRAM. However, it is
+possible to protect the AES key from being read by writing an appropriate value
+to the rprot (read protection) register. A full description about the OTP
+memory and read protection is given in the LPC314x user manual in chapter 19.
+
+\section{Peripherals}
+
+Picosafe contains two LEDs and a USB interface:
+\begin{itemize}
+\item A green LED that is connected with the input voltage and will be turned on when the device is supplied with power,
+\item and a red LED that can be turned on and off by software (GPIO3).
+\item USB device interface
+\end{itemize}

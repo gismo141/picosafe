@@ -1,0 +1,64 @@
+\chapter{Cross Compiler}
+
+\section{Introduction}
+
+In order to compile C/C++ programs for picosafe, you need a cross compiler.
+Once you have the cross compiler installed, you can compile bootloader, kernel
+or your own applications.
+
+\section{Installing}
+
+To install the cross compiler, execute these instructions:
+
+\begin{enumerate}
+\item Change into the directory \texttt{toolchain/} of the picosafe directory and extract the archive to your root-filesystem.
+
+\texttt{\$ cd toolchain/} \\
+\texttt{\$ sudo tar xjf eldk-eglibc-i686-arm-toolchain-qte-5.2.1.tar.bz2 -C /}
+
+This will extract the contents of the archive \texttt{eldk-eglibc-i686-arm-toolchain-qte-5.2.1.tar.bz2} to your root-filesystem. The cross compiler will be copied into the directory \texttt{/opt/eldk-5.2.1/}.
+
+\item Source the file \texttt{picosafe.sh} to set the environment:
+
+\texttt{\$ . /opt/eldk-5.2.1/picosafe.sh}
+
+\item Check if the installation of the cross compiler was successful:
+
+\texttt{\$ arm-linux-gnueabi-gcc -v} \\
+\texttt{[...]} \\
+\texttt{Thread model: posix} \\
+\texttt{gcc version 4.6.4 20120303 (prerelease) (GCC)}
+\end{enumerate}
+
+\section{Cross-Compiling}
+
+We will go ahead and cross compile a simple hello world program. First create a
+file \texttt{hello.c} with this content:
+
+\begin{lstlisting}
+#include <stdio.h> 
+
+int main(int argc, char *argv[]) 
+{ 
+    printf("Hello World!\n"); 
+    return 0; 
+}
+\end{lstlisting}
+
+To compile this example:
+\begin{enumerate}
+\item Make sure, the environment is set correctly:
+
+\texttt{\$ . /opt/eldk-5.2.1/picosafe.sh}
+\item Compile using gcc:
+
+\texttt{\$ arm-linux-gnueabi-gcc hello.c -o hello}
+\item The previous command will create a file hello if successful. You can check if the output file has the correct format:
+
+\texttt{\$ file hello} \\
+\texttt{hello: ELF 32-bit LSB executable, ARM, version 1 (SYSV), dynamically linked (uses shared libs), for GNU/Linux 2.6.16, not stripped}
+\item If you run this file on picosafe, you should see this output:
+
+\texttt{\$ ./hello} \\
+\texttt{Hello World}
+\end{enumerate}

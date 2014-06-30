@@ -1,0 +1,185 @@
+\chapter{initramfs}
+
+\section{Introduction}
+
+An initramfs (initial ram filesystem) is a compressed archive that contains all
+needed files and programs to boot a linux system. The kernel mounts the content
+of the initramfs to the root-directory and starts a program (typically
+\texttt{/sbin/init} or \texttt{/init}) that mounts the real root-filesystem and
+starts the linux system. 
+
+In order to start up fast the initramfs should be small, therefore tools like
+busybox are used.
+
+\section{Creating initramfs}
+
+In order to create a initramfs, you may use the script \texttt{geninitramfs.sh}. The
+script performs following steps:
+
+\begin{enumerate}
+\item Checking, if the cross compiler is installed correctly.
+\item Creating the directory structure for the initramfs.
+\item Creating device nodes like \texttt{/dev/null} or \texttt{/dev/console}.
+\item Copying busybox to the initramfs. The script will compile busybox first if needed.
+\item Installing all Debian packages in the directory \texttt{packages/}.
+\item Copying kernel modules. The script will compile the kernel modules first if needed.
+\item Copying the content of the directory \texttt{initramfs-root/} to the initramfs.
+\end{enumerate}
+
+To create the initramfs, change to the directory \texttt{initramfs/} and
+execute the script \texttt{geninitramfs.sh}. This script will need root
+priviledges in order to create device nodes.
+
+\texttt{\$ cd initramfs/} \\
+\texttt{\$ ./geninitramfs.sh} \\
+\texttt{Deleting old initramfs directory... } \\
+\texttt{Creating directory structure... } \\
+\texttt{Creating device nodes... } \\
+\texttt{Compiling busybox not needed (skipped). } \\
+\texttt{Creating important symlinks... } \\
+\texttt{Copying busybox to initramfs... } \\
+\texttt{Installing packages: } \\
+\texttt{cryptsetup-udeb\_1.1.3-4squeeze2\_armel.udeb... } \\
+\texttt{libc6-udeb\_2.11.3-4\_armel.udeb... } \\
+\texttt{libdevmapper1.02.1-udeb\_1.02.48-5\_armel.udeb... } \\
+\texttt{libgcc1\_4.4.5-8\_armel.deb... } \\
+\texttt{libncurses5\_5.7+20100313-5\_armel.deb... } \\
+\texttt{libpopt0-udeb\_1.16-1\_armel.udeb... } \\
+\texttt{libreadline6\_6.1-3\_armel.deb... } \\
+\texttt{libuuid1-udeb\_2.17.2-9\_armel.udeb... } \\
+\texttt{lua5.1\_5.1.4-5\_armel.deb... } \\
+\texttt{readline-common\_6.1-3\_all.deb... } \\
+\texttt{Installing kernel modules... } \\
+\texttt{Copying files into initramfs... } \\
+\texttt{./init... } \\
+\texttt{./var/www/index.html... } \\
+\texttt{./var/www/cgi-bin/password.lua... } \\
+\texttt{./etc/httpd.conf... } \\
+\texttt{./etc/udhcpd.conf... } \\
+\texttt{Done.}
+
+The initramfs will be created in the directory \texttt{output/}.
+
+\section{Configuring initramfs}
+
+You may change the initramfs to meet your demands. This may include adding or
+removing kernel modules, installing further programs or changing the
+\texttt{/init} program.
+
+\subsection{Adding and removing kernel modules}
+To add or remove kernel modules, open the script \texttt{geninitramfs.sh} and
+adjust the variable \texttt{KERNELMODULES}. This variable is a array that
+stores all kernel modules that should be copied to the initramfs.
+
+\subsection{Busybox}
+Busybox provides most of the standard unix tools like \texttt{cp} or
+\texttt{ln}, including a shell. You may adjust the configuration of busybox and
+add or remove features.
+
+To configure busybox, change to the directory \texttt{initramfs/busybox} and
+run \texttt{make menuconfig}. If you want to use the default configuration,
+copy the file \texttt{config\_busybox} to the current directory. Make sure the
+path for the cross compiler is set correctly.
+
+\texttt{\$ . /opt/eldk-5.2.1/picosafe.sh} \\
+\texttt{\$ cd initramfs/busybox} \\
+\texttt{\$ cp ../config\_busybox . \# if you whish to use the default configuration} \\
+\texttt{\$ make menuconfig}
+
+\subsection{Adding and removing programs}
+If you wish to add a program or librariy to the initramfs, copy the Debian
+package (for ARM) in the directory \texttt{initramfs/packages}. The script \texttt{initramfs.sh}
+will install the Debian package to your initramfs. Please note that no
+dependencies are resolved. So, if you want to install a package A that depends
+on package B, make sure to copy the Debian packages A and B in the
+directory \texttt{initramfs/packages}.
+
+If you don't need a certain program or library on the initramfs, just remove
+the packages in the directory \texttt{initramfs/packages}.
+
+\subsection{Adding files to the initramfs}
+You may need to add your own files to the initramfs. These files may be
+configuration files or your own programs.
+
+To add your own files to the initramfs, copy the files to the directory
+initramfs-root. The script genintramfs.sh will copy all files in this directory
+to the root-directory of the initramfs. If the file already exists on the
+initramfs, the file will be overwritten.
+
+\subsection{/init}
+\texttt{/init} is the program that will be executed by the kernel with pid 1.
+You may change this script to meet your demands. You may use a script or a
+binary executable.
+
+The default \texttt{/init} script will perform following steps:
+\begin{enumerate}
+\item Creating symlinks to busybox applets.
+\item Mounting \texttt{/proc}, \texttt{/sys} and the SD-card.
+\item Setting up a network connection over USB and starting a dhcp server.
+\item Starting a webserver. This webserver will provide a page with a password field. The user then must insert the password for the encrypted root filesystem.
+\item If the user provided the password, the encrypted root-directory is mounted and the linux system is started.
+\end{enumerate}
+
+\section{Hiawatha webserver}
+
+Hiawatha is a lightweight webserver with SSL and CGI support.
+
+\subsection{Compile (automatic)}
+
+To compile hiawatha webserver for picosafe, you may use the \texttt{build.sh} script:
+
+\begin{enumerate}
+\item Make sure, you have at least version 2.8.4 of \texttt{cmake} installed.
+\item Change to the directory \texttt{initramfs/hiawatha/build/}
+
+\texttt{cd initramfs/hiawatha/build/}
+\item execute the script \texttt{build.sh}
+
+\texttt{./build.sh}
+\end{enumerate}
+
+This will compile the hiawatha webserver and also copy the hiawatha binary and
+the libpolarssl to the initramfs directory.
+
+
+\subsection{Compile (manual)}
+To compile hiawatha webserver for picosafe, perform following steps:
+
+\begin{enumerate}
+\item Make sure, you have at least version 2.8.4 of \texttt{cmake} installed.
+\item Download the latest source from \url{http://www.hiawatha-webserver.org/}.
+\item Set the environment to use the cross compiler:
+
+\texttt{. /opt/eldk-5.2.1/picosafe.sh}
+\item Extract the source ball and change to the new directory:
+
+\texttt{tar xzvf hiawatha-8.6.tar.gz; cd hiawatha-8.6/}
+\item Create a directory \texttt{build/} and change to it:
+
+\texttt{mkdir build; cd build/}
+\item Create a file \texttt{crosscompile.cmake} with this content:
+
+\begin{lstlisting}
+SET(CMAKE_SYSTEM_NAME Linux)  # Tell CMake we're cross-compiling
+include(CMakeForceCompiler)
+# Prefix detection only works with compiler id "GNU"
+# CMake will look for prefixed g++, cpp, ld, etc. automatically
+CMAKE_FORCE_C_COMPILER(arm-linux-gnueabi-gcc GNU)
+\end{lstlisting}
+
+\item Run \texttt{cmake} to create the makefiles:
+
+\texttt{cmake .. -DCMAKE\_TOOLCHAIN\_FILE=./crosscompile.cmake -DENABLE\_XSLT=off}
+
+\item compile
+
+\texttt{make}
+
+\end{enumerate}
+
+
+\subsection{Configuration}
+
+If you want to use SSL, create a certificate and put it in the hiawatha configuration directory:
+
+\texttt{openssl req -x509 -nodes -days 365 -newkey rsa:1024 -keyout mycert.pem -out hiawatha.pem}

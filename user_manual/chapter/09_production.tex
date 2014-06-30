@@ -1,0 +1,97 @@
+\chapter{Production}
+\label{production}
+
+\section{Introduction}
+
+This chapter describes the production of a picosafe device.
+
+\section{Writing AES key (automatic)}
+
+\begin{enumerate}
+\item Generate a key
+
+\texttt{\$ picosafe\_genkey\_aes keyfilename}
+
+\item Change to the directory \texttt{bootloader/} and run
+
+\texttt{./build.sh -a fuse -k keyfilename\_picosafe.key -o apex-fuses-fuse.dfu.rom}
+
+This will create the file \texttt{apex-fuses-dfu.rom}.
+
+\item Start the dfu bootloader once
+
+\texttt{sudo dfu-util -R -t 2048 -D apex-fuses-dfu.rom}
+\end{enumerate}
+
+\section{Writing AES key (manual)}
+
+\begin{enumerate}
+\item Generate keys:
+
+\texttt{\$ picosafe\_genkey\_aes keyfilename}
+
+\item Connect picosafe to USB and wait for a device PHILIPPS (check \texttt{lsusb}).
+\item Connect USART cable.
+\item Connect to USART:
+
+\texttt{\$ picocom -b 115200 /dev/ttyUSB0}
+\item Start apex bootloader using \texttt{dfu-boot}
+
+\texttt{\$ sudo dfu-util -R -t 2048 -D bootloader/apex-dfu.rom}
+
+\item Blow aes key:
+
+\texttt{apex> fuse blow\_aes\_key AES\_KEY}
+
+\item Enable encrypted boot:
+
+\texttt{apex> fuses aes\_enable}
+
+\item Set security level:
+
+\texttt{apex> fuses set\_security\_level 3}
+
+\item Disable DFU boot:
+
+\texttt{apex> fuses blow 502}
+\end{enumerate}
+
+\section{Creating a new root-filesystem}
+
+This section will show you, how to save the filesystem of a picosafe stick. You
+can then use the root-filesystem to create new picosafe sticks.
+
+\begin{enumerate}
+\item Open the picosafe device, extract the SD card and insert it into your pc.-
+\item Mount the encrypted LUKS container.
+\item Copy the root-filesystem to a local directory.
+\item Change to the directory and become root.
+
+\texttt{\$ cp -a /media/b707efce-7235-420f-b664-d92679c79b81/* rootfs/}
+
+\item Remove the swap file. The swap file be created automatically.
+
+\texttt{\$ rm swapfile}
+
+\item Delete private files in the home directories \texttt{root/} and \texttt{/home/picosafe}:
+
+\texttt{> root/.bash\_history} \\
+\texttt{> root/.viminfo} \\
+\texttt{rm -r root/.subversion} \\
+\texttt{rm -r root/.ssh} \\
+\texttt{> /home/picosafe/.bash\_history} \\
+\texttt{> /home/picosafe/.viminfo} \\
+\texttt{rm -r /home/picosafe/.subversion} \\
+\texttt{rm -r /home/picosafe/.ssh}
+
+Make sure to delete any private files and not only the listed ones.
+
+\item Delte \texttt{.svn/} directories:
+
+\texttt{\$ rm -r `find -name .svn -type d`}
+
+\item Create tarball:
+
+\texttt{\$ tar --preserve-permissions --preserve-order --numeric-owner -czf ../picosafe\_rootfs.tar.gz .}
+
+\end{enumerate}

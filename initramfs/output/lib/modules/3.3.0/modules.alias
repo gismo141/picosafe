@@ -1,0 +1,20 @@
+# Aliases extracted from modules themselves.
+alias i2c:tca6416 gpio_pca953x
+alias i2c:tca6408 gpio_pca953x
+alias i2c:pca6107 gpio_pca953x
+alias i2c:max7315 gpio_pca953x
+alias i2c:max7313 gpio_pca953x
+alias i2c:max7312 gpio_pca953x
+alias i2c:max7310 gpio_pca953x
+alias i2c:pca9575 gpio_pca953x
+alias i2c:pca9574 gpio_pca953x
+alias i2c:pca9557 gpio_pca953x
+alias i2c:pca9556 gpio_pca953x
+alias i2c:pca9555 gpio_pca953x
+alias i2c:pca9554 gpio_pca953x
+alias i2c:pca9539 gpio_pca953x
+alias i2c:pca9538 gpio_pca953x
+alias i2c:pca9537 gpio_pca953x
+alias i2c:pca9536 gpio_pca953x
+alias i2c:pca9535 gpio_pca953x
+alias i2c:pca9534 gpio_pca953x

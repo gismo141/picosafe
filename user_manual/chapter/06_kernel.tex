@@ -1,0 +1,90 @@
+\chapter{Linux Kernel}
+
+\section{Introduction}
+
+The linux kernel provides abstraction layers between hardware and programs. It
+performs essential sevices like memory management and CPU scheduling, and
+provides APIs for accessing hardware.
+
+\section{Configuring and Compiling}
+
+To configure and compile the kernel, change to the directory
+\texttt{kernel/linux-2.6.33-lpc313x} and run \texttt{make menuconfig} to change the
+configuration, and then run make zImage and make modules. Make sure the path to
+your cross compile is set correctly. If you want to use a initramfs, make sure
+that the directory with the initramfs is set up correctly. In general, you need
+to run geninitramfs.sh before compiling the kernel. See the chapter about
+initramfs.
+
+\texttt{\$ . /opt/eldk-5.2.1/picosafe.sh} \\
+\texttt{\$ cd kernel/linux-2.6.33-lpc313x/} \\
+\texttt{\$ make menuconfig} \\
+\texttt{\$ make zImage} \\
+\texttt{\$ make modules}
+
+This will compile the linux kernel (\texttt{make zImage}) and the kernel modules (\texttt{make modules}). Your compiled kernel will be stored in the file \texttt{arch/arm/boot/zImage}.
+
+\section{Hardware Random Number Generator}
+
+It is possible to access the hardware random number generator of the LPC3143
+from userspace.  To do so, you will need the driver lpc314x-rng (Device Drivers
+$\rightarrow$ Character Devices). If the driver is compiled as a module, make sure
+you have loaded the module:
+
+\texttt{\$ modprobe lpc314x-rng}
+
+To read data from the random number generator you just need to read the file
+\texttt{/dev/hwrandom}. If this device file does not exist, you may create it
+using \texttt{mknod}:
+
+\texttt{\$ mknod /dev/hwrandom c 10 183}
+
+\section{LED}
+
+There is a driver available to control picosafe's LED. The driver is called
+\texttt{leds-picosafe} (Device Drivers $\rightarrow$ LED Support).
+
+If the driver is loaded, you can access the LED through the \texttt{/sys}
+filesystem.
+
+Examples:
+\begin{itemize}
+\item Turn LED on:
+
+\texttt{echo 1 > /sys/class/leds/picosafe::blue/brightness}
+\item Turn LED off:
+
+\texttt{echo 0 > /sys/class/leds/picosafe::blue/brightness}
+
+\item Use heartbeat trigger:
+
+\texttt{echo heartbeat > /sys/class/leds/picosafe::blue/trigger}
+
+\item Show available triggers:
+
+\texttt{cat /sys/class/leds/picosafe::blue/trigger}
+
+\item Disable any trigger:
+
+\texttt{echo none > /sys/class/leds/picosafe::blue/trigger}
+\end{itemize}
+
+% \section{zram}
+% 
+% zRam creates a compressed block device in RAM that can be used for swapping.
+% This way zram may help to increase performance by avoiding to swap on a slow
+% disk. 
+% 
+% The block device is usually \texttt{/dev/zramX} and can be created using
+% \texttt{mknod}:
+% 
+% \texttt{\$ mknod /dev/zram0 b 253 0}
+% 
+% To use zram, load the driver if it is a module, and specify the size of the
+% block device. For example, this will create a block device of 10MB:
+% 
+% \texttt{\$ echo \$((10*1024*1024)) > /sys/block/zram0/disksize}
+% 
+% Then just call \texttt{swapon} on the block device:
+% 
+% \texttt{\$ swapon /dev/zram0}

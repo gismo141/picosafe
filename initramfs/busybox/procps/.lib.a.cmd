@@ -1,0 +1,1 @@
+cmd_procps/lib.a := rm -f procps/lib.a; arm-linux-gnueabi-ar  rcs procps/lib.a procps/free.o procps/fuser.o procps/iostat.o procps/kill.o procps/lsof.o procps/pgrep.o procps/pidof.o procps/ps.o procps/pstree.o procps/renice.o procps/sysctl.o

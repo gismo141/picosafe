@@ -1,0 +1,1 @@
+cmd_util-linux/lib.a := rm -f util-linux/lib.a; arm-linux-gnueabi-ar  rcs util-linux/lib.a util-linux/blockdev.o util-linux/dmesg.o util-linux/losetup.o util-linux/lsusb.o util-linux/mkfs_vfat.o util-linux/mkswap.o util-linux/mount.o util-linux/swaponoff.o util-linux/switch_root.o util-linux/umount.o

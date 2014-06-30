@@ -1,0 +1,59 @@
+\input{header}
+
+\begin{document}
+\initfloatingfigs
+
+
+\mainmatter
+\chapter*{Quickstart}
+
+By default, 
+
+Congratulations! You're holding a brand-new picosafe in your hands! Picosafe is
+a piece of hardware that provides you a secure platform.
+
+\includegraphics[width=6cm]{images/picosafe_splash.png}
+
+This is a quickstart and we don't want to bore you, so let's start!
+
+\section*{What to do first?}
+
+Before you start, save your key and your bootloader!
+
+\begin{enumerate}
+  \item Save your key!
+  
+  Your key starts with \texttt{0x} followed by 32 more characters
+  (\texttt{A}--\texttt{F}, \texttt{0}--\texttt{9}). The key is
+  printed, so you have typewrite the 34 characters to a file.
+  
+  \item Save your bootloader!
+
+  The bootloader is encrypted and an NDA forbids us to simply give you the tool
+  that encrypts the bootloader. All we can do is give you the bootloader. The
+  bootloader is saved in the folder \texttt{bootloader/}.
+  
+  The bootloader will simply boot the linux kernel on the first primary
+  partition of the SD-card. The filename of the kernel must be
+  \texttt{zImage.crypt} and it must be correct encrypted. You can encrypt your
+  kernel yourself using the \texttt{picosafe-aes} tool. We promised to keep it
+  short, so have a look at the user manual if you need further information.
+
+\end{enumerate}
+
+\section*{What does it?}
+
+There is a key stored inside the processor that nobody can readout. When
+powered, the processor will load the bootloader, decrypt it and start if the
+bootloader if -- and only if -- it was encrypted with the correct key.  The
+bootloader now loads a linux kernel from the SD-card, decrypts the kernel and
+starts the kernel if -- and only if -- it was encrypted with the correct key.
+Thus, if your linux kernel boots, you can be sure that nobody has altered your
+kernel (chain of trust). If you are wondering how that works in detail, have a
+look at the user manual!
+
+\section*{What can I do with it?}
+
+kurz hier die anwendungen beschreiben...
+
+\end{document}

@@ -1,0 +1,237 @@
+\chapter{Apex bootloader}
+
+\section{Introduction}
+
+The apex bootloader is the first piece of software that will be executed after
+a reset of the LPC3143. Therefore the apex bootloader must be encrypted correctly
+or the LPC3143 won't execute legal code.
+
+Further information about apex is available at \url{http://elinux.org/APEX_Bootloader.}
+
+\section{Compiling}
+
+In order to compile the apex bootloader, you may use the script
+\texttt{build.sh} in the directory \texttt{bootloader/}. You must pass an
+action, the filename of the key (in picosafe format) and an output filename.
+You can create a picosafe keyfile using \nameref{picosafe_genkey_aes}.
+
+\texttt{\$ ./build.sh keyfile-picosafe.key ACTION KEYFILE OUTPUTFILE}
+
+\begin{itemize}
+\item \texttt{ACTION}: may be \texttt{fuse} if you want to create a fuse image to fuse the key into the LPC3143, or may be \texttt{bootloader} if you want to create a bootloader.
+\item \texttt{KEYFILE}: file with key in picosafe format
+\item \texttt{OUTPUTFILE}: filename of output
+\end{itemize}
+
+For more information, have a look at chapter \ref{production}.
+
+\section{Configuring and Compiling (manual)}
+
+In order to compile the apex bootloader, perform following steps:
+
+\begin{enumerate}
+\item First, change to the directory of the apex bootloader sources:
+
+\texttt{\$ cd apex-secure/apex}
+\item Make sure, the path to the cross compile is set:
+
+\texttt{\$ . /opt/eldk-5.2.1/picosafe.sh}
+\item Adjust the configuration of the apex bootloader to meet your demands:
+
+\texttt{\$ make menuconfig}
+\item Compile the apex bootloader
+
+\texttt{\$ make}
+\end{enumerate}
+
+After successful compilation you can find the binary at the path \texttt{src/arch-arm/rom/apex.bin}.
+
+\section{Important Commands}
+
+\subsection{help}
+\texttt{help [. | COMMAND]}
+
+Display help. 
+
+The optional command parameter will show the detailed help for commands that
+would match that prefix. 
+
+Examples:
+\begin{lstlisting}
+apex> help dump     # Show help for dump command 
+apex> help d        # Show help for all 'd' commands 
+apex> help          # List the available commands 
+apex> help .        # Show all help topics
+\end{lstlisting}
+
+\subsection{copy}
+\texttt{copy [-s] SRC DST}
+
+Copy data from SRC region to DST region. Adding the -s performs full word byte
+swap. This is necessary when copying data stored in the opposite endian
+orientation from that which APEX is running. This option requires that the
+length be an even multiple of words. The length of the DST region is ignored. 
+
+Example: Copy the file zImage on the SD-card to the SDRAM at address 0x30008000
+\begin{lstlisting}
+apex> copy ext2://1/zImage 0x30008000
+\end{lstlisting}
+
+\subsection{boot}
+\texttt{boot [-g ADDRESS] [COMMAND\_LINE]}
+
+Boot the Linux kernel.
+
+It reads environment variables bootaddr and cmdline as defaults for the start
+address and command line. The -g switch overrides the start address. The rest
+of the parameters, if present, override the default kernel command line. 
+
+Examples:
+\begin{lstlisting}
+apex> boot -g 0x0008000 
+apex> boot console=ttyAM1 root=/dev/nfs ip=rarp
+\end{lstlisting}
+
+\subsection{reset}
+Reset the system. 
+
+This will perform an immediate, hard reset of the CPU.
+
+\subsection{printenv}
+Display the environment.
+
+The output is \texttt{KEY [*]= VALUE} where \texttt{KEY} is an environment
+variable name and \texttt{VALUE} is the current seting.  The \texttt{*} denotes
+a variable set to the default value.
+
+\subsection{scopy-aes}
+\texttt{scopy-aes SRC}
+
+This command will copy the file SRC to the SD-RAM at 0x30008000 and then
+decrypt the date using the 128-bit AES key stored in the OTP memory of the
+LPC3143.
+
+You can encrypt the compiled apex bootloader using the tool
+\texttt{picosafe\_aes}. This tool is described in the chapter tools.
+
+Example:
+\begin{lstlisting}
+apex> scopy-aes ext2://1/zImage.crypt
+\end{lstlisting}
+
+\subsection{scopy-sig}
+\texttt{scopy-sig SRC SIG}
+
+This command will first read the signature from file \texttt{SIG} to ram, then copy the
+file \texttt{SRC} to the SDRAM at 0x30008000 and then verify the signature of \texttt{SRC}. If
+the signature is not valid, the memory of the SDRAM beginning at 0x30008000
+will be filled with zeroes.
+
+The apex bootloader will need the correct public key to verify the signature:
+You can generate a RSA key pair using the tool \texttt{picosafe\_genkey}.
+\texttt{picosafe\_genkey} will also create a file pubkey.h. Copy the file
+pubkey.h into the directory include/ of the apex/ directory and recompile the
+bootloader.
+
+You can create a signature using the tool \texttt{picosafe\_sign}.
+
+The usage of these tools are described in the chapter tools.
+
+Example:
+\begin{lstlisting}
+apex> scopy-sig ext2://1/zImage ext2://1/zImage.sig
+\end{lstlisting}
+
+\subsection{fuses}
+\texttt{fuses ACTION [PARAMETERS]}
+
+This command allows you to read and write fuses of the OTP section of the LPC3143.
+
+\texttt{ACTION} may be
+\begin{itemize}
+\item \texttt{blow\_aes\_key AES\_KEY}
+
+Write the aes key \texttt{AES\_KEY} to the poly fuses of the LPC3143. The AES
+key is 128bit (16 bytes). \texttt{AES\_KEY} must start start with the prefix
+\texttt{0x}, afterwards every byte is encoded as two hexadecimal characters.
+
+Example: Write the key \texttt{ABCDEFGHIJKLMNOP}
+\begin{lstlisting}
+  fuse blow_aes_key 0x4142434445464748494A4B4C4D4E4F50
+\end{lstlisting}
+
+\item \texttt{aes\_enable}
+
+Enable AES encrypted boot. The command will blow the fuse bit 504. This will
+indicate that the AES key in fuses 128:255 is valid. Write the AES key before
+enabling AES encrypted boot. After enabling AES boot, you can only boot
+encrypted code. (See \texttt{blow\_aes\_key})
+
+\item \texttt{read}
+
+Read out the fuses for \texttt{OTP\_DATA\_0} to \texttt{OTP\_DATA\_15} (bit 0 to bit 511).
+
+The output will look like:
+\begin{lstlisting}
+  OTP_DATA_00: 0xXXXXXXXX
+  OTP_DATA_01: 0xXXXXXXXX
+  ...
+  OTP_DATA_15: 0xXXXXXXXX
+\end{lstlisting}
+
+\item \texttt{set\_security\_level SECURITY\_LEVEL}
+
+Set the security level of the LPC3143.
+
+\texttt{SECURITY\_LEVEL} is may be
+\begin{itemize}
+  \item[0:] nothing is protected (Level 0)
+  \item[1:] password protected. In this level, JTAG can be enabled by software
+after passwort sequence (depends on customer application) by setting the sticky
+bit \texttt{JTAG\_EN} in \texttt{OTP\_con} register. (Level 1)
+  \item[2:] In this level, JTAG access can be enabled using special test equipment. Used by NXP for Returned Material Analysis only. (Level 2)
+  \item[3:] JTAG is completley disabled and hence the chip is virtually locked. (Level 3)
+\end{itemize}
+
+\item \texttt{blow FUSEBIT}
+
+This command will blow the fuse bit \texttt{FUSEBIT} and set it to 1.
+\end{itemize}
+
+\section{Customizing}
+
+You may also write your own apex commands.
+
+For a simple example we will create a command test:
+\begin{enumerate}
+\item First, we create a file \texttt{cmd-test.c} in the directory \texttt{src/apex}
+\item We save the code of our command in the file \texttt{src/apex/cmd-test.c}:
+
+\begin{lstlisting}
+#include <config.h> 
+#include <linux/string.h> 
+#include <apex.h> 
+#include <command.h> 
+#include <driver.h> 
+#include <error.h> 
+
+int cmd_test(int argc, const char** argv) { 
+  printf("Hello test\n"); 
+  return 0; 
+} 
+
+static __command struct command_d c_info = { 
+  .command = "test", 
+  .func = cmd_test, 
+  COMMAND_DESCRIPTION("Test command") 
+  COMMAND_HELP("test" 
+"  this command will output the String \"Hello test\"\n")
+};
+\end{lstlisting}
+\item Add command to src/apex/Kconfig
+\item Add object to src/apex/Makefile
+\item Check configuration and recompile the bootloader:
+
+\texttt{\$ make menuconfig} \\
+\texttt{\$ make} \\
+\end{enumerate}
