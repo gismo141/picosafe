@@ -8,11 +8,13 @@ This is a fork of [embedded-projects][] repository.
 Picosafe is an encrypted USB-device running debian-linux on an arm processor. It is developed by embedded-projects in Augsburg, Germany and uses open-source software. 
 
 ## Usage notes:
-Because of file-size restrictions by GitHub it is neccessary to call two commands from the commandline in the folder `picosafe` before using this project:
+At the time of writing the project needs to be placed under `/opt/picosafe` (This is a bug and will be fixed later).
 
-1. `make`
-2. `make install`
-
+Before you can use this project you need to copy the `eldk-5.2.1`-folder to `/opt` using the command:
+`mv /opt/picosafe/toolchain/opt/eldk-5.2.1/ /opt/`
+Afterwards you need to install the programs under `tools` using:
+	make
+	make install
 This installs the cross-compiler toolchain and also some aes-related programs that are needed in the subscripts.
 
 To create the SD-Card for the picosafe call as **root** (not sudo) `./rootfs/genrootfs.sh <sdcard> <key> <bootloader> [<pemfile>]`
@@ -29,6 +31,9 @@ Up to now you need to have at least following programs installed:
 - `git`
 - `parted`
 - `realpath`
+- `libncurses5-dev`
+- `ntfs-3g`
+- `cryptsetup`
 
 ## Changements:
 
