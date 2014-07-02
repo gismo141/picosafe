@@ -153,6 +153,7 @@ mount "/dev/mapper/$ROOTFS" "$MNTPNT"
 
 echo "Extracting linux filesystem to $MNTPNT..."
 #tar xzf picosafe_rootfs.tar.gz -C "$MNTPNT"
+tar zxf dev.tar.gz -C picosafe_rootfs
 cp -a picosafe_rootfs/. "$MNTPNT"
 
 echo "Installing kernel modules..."
