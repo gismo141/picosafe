@@ -11236,7 +11236,7 @@ kallsyms_addresses:
 	PTR	_text + 0x21a000
 	PTR	_text + 0x21a000
 	PTR	_text + 0x21a00f
-	PTR	_text + 0x21a060
+	PTR	_text + 0x21a062
 	PTR	_text + 0x21a0e0
 	PTR	_text + 0x21a100
 	PTR	_text + 0x21a140

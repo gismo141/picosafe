@@ -11,7 +11,7 @@
 	.file	"asm-offsets.c"
 @ GNU C (GCC) version 4.6.4 20120303 (prerelease) (arm-linux-gnueabi)
 @	compiled by GNU C version 4.6.4 20120303 (prerelease), GMP version 5.0.4, MPFR version 3.1.0, MPC version 0.8.2
-@ GGC heuristics: --param ggc-min-expand=63 --param ggc-min-heapsize=62720
+@ GGC heuristics: --param ggc-min-expand=98 --param ggc-min-heapsize=128377
 @ options passed:  -nostdinc
 @ -I /opt/picosafe/kernel/linux-3.3.0-lpc313x/arch/arm/include
 @ -I arch/arm/include/generated -I include -I arch/arm/mach-lpc31xx/include

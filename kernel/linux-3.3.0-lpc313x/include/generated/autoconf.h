@@ -1391,8 +1391,9 @@
 #define __enabled_CONFIG_USB_GSPCA_SUNPLUS_MODULE 0
 #define __enabled_CONFIG_ISDN_AUDIO 0
 #define __enabled_CONFIG_ISDN_AUDIO_MODULE 0
-#define __enabled_CONFIG_USB_G_MULTI_CDC 0
+#define __enabled_CONFIG_USB_G_MULTI_CDC 1
 #define __enabled_CONFIG_USB_G_MULTI_CDC_MODULE 0
+#define CONFIG_USB_G_MULTI_CDC 1
 #define __enabled_CONFIG_COMEDI_DAS6402 0
 #define __enabled_CONFIG_COMEDI_DAS6402_MODULE 0
 #define __enabled_CONFIG_ATM_IDT77252 0
