@@ -1,6 +1,6 @@
 # Picosafe - an encrypted USB-device 
 
-![Picosafe](https://raw.github.com/gismo141/picosafe/master/user_manual/images/picosafe.jpg)
+![Picosafe](https://raw.github.com/gismo141/picosafe/master/user_manual/images/picosafe.jpg =250px)
 
 ## What is Picosafe?
 Picosafe is an encrypted USB-device running debian-linux on an ARM processor. It is developed by embedded-projects in Augsburg and the Universität der Bundeswehr München. 
