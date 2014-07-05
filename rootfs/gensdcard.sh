@@ -1,52 +1,30 @@
 #!/bin/bash
 
-KERNELSRC="../kernel/linux-3.3.0-lpc313x/"  # path to kernel sources
 SDCARD="$1"
-KEYFILE="$2"
-BOOTLOADER="$3"
-PEMFILE="$4"
 PASSWORD="picosafe"
 SWAPFILESIZE=64 # in MB
 # random string; will be used as name for cryptsetup. In general any string
 # would do, but if the name is already used, cryptsetup will fail. This may
 # happen if this script is not successful and restarted.
 ROOTFS="`tr -dc "[:alpha:]" < /dev/urandom | head -c 8`"
+EXTOPTIONS="-q -j -m 1 -O dir_index,filetype,sparse_super"
+
 
 usage() {
-    echo "Usage: $0 DEVICE KEYFILE [PEMFILE]"
-    echo "    DEVICE:     path to device file of SD-card (e.g. /dev/sdb)"
-    echo "    KEYFILE:    key for decrypting kernel and initramfs (must match picosafe!)"
-    echo "    BOOTLOADER: bootloader to use (must match picosafe!)"
-    echo "    PEMFILE:    pemfile for hiawathi webserver on initramfs"
+  echo "Usage: $0 DEVICE KEYFILE [PEMFILE]"
+  echo "    DEVICE:     path to device file of SD-card (e.g. /dev/sdb)"
+  exit 1;
 }
-
-cd "`dirname $0`"
-
-. ../common/common.sh
 
 # check if argument omitted
 if [ "$SDCARD" == "" ]; then
   echo "Argument for device missing: $0 DEVICE KEYFILE BOOTLOADER" >&2
-  echo
-  usage
-  exit 1;
-fi
-
-if [ "$KEYFILE" == "" ]; then
-  echo "Argument for keyfile missing: $0 DEVICE KEYFILE BOOTLOADER" >&2
-  echo
-  usage
-  exit 1;
-fi
-
-if [ "$BOOTLOADER" == "" ]; then
-  echo "Argument for bootloader missing: $0 DEVICE KEYFILE BOOTLOADER" >&2
-  echo
-  usage
-  exit 1;
+  echo usage
 fi
 
 # set environment for crosscompiler and check, if we're root
+cd "`dirname $0`"
+. ../common/common.sh
 set_crosscompiler
 check_root
 
@@ -75,11 +53,10 @@ done
 
 SDCARDSIZE=`cat /sys/class/block/$BASENAME/size`
 LUKSPARTITIONSIZE=`expr "$SDCARDSIZE"  / 2000 / 2 + 500`
-echo -n "Luks partition size: "
-echo "$LUKSPARTITIONSIZE MB"
+echo -n "Luks partition size: $LUKSPARTITIONSIZE MB"
 
 # create partitions
-echo "Creating partion layout..."
+echo "Creating partition layout..."
 parted "$SDCARD" -a optimal --script -- mklabel msdos                # create empty partition table
 parted "$SDCARD" -a optimal --script -- mkpart primary ext3 2M 50M   # create ext3 partition (49MB)
 parted "$SDCARD" -a optimal --script -- mkpart primary ext3 1M 2M    # create boot partition (1MB)
@@ -94,27 +71,13 @@ partprobe "$SDCARD"
 
 echo "Sync..."
 sync
+sleep 5
 
 echo "Creating filesystems..."
 echo -e "\text3 on ${SDCARD}1"
-mkfs.ext3 -q -L "Picosafe" "$SDCARD"1
-echo -e "\tntfs on ${SDCARD}4"
-mkntfs -q -f -L "Picosafe public share" "$SDCARD"4
-
-echo "Creating temporary mount point..."
-MNTPNT="`mktemp -d`"
-
-echo "Mounting Picosafe public share"
-mount "$SDCARD"4 "$MNTPNT"
-echo "Copying files to Picosafe public share..."
-cp -r ../initramfs/welcome/* "$MNTPNT"
-cp ../user_manual/user_manual.pdf "$MNTPNT"
-
-echo "Sync..."
-sync
-
-echo "Umounting Picosafe public share..."
-umount -l "$MNTPNT"
+mkfs.ext3 $EXTOPTIONS -L "Picosafe" "$SDCARD"1
+echo -e "\tFAT32 on ${SDCARD}4"
+mkfs.vfat -F 32 -n "PublicShare" "$SDCARD"4
 
 echo "Formating LUKS container..."
 echo "$PASSWORD" | cryptsetup -q luksFormat "${SDCARD}3"
@@ -122,9 +85,6 @@ if [ $? != 0 ]; then
   echo "Can't format container." >&2
   exit 1;
 fi
-
-echo "Sync..."
-sync
 
 echo "Opening LUKS container..."
 echo "$PASSWORD" | cryptsetup -q luksOpen "${SDCARD}3" "$ROOTFS"
@@ -134,43 +94,14 @@ if [ $? != 0 ]; then
 fi
 
 echo "Creating ext3 filesystem inside LUKS container..."
-mkfs.ext3 -q -b 1024 "/dev/mapper/$ROOTFS"
+mkfs.ext3 $EXTOPTIONS "/dev/mapper/$ROOTFS"
+
+echo "Sync..."
+sync
+sleep 5
 
 echo "Closing luks container..."
 cryptsetup luksClose "$ROOTFS"
 
-echo "Copying kernel..."
-mount "${SDCARD}1"  "$MNTPNT"
-../kernel/build.sh -k "$KEYFILE" -s "$PEMFILE" -o "$MNTPNT/zImage.crypt"
-
-echo "Copying config..."
-cp config "$MNTPNT/.config"
-if [ "$BOOTLOADER" == "" ]; then
-  echo "Creating apex bootloader..."
-  APEXROM="`mktemp`"
-  chmod 600 "$BOOTLOADER"
-  ../bootloader/build.sh -a bootloader -k "$KEYFILE" -o "$BOOTLOADER"
-  RMAPEXROM=1
-fi
-
-echo "Copying apex bootloader..."
-dd if="$BOOTLOADER" of="${SDCARD}2" oflag=dsync 2>/dev/null
-
-if [ $RMAPEXROM ]; then
-  echo "Deleting temporary apex bootloader..."
-  rm "$BOOTLOADER"
-fi
-
-if [ $RMPEMFILE ]; then
-  echo "Deleting pemfile..."
-  rm $PEMFILE
-fi
-
 echo "Sync..."
 sync
-
-echo "Umounting $MNTPNT..."
-umount "$MNTPNT"
-
-echo "Deleting temporary mount point..."
-rm -r "$MNTPNT"
