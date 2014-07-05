@@ -1,1 +1,0 @@
-/usr/share/pyshared/tornado/auth.py

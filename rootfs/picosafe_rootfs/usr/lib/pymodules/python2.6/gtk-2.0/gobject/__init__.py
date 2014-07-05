@@ -1,1 +1,0 @@
-/usr/share/pyshared/gtk-2.0/gobject/__init__.py

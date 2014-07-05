@@ -1,9 +1,0 @@
-0088e524bcb851e69ef318d36938e0d3  bin/ypdomainname
-0088e524bcb851e69ef318d36938e0d3  bin/hostname
-0088e524bcb851e69ef318d36938e0d3  bin/dnsdomainname
-0088e524bcb851e69ef318d36938e0d3  bin/domainname
-0088e524bcb851e69ef318d36938e0d3  bin/nisdomainname
-319c0f7c6d065e35561adb09c98a9b87  usr/share/man/fr/man1/hostname.1.gz
-cc240998f416c59501fa77e295bde7ae  usr/share/man/man1/hostname.1.gz
-b0de794c487cedfbd4454489ce239312  usr/share/doc/hostname/changelog.gz
-460b6a1df2db2b5e80f05a44ec21c62f  usr/share/doc/hostname/copyright

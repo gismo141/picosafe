@@ -1,1 +1,0 @@
-/usr/share/pyshared/numpy/lib/benchmarks/bench_arraysetops.py

@@ -7,6 +7,7 @@
 KERNELSRC="../kernel/linux-3.3.0-lpc313x/"  # path to kernel sources
 SDCARD="$1"
 KEYFILE="$2"
+# added bootloader argument, by Michael Riedel
 BOOTLOADER="$3"
 PEMFILE="$4"
 PASSWORD="picosafe"
@@ -16,11 +17,13 @@ SWAPFILESIZE=64 # in MB
 # happen if this script is not successful and restarted.
 ROOTFS="`tr -dc "[:alpha:]" < /dev/urandom | head -c 8`"
 
+# added usage-line for bootloader-argument, by Michael Riedel
 usage() {
     echo "Usage: $0 DEVICE KEYFILE [PEMFILE]"
-    echo "    DEVICE:  path to device file of SD-card (e.g. /dev/sdb)"
-    echo "    KEYFILE: key for decrypting kernel and initramfs (must match picosafe!)"
-    echo "    PEMFILE: pemfile for hiawathi webserver on initramfs"
+    echo "    DEVICE:     path to device file of SD-card (e.g. /dev/sdb)"
+    echo "    KEYFILE:    key for decrypting kernel and initramfs (must match picosafe!)"
+    echo "    BOOTLOADER: bootloader to use (must match picosafe!)"
+    echo "    PEMFILE:    pemfile for hiawathi webserver on initramfs"
 }
 
 cd "`dirname $0`"
@@ -41,7 +44,7 @@ if [ "$KEYFILE" == "" ]; then
   usage
   exit 1;
 fi
-
+# added check if bootloader argument was omitted, by Michael Riedel
 if [ "$BOOTLOADER" == "" ]; then
   echo "Argument for bootloader missing: $0 DEVICE KEYFILE BOOTLOADER" >&2
   echo
@@ -115,7 +118,7 @@ MNTPNT="`mktemp -d`"
 
 echo "Mounting Picosafe public share"
 mount "$SDCARD"4 "$MNTPNT"
-
+# corrected path for standard-files, by Michael Riedel
 echo "Copying files to Picosafe public share..."
 cp -r ../initramfs/welcome/* "$MNTPNT"
 cp ../user_manual/user_manual.pdf "$MNTPNT"
@@ -150,11 +153,13 @@ mkfs.ext3 -q -b 1024 "/dev/mapper/$ROOTFS"
 
 echo "Mounting ext3 filesystem to $MNTPNT..."
 mount "/dev/mapper/$ROOTFS" "$MNTPNT"
-
+wget https://www.dropbox.com/s/9olqt0t7eo7mzi9/picosafe_rootfs.tar.gz
+# 2014-06-30: using extracted picosafe_rootfs instead of archive, by Michael Riedel
+# 2014-07-05: using uploaded picosafe_rootfs-archive, by Michael Riedel
 echo "Extracting linux filesystem to $MNTPNT..."
-#tar xzf picosafe_rootfs.tar.gz -C "$MNTPNT"
-tar zxf dev.tar.gz -C picosafe_rootfs
-cp -a picosafe_rootfs/. "$MNTPNT"
+tar xzf picosafe_rootfs.tar.gz -C "$MNTPNT"
+#echo "Copying linux filesystem to $MNTPNT..."
+#cp -a picosafe_rootfs/. "$MNTPNT"
 
 echo "Installing kernel modules..."
 export INSTALL_MOD_PATH="$MNTPNT"
@@ -212,7 +217,7 @@ mount "${SDCARD}1"  "$MNTPNT"
 
 echo "Copying config..."
 cp config "$MNTPNT/.config"
-
+# using argument bootloader or creating a new one, by Michael Riedel
 if [ "$BOOTLOADER" == "" ]; then
   echo "Creating apex bootloader..."
   APEXROM="`mktemp`"

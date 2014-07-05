@@ -1,8 +1,0 @@
-Log of fsck -C -a -t ext3 /lib/init/rw/rootdev 
-Thu Jan  1 01:02:56 1970
-
-fsck from util-linux-ng 2.17.2
-/lib/init/rw/rootdev: clean, 27702/145920 files, 851498/2327552 blocks
-
-Thu Jan  1 01:02:57 1970
-----------------

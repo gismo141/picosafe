@@ -1,4 +1,0 @@
-E:MATCHADDR=52:54:00:12:34:56
-E:MATCHIFTYPE=1
-E:MATCHDEVID=0x0
-E:COMMENT=Unknown net device (/devices/platform/smc91x.0/net/eth0) (smc91x)

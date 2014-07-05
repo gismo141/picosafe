@@ -1,6 +1,0 @@
-/etc
-/etc/php5/apache2
-/etc/apache2
-/etc/apache2/mods-available
-/etc/apache2/mods-available/php5.conf
-/etc/apache2/mods-available/php5.load

@@ -1,5 +1,0 @@
-# /etc/fstab: static file system information.
-#
-# <file system> <mount point>   <type>  <options>       <dump>  <pass>
-/dev/root	/	ext3	noatime,errors=remount-ro	0	1
-#/dev/mmcblk0p3	none	swap	defaults	0	0
