@@ -1,6 +1,9 @@
 # Picosafe - an encrypted USB-device 
 
-![Picosafe](https://raw.github.com/gismo141/picosafe/master/user_manual/images/picosafe.jpg)
+<p >
+  <img align="left" src="https://raw.github.com/gismo141/picosafe/master/user_manual/images/picosafe.jpg" alt="Picosafe" height="380px"/>
+  <img align="right" src="https://raw.github.com/gismo141/picosafe/master/user_manual/images/picosafe_pcb.jpg" alt="Picosafe PCB" height="380px"/>
+</p>
 
 ## What is Picosafe?
 Picosafe is an encrypted USB-device running debian-linux on an ARM processor. It is developed by embedded-projects in Augsburg and the Universität der Bundeswehr München. 
@@ -40,7 +43,8 @@ To create the SD-Card for the Picosafe call as **root** (not sudo):
 	*	`./opt/picosafe/kernel/build.sh -k <path_to_keyfile>`
 
 5.	Partition and Fill **SD-Card**
-	*	`./opt/picosafe/rootfs/genrootfs.sh <sdcard> <path_to_keyfile> <path_to_bootloader> [<path_to_pemfile>]`
+	*	`./opt/picosafe/rootfs/partitionsdcard.sh <sdcard>`
+	*	`./opt/picosafe/rootfs/fillsdcard.sh <sdcard> <keyfile> <bootloader> [<pemfile>]`
 
 ## Dependencies:
 
