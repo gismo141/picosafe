@@ -1,0 +1,5 @@
+# Ignored files
+#
+# compiled and compressed zImages
+zImage.crypt
+/linux-3.3.0-lpc313x/arch/arm/boot/zImage

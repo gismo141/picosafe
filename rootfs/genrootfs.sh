@@ -1,13 +1,9 @@
 #!/bin/bash
 
-# usage: ./genrootfs.sh /dev/sdX path/to/picosafe.key [PEM_FILE]
-# The first two parameters are needed, the third one is optional. If omitted,
-# the PEM_FILE for the webserver will be generated automatically.
-
 KERNELSRC="../kernel/linux-3.3.0-lpc313x/"  # path to kernel sources
 SDCARD="$1"
 KEYFILE="$2"
-# added bootloader argument, by Michael Riedel
+# 2014-06-30: added bootloader argument, by Michael Riedel
 BOOTLOADER="$3"
 PEMFILE="$4"
 PASSWORD="picosafe"
@@ -17,7 +13,7 @@ SWAPFILESIZE=64 # in MB
 # happen if this script is not successful and restarted.
 ROOTFS="`tr -dc "[:alpha:]" < /dev/urandom | head -c 8`"
 
-# added usage-line for bootloader-argument, by Michael Riedel
+# 2014-06-30: added usage-line for bootloader-argument, by Michael Riedel
 usage() {
     echo "Usage: $0 DEVICE KEYFILE [PEMFILE]"
     echo "    DEVICE:     path to device file of SD-card (e.g. /dev/sdb)"
@@ -118,7 +114,7 @@ MNTPNT="`mktemp -d`"
 
 echo "Mounting Picosafe public share"
 mount "$SDCARD"4 "$MNTPNT"
-# corrected path for standard-files, by Michael Riedel
+# 2014-06-30: corrected path for standard-files, by Michael Riedel
 echo "Copying files to Picosafe public share..."
 cp -r ../initramfs/welcome/* "$MNTPNT"
 cp ../user_manual/user_manual.pdf "$MNTPNT"
@@ -158,6 +154,7 @@ wget https://www.dropbox.com/s/9olqt0t7eo7mzi9/picosafe_rootfs.tar.gz
 # 2014-07-05: using uploaded picosafe_rootfs-archive, by Michael Riedel
 echo "Extracting linux filesystem to $MNTPNT..."
 tar xzf picosafe_rootfs.tar.gz -C "$MNTPNT"
+rm -rf picosafe_rootfs.tar.gz
 #echo "Copying linux filesystem to $MNTPNT..."
 #cp -a picosafe_rootfs/. "$MNTPNT"
 
