@@ -104,8 +104,8 @@ sleep 10
 echo "Creating filesystems..."
 echo -e "\text3 on ${SDCARD}1"
 mkfs.ext3 -q -L "Picosafe" "$SDCARD"1
-echo -e "\tntfs on ${SDCARD}4"
-mkntfs -q -f -L "Picosafe public share" "$SDCARD"4
+echo -e "\tFAT32 on ${SDCARD}4"
+mkfs.vfat -F 32 -n "PublicShare" "$SDCARD"4
 
 sleep 10
 

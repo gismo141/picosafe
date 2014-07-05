@@ -11233,7 +11233,7 @@ c022056c T __idmap_text_end
 c0222000 r __param_str_initcall_debug
 c0222000 R __start_rodata
 c022200f R linux_proc_banner
-c0222062 R linux_banner
+c0222060 R linux_banner
 c02220e0 R float32Constant
 c0222100 R float64Constant
 c0222140 r countLeadingZerosHigh.2776

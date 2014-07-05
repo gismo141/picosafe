@@ -1,6 +1,6 @@
-/* This file is auto generated, version 55 */
+/* This file is auto generated, version 57 */
 #define UTS_MACHINE "arm"
-#define UTS_VERSION "#55 Wed Jul 2 20:46:39 CEST 2014"
+#define UTS_VERSION "#57 Sat Jul 5 14:41:24 CEST 2014"
 #define LINUX_COMPILE_BY "root"
-#define LINUX_COMPILE_HOST "DebianVM"
+#define LINUX_COMPILE_HOST "debian"
 #define LINUX_COMPILER "gcc version 4.6.4 20120303 (prerelease) (GCC) "
