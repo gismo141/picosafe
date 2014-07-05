@@ -1,8 +1,8 @@
 # Picosafe - an encrypted USB-device 
 
 <p >
-  <img align="left" src="https://raw.github.com/gismo141/picosafe/master/user_manual/images/picosafe.jpg" alt="Picosafe" width="450px"/>
-  <img align="right" src="https://raw.github.com/gismo141/picosafe/master/user_manual/images/picosafe_pcb.jpg" alt="Picosafe PCB" width="450px"/>
+  <img align="left" src="https://raw.github.com/gismo141/picosafe/master/user_manual/images/picosafe.jpg" alt="Picosafe" height="400px"/>
+  <img align="right" src="https://raw.github.com/gismo141/picosafe/master/user_manual/images/picosafe_pcb.jpg" alt="Picosafe PCB" height="400px"/>
 </p>
 
 ## What is Picosafe?
