@@ -1,1 +1,0 @@
-cmd_drivers/leds/ledtrig-timer.ko := arm-linux-gnueabi-ld -EL -r  -T /opt/picosafe/kernel/linux-3.3.0-lpc313x/scripts/module-common.lds --build-id  -o drivers/leds/ledtrig-timer.ko drivers/leds/ledtrig-timer.o drivers/leds/ledtrig-timer.mod.o

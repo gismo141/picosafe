@@ -1,4 +1,0 @@
-kernel/fs/fuse/cuse.ko
-kernel/fs/fat/fat.ko
-kernel/fs/fat/vfat.ko
-kernel/fs/fat/msdos.ko
